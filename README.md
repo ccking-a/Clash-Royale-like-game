@@ -1,54 +1,70 @@
 ---
 
-# 一贴良药
+# 方舟战术
 
-> 一款以中医问诊与制药为主题的 2D 叙事 + 节奏玩法独立游戏：玩家在主场景经营医馆，接诊病人、辨证施治、按节奏捣药，并在治愈后触发后续回访剧情。
+> 一款基于 Unity 开发的 1v1 实时对战策略游戏，融合塔防与卡牌放置玩法，支持局域网多人联机，具备完整的服务器权威网络架构与移动端适配。
 
-## 游戏定位
+## 游戏介绍
 
-- **类型**：剧情向模拟 / 轻节奏（Rhythm）  
-- **平台**：PC（Unity 单机）  
-- **体量**：多场景流程完整闭环，适合作为个人作品集 / 实习 Demo 展示  
+### 玩法概述
 
-## 核心玩法循环
+玩家在对战前从干员池中选择 8 名干员（4 张手牌 + 4 张队列），进入对局后消耗「圣水」在地图上放置干员。干员会自动寻路、索敌、攻击，并可手动释放技能。双方各有防御塔与国王塔，摧毁对方国王塔或坚持到对局时间结束即分出胜负。
 
-### 主场景（MainScene）
-医馆日常、背包与礼物、休息推进天数、新手引导入口。
+## 核心系统
 
-### 诊所（Clinic）
-按游戏日刷新候诊病人；选择病人进入诊断。部分病人在治愈后会在约定日期回馆道谢，弹出预告 Panel，点击后播放感谢对话。
+| 模块 | 说明 |
+|------|------|
+| 干员系统 | 多种干员，含近战/远程、单体/群攻、技能状态切换 |
+| 卡牌循环 | 手牌使用后进入队列，从队首补牌，形成循环出牌 |
+| 圣水经济 | 双方独立圣水条，随时间恢复，双倍圣水阶段 |
+| 高台机制 | 干员可部署到高台，获得攻击加成并强化防御塔 |
+| 敌兵波次 | 服务器定时生成敌方单位，增加对局压力 |
+| 技能系统 | 每个干员独立技能按钮，含冷却与多种效果类型 |
+| 游戏结束 | 国王塔被毁或超时结束，镜头拉远后统一清理并返回大厅 |
 
-### 诊断（Diagnosis）
-播放病人问诊对话（文字打字机 + 语音 + 表情立绘）；玩家根据情绪类型完成辨证（如怒、喜、思、悲、恐等）。
+## 联机流程
 
-### 制药（MakeHerb）
-节奏小游戏：圆环收缩与音乐节拍对齐，判定 Perfect / Good / Bad / Miss；达标则治疗成功，失败可重试或重新选药。
+StartScene（选干员）→ RoomScene（房间准备）→ GameScene（对战）→ 结束返回 RoomScene
 
-### 药柜与方剂（Herb）
-基于病人情绪匹配默认方剂（君臣佐使思路），选择草药后进入节奏关。
-
-## 系统设计亮点
-
-- **数据驱动**：病人、对话、节奏谱、成功台词等使用 ScriptableObject 配置，策划可在 Inspector 扩展内容。  
-- **通用对话系统**：DialogueManager 封装线性 Line[] 播放（打字机、点击跳过、语音同步），诊断 / 治愈 / 道谢 / 新手引导复用同一套逻辑。  
-- **跨场景状态**：GameManager + CurrentPatient 维护当前病人、治疗进度、日历与道谢排程。  
-- **后续事件**：治愈后按规则写入 pendingThankYouVisits，进诊所时清理过期事件并播放道谢（双 Panel：预告 + 对话）。  
-- **存档**：SaveManager 使用 JsonUtility 持久化治疗记录、背包、天数、新手标记、道谢排程等。  
-- **新手引导**：MainsceneGuide 分场景分阶段引导（主场景 → 诊所 → 诊断 → 制药），与首次标记联动。  
+- Host / Client 局域网连接（IP + 端口）
+- 房间准备、玩家列表、踢出玩家
+- RoomPlayer 客户端权威移动（虚拟摇杆）
 
 ## 技术栈
 
-| 类别 | 技术 / 工具 |
-|------|-------------|
-| 引擎 | Unity 2022.3 LTS |
-| 语言 | C# |
-| UI | UGUI（Canvas / CanvasGroup / Button）、TextMeshPro |
-| 数据 | ScriptableObject（病人、草药、对话、节奏谱）、可序列化 Line[] |
-| 架构 | 单例常驻（GameManager、SaveManager、AudioManager、GlobalMedicineCabinet）；工具类 DialogueManager（非单例、参数注入） |
-| 异步与流程 | Coroutine（对话、场景加载、节奏生成、道谢队列） |
-| 场景 | SceneManager.LoadSceneAsync 异步切场景 |
-| 存档 | JsonUtility + Application.persistentDataPath 本地 JSON |
-| 音频 | AudioSource 语音与 BGM；独立 AudioManager |
-| 表现 | ParticleSystem 节奏反馈、Image 立绘切换 |
-| 编辑器 | Unity Inspector 配置、CreateAssetMenu 资源菜单 |
-| 协作/IDE | Visual Studio / Rider（项目已配置对应包） |
+### 引擎与语言
+
+| 类别 | 技术 |
+|------|------|
+| 游戏引擎 | Unity 2022.3 LTS |
+| 开发语言 | C# |
+| 动画 | Spine 2D 骨骼动画 |
+| 寻路 | Unity NavMesh |
+| UI | Unity UGUI |
+
+### 网络（核心亮点）
+
+| 技术 | 用途 |
+|------|------|
+| Mirror | 多人联机框架 |
+| NetworkRoomManager | 房间场景、准备、切场景 |
+| SyncVar / Command / ClientRpc / TargetRpc | 状态同步与 RPC |
+| NetworkTransformReliable | 位置同步（服务器权威 / 客户端权威） |
+| 服务器权威 | 放置、战斗、技能、敌兵生成由服务器校验 |
+
+### 架构与性能
+
+| 技术 | 用途 |
+|------|------|
+| 对象池 | UnitPoolManager、EffectPoolManager 复用干员与特效 |
+| 单例 / 管理器 | UnitManager、NetworkGameState、UIManager |
+| 分帧更新 | 干员 Update 每 3 帧执行，减轻同屏压力 |
+| 帧率控制 | 移动端 30fps、PC 60fps |
+| 后台运行 | Application.runInBackground 避免失焦暂停 |
+
+### 其他
+
+- ParrelSync：本地双开联机调试
+- 虚拟摇杆：移动端输入
+- 世界空间血条：跟随单位、面向相机
+- 固定宽度相机：横屏适配与结束镜头缩放
