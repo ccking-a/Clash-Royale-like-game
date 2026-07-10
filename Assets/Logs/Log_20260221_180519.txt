@@ -1,0 +1,644 @@
+==========================================
+游戏日志开始 - 2026/2/21 18:05:19
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[18:05:20.104] [Log] === 客户端预制体列表诊断 (启动时) ===
+[18:05:20.104] [Log] 客户端 SpawnPrefabs 数量: 13
+[18:05:20.104] [Log]   [0] amiya -> AssetId: 1054292600
+[18:05:20.104] [Log]   [1] Anemyamiya -> AssetId: 3767952548
+[18:05:20.104] [Log]   [2] Anemychen -> AssetId: 549187043
+[18:05:20.104] [Log]   [3] AnemyGongzhuta -> AssetId: 258553055
+[18:05:20.104] [Log]   [4] AnemyGongzhuta (1) -> AssetId: 3034425767
+[18:05:20.104] [Log]   [5] AnemyGuowangta -> AssetId: 3706946732
+[18:05:20.104] [Log]   [6] chen -> AssetId: 1033753810
+[18:05:20.104] [Log]   [7] Gongzhuta -> AssetId: 48394343
+[18:05:20.104] [Log]   [8] Gongzhuta (1) -> AssetId: 3317249425
+[18:05:20.105] [Log]   [9] Guowangta -> AssetId: 500381289
+[18:05:20.105] [Log]   [10] NetWorkManager -> AssetId: 1567436743
+[18:05:20.105] [Log]   [11] RoomPlayer -> AssetId: 4019188151
+[18:05:20.105] [Log]   [12] yinhui -> AssetId: 2171254035
+[18:05:22.657] [Log] Attempting to save Assets/Logs/Log_20260221_180519.txt.meta are blocked.
+[18:05:22.671] [Warning] Import Error Code:(4)
+Message: Build asset version error: assets/logs/log_20260221_180517.txt in SourceAssetDB has modification time of '2026-02-21T10:05:20.636795Z' while content on disk has modification time of '2026-02-21T10:05:22.642657Z'
+
+[18:05:26.711] [Warning] Import Error Code:(4)
+Message: Build asset version error: assets/logs/log_20260221_180519.txt in SourceAssetDB has modification time of '2026-02-21T10:05:19.8422228Z' while content on disk has modification time of '2026-02-21T10:05:23.0254843Z'
+
+[18:05:27.954] [Log] === 客户端启动序列开始 ===
+[18:05:27.954] [Log] 原始输入: '127.0.0.1'
+[18:05:27.954] [Log] 将尝试连接到: 127.0.0.1
+[18:05:27.976] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[18:05:27.976] [Error] client启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartClientAfterSceneLoad>d__13:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:187)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnClientButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:173)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[18:05:27.976] [Log] StartClient() 调用完成。
+[18:05:28.001] [Log] 已设置 29 个地面瓦片
+[18:05:28.001] [Log] 已设置 9 个地面瓦片
+[18:05:28.006] [Log] 已设置 253 个地面瓦片
+[18:05:28.011] [Log] 已设置 253 个地面瓦片
+[18:05:28.400] [Warning] Failed to create agent because there is no valid NavMesh
+[18:05:28.499] [Warning] Failed to create agent because there is no valid NavMesh
+[18:05:28.504] [Log] 为 士兵 找到了Role脚本（子对象）
+[18:05:28.506] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:28.506] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:28.508] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:28.510] [Log] 血条对象层级检查：
+[18:05:28.510] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:28.510] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:28.510] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:28.511] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:28.511] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:28.511] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:28.511] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:28.514] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[18:05:28.514] [Log] 为 士兵 找到了Role脚本（子对象）
+[18:05:28.514] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:28.514] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:28.514] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:28.514] [Log] 血条对象层级检查：
+[18:05:28.515] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:28.515] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:28.515] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:28.515] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:28.515] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:28.515] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:28.515] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:28.515] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[18:05:28.519] [Log] HealthBar Canvas Configuration:
+[18:05:28.519] [Log]   Render Mode: WorldSpace
+[18:05:28.519] [Log]   Sorting Order: 100
+[18:05:28.519] [Log]   Sorting Layer: Default
+[18:05:28.519] [Log]   World Camera: None
+[18:05:28.519] [Log]   Plane Distance: 100
+[18:05:28.519] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:28.519] [Log] HealthBar Canvas Configuration:
+[18:05:28.519] [Log]   Render Mode: WorldSpace
+[18:05:28.519] [Log]   Sorting Order: 100
+[18:05:28.519] [Log]   Sorting Layer: Default
+[18:05:28.519] [Log]   World Camera: None
+[18:05:28.519] [Log]   Plane Distance: 100
+[18:05:28.519] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:31.578] [Log] 已设置 29 个地面瓦片
+[18:05:31.578] [Log] 已设置 9 个地面瓦片
+[18:05:31.582] [Log] 已设置 253 个地面瓦片
+[18:05:31.586] [Log] 已设置 253 个地面瓦片
+[18:05:31.846] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[18:05:32.253] [Log] 收集到 544 个地砖
+[18:05:32.255] [Log] 所有瓦片的网格坐标初始化完成
+[18:05:32.256] [Log] 识别到 8 个桥梁位置
+[18:05:32.258] [Log] 玩家 11 阵营: TeamA
+[18:05:32.258] [Log] [PlayerElixir] OnStartClient: netId=11, isLocalPlayer=True, playerIndex=0
+[18:05:32.259] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[18:05:32.261] [Log] [PlayerElixir] ★ 本地玩家启动, netId=11, playerIndex=0
+[18:05:32.262] [Log] 本地costcontroler初始化: netId=11, isLocalPlayer=True
+[18:05:32.264] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onMove () (at Assets/Scripts/Units/Role.cs:407)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnMove() (at Assets/Scripts/Units/SoldierController.cs:974)
+SoldierController:InvokeUserCode_RpcOnMove(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[18:05:32.265] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onMove () (at Assets/Scripts/Units/Role.cs:407)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnMove() (at Assets/Scripts/Units/SoldierController.cs:974)
+SoldierController:InvokeUserCode_RpcOnMove(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[18:05:32.265] [Log] 玩家 12 阵营: TeamB
+[18:05:32.265] [Log] [PlayerElixir] OnStartClient: netId=12, isLocalPlayer=False, playerIndex=0
+[18:05:32.265] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[18:05:32.266] [Warning] Command System.Void GameStart::CmdSetGameTimeZero() called on Player(Clone) without authority.
+[18:05:32.269] [Log] 士兵 未找到Role脚本
+[18:05:32.269] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:32.269] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:32.270] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:32.270] [Log] 血条对象层级检查：
+[18:05:32.270] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:32.270] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:32.270] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:32.270] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:32.270] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:32.270] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:32.270] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:32.270] [Log] 士兵 未找到Role脚本
+[18:05:32.271] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:32.271] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:32.271] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:32.271] [Log] 血条对象层级检查：
+[18:05:32.271] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:32.271] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:32.271] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:32.271] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:32.271] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:32.271] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:32.271] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:32.271] [Log] 士兵 未找到Role脚本
+[18:05:32.271] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:32.271] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:32.271] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:32.272] [Log] 血条对象层级检查：
+[18:05:32.272] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:32.272] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:32.272] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:32.272] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:32.272] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:32.272] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:32.272] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:32.272] [Log] 士兵 未找到Role脚本
+[18:05:32.272] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:32.273] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:32.273] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:32.273] [Log] 血条对象层级检查：
+[18:05:32.273] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:32.273] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:32.273] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:32.273] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:32.273] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:32.273] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:32.273] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:32.273] [Log] 士兵 未找到Role脚本
+[18:05:32.273] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:32.273] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:32.273] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:32.273] [Log] 血条对象层级检查：
+[18:05:32.273] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:32.273] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:32.273] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:32.275] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:32.275] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:32.275] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:32.275] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:32.275] [Log] 士兵 未找到Role脚本
+[18:05:32.275] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:32.275] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:32.275] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:32.275] [Log] 血条对象层级检查：
+[18:05:32.275] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:32.275] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:32.275] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:32.275] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:32.276] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:32.276] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:32.276] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:32.277] [Log] 当前costcontroler非本地脚本
+[18:05:32.278] [Log] 收集到 8 个单位
+[18:05:32.278] [Log] 敌方单位: 0
+[18:05:32.279] [Log] 友方单位: 2
+[18:05:32.279] [Log] 我方防御塔: 3
+[18:05:32.279] [Log] 敌方防御塔: 3
+[18:05:32.279] [Log] HealthBar Canvas Configuration:
+[18:05:32.279] [Log]   Render Mode: WorldSpace
+[18:05:32.279] [Log]   Sorting Order: 100
+[18:05:32.279] [Log]   Sorting Layer: Default
+[18:05:32.279] [Log]   World Camera: None
+[18:05:32.279] [Log]   Plane Distance: 100
+[18:05:32.279] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:32.279] [Log] HealthBar Canvas Configuration:
+[18:05:32.279] [Log]   Render Mode: WorldSpace
+[18:05:32.279] [Log]   Sorting Order: 100
+[18:05:32.279] [Log]   Sorting Layer: Default
+[18:05:32.279] [Log]   World Camera: None
+[18:05:32.279] [Log]   Plane Distance: 100
+[18:05:32.279] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:32.279] [Log] HealthBar Canvas Configuration:
+[18:05:32.279] [Log]   Render Mode: WorldSpace
+[18:05:32.279] [Log]   Sorting Order: 100
+[18:05:32.279] [Log]   Sorting Layer: Default
+[18:05:32.279] [Log]   World Camera: None
+[18:05:32.279] [Log]   Plane Distance: 100
+[18:05:32.279] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:32.279] [Log] HealthBar Canvas Configuration:
+[18:05:32.279] [Log]   Render Mode: WorldSpace
+[18:05:32.279] [Log]   Sorting Order: 100
+[18:05:32.279] [Log]   Sorting Layer: Default
+[18:05:32.279] [Log]   World Camera: None
+[18:05:32.279] [Log]   Plane Distance: 100
+[18:05:32.279] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:32.279] [Log] HealthBar Canvas Configuration:
+[18:05:32.279] [Log]   Render Mode: WorldSpace
+[18:05:32.279] [Log]   Sorting Order: 100
+[18:05:32.279] [Log]   Sorting Layer: Default
+[18:05:32.281] [Log]   World Camera: None
+[18:05:32.281] [Log]   Plane Distance: 100
+[18:05:32.281] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:32.281] [Log] HealthBar Canvas Configuration:
+[18:05:32.281] [Log]   Render Mode: WorldSpace
+[18:05:32.281] [Log]   Sorting Order: 100
+[18:05:32.281] [Log]   Sorting Layer: Default
+[18:05:32.281] [Log]   World Camera: None
+[18:05:32.281] [Log]   Plane Distance: 100
+[18:05:32.281] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:35.322] [Warning] CostControler: 未找到音频播放器
+[18:05:35.324] [Log] 绑定了 4 个Toggle组件
+[18:05:35.324] [Log] 绑定了 4 个Image组件
+[18:05:35.325] [Log] 绑定了 4 个Text组件
+[18:05:35.325] [Log] 绑定了ToggleGroup组件
+[18:05:35.325] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[18:05:35.325] [Log] 绑定了SkillPosition组件
+[18:05:35.327] [Log] 游戏开始！
+[18:05:35.327] [Warning] CostControler: 未找到音频播放器
+[18:05:35.327] [Log] 游戏开始！
+[18:05:42.028] [Log] UIManager: Toggle 0 开始拖拽
+[18:05:42.040] [Log] UIManager: Toggle 0 拖拽距离: 12.33405
+[18:05:42.054] [Log] UIManager: Toggle 0 拖拽距离: 28.77945
+[18:05:42.065] [Log] UIManager: Toggle 0 拖拽距离: 46.59534
+[18:05:42.079] [Log] UIManager: Toggle 0 拖拽距离: 67.15208
+[18:05:42.089] [Log] UIManager: Toggle 0 拖拽距离: 86.34923
+[18:05:42.102] [Log] UIManager: Toggle 0 拖拽距离: 108.2742
+[18:05:42.102] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[18:05:42.102] [Log] UIManager: Toggle 0 兵种索引: 0
+[18:05:42.103] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[18:05:42.186] [Error] 开始放置
+UnityEngine.Debug:LogError (object)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__2 (UnityEngine.EventSystems.BaseEventData) (at Assets/Scripts/UI/UIManager.cs:382)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[18:05:42.186] [Log] UIManager: Toggle 0 调用了放置逻辑
+[18:05:42.187] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[18:05:42.203] [Log] 战斗正面模型缩放:1.3
+[18:05:42.204] [Log] 战斗背面模型缩放:1.3
+[18:05:42.204] [Log] 基建模型缩放:1.3
+[18:05:42.761] [Log] UIManager: Toggle 0 结束拖拽
+[18:05:42.762] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[18:05:42.762] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[18:05:42.800] [Warning] yinhui(Clone) (netId=13): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 16 bytes, which caused a size hash mismatch of 10 vs. 0C. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:42.801] [Log] OnUnitPlaced 被调用: unitIndex=0, positionIndex=0
+[18:05:42.802] [Log] 卡牌 0 已放入队列
+[18:05:42.802] [Log] 从队列取出卡牌 4
+[18:05:42.802] [Log] 位置 0 的卡牌已替换为索引 4 的卡牌
+[18:05:42.804] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[18:05:42.804] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[18:05:42.804] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[18:05:42.806] [Warning] yinhui(Clone) (netId=13): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:42.806] [Log] 为 士兵 找到了Role脚本（子对象）
+[18:05:42.807] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:42.807] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:42.807] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:42.807] [Log] 血条对象层级检查：
+[18:05:42.807] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:42.807] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:42.807] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:42.807] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:42.808] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:42.808] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:42.808] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:42.808] [Log] 战斗正面模型缩放:1.3
+[18:05:42.808] [Log] 战斗背面模型缩放:1.3
+[18:05:42.808] [Log] 基建模型缩放:1.3
+[18:05:42.809] [Log] HealthBar Canvas Configuration:
+[18:05:42.809] [Log]   Render Mode: WorldSpace
+[18:05:42.809] [Log]   Sorting Order: 100
+[18:05:42.809] [Log]   Sorting Layer: Default
+[18:05:42.809] [Log]   World Camera: None
+[18:05:42.809] [Log]   Plane Distance: 100
+[18:05:42.809] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:44.444] [Log] UIManager: Toggle 3 开始拖拽
+[18:05:44.489] [Log] UIManager: Toggle 3 拖拽距离: 22.09773
+[18:05:44.504] [Log] UIManager: Toggle 3 拖拽距离: 43.87568
+[18:05:44.516] [Log] UIManager: Toggle 3 拖拽距离: 71.15778
+[18:05:44.527] [Log] UIManager: Toggle 3 拖拽距离: 101.8659
+[18:05:44.527] [Log] UIManager: Toggle 3 拖拽距离超过阈值，开始放置模式
+[18:05:44.527] [Log] UIManager: Toggle 3 兵种索引: 3
+[18:05:44.528] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[18:05:44.529] [Error] 开始放置
+UnityEngine.Debug:LogError (object)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__2 (UnityEngine.EventSystems.BaseEventData) (at Assets/Scripts/UI/UIManager.cs:382)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[18:05:44.529] [Log] UIManager: Toggle 3 调用了放置逻辑
+[18:05:44.529] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[18:05:44.554] [Log] 战斗正面模型缩放:1.3
+[18:05:44.554] [Log] 战斗背面模型缩放:1.3
+[18:05:44.554] [Log] 基建模型缩放:1.3
+[18:05:45.005] [Log] UIManager: Toggle 3 结束拖拽
+[18:05:45.007] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[18:05:45.007] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[18:05:45.031] [Warning] yinhui(Clone) (netId=14): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 16 bytes, which caused a size hash mismatch of 10 vs. 0C. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:45.031] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=3
+[18:05:45.031] [Log] 卡牌 3 已放入队列
+[18:05:45.031] [Log] 从队列取出卡牌 5
+[18:05:45.031] [Log] 位置 3 的卡牌已替换为索引 5 的卡牌
+[18:05:45.033] [Log] 为兵种 3 创建了技能按钮，士兵: yinhui(Clone)
+[18:05:45.033] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[18:05:45.033] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[18:05:45.034] [Log] 为 士兵 找到了Role脚本（子对象）
+[18:05:45.034] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:45.034] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:45.034] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:45.034] [Log] 血条对象层级检查：
+[18:05:45.034] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:45.034] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:45.034] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:45.034] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:45.034] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:45.034] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:45.034] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:45.036] [Log] 战斗正面模型缩放:1.3
+[18:05:45.036] [Log] 战斗背面模型缩放:1.3
+[18:05:45.036] [Log] 基建模型缩放:1.3
+[18:05:45.036] [Log] HealthBar Canvas Configuration:
+[18:05:45.036] [Log]   Render Mode: WorldSpace
+[18:05:45.036] [Log]   Sorting Order: 100
+[18:05:45.036] [Log]   Sorting Layer: Default
+[18:05:45.036] [Log]   World Camera: None
+[18:05:45.036] [Log]   Plane Distance: 100
+[18:05:45.036] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:45.047] [Warning] yinhui(Clone) (netId=14): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:50.172] [Warning] yinhui(Clone) (netId=15): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 16 bytes, which caused a size hash mismatch of 10 vs. 0C. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:50.172] [Log] 为 士兵 找到了Role脚本（子对象）
+[18:05:50.173] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:50.173] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:50.173] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:50.173] [Log] 血条对象层级检查：
+[18:05:50.173] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:50.173] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:50.173] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:50.173] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:50.173] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:50.173] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:50.173] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:50.175] [Log] 战斗正面模型缩放:1.3
+[18:05:50.175] [Log] 战斗背面模型缩放:1.3
+[18:05:50.175] [Log] 基建模型缩放:1.3
+[18:05:50.175] [Log] HealthBar Canvas Configuration:
+[18:05:50.175] [Log]   Render Mode: WorldSpace
+[18:05:50.175] [Log]   Sorting Order: 100
+[18:05:50.175] [Log]   Sorting Layer: Default
+[18:05:50.175] [Log]   World Camera: None
+[18:05:50.175] [Log]   Plane Distance: 100
+[18:05:50.175] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:51.695] [Log] UIManager: Toggle 3 开始拖拽
+[18:05:51.767] [Log] UIManager: Toggle 3 结束拖拽
+[18:05:51.768] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[18:05:51.768] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[18:05:51.944] [Log] 战斗正面模型缩放:1
+[18:05:51.944] [Log] 战斗背面模型缩放:1
+[18:05:51.945] [Log] 基建模型缩放:1
+[18:05:52.425] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[18:05:52.425] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[18:05:52.462] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 16 bytes, which caused a size hash mismatch of 10 vs. 0C. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.462] [Log] OnUnitPlaced 被调用: unitIndex=5, positionIndex=3
+[18:05:52.462] [Log] 卡牌 5 已放入队列
+[18:05:52.462] [Log] 从队列取出卡牌 6
+[18:05:52.463] [Log] 位置 3 的卡牌已替换为索引 6 的卡牌
+[18:05:52.463] [Log] 为兵种 3 创建了技能按钮，士兵: chen(Clone)
+[18:05:52.463] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[18:05:52.463] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[18:05:52.469] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.469] [Log] 为 士兵 找到了Role脚本（子对象）
+[18:05:52.469] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[18:05:52.469] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[18:05:52.469] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[18:05:52.469] [Log] 血条对象层级检查：
+[18:05:52.469] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[18:05:52.469] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[18:05:52.469] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[18:05:52.469] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[18:05:52.471] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[18:05:52.471] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[18:05:52.471] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[18:05:52.471] [Log] 战斗正面模型缩放:1
+[18:05:52.471] [Log] 战斗背面模型缩放:1
+[18:05:52.471] [Log] 基建模型缩放:1
+[18:05:52.471] [Log] HealthBar Canvas Configuration:
+[18:05:52.472] [Log]   Render Mode: WorldSpace
+[18:05:52.472] [Log]   Sorting Order: 100
+[18:05:52.472] [Log]   Sorting Layer: Default
+[18:05:52.472] [Log]   World Camera: None
+[18:05:52.472] [Log]   Plane Distance: 100
+[18:05:52.472] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[18:05:52.506] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.531] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.569] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.591] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.627] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.638] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.651] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.674] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.688] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.713] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.725] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.737] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.774] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.823] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.838] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.850] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.875] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.888] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.912] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.925] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.937] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.973] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:52.986] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.012] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.025] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.025] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.062] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.075] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.087] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.099] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.111] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.133] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.147] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.195] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.208] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.219] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.232] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.258] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.271] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.284] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.296] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.334] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.359] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.410] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.435] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.461] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.504] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.529] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.545] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.545] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.569] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.582] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.595] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.631] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.656] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.668] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.693] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.706] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.719] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.757] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.770] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.794] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.808] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.821] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.849] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.862] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.885] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.896] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.907] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.943] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.955] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.967] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:53.990] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.003] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.027] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.039] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.051] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.077] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.089] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.113] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.137] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.150] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.162] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.187] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.224] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.248] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.261] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.285] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.321] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.334] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.371] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.384] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.396] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.432] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.456] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.504] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.516] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.554] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.566] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.592] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.631] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.656] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.669] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.693] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.719] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.733] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.746] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.769] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.794] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.806] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.820] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.844] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.871] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.918] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.931] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.978] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:54.992] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.028] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.042] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.054] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.069] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.118] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.145] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.156] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.169] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.186] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.198] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.211] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.247] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.261] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.286] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.309] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.322] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.359] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.371] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.385] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.397] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.413] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.447] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.492] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.505] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.520] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.547] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.558] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.593] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.605] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.619] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.655] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.666] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.691] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.703] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.716] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.752] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.776] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.818] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.830] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.876] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.889] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.928] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.941] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.973] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:55.984] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:56.023] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:56.034] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:56.060] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:56.072] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:56.085] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:56.109] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:56.133] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:56.156] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:56.202] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[18:05:56.215] [Warning] chen(Clone) (netId=16): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 7 bytes, which caused a size hash mismatch of 07 vs. 03. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+==========================================
+游戏日志结束 - 2026/2/21 18:05:56
+==========================================

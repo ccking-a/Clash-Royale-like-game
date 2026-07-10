@@ -1,0 +1,124 @@
+==========================================
+游戏日志开始 - 2026/2/20 16:10:04
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[16:10:05.194] [Log] === 客户端预制体列表诊断 (启动时) ===
+[16:10:05.194] [Log] 客户端 SpawnPrefabs 数量: 12
+[16:10:05.195] [Log]   [0] amiya -> AssetId: 1054292600
+[16:10:05.195] [Log]   [1] Anemyamiya -> AssetId: 3767952548
+[16:10:05.195] [Log]   [2] AnemyGongzhuta -> AssetId: 258553055
+[16:10:05.195] [Log]   [3] AnemyGongzhuta (1) -> AssetId: 3034425767
+[16:10:05.195] [Log]   [4] AnemyGuowangta -> AssetId: 3706946732
+[16:10:05.195] [Log]   [5] chen -> AssetId: 1033753810
+[16:10:05.195] [Log]   [6] Gongzhuta -> AssetId: 48394343
+[16:10:05.195] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[16:10:05.195] [Log]   [8] Guowangta -> AssetId: 500381289
+[16:10:05.195] [Log]   [10] RoomPlayer -> AssetId: 4019188151
+[16:10:05.195] [Log]   [11] yinhui -> AssetId: 2171254035
+[16:10:07.280] [Log] Not in Room scene...disconnecting connection(0)
+[16:10:07.280] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[16:10:07.281] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__11:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:102)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:93)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[16:10:07.317] [Log] 已设置 29 个地面瓦片
+[16:10:07.318] [Log] 已设置 9 个地面瓦片
+[16:10:07.327] [Log] 已设置 253 个地面瓦片
+[16:10:07.336] [Log] 已设置 253 个地面瓦片
+[16:10:07.751] [Warning] Failed to create agent because there is no valid NavMesh
+[16:10:07.891] [Log] 士兵 当前最大攻击目标数更新为: 1
+[16:10:07.897] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:10:07.900] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:10:07.900] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:10:07.901] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:10:07.905] [Log] 血条对象层级检查：
+[16:10:07.905] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:10:07.905] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:10:07.905] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:10:07.905] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:10:07.905] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:10:07.905] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:10:07.906] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:10:07.909] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[16:10:07.931] [Log] 收集到 1 个单位
+[16:10:07.931] [Log] 敌方单位: 0
+[16:10:07.931] [Log] 友方单位: 1
+[16:10:07.931] [Log] 我方防御塔: 0
+[16:10:07.931] [Log] 敌方防御塔: 0
+[16:10:07.932] [Log] HealthBar Canvas Configuration:
+[16:10:07.932] [Log]   Render Mode: WorldSpace
+[16:10:07.932] [Log]   Sorting Order: 100
+[16:10:07.932] [Log]   Sorting Layer: Default
+[16:10:07.932] [Log]   World Camera: None
+[16:10:07.932] [Log]   Plane Distance: 100
+[16:10:07.932] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:10:07.935] [Log] 找不到目标了
+[16:10:07.953] [Log] 找不到目标了
+[16:10:07.961] [Log] 找不到目标了
+[16:10:07.970] [Log] 找不到目标了
+[16:10:07.977] [Log] 找不到目标了
+[16:10:07.984] [Log] 找不到目标了
+[16:10:07.992] [Log] 找不到目标了
+[16:10:08.000] [Log] 找不到目标了
+[16:10:08.007] [Log] 找不到目标了
+[16:10:08.015] [Log] 找不到目标了
+[16:10:08.022] [Log] 找不到目标了
+[16:10:08.031] [Log] 找不到目标了
+[16:10:08.040] [Log] 找不到目标了
+[16:10:08.049] [Log] 找不到目标了
+[16:10:08.056] [Log] 找不到目标了
+[16:10:08.066] [Log] 找不到目标了
+[16:10:08.072] [Log] 找不到目标了
+[16:10:08.081] [Log] 找不到目标了
+[16:10:08.089] [Log] 找不到目标了
+[16:10:08.096] [Log] 找不到目标了
+[16:10:08.104] [Log] 找不到目标了
+[16:10:08.112] [Log] 找不到目标了
+[16:10:08.119] [Log] 找不到目标了
+[16:10:08.127] [Log] 找不到目标了
+[16:10:08.135] [Log] 找不到目标了
+[16:10:08.143] [Log] 找不到目标了
+[16:10:08.150] [Log] 找不到目标了
+[16:10:08.157] [Log] 找不到目标了
+[16:10:08.166] [Log] 找不到目标了
+[16:10:08.174] [Log] 找不到目标了
+[16:10:08.183] [Log] 找不到目标了
+[16:10:08.192] [Log] 找不到目标了
+[16:10:08.201] [Log] 找不到目标了
+[16:10:08.207] [Log] 找不到目标了
+[16:10:08.213] [Log] 找不到目标了
+[16:10:08.220] [Log] 找不到目标了
+[16:10:08.229] [Log] 找不到目标了
+[16:10:08.236] [Log] 找不到目标了
+[16:10:08.242] [Log] 找不到目标了
+[16:10:08.248] [Log] 找不到目标了
+[16:10:08.255] [Log] 找不到目标了
+[16:10:08.263] [Log] 找不到目标了
+[16:10:08.272] [Log] 找不到目标了
+[16:10:08.281] [Log] 找不到目标了
+[16:10:08.289] [Log] 找不到目标了
+[16:10:08.295] [Log] 找不到目标了
+[16:10:08.304] [Log] 找不到目标了
+[16:10:08.308] [Log] 找不到目标了
+[16:10:08.316] [Log] 找不到目标了
+[16:10:08.323] [Log] 找不到目标了
+[16:10:08.329] [Log] 找不到目标了
+[16:10:08.339] [Log] 找不到目标了
+[16:10:08.356] [Log] 找不到目标了
+[16:10:08.374] [Log] 找不到目标了
+[16:10:08.382] [Log] 找不到目标了
+[16:10:08.389] [Log] 找不到目标了
+[16:10:08.396] [Log] 找不到目标了
+[16:10:08.404] [Log] 找不到目标了
+[16:10:08.411] [Log] 找不到目标了
+[16:10:08.417] [Log] 找不到目标了
+[16:10:08.424] [Log] 找不到目标了
+==========================================
+游戏日志结束 - 2026/2/20 16:10:30
+==========================================

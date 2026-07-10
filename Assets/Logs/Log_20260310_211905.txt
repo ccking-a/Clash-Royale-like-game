@@ -1,0 +1,1187 @@
+==========================================
+游戏日志开始 - 2026/3/10 21:19:05
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[21:19:05.783] [Log] === 客户端预制体列表诊断 (启动时) ===
+[21:19:05.783] [Log] 客户端 SpawnPrefabs 数量: 13
+[21:19:05.783] [Log]   [0] amiya -> AssetId: 1054292600
+[21:19:05.783] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[21:19:05.784] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[21:19:05.784] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[21:19:05.784] [Log]   [4] chen -> AssetId: 1033753810
+[21:19:05.784] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[21:19:05.784] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[21:19:05.784] [Log]   [7] Guowangta -> AssetId: 500381289
+[21:19:05.784] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[21:19:05.784] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[21:19:05.784] [Log]   [10] yinhui -> AssetId: 2171254035
+[21:19:05.784] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[21:19:05.784] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[21:19:08.968] [Log] 返回主菜单
+[21:19:09.543] [Log] [Host] 局域网IP: 10.153.233.253, 端口: 7777
+[21:19:09.569] [Log] Not in Room scene...disconnecting connection(0)
+[21:19:09.570] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[21:19:09.570] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__15:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:112)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:103)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:19:10.518] [Log] [MyNetworkRoomManager] 客户端 0 加入房间，RoomPlayer 已赋予客户端权威
+[21:19:10.529] [Log] 战斗正面模型缩放:1
+[21:19:10.529] [Log] 战斗背面模型缩放:1
+[21:19:10.529] [Log] 基建模型缩放:1
+[21:19:14.524] [Log] [MyNetworkRoomManager] 客户端 1883317265 连接到服务器
+[21:19:15.160] [Log] [MyNetworkRoomManager] 客户端 1883317265 加入房间，RoomPlayer 已赋予客户端权威
+[21:19:15.162] [Log] 战斗正面模型缩放:1
+[21:19:15.162] [Log] 战斗背面模型缩放:1
+[21:19:15.162] [Log] 基建模型缩放:1
+[21:19:18.242] [Log] 已设置 29 个地面瓦片
+[21:19:18.243] [Log] 已设置 9 个地面瓦片
+[21:19:18.248] [Log] 已设置 253 个地面瓦片
+[21:19:18.253] [Log] 已设置 253 个地面瓦片
+[21:19:18.643] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[21:19:18.652] [Warning] NetworkClient can't AddPlayer before being ready. Please call NetworkClient.Ready() first. Clients are considered ready after joining the game world.
+[21:19:18.652] [Log] [PlayerElixir] OnStartServer: netId=9, playerIndex=0, connId=0
+[21:19:18.653] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[21:19:18.655] [Error] yinhui(Clone)'s NetworkRigidbody.target yinhui(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.730] [Error] yinhui(Clone)'s NetworkRigidbody.target yinhui(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.731] [Error] yinhui(Clone)'s NetworkRigidbody.target yinhui(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.732] [Error] amiya(Clone)'s NetworkRigidbody.target amiya(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.900] [Error] amiya(Clone)'s NetworkRigidbody.target amiya(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.902] [Error] amiya(Clone)'s NetworkRigidbody.target amiya(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.905] [Error] chen(Clone)'s NetworkRigidbody.target chen(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.906] [Error] chen(Clone)'s NetworkRigidbody.target chen(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.908] [Error] chen(Clone)'s NetworkRigidbody.target chen(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.908] [Error] keluosi2(Clone)'s NetworkRigidbody.target keluosi2(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.990] [Error] keluosi2(Clone)'s NetworkRigidbody.target keluosi2(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.991] [Error] keluosi2(Clone)'s NetworkRigidbody.target keluosi2(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreateNetworkPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:167)
+UnitPoolManager:WarmNetworkPools (UnityEngine.GameObject[]) (at Assets/Scripts/Utils/UnitPoolManager.cs:215)
+NetworkUnitPlacer:EnsureUnitPoolManager () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:61)
+NetworkUnitPlacer:OnStartServer () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:37)
+Mirror.NetworkIdentity:OnStartServer () (at Assets/Mirror/Core/NetworkIdentity.cs:711)
+Mirror.NetworkServer:SpawnObject (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1641)
+Mirror.NetworkServer:Spawn (UnityEngine.GameObject,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkServer.cs:1563)
+Mirror.NetworkServer:Respawn (Mirror.NetworkIdentity) (at Assets/Mirror/Core/NetworkServer.cs:1549)
+Mirror.NetworkServer:ReplacePlayerForConnection (Mirror.NetworkConnectionToClient,UnityEngine.GameObject,Mirror.ReplacePlayerOptions) (at Assets/Mirror/Core/NetworkServer.cs:1204)
+Mirror.NetworkRoomManager:SceneLoadedForPlayer (Mirror.NetworkConnectionToClient,UnityEngine.GameObject) (at Assets/Mirror/Components/NetworkRoomManager.cs:149)
+Mirror.NetworkRoomManager:OnServerSceneChanged (string) (at Assets/Mirror/Components/NetworkRoomManager.cs:365)
+MyNetworkRoomManager:OnServerSceneChanged (string) (at Assets/Scripts/Core/MyNetworkRoomManager.cs:50)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1042)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[21:19:18.996] [Log] 玩家 9 阵营: TeamA
+[21:19:18.996] [Log] 服务器分配阵营: 玩家 9 = TeamA
+[21:19:18.996] [Log] [PlayerElixir] ★ playerIndex 同步: 0 → 1, isLocalPlayer=False
+[21:19:18.996] [Log] [PlayerElixir] OnStartServer: netId=10, playerIndex=1, connId=1883317265
+[21:19:18.996] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[21:19:18.997] [Log] 玩家 10 阵营: TeamB
+[21:19:18.997] [Log] 服务器分配阵营: 玩家 10 = TeamB
+[21:19:18.998] [Log] [MyNetworkRoomManager] ★ 进入游戏场景
+[21:19:18.998] [Log] [MyNetworkRoomManager] NetworkGameState 已生成
+[21:19:19.002] [Log] [MyNetworkRoomManager] 清理 RoomPlayer: RoomPlayer(Clone)
+[21:19:19.003] [Log] [MyNetworkRoomManager] 清理 RoomPlayer: RoomPlayer(Clone)
+[21:19:19.006] [Log] [PlayerElixir] OnStartClient: netId=9, isLocalPlayer=True, playerIndex=0
+[21:19:19.006] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[21:19:19.007] [Log] [PlayerElixir] ★ 本地玩家启动, netId=9, playerIndex=0
+[21:19:19.007] [Log] 本地costcontroler初始化: netId=9, isLocalPlayer=True
+[21:19:19.007] [Log] [PlayerElixir] OnStartClient: netId=10, isLocalPlayer=False, playerIndex=1
+[21:19:19.007] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[21:19:19.008] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:19:19.008] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:19.012] [Log] 士兵 未找到Role脚本
+[21:19:19.016] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:19:19.016] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:19:19.016] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:19:19.019] [Log] 血条对象层级检查：
+[21:19:19.019] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:19.019] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:19.020] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:19.020] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:19.020] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:19.020] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:19:19.020] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:19:19.021] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:19:19.021] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:19.021] [Log] 士兵 未找到Role脚本
+[21:19:19.022] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:19:19.022] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:19:19.022] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:19:19.022] [Log] 血条对象层级检查：
+[21:19:19.022] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:19.022] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:19.022] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:19.022] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:19.022] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:19.022] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:19:19.022] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:19:19.022] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:19:19.022] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:19.022] [Log] 士兵 未找到Role脚本
+[21:19:19.023] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:19:19.023] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:19:19.023] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:19:19.023] [Log] 血条对象层级检查：
+[21:19:19.023] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:19.023] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:19.023] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:19.023] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:19.023] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:19.023] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:19:19.023] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:19:19.023] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:19:19.023] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:19.023] [Log] 士兵 未找到Role脚本
+[21:19:19.024] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:19:19.024] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:19:19.024] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:19:19.025] [Log] 血条对象层级检查：
+[21:19:19.025] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:19.025] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:19.025] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:19.025] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:19.025] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:19.025] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:19:19.025] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:19:19.026] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:19:19.026] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:19.026] [Log] 士兵 未找到Role脚本
+[21:19:19.026] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:19:19.026] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:19:19.026] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:19:19.026] [Log] 血条对象层级检查：
+[21:19:19.026] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:19.027] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:19.027] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:19.027] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:19.027] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:19.027] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:19:19.027] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:19:19.027] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:19:19.027] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:19.027] [Log] 士兵 未找到Role脚本
+[21:19:19.027] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:19:19.028] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:19:19.028] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:19:19.028] [Log] 血条对象层级检查：
+[21:19:19.028] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:19.028] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:19.028] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:19.028] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:19.028] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:19.028] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:19:19.028] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:19:19.088] [Log] HealthBar Canvas Configuration:
+[21:19:19.088] [Log]   Render Mode: WorldSpace
+[21:19:19.088] [Log]   Sorting Order: 100
+[21:19:19.088] [Log]   Sorting Layer: Default
+[21:19:19.088] [Log]   World Camera: None
+[21:19:19.089] [Log]   Plane Distance: 100
+[21:19:19.089] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:19.089] [Log] HealthBar Canvas Configuration:
+[21:19:19.089] [Log]   Render Mode: WorldSpace
+[21:19:19.089] [Log]   Sorting Order: 100
+[21:19:19.089] [Log]   Sorting Layer: Default
+[21:19:19.089] [Log]   World Camera: None
+[21:19:19.089] [Log]   Plane Distance: 100
+[21:19:19.089] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:19.089] [Log] HealthBar Canvas Configuration:
+[21:19:19.089] [Log]   Render Mode: WorldSpace
+[21:19:19.089] [Log]   Sorting Order: 100
+[21:19:19.089] [Log]   Sorting Layer: Default
+[21:19:19.089] [Log]   World Camera: None
+[21:19:19.089] [Log]   Plane Distance: 100
+[21:19:19.089] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:19.089] [Log] HealthBar Canvas Configuration:
+[21:19:19.090] [Log]   Render Mode: WorldSpace
+[21:19:19.090] [Log]   Sorting Order: 100
+[21:19:19.090] [Log]   Sorting Layer: Default
+[21:19:19.090] [Log]   World Camera: None
+[21:19:19.090] [Log]   Plane Distance: 100
+[21:19:19.090] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:19.090] [Log] HealthBar Canvas Configuration:
+[21:19:19.090] [Log]   Render Mode: WorldSpace
+[21:19:19.090] [Log]   Sorting Order: 100
+[21:19:19.090] [Log]   Sorting Layer: Default
+[21:19:19.090] [Log]   World Camera: None
+[21:19:19.090] [Log]   Plane Distance: 100
+[21:19:19.090] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:19.090] [Log] HealthBar Canvas Configuration:
+[21:19:19.090] [Log]   Render Mode: WorldSpace
+[21:19:19.090] [Log]   Sorting Order: 100
+[21:19:19.090] [Log]   Sorting Layer: Default
+[21:19:19.090] [Log]   World Camera: None
+[21:19:19.090] [Log]   Plane Distance: 100
+[21:19:19.090] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:19.096] [Log] 收集到 544 个地砖
+[21:19:19.097] [Log] 所有瓦片的网格坐标初始化完成
+[21:19:19.097] [Log] 识别到 8 个桥梁位置
+[21:19:19.098] [Log] [MapManager] 初始化完成, 共 544 个地砖, 其中 4 个高台
+[21:19:19.098] [Log] 播放倒计时音乐
+[21:19:22.121] [Log] 播放游戏开始音乐
+[21:19:22.123] [Log] 游戏开始，播放第二首音乐
+[21:19:22.126] [Log] 绑定了 4 个Toggle组件
+[21:19:22.127] [Log] 绑定了 4 个Image组件
+[21:19:22.128] [Log] 绑定了 4 个Text组件
+[21:19:22.128] [Log] 绑定了ToggleGroup组件
+[21:19:22.128] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[21:19:22.128] [Log] 绑定了SkillPosition组件
+[21:19:22.130] [Log] [UIManager] 使用玩家选择的 8 个干员
+[21:19:22.147] [Log] 游戏开始！
+[21:19:22.588] [Log] UIManager: Toggle 3 开始拖拽
+[21:19:22.632] [Log] UIManager: Toggle 3 结束拖拽
+[21:19:22.633] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[21:19:22.634] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[21:19:22.635] [Error] keluosi2(Clone)'s NetworkRigidbody.target keluosi2(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreatePreviewPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:149)
+UnitPoolManager:GetPreview (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:46)
+NetworkUnitPlacer:StartPlacingUnitLocal (int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+UIManager:OnUnitToggleChanged (bool,int) (at Assets/Scripts/UI/UIManager.cs:465)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__0 (bool) (at Assets/Scripts/UI/UIManager.cs:312)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:19:22.637] [Error] keluosi2(Clone)'s NetworkRigidbody.target keluosi2(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreatePreviewPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:149)
+UnitPoolManager:GetPreview (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:46)
+NetworkUnitPlacer:StartPlacingUnitLocal (int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+UIManager:OnUnitToggleChanged (bool,int) (at Assets/Scripts/UI/UIManager.cs:465)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__0 (bool) (at Assets/Scripts/UI/UIManager.cs:312)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:19:22.638] [Error] keluosi2(Clone)'s NetworkRigidbody.target keluosi2(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreatePreviewPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:149)
+UnitPoolManager:GetPreview (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:46)
+NetworkUnitPlacer:StartPlacingUnitLocal (int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+UIManager:OnUnitToggleChanged (bool,int) (at Assets/Scripts/UI/UIManager.cs:465)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__0 (bool) (at Assets/Scripts/UI/UIManager.cs:312)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:19:22.816] [Log] 战斗正面模型缩放:1.3
+[21:19:22.816] [Log] 战斗背面模型缩放:1.3
+[21:19:22.816] [Log] 基建模型缩放:1.3
+[21:19:23.622] [Log] [放置] 玩家1 当前拥有3.169194费用, 需要3
+[21:19:23.624] [Log] [放置验证] MapManager存在, nearestTile=Cube (155), 请求位置=(11.00, 0.00, 8.00)
+[21:19:23.626] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 0.2
+[21:19:23.627] [Log] [放置] 玩家1 放置单位 keluosi2, teamIndex=0
+[21:19:23.631] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=3, soldier=True, netId=12
+[21:19:23.631] [Log] 卡牌 3 已放入队列
+[21:19:23.632] [Log] 从队列取出卡牌 4
+[21:19:23.632] [Log] 位置 3 的卡牌已替换为索引 4 的卡牌
+[21:19:23.635] [Log] 为兵种 3 创建了技能按钮，士兵: keluosi2(Clone)
+[21:19:23.635] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[21:19:23.636] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[21:19:23.636] [Error] 士兵 缺少Rigidbody组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:125)
+
+[21:19:23.636] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:23.637] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:19:23.637] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:19:23.638] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:19:23.638] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:19:23.638] [Log] 血条对象层级检查：
+[21:19:23.638] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:23.638] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:23.639] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:23.639] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:23.639] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:23.639] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:19:23.639] [Log] 为 士兵 创建了血条，当前生命值: 60/60
+[21:19:23.639] [Log] 战斗正面模型缩放:1.3
+[21:19:23.639] [Log] 战斗背面模型缩放:1.3
+[21:19:23.639] [Log] 基建模型缩放:1.3
+[21:19:23.649] [Log] HealthBar Canvas Configuration:
+[21:19:23.650] [Log]   Render Mode: WorldSpace
+[21:19:23.650] [Log]   Sorting Order: 100
+[21:19:23.650] [Log]   Sorting Layer: Default
+[21:19:23.650] [Log]   World Camera: None
+[21:19:23.650] [Log]   Plane Distance: 100
+[21:19:23.650] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:25.173] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[21:19:25.173] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:25.539] [Log] OnAttack
+[21:19:25.539] [Log] 正面
+[21:19:25.556] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:25.556] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:26.556] [Log] OnAttack
+[21:19:26.558] [Log] 正面
+[21:19:26.571] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:26.571] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:26.705] [Log] [放置] 玩家2 当前拥有5.624812费用, 需要3
+[21:19:26.706] [Log] [放置验证] MapManager存在, nearestTile=Cube (101), 请求位置=(11.00, 0.00, 20.00)
+[21:19:26.706] [Log] [Server] 玩家 netId=10 消耗 3 圣水, 剩余 2.6
+[21:19:26.706] [Log] [放置] 玩家2 放置单位 yinhui, teamIndex=1
+[21:19:26.707] [Error] 士兵 缺少Rigidbody组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:125)
+
+[21:19:26.707] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:26.707] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:19:26.707] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:19:26.707] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:19:26.707] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:19:26.709] [Log] 血条对象层级检查：
+[21:19:26.709] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:26.709] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:26.709] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:26.709] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:26.709] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:26.709] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:19:26.709] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:19:26.709] [Log] 战斗正面模型缩放:1.3
+[21:19:26.709] [Log] 战斗背面模型缩放:1.3
+[21:19:26.710] [Log] 基建模型缩放:1.3
+[21:19:26.710] [Log] HealthBar Canvas Configuration:
+[21:19:26.711] [Log]   Render Mode: WorldSpace
+[21:19:26.711] [Log]   Sorting Order: 100
+[21:19:26.711] [Log]   Sorting Layer: Default
+[21:19:26.711] [Log]   World Camera: None
+[21:19:26.711] [Log]   Plane Distance: 100
+[21:19:26.711] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:27.428] [Log] 士兵 战斗检测范围更新为: 3.5
+[21:19:27.428] [Log] 士兵 技能状态设置为: True
+[21:19:27.429] [Log] 士兵 当前最大攻击目标数更新为: 3
+[21:19:27.429] [Log] 士兵 战斗检测范围更新为: 3.5
+[21:19:27.431] [Log] 士兵 锁定目标: keluosi2(Clone)
+[21:19:27.431] [Log] 士兵 调用技能模型: onSkillF
+[21:19:27.547] [Log] OnAttack
+[21:19:27.548] [Log] 正面
+[21:19:27.567] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:27.567] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:27.868] [Log] OnAttack
+[21:19:27.868] [Log] 正面
+[21:19:27.883] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:27.916] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.926] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.926] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.926] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.928] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.928] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.929] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.930] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.930] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.930] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.931] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.931] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.931] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.931] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.933] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.933] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.934] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.934] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.934] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.934] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.934] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.935] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.937] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.937] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.937] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.937] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.938] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.938] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.939] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.940] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.940] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.940] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.940] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.941] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.941] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.942] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.942] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.942] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.942] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.942] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.942] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.942] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:27.944] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:28.546] [Log] OnAttack
+[21:19:28.546] [Log] 正面
+[21:19:28.565] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:28.565] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:28.870] [Log] UIManager: Toggle 3 开始拖拽
+[21:19:28.963] [Log] UIManager: Toggle 3 结束拖拽
+[21:19:28.964] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[21:19:28.965] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[21:19:28.966] [Error] amiya(Clone)'s NetworkRigidbody.target amiya(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreatePreviewPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:149)
+UnitPoolManager:GetPreview (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:46)
+NetworkUnitPlacer:StartPlacingUnitLocal (int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+UIManager:OnUnitToggleChanged (bool,int) (at Assets/Scripts/UI/UIManager.cs:465)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__0 (bool) (at Assets/Scripts/UI/UIManager.cs:312)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:19:28.968] [Error] amiya(Clone)'s NetworkRigidbody.target amiya(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreatePreviewPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:149)
+UnitPoolManager:GetPreview (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:46)
+NetworkUnitPlacer:StartPlacingUnitLocal (int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+UIManager:OnUnitToggleChanged (bool,int) (at Assets/Scripts/UI/UIManager.cs:465)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__0 (bool) (at Assets/Scripts/UI/UIManager.cs:312)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:19:28.971] [Error] amiya(Clone)'s NetworkRigidbody.target amiya(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreatePreviewPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:149)
+UnitPoolManager:GetPreview (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:46)
+NetworkUnitPlacer:StartPlacingUnitLocal (int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+UIManager:OnUnitToggleChanged (bool,int) (at Assets/Scripts/UI/UIManager.cs:465)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__0 (bool) (at Assets/Scripts/UI/UIManager.cs:312)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:19:28.995] [Log] 战斗正面模型缩放:1.3
+[21:19:28.996] [Log] 战斗背面模型缩放:1.3
+[21:19:28.996] [Log] 基建模型缩放:1.3
+[21:19:29.196] [Log] OnAttack
+[21:19:29.197] [Log] 正面
+[21:19:29.214] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:29.214] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:29.214] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:29.216] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:29.216] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:29.216] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:29.216] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:29.216] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:29.216] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:29.374] [Log] [放置] 玩家1 当前拥有4.782713费用, 需要3
+[21:19:29.374] [Log] [放置验证] MapManager存在, nearestTile=Cube (175), 请求位置=(13.00, 0.00, 9.00)
+[21:19:29.375] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 1.8
+[21:19:29.376] [Log] [放置] 玩家1 放置单位 amiya, teamIndex=0
+[21:19:29.376] [Log] OnUnitPlaced 被调用: unitIndex=4, positionIndex=3, soldier=True, netId=16
+[21:19:29.376] [Log] 卡牌 4 已放入队列
+[21:19:29.376] [Log] 从队列取出卡牌 5
+[21:19:29.376] [Log] 位置 3 的卡牌已替换为索引 5 的卡牌
+[21:19:29.378] [Log] 为兵种 4 创建了技能按钮，士兵: amiya(Clone)
+[21:19:29.378] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[21:19:29.378] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[21:19:29.378] [Error] 士兵 缺少Rigidbody组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:125)
+
+[21:19:29.378] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:29.378] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:19:29.379] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:19:29.379] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:19:29.379] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:19:29.379] [Log] 血条对象层级检查：
+[21:19:29.379] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:29.379] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:29.379] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:29.379] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:29.379] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:29.379] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:19:29.379] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:19:29.380] [Log] 战斗正面模型缩放:1.3
+[21:19:29.380] [Log] 战斗背面模型缩放:1.3
+[21:19:29.380] [Log] 基建模型缩放:1.3
+[21:19:29.392] [Log] HealthBar Canvas Configuration:
+[21:19:29.392] [Log]   Render Mode: WorldSpace
+[21:19:29.392] [Log]   Sorting Order: 100
+[21:19:29.392] [Log]   Sorting Layer: Default
+[21:19:29.392] [Log]   World Camera: None
+[21:19:29.392] [Log]   Plane Distance: 100
+[21:19:29.392] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:29.542] [Log] OnAttack
+[21:19:29.542] [Log] 正面
+[21:19:29.562] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:29.562] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:30.535] [Log] OnAttack
+[21:19:30.535] [Log] 正面
+[21:19:30.550] [Log] OnAttack
+[21:19:30.550] [Log] 正面
+[21:19:30.550] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:30.552] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:30.552] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:30.552] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:30.552] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:30.552] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:30.553] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:30.553] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:30.553] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:30.572] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:30.572] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:31.553] [Log] OnAttack
+[21:19:31.553] [Log] 正面
+[21:19:31.570] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:31.570] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:31.704] [Log] UIManager: Toggle 0 开始拖拽
+[21:19:31.722] [Log] UIManager: Toggle 0 拖拽距离: 13.29541
+[21:19:31.737] [Log] UIManager: Toggle 0 拖拽距离: 36.9996
+[21:19:31.755] [Log] UIManager: Toggle 0 拖拽距离: 75.27546
+[21:19:31.770] [Log] UIManager: Toggle 0 拖拽距离: 128.3541
+[21:19:31.770] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[21:19:31.771] [Log] UIManager: Toggle 0 兵种索引: 0
+[21:19:31.771] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[21:19:31.771] [Error] yinhui(Clone)'s NetworkRigidbody.target yinhui(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreatePreviewPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:149)
+UnitPoolManager:GetPreview (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:46)
+NetworkUnitPlacer:StartPlacingUnitLocal (int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__2 (UnityEngine.EventSystems.BaseEventData) (at Assets/Scripts/UI/UIManager.cs:388)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:19:31.772] [Error] yinhui(Clone)'s NetworkRigidbody.target yinhui(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreatePreviewPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:149)
+UnitPoolManager:GetPreview (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:46)
+NetworkUnitPlacer:StartPlacingUnitLocal (int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__2 (UnityEngine.EventSystems.BaseEventData) (at Assets/Scripts/UI/UIManager.cs:388)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:19:31.774] [Error] yinhui(Clone)'s NetworkRigidbody.target yinhui(Clone) is missing a Rigidbody
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+Mirror.NetworkRigidbodyReliable:Awake () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:37)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject,UnityEngine.Transform)
+UnitPoolManager:GetOrCreatePreviewPool (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:149)
+UnitPoolManager:GetPreview (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:46)
+NetworkUnitPlacer:StartPlacingUnitLocal (int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__2 (UnityEngine.EventSystems.BaseEventData) (at Assets/Scripts/UI/UIManager.cs:388)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:19:31.775] [Log] 开始放置
+[21:19:31.775] [Log] UIManager: Toggle 0 调用了放置逻辑
+[21:19:31.775] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[21:19:31.811] [Log] 战斗正面模型缩放:1.3
+[21:19:31.811] [Log] 战斗背面模型缩放:1.3
+[21:19:31.811] [Log] 基建模型缩放:1.3
+[21:19:31.868] [Log] OnAttack
+[21:19:31.868] [Log] 正面
+[21:19:31.886] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:31.886] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:31.886] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:31.888] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:31.888] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:31.888] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:31.888] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:31.889] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:31.889] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:32.020] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:19:32.020] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:32.068] [Log] UIManager: Toggle 0 结束拖拽
+[21:19:32.071] [Log] [放置] 玩家1 当前拥有3.927634费用, 需要3
+[21:19:32.072] [Log] [放置验证] MapManager存在, nearestTile=Cube (119), 请求位置=(11.00, 0.00, 6.00)
+[21:19:32.073] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 0.9
+[21:19:32.073] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[21:19:32.074] [Log] OnUnitPlaced 被调用: unitIndex=0, positionIndex=0, soldier=True, netId=19
+[21:19:32.074] [Log] 卡牌 0 已放入队列
+[21:19:32.075] [Log] 从队列取出卡牌 6
+[21:19:32.075] [Log] 位置 0 的卡牌已替换为索引 6 的卡牌
+[21:19:32.075] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[21:19:32.075] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[21:19:32.076] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[21:19:32.076] [Error] 士兵 缺少Rigidbody组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:125)
+
+[21:19:32.076] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:32.076] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:19:32.077] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:19:32.077] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:19:32.077] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:19:32.077] [Log] 血条对象层级检查：
+[21:19:32.077] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:32.077] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:32.077] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:32.077] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:32.077] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:32.077] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:19:32.078] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:19:32.078] [Log] 战斗正面模型缩放:1.3
+[21:19:32.078] [Log] 战斗背面模型缩放:1.3
+[21:19:32.078] [Log] 基建模型缩放:1.3
+[21:19:32.092] [Log] HealthBar Canvas Configuration:
+[21:19:32.092] [Log]   Render Mode: WorldSpace
+[21:19:32.092] [Log]   Sorting Order: 100
+[21:19:32.092] [Log]   Sorting Layer: Default
+[21:19:32.092] [Log]   World Camera: None
+[21:19:32.092] [Log]   Plane Distance: 100
+[21:19:32.092] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:32.542] [Log] OnAttack
+[21:19:32.542] [Log] 正面
+[21:19:32.561] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:32.561] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:32.596] [Log] OnAttack
+[21:19:32.597] [Log] 正面
+[21:19:32.612] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:32.612] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:33.205] [Log] OnAttack
+[21:19:33.205] [Log] 正面
+[21:19:33.225] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:33.225] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:33.226] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:33.226] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:33.226] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:33.226] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:33.226] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:33.226] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:33.227] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:33.544] [Log] OnAttack
+[21:19:33.544] [Log] 正面
+[21:19:33.562] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:33.562] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:33.867] [Log] OnAttack
+[21:19:33.867] [Log] 正面
+[21:19:33.883] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:33.883] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:34.530] [Log] OnAttack
+[21:19:34.530] [Log] 正面
+[21:19:34.551] [Log] OnAttack
+[21:19:34.551] [Log] 正面
+[21:19:34.553] [Log] 士兵 死亡
+[21:19:34.557] [Exception] MissingComponentException: There is no 'Rigidbody' attached to the "keluosi2(Clone)" game object, but a script is trying to access it.
+You probably need to add a Rigidbody to the game object "keluosi2(Clone)". Or your script needs to check if the component is attached before using it.
+Mirror.NetworkRigidbodyReliable.OnStopClient () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:50)
+Mirror.NetworkIdentity.OnStopClient () (at Assets/Mirror/Core/NetworkIdentity.cs:781)
+UnityEngine.Debug:LogException(Exception, Object)
+Mirror.NetworkIdentity:OnStopClient() (at Assets/Mirror/Core/NetworkIdentity.cs:785)
+Mirror.NetworkServer:UnSpawnInternal(GameObject, Boolean) (at Assets/Mirror/Core/NetworkServer.cs:1729)
+Mirror.NetworkServer:UnSpawn(GameObject) (at Assets/Mirror/Core/NetworkServer.cs:1759)
+UnitPoolManager:ReturnNetworkUnit(GameObject, GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:128)
+SoldierController:Die() (at Assets/Scripts/Units/SoldierController.cs:905)
+SoldierController:TakeDamage(Single) (at Assets/Scripts/Units/SoldierController.cs:713)
+SoldierController:Attack() (at Assets/Scripts/Units/SoldierController.cs:544)
+SoldierController:Update() (at Assets/Scripts/Units/SoldierController.cs:315)
+
+[21:19:34.557] [Exception] MissingComponentException: There is no 'Rigidbody' attached to the "keluosi2(Clone)" game object, but a script is trying to access it.
+You probably need to add a Rigidbody to the game object "keluosi2(Clone)". Or your script needs to check if the component is attached before using it.
+Mirror.NetworkRigidbodyReliable.OnStopServer () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:49)
+Mirror.NetworkIdentity.OnStopServer () (at Assets/Mirror/Core/NetworkIdentity.cs:731)
+UnityEngine.Debug:LogException(Exception, Object)
+Mirror.NetworkIdentity:OnStopServer() (at Assets/Mirror/Core/NetworkIdentity.cs:735)
+Mirror.NetworkServer:UnSpawnInternal(GameObject, Boolean) (at Assets/Mirror/Core/NetworkServer.cs:1742)
+Mirror.NetworkServer:UnSpawn(GameObject) (at Assets/Mirror/Core/NetworkServer.cs:1759)
+UnitPoolManager:ReturnNetworkUnit(GameObject, GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:128)
+SoldierController:Die() (at Assets/Scripts/Units/SoldierController.cs:905)
+SoldierController:TakeDamage(Single) (at Assets/Scripts/Units/SoldierController.cs:713)
+SoldierController:Attack() (at Assets/Scripts/Units/SoldierController.cs:544)
+SoldierController:Update() (at Assets/Scripts/Units/SoldierController.cs:315)
+
+[21:19:34.559] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:34.560] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:34.561] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:34.561] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:34.561] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:34.561] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:34.562] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:34.562] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:34.562] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:34.579] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:19:34.580] [Log] 士兵 退出战斗状态，切换模型
+[21:19:34.580] [Log] 士兵 锁定目标: amiya(Clone)
+[21:19:34.580] [Log] 士兵 调用技能模型: onSkillF
+[21:19:34.629] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:19:34.629] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:35.015] [Log] OnAttack
+[21:19:35.015] [Log] 正面
+[21:19:35.031] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:35.032] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:35.033] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:35.033] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:35.033] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:35.035] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:35.035] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:35.035] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:35.035] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:35.121] [Log] OnAttack
+[21:19:35.121] [Log] 正面
+[21:19:35.136] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:35.136] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:35.137] [Log] OnAttack
+[21:19:35.137] [Log] 正面
+[21:19:35.151] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:35.151] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:36.361] [Log] OnAttack
+[21:19:36.362] [Log] 正面
+[21:19:36.376] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:36.378] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:36.379] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:36.379] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:36.379] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:36.379] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:36.381] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:36.381] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:36.381] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:36.399] [Log] OnAttack
+[21:19:36.399] [Log] 正面
+[21:19:36.414] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:36.414] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:36.467] [Log] OnAttack
+[21:19:36.468] [Log] 正面
+[21:19:36.482] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:36.482] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:37.005] [Log] UIManager: Toggle 0 开始拖拽
+[21:19:37.024] [Log] UIManager: Toggle 0 拖拽距离: 15.09422
+[21:19:37.041] [Log] UIManager: Toggle 0 拖拽距离: 36.43795
+[21:19:37.064] [Log] UIManager: Toggle 0 拖拽距离: 85.35117
+[21:19:37.083] [Log] UIManager: Toggle 0 拖拽距离: 137.2143
+[21:19:37.083] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[21:19:37.083] [Log] UIManager: Toggle 0 兵种索引: 6
+[21:19:37.083] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[21:19:37.084] [Log] 开始放置
+[21:19:37.084] [Log] UIManager: Toggle 0 调用了放置逻辑
+[21:19:37.084] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[21:19:37.126] [Log] 战斗正面模型缩放:1.3
+[21:19:37.127] [Log] 战斗背面模型缩放:1.3
+[21:19:37.127] [Log] 基建模型缩放:1.3
+[21:19:37.524] [Log] UIManager: Toggle 0 结束拖拽
+[21:19:37.529] [Log] [放置] 玩家1 当前拥有5.332921费用, 需要3
+[21:19:37.529] [Log] [放置验证] MapManager存在, nearestTile=Cube (175), 请求位置=(13.00, 0.00, 9.00)
+[21:19:37.529] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 2.3
+[21:19:37.529] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[21:19:37.531] [Log] OnUnitPlaced 被调用: unitIndex=6, positionIndex=0, soldier=True, netId=24
+[21:19:37.531] [Log] 卡牌 6 已放入队列
+[21:19:37.531] [Log] 从队列取出卡牌 7
+[21:19:37.531] [Log] 位置 0 的卡牌已替换为索引 7 的卡牌
+[21:19:37.532] [Log] 为兵种 6 创建了技能按钮，士兵: yinhui(Clone)
+[21:19:37.532] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[21:19:37.532] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[21:19:37.532] [Error] 士兵 缺少Rigidbody组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:125)
+
+[21:19:37.532] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:19:37.532] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:19:37.533] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:19:37.533] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:19:37.533] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:19:37.533] [Log] 血条对象层级检查：
+[21:19:37.533] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:19:37.533] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:19:37.533] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:19:37.533] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:19:37.533] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:19:37.533] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:19:37.534] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:19:37.534] [Log] 战斗正面模型缩放:1.3
+[21:19:37.534] [Log] 战斗背面模型缩放:1.3
+[21:19:37.534] [Log] 基建模型缩放:1.3
+[21:19:37.548] [Log] HealthBar Canvas Configuration:
+[21:19:37.548] [Log]   Render Mode: WorldSpace
+[21:19:37.548] [Log]   Sorting Order: 100
+[21:19:37.548] [Log]   Sorting Layer: Default
+[21:19:37.548] [Log]   World Camera: None
+[21:19:37.548] [Log]   Plane Distance: 100
+[21:19:37.548] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:19:37.655] [Log] OnAttack
+[21:19:37.655] [Log] 正面
+[21:19:37.671] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:37.671] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:37.688] [Log] OnAttack
+[21:19:37.689] [Log] 正面
+[21:19:37.707] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:37.708] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:37.709] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:37.709] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:37.709] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:37.710] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:37.710] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:37.710] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:37.710] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:37.803] [Log] OnAttack
+[21:19:37.804] [Log] 正面
+[21:19:37.819] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:37.819] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:38.931] [Log] OnAttack
+[21:19:38.931] [Log] 正面
+[21:19:38.949] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:38.949] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:38.964] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:19:38.966] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:39.012] [Log] OnAttack
+[21:19:39.013] [Log] 正面
+[21:19:39.027] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:39.028] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:39.028] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:39.028] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:39.028] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:39.028] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:39.029] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:39.029] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:19:39.029] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:39.135] [Log] OnAttack
+[21:19:39.135] [Log] 正面
+[21:19:39.149] [Log] 士兵 死亡
+[21:19:39.149] [Exception] MissingComponentException: There is no 'Rigidbody' attached to the "yinhui(Clone)" game object, but a script is trying to access it.
+You probably need to add a Rigidbody to the game object "yinhui(Clone)". Or your script needs to check if the component is attached before using it.
+Mirror.NetworkRigidbodyReliable.OnStopClient () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:50)
+Mirror.NetworkIdentity.OnStopClient () (at Assets/Mirror/Core/NetworkIdentity.cs:781)
+UnityEngine.Debug:LogException(Exception, Object)
+Mirror.NetworkIdentity:OnStopClient() (at Assets/Mirror/Core/NetworkIdentity.cs:785)
+Mirror.NetworkServer:UnSpawnInternal(GameObject, Boolean) (at Assets/Mirror/Core/NetworkServer.cs:1729)
+Mirror.NetworkServer:UnSpawn(GameObject) (at Assets/Mirror/Core/NetworkServer.cs:1759)
+UnitPoolManager:ReturnNetworkUnit(GameObject, GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:128)
+SoldierController:Die() (at Assets/Scripts/Units/SoldierController.cs:905)
+SoldierController:TakeDamage(Single) (at Assets/Scripts/Units/SoldierController.cs:713)
+SoldierController:Attack() (at Assets/Scripts/Units/SoldierController.cs:544)
+SoldierController:Update() (at Assets/Scripts/Units/SoldierController.cs:315)
+
+[21:19:39.150] [Exception] MissingComponentException: There is no 'Rigidbody' attached to the "yinhui(Clone)" game object, but a script is trying to access it.
+You probably need to add a Rigidbody to the game object "yinhui(Clone)". Or your script needs to check if the component is attached before using it.
+Mirror.NetworkRigidbodyReliable.OnStopServer () (at Assets/Mirror/Components/NetworkRigidbody/NetworkRigidbodyReliable.cs:49)
+Mirror.NetworkIdentity.OnStopServer () (at Assets/Mirror/Core/NetworkIdentity.cs:731)
+UnityEngine.Debug:LogException(Exception, Object)
+Mirror.NetworkIdentity:OnStopServer() (at Assets/Mirror/Core/NetworkIdentity.cs:735)
+Mirror.NetworkServer:UnSpawnInternal(GameObject, Boolean) (at Assets/Mirror/Core/NetworkServer.cs:1742)
+Mirror.NetworkServer:UnSpawn(GameObject) (at Assets/Mirror/Core/NetworkServer.cs:1759)
+UnitPoolManager:ReturnNetworkUnit(GameObject, GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:128)
+SoldierController:Die() (at Assets/Scripts/Units/SoldierController.cs:905)
+SoldierController:TakeDamage(Single) (at Assets/Scripts/Units/SoldierController.cs:713)
+SoldierController:Attack() (at Assets/Scripts/Units/SoldierController.cs:544)
+SoldierController:Update() (at Assets/Scripts/Units/SoldierController.cs:315)
+
+[21:19:39.150] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:39.150] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:39.150] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:19:39.150] [Log] 士兵 退出战斗状态，切换模型
+[21:19:39.167] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:19:39.169] [Log] 士兵 退出战斗状态，切换模型
+[21:19:39.169] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:19:39.169] [Log] 士兵 退出战斗状态，切换模型
+[21:19:39.188] [Log] UIManager: Toggle 0 开始拖拽
+[21:19:39.253] [Log] UIManager: Toggle 0 拖拽距离: 19.91845
+[21:19:39.272] [Log] UIManager: Toggle 0 拖拽距离: 35.89483
+[21:19:39.291] [Log] UIManager: Toggle 0 拖拽距离: 61.72792
+[21:19:39.309] [Log] UIManager: Toggle 0 拖拽距离: 97.19704
+[21:19:39.326] [Log] UIManager: Toggle 0 拖拽距离: 141.7416
+[21:19:39.328] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[21:19:39.328] [Log] UIManager: Toggle 0 兵种索引: 7
+[21:19:39.328] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[21:19:39.328] [Log] 开始放置
+[21:19:39.328] [Log] UIManager: Toggle 0 调用了放置逻辑
+[21:19:39.328] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[21:19:39.354] [Log] 战斗正面模型缩放:1.3
+[21:19:39.354] [Log] 战斗背面模型缩放:1.3
+[21:19:39.354] [Log] 基建模型缩放:1.3
+[21:19:39.846] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:19:39.846] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:39.932] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[21:19:39.932] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:40.060] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[21:19:40.060] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:40.251] [Log] UIManager: Toggle 0 结束拖拽
+[21:19:40.256] [Log] [放置] 玩家1 当前拥有4.483387费用, 需要3
+[21:19:40.256] [Log] [放置验证] MapManager存在, nearestTile=Cube (158), 请求位置=(14.00, 0.00, 8.00)
+[21:19:40.257] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 1.5
+[21:19:40.257] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[21:19:40.257] [Log] OnUnitPlaced 被调用: unitIndex=7, positionIndex=0, soldier=True, netId=27
+[21:19:40.258] [Log] 卡牌 7 已放入队列
+[21:19:40.258] [Log] 从队列取出卡牌 3
+[21:19:40.258] [Log] 位置 0 的卡牌已替换为索引 3 的卡牌
+[21:19:40.259] [Log] 为兵种 7 创建了技能按钮，士兵: yinhui(Clone)
+[21:19:40.259] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[21:19:40.259] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[21:19:40.440] [Log] OnAttack
+[21:19:40.441] [Log] 正面
+[21:19:40.458] [Warning] Setting linear velocity of a kinematic body is not supported.
+[21:19:40.459] [Log] 士兵 死亡
+[21:19:40.459] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:40.461] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:40.477] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:19:40.477] [Log] 士兵 退出战斗状态，切换模型
+[21:19:40.477] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:19:40.477] [Log] 士兵 退出战斗状态，切换模型
+[21:19:41.581] [Log] 士兵 锁定目标: AnemyGuowangta
+[21:19:41.581] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:41.858] [Log] 士兵 锁定目标: AnemyGuowangta
+[21:19:41.858] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:42.089] [Log] OnAttack
+[21:19:42.090] [Log] 正面
+[21:19:42.107] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:42.107] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:42.373] [Log] OnAttack
+[21:19:42.373] [Log] 正面
+[21:19:42.389] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:42.389] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:42.513] [Log] 士兵 锁定目标: AnemyGuowangta
+[21:19:42.513] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:43.083] [Log] OnAttack
+[21:19:43.083] [Log] 正面
+[21:19:43.100] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:43.100] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:43.296] [Log] 士兵 锁定目标: AnemyGuowangta
+[21:19:43.296] [Log] 士兵 调用攻击模型: onAttackF
+[21:19:43.417] [Log] OnAttack
+[21:19:43.417] [Log] 正面
+[21:19:43.434] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:43.434] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:43.703] [Log] OnAttack
+[21:19:43.703] [Log] 正面
+[21:19:43.722] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:43.724] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:43.813] [Log] OnAttack
+[21:19:43.813] [Log] 正面
+[21:19:43.835] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:43.836] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:19:44.020] [Log] [MyNetworkRoomManager] 客户端 1883317265 断开连接
+[21:19:44.347] [Log] OnAttack
+[21:19:44.347] [Log] 正面
+[21:19:44.367] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:19:44.367] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+==========================================
+游戏日志结束 - 2026/3/10 21:19:44
+==========================================

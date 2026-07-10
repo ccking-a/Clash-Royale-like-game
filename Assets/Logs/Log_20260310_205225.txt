@@ -1,0 +1,916 @@
+==========================================
+游戏日志开始 - 2026/3/10 20:52:25
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[20:52:25.515] [Log] === 客户端预制体列表诊断 (启动时) ===
+[20:52:25.515] [Log] 客户端 SpawnPrefabs 数量: 13
+[20:52:25.515] [Log]   [0] amiya -> AssetId: 1054292600
+[20:52:25.515] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[20:52:25.515] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[20:52:25.515] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[20:52:25.515] [Log]   [4] chen -> AssetId: 1033753810
+[20:52:25.515] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[20:52:25.515] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[20:52:25.515] [Log]   [7] Guowangta -> AssetId: 500381289
+[20:52:25.515] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[20:52:25.515] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[20:52:25.515] [Log]   [10] yinhui -> AssetId: 2171254035
+[20:52:25.515] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[20:52:25.515] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[20:52:28.356] [Log] Attempting to save Assets/Logs/Log_20260310_205225.txt.meta are blocked.
+[20:52:32.939] [Warning] Import Error Code:(4)
+Message: Build asset version error: assets/logs/log_20260310_205225.txt in SourceAssetDB has modification time of '2026-03-10T12:52:26.8023198Z' while content on disk has modification time of '2026-03-10T12:52:29.3171409Z'
+
+[20:52:35.279] [Log] 返回主菜单
+[20:52:40.793] [Log] === 客户端启动序列开始 ===
+[20:52:40.793] [Log] 原始输入: '127.0.0.1'
+[20:52:40.793] [Log] 将尝试连接到: 127.0.0.1
+[20:52:40.807] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[20:52:40.808] [Error] client启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartClientAfterSceneLoad>d__18:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:201)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnClientButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:179)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[20:52:40.808] [Log] StartClient() 调用完成。
+[20:52:41.547] [Log] Client spawn handler instantiating [netId1 asset ID:4019188151 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:52:41.556] [Log] Client spawn handler instantiating [netId2 asset ID:4019188151 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:52:41.566] [Log] 战斗正面模型缩放:1
+[20:52:41.566] [Log] 战斗背面模型缩放:1
+[20:52:41.566] [Log] 基建模型缩放:1
+[20:52:41.567] [Log] 战斗正面模型缩放:1
+[20:52:41.567] [Log] 战斗背面模型缩放:1
+[20:52:41.567] [Log] 基建模型缩放:1
+[20:52:45.626] [Log] 已设置 29 个地面瓦片
+[20:52:45.626] [Log] 已设置 9 个地面瓦片
+[20:52:45.634] [Log] 已设置 253 个地面瓦片
+[20:52:45.643] [Log] 已设置 253 个地面瓦片
+[20:52:45.932] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[20:52:45.976] [Log] 收集到 540 个地砖
+[20:52:45.977] [Log] 所有瓦片的网格坐标初始化完成
+[20:52:45.978] [Log] 识别到 8 个桥梁位置
+[20:52:45.978] [Log] [MapManager] 初始化完成, 共 540 个地砖, 其中 0 个高台
+[20:52:46.961] [Log] Client spawn handler instantiating [netId9 asset ID:3836895760 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:52:46.963] [Log] Client spawn handler instantiating [netId10 asset ID:3836895760 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:52:46.964] [Log] Client spawn handler instantiating [netId11 asset ID:1244671540 pos:(364.89, 639.43, 2.78) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:52:46.969] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:52:46.969] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:52:46.969] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:52:46.974] [Log] 血条对象层级检查：
+[20:52:46.974] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:52:46.974] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:52:46.974] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:52:46.975] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:52:46.975] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:52:46.975] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:52:46.976] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:52:46.976] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:52:46.977] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:52:46.977] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:52:46.977] [Log] 血条对象层级检查：
+[20:52:46.977] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:52:46.979] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:52:46.979] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:52:46.979] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:52:46.979] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:52:46.979] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:52:46.980] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:52:46.980] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:52:46.980] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:52:46.980] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:52:46.981] [Log] 血条对象层级检查：
+[20:52:46.981] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:52:46.981] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:52:46.981] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:52:46.982] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:52:46.982] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:52:46.982] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:52:46.982] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:52:46.983] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:52:46.983] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:52:46.983] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:52:46.983] [Log] 血条对象层级检查：
+[20:52:46.985] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:52:46.985] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:52:46.985] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:52:46.985] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:52:46.986] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:52:46.986] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:52:46.986] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:52:46.987] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:52:46.987] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:52:46.987] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:52:46.988] [Log] 血条对象层级检查：
+[20:52:46.988] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:52:46.988] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:52:46.988] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:52:46.988] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:52:46.990] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:52:46.990] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:52:46.990] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:52:46.990] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:52:46.990] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:52:46.992] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:52:46.992] [Log] 血条对象层级检查：
+[20:52:46.992] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:52:46.992] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:52:46.992] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:52:46.993] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:52:46.993] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:52:46.993] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:52:46.993] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:52:46.995] [Log] 玩家 9 阵营: TeamA
+[20:52:46.995] [Log] [PlayerElixir] OnStartClient: netId=9, isLocalPlayer=False, playerIndex=0
+[20:52:46.995] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[20:52:46.998] [Log] [PlayerElixir] ★ playerIndex 同步: 0 → 1, isLocalPlayer=True
+[20:52:46.999] [Log] [PlayerElixir] 玩家2摄像头已设置: pos.z=30, rot.y=180
+[20:52:47.000] [Log] [PlayerElixir] 玩家2: groundLayer改为enemycubes, 最终mask=64
+[20:52:47.000] [Log] 玩家 10 阵营: TeamB
+[20:52:47.000] [Log] [PlayerElixir] OnStartClient: netId=10, isLocalPlayer=True, playerIndex=1
+[20:52:47.000] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[20:52:47.002] [Log] [PlayerElixir] ★ 本地玩家启动, netId=10, playerIndex=1
+[20:52:47.002] [Log] [PlayerElixir] 玩家2摄像头已设置: pos.z=30, rot.y=180
+[20:52:47.002] [Log] [PlayerElixir] 玩家2: groundLayer改为enemycubes, 最终mask=64
+[20:52:47.002] [Log] 本地costcontroler初始化: netId=10, isLocalPlayer=True
+[20:52:47.007] [Log] 士兵 未找到Role脚本
+[20:52:47.008] [Log] HealthBar Canvas Configuration:
+[20:52:47.008] [Log]   Render Mode: WorldSpace
+[20:52:47.008] [Log]   Sorting Order: 100
+[20:52:47.008] [Log]   Sorting Layer: Default
+[20:52:47.008] [Log]   World Camera: None
+[20:52:47.008] [Log]   Plane Distance: 100
+[20:52:47.008] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:52:47.010] [Log] 士兵 未找到Role脚本
+[20:52:47.010] [Log] HealthBar Canvas Configuration:
+[20:52:47.010] [Log]   Render Mode: WorldSpace
+[20:52:47.010] [Log]   Sorting Order: 100
+[20:52:47.010] [Log]   Sorting Layer: Default
+[20:52:47.010] [Log]   World Camera: None
+[20:52:47.010] [Log]   Plane Distance: 100
+[20:52:47.010] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:52:47.010] [Log] 士兵 未找到Role脚本
+[20:52:47.010] [Log] HealthBar Canvas Configuration:
+[20:52:47.010] [Log]   Render Mode: WorldSpace
+[20:52:47.010] [Log]   Sorting Order: 100
+[20:52:47.010] [Log]   Sorting Layer: Default
+[20:52:47.010] [Log]   World Camera: None
+[20:52:47.010] [Log]   Plane Distance: 100
+[20:52:47.010] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:52:47.010] [Log] 士兵 未找到Role脚本
+[20:52:47.011] [Log] HealthBar Canvas Configuration:
+[20:52:47.011] [Log]   Render Mode: WorldSpace
+[20:52:47.011] [Log]   Sorting Order: 100
+[20:52:47.011] [Log]   Sorting Layer: Default
+[20:52:47.011] [Log]   World Camera: None
+[20:52:47.011] [Log]   Plane Distance: 100
+[20:52:47.011] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:52:47.011] [Log] 士兵 未找到Role脚本
+[20:52:47.011] [Log] HealthBar Canvas Configuration:
+[20:52:47.011] [Log]   Render Mode: WorldSpace
+[20:52:47.011] [Log]   Sorting Order: 100
+[20:52:47.011] [Log]   Sorting Layer: Default
+[20:52:47.011] [Log]   World Camera: None
+[20:52:47.011] [Log]   Plane Distance: 100
+[20:52:47.011] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:52:47.011] [Log] 士兵 未找到Role脚本
+[20:52:47.011] [Log] HealthBar Canvas Configuration:
+[20:52:47.011] [Log]   Render Mode: WorldSpace
+[20:52:47.011] [Log]   Sorting Order: 100
+[20:52:47.011] [Log]   Sorting Layer: Default
+[20:52:47.011] [Log]   World Camera: None
+[20:52:47.011] [Log]   Plane Distance: 100
+[20:52:47.011] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:52:47.039] [Log] 播放倒计时音乐
+[20:52:49.962] [Log] 播放游戏开始音乐
+[20:52:49.963] [Log] 游戏开始，播放第二首音乐
+[20:52:49.965] [Log] 绑定了 4 个Toggle组件
+[20:52:49.966] [Log] 绑定了 4 个Image组件
+[20:52:49.966] [Log] 绑定了 4 个Text组件
+[20:52:49.967] [Log] 绑定了ToggleGroup组件
+[20:52:49.967] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[20:52:49.967] [Log] 绑定了SkillPosition组件
+[20:52:49.968] [Log] [UIManager] 使用玩家选择的 8 个干员
+[20:52:49.969] [Log] 游戏开始！
+[20:52:51.772] [Log] UIManager: Toggle 0 开始拖拽
+[20:52:51.809] [Log] UIManager: Toggle 0 拖拽距离: 12.53082
+[20:52:51.827] [Log] UIManager: Toggle 0 拖拽距离: 41.76938
+[20:52:51.846] [Log] UIManager: Toggle 0 拖拽距离: 89.10806
+[20:52:51.866] [Log] UIManager: Toggle 0 拖拽距离: 152.0748
+[20:52:51.866] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[20:52:51.867] [Log] UIManager: Toggle 0 兵种索引: 0
+[20:52:51.868] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[20:52:51.964] [Log] 开始放置
+[20:52:51.965] [Log] UIManager: Toggle 0 调用了放置逻辑
+[20:52:51.967] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[20:52:51.995] [Log] 战斗正面模型缩放:1.3
+[20:52:51.995] [Log] 战斗背面模型缩放:1.3
+[20:52:51.995] [Log] 基建模型缩放:1.3
+[20:52:52.395] [Log] UIManager: Toggle 0 结束拖拽
+[20:52:52.464] [Log] Client spawn handler instantiating [netId12 asset ID:2171254035 pos:(12.00, 0.16, 25.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:52:52.468] [Error] OnDeserialize failed Exception=System.IO.EndOfStreamException (see below) object=yinhui(Clone) component=Mirror.NetworkTransformReliable netId=12. Possible Reasons:
+  * Do Mirror.NetworkTransformReliable's OnSerialize and OnDeserialize calls write the same amount of data? 
+  * Was there an exception in Mirror.NetworkTransformReliable's OnSerialize/OnDeserialize code?
+  * Are the server and client the exact same project?
+  * Maybe this OnDeserialize call was meant for another GameObject? The sceneIds can easily get out of sync if the Hierarchy was modified only in the client OR the server. Try rebuilding both.
+
+Exception System.IO.EndOfStreamException: ReadBlittable<System.UInt32> not enough data in buffer to read 4 bytes: [03-28-02-00-00-00-40-00-00-C8-42-00-00-C8-42-00-00-20-41-00-00-00-00-00-00-00-00-00-00-C0-3F-00-00-80-3F-01-01-01-00-00-00-02-0C-00-00-40-41-42-57-23-3E-00-00-C8-41 @ 55/55]
+  at Mirror.NetworkReader.ReadBlittable[T] () [0x0009c] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkReader.cs:172 
+  at Mirror.NetworkReaderExtensions.ReadUInt (Mirror.NetworkReader reader) [0x00000] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkReaderExtensions.cs:39 
+  at Mirror.NetworkTransformReliable.OnDeserialize (Mirror.NetworkReader reader, System.Boolean initialState) [0x00040] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Components\NetworkTransform\NetworkTransformReliable.cs:283 
+  at Mirror.NetworkBehaviour.Deserialize (Mirror.NetworkReader reader, System.Boolean initialState) [0x00010] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkBehaviour.cs:1314 
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkBehaviour:Deserialize (Mirror.NetworkReader,bool) (at Assets/Mirror/Core/NetworkBehaviour.cs:1319)
+Mirror.NetworkIdentity:DeserializeClient (Mirror.NetworkReader,bool) (at Assets/Mirror/Core/NetworkIdentity.cs:1128)
+Mirror.NetworkClient:ApplySpawnPayload (Mirror.NetworkIdentity,Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:1151)
+Mirror.NetworkClient:OnSpawn (Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:1451)
+Mirror.NetworkClient/<>c__DisplayClass61_0`1<Mirror.SpawnMessage>:<RegisterHandler>g__HandlerWrapped|0 (Mirror.NetworkConnection,Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.NetworkMessages/<>c__DisplayClass9_0`2<Mirror.SpawnMessage, Mirror.NetworkConnection>:<WrapHandler>g__Wrapped|0 (Mirror.NetworkConnection,Mirror.SpawnMessage,int) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.SpawnMessage, Mirror.NetworkConnection>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke (Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2 (System.ArraySegment`1<byte>,kcp2k.KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData (System.ArraySegment`1<byte>,kcp2k.KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated (uint) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[20:52:52.469] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[20:52:52.470] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[20:52:52.470] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[20:52:52.470] [Log] 血条对象层级检查：
+[20:52:52.472] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[20:52:52.472] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[20:52:52.472] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:52:52.472] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:52:52.472] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:52:52.473] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[20:52:52.473] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:52:52.475] [Log] OnUnitPlaced 被调用: unitIndex=0, positionIndex=0, soldier=True, netId=12
+[20:52:52.475] [Log] 卡牌 0 已放入队列
+[20:52:52.475] [Log] 从队列取出卡牌 4
+[20:52:52.476] [Log] 位置 0 的卡牌已替换为索引 4 的卡牌
+[20:52:52.479] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[20:52:52.480] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[20:52:52.481] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[20:52:52.482] [Log] 为 士兵 找到了Role脚本（子对象）
+[20:52:52.483] [Log] 战斗正面模型缩放:1.3
+[20:52:52.483] [Log] 战斗背面模型缩放:1.3
+[20:52:52.483] [Log] 基建模型缩放:1.3
+[20:52:52.483] [Log] HealthBar Canvas Configuration:
+[20:52:52.483] [Log]   Render Mode: WorldSpace
+[20:52:52.483] [Log]   Sorting Order: 100
+[20:52:52.483] [Log]   Sorting Layer: Default
+[20:52:52.483] [Log]   World Camera: None
+[20:52:52.483] [Log]   Plane Distance: 100
+[20:52:52.483] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:52:58.794] [Log] UIManager: Toggle 3 开始拖拽
+[20:52:58.845] [Log] UIManager: Toggle 3 结束拖拽
+[20:52:58.847] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[20:52:58.847] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[20:52:58.979] [Log] 战斗正面模型缩放:1.3
+[20:52:58.980] [Log] 战斗背面模型缩放:1.3
+[20:52:58.980] [Log] 基建模型缩放:1.3
+[20:52:59.502] [Log] Client spawn handler instantiating [netId13 asset ID:3807422114 pos:(7.00, 0.07, 21.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:52:59.504] [Error] OnDeserialize failed Exception=System.IO.EndOfStreamException (see below) object=keluosi2(Clone) component=Mirror.NetworkTransformReliable netId=13. Possible Reasons:
+  * Do Mirror.NetworkTransformReliable's OnSerialize and OnDeserialize calls write the same amount of data? 
+  * Was there an exception in Mirror.NetworkTransformReliable's OnSerialize/OnDeserialize code?
+  * Are the server and client the exact same project?
+  * Maybe this OnDeserialize call was meant for another GameObject? The sceneIds can easily get out of sync if the Hierarchy was modified only in the client OR the server. Try rebuilding both.
+
+Exception System.IO.EndOfStreamException: ReadBlittable<System.UInt32> not enough data in buffer to read 4 bytes: [03-28-02-00-00-40-40-00-00-70-42-00-00-70-42-00-00-20-41-00-00-00-00-00-00-00-00-00-00-C0-40-00-00-80-3F-01-01-01-00-00-00-02-0C-00-00-E0-40-54-81-94-3D-00-00-A8-41 @ 55/55]
+  at Mirror.NetworkReader.ReadBlittable[T] () [0x0009c] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkReader.cs:172 
+  at Mirror.NetworkReaderExtensions.ReadUInt (Mirror.NetworkReader reader) [0x00000] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkReaderExtensions.cs:39 
+  at Mirror.NetworkTransformReliable.OnDeserialize (Mirror.NetworkReader reader, System.Boolean initialState) [0x00040] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Components\NetworkTransform\NetworkTransformReliable.cs:283 
+  at Mirror.NetworkBehaviour.Deserialize (Mirror.NetworkReader reader, System.Boolean initialState) [0x00010] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkBehaviour.cs:1314 
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkBehaviour:Deserialize (Mirror.NetworkReader,bool) (at Assets/Mirror/Core/NetworkBehaviour.cs:1319)
+Mirror.NetworkIdentity:DeserializeClient (Mirror.NetworkReader,bool) (at Assets/Mirror/Core/NetworkIdentity.cs:1128)
+Mirror.NetworkClient:ApplySpawnPayload (Mirror.NetworkIdentity,Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:1151)
+Mirror.NetworkClient:OnSpawn (Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:1451)
+Mirror.NetworkClient/<>c__DisplayClass61_0`1<Mirror.SpawnMessage>:<RegisterHandler>g__HandlerWrapped|0 (Mirror.NetworkConnection,Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.NetworkMessages/<>c__DisplayClass9_0`2<Mirror.SpawnMessage, Mirror.NetworkConnection>:<WrapHandler>g__Wrapped|0 (Mirror.NetworkConnection,Mirror.SpawnMessage,int) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.SpawnMessage, Mirror.NetworkConnection>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke (Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2 (System.ArraySegment`1<byte>,kcp2k.KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData (System.ArraySegment`1<byte>,kcp2k.KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated (uint) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[20:52:59.504] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[20:52:59.504] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[20:52:59.505] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[20:52:59.505] [Log] 血条对象层级检查：
+[20:52:59.505] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[20:52:59.506] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[20:52:59.506] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:52:59.506] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:52:59.506] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:52:59.506] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[20:52:59.506] [Log] 为 士兵 创建了血条，当前生命值: 60/60
+[20:52:59.507] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=3, soldier=True, netId=13
+[20:52:59.508] [Log] 卡牌 3 已放入队列
+[20:52:59.508] [Log] 从队列取出卡牌 5
+[20:52:59.508] [Log] 位置 3 的卡牌已替换为索引 5 的卡牌
+[20:52:59.509] [Log] 为兵种 3 创建了技能按钮，士兵: keluosi2(Clone)
+[20:52:59.509] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[20:52:59.509] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[20:52:59.511] [Log] 为 士兵 找到了Role脚本（子对象）
+[20:52:59.512] [Log] 战斗正面模型缩放:1.3
+[20:52:59.512] [Log] 战斗背面模型缩放:1.3
+[20:52:59.512] [Log] 基建模型缩放:1.3
+[20:52:59.512] [Log] HealthBar Canvas Configuration:
+[20:52:59.512] [Log]   Render Mode: WorldSpace
+[20:52:59.512] [Log]   Sorting Order: 100
+[20:52:59.512] [Log]   Sorting Layer: Default
+[20:52:59.512] [Log]   World Camera: None
+[20:52:59.512] [Log]   Plane Distance: 100
+[20:52:59.512] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:53:01.699] [Log] OnAttack
+[20:53:01.699] [Log] 正面
+[20:53:03.033] [Log] OnAttack
+[20:53:03.035] [Log] 正面
+[20:53:03.218] [Log] OnAttack
+[20:53:03.218] [Log] 正面
+[20:53:04.169] [Log] Client spawn handler instantiating [netId14 asset ID:3807422114 pos:(9.00, 0.06, 6.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:53:04.170] [Error] OnDeserialize failed Exception=System.IO.EndOfStreamException (see below) object=keluosi2(Clone) component=Mirror.NetworkTransformReliable netId=14. Possible Reasons:
+  * Do Mirror.NetworkTransformReliable's OnSerialize and OnDeserialize calls write the same amount of data? 
+  * Was there an exception in Mirror.NetworkTransformReliable's OnSerialize/OnDeserialize code?
+  * Are the server and client the exact same project?
+  * Maybe this OnDeserialize call was meant for another GameObject? The sceneIds can easily get out of sync if the Hierarchy was modified only in the client OR the server. Try rebuilding both.
+
+Exception System.IO.EndOfStreamException: ReadBlittable<System.UInt32> not enough data in buffer to read 4 bytes: [03-28-00-00-00-40-40-00-00-70-42-00-00-70-42-00-00-20-41-00-00-00-00-00-00-00-00-00-00-C0-40-00-00-80-3F-01-01-01-00-00-00-02-0C-00-00-10-41-B2-E5-84-3D-00-00-C0-40 @ 55/55]
+  at Mirror.NetworkReader.ReadBlittable[T] () [0x0009c] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkReader.cs:172 
+  at Mirror.NetworkReaderExtensions.ReadUInt (Mirror.NetworkReader reader) [0x00000] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkReaderExtensions.cs:39 
+  at Mirror.NetworkTransformReliable.OnDeserialize (Mirror.NetworkReader reader, System.Boolean initialState) [0x00040] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Components\NetworkTransform\NetworkTransformReliable.cs:283 
+  at Mirror.NetworkBehaviour.Deserialize (Mirror.NetworkReader reader, System.Boolean initialState) [0x00010] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkBehaviour.cs:1314 
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkBehaviour:Deserialize (Mirror.NetworkReader,bool) (at Assets/Mirror/Core/NetworkBehaviour.cs:1319)
+Mirror.NetworkIdentity:DeserializeClient (Mirror.NetworkReader,bool) (at Assets/Mirror/Core/NetworkIdentity.cs:1128)
+Mirror.NetworkClient:ApplySpawnPayload (Mirror.NetworkIdentity,Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:1151)
+Mirror.NetworkClient:OnSpawn (Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:1451)
+Mirror.NetworkClient/<>c__DisplayClass61_0`1<Mirror.SpawnMessage>:<RegisterHandler>g__HandlerWrapped|0 (Mirror.NetworkConnection,Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.NetworkMessages/<>c__DisplayClass9_0`2<Mirror.SpawnMessage, Mirror.NetworkConnection>:<WrapHandler>g__Wrapped|0 (Mirror.NetworkConnection,Mirror.SpawnMessage,int) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.SpawnMessage, Mirror.NetworkConnection>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke (Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2 (System.ArraySegment`1<byte>,kcp2k.KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData (System.ArraySegment`1<byte>,kcp2k.KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated (uint) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[20:53:04.171] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[20:53:04.171] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[20:53:04.171] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[20:53:04.172] [Log] 血条对象层级检查：
+[20:53:04.172] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[20:53:04.172] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[20:53:04.172] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:53:04.172] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:53:04.173] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:53:04.173] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[20:53:04.173] [Log] 为 士兵 创建了血条，当前生命值: 60/60
+[20:53:04.175] [Log] 为 士兵 找到了Role脚本（子对象）
+[20:53:04.175] [Log] 战斗正面模型缩放:1.3
+[20:53:04.175] [Log] 战斗背面模型缩放:1.3
+[20:53:04.175] [Log] 基建模型缩放:1.3
+[20:53:04.176] [Log] HealthBar Canvas Configuration:
+[20:53:04.176] [Log]   Render Mode: WorldSpace
+[20:53:04.176] [Log]   Sorting Order: 100
+[20:53:04.176] [Log]   Sorting Layer: Default
+[20:53:04.176] [Log]   World Camera: None
+[20:53:04.176] [Log]   Plane Distance: 100
+[20:53:04.176] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:53:04.208] [Log] OnAttack
+[20:53:04.208] [Log] 正面
+[20:53:04.371] [Log] OnAttack
+[20:53:04.371] [Log] 正面
+[20:53:04.590] [Log] OnAttack
+[20:53:04.590] [Log] 正面
+[20:53:04.712] [Exception] ArgumentException: Animation not found: Skill
+Parameter name: animationName
+Spine.AnimationState.SetAnimation (System.Int32 trackIndex, System.String animationName, System.Boolean loop) (at D:/unityxiangmu/ArkNights/Assets/Character/Spine/Runtime/spine-csharp/AnimationState.cs:680)
+Role.onSkillF () (at Assets/Scripts/Units/Role.cs:422)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnSkillF() (at Assets/Scripts/Units/SoldierController.cs:1052)
+SoldierController:InvokeUserCode_RpcOnSkillF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[20:53:05.206] [Log] OnAttack
+[20:53:05.207] [Log] 正面
+[20:53:05.582] [Log] OnAttack
+[20:53:05.582] [Log] 正面
+[20:53:05.700] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:05.710] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:05.710] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:05.711] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:05.711] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:05.711] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:05.712] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:05.712] [Log] Client spawn handler instantiating [netId15 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, 0.58019, 0.00000, 0.81448)]
+[20:53:05.974] [Log] Client spawn handler instantiating [netId16 asset ID:1054292600 pos:(6.00, 0.09, 7.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:53:05.975] [Error] OnDeserialize failed Exception=System.IO.EndOfStreamException (see below) object=amiya(Clone) component=Mirror.NetworkTransformReliable netId=16. Possible Reasons:
+  * Do Mirror.NetworkTransformReliable's OnSerialize and OnDeserialize calls write the same amount of data? 
+  * Was there an exception in Mirror.NetworkTransformReliable's OnSerialize/OnDeserialize code?
+  * Are the server and client the exact same project?
+  * Maybe this OnDeserialize call was meant for another GameObject? The sceneIds can easily get out of sync if the Hierarchy was modified only in the client OR the server. Try rebuilding both.
+
+Exception System.IO.EndOfStreamException: ReadBlittable<System.UInt32> not enough data in buffer to read 4 bytes: [03-28-00-00-00-00-40-00-00-C8-42-00-00-C8-42-00-00-20-41-00-00-00-00-00-00-00-00-00-00-C0-3F-00-00-80-3F-01-01-01-00-00-00-02-0C-00-00-C0-40-28-91-BD-3D-00-00-E0-40 @ 55/55]
+  at Mirror.NetworkReader.ReadBlittable[T] () [0x0009c] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkReader.cs:172 
+  at Mirror.NetworkReaderExtensions.ReadUInt (Mirror.NetworkReader reader) [0x00000] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkReaderExtensions.cs:39 
+  at Mirror.NetworkTransformReliable.OnDeserialize (Mirror.NetworkReader reader, System.Boolean initialState) [0x00040] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Components\NetworkTransform\NetworkTransformReliable.cs:283 
+  at Mirror.NetworkBehaviour.Deserialize (Mirror.NetworkReader reader, System.Boolean initialState) [0x00010] in D:\unityxiangmu\ArkNights_clone_0\Assets\Mirror\Core\NetworkBehaviour.cs:1314 
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkBehaviour:Deserialize (Mirror.NetworkReader,bool) (at Assets/Mirror/Core/NetworkBehaviour.cs:1319)
+Mirror.NetworkIdentity:DeserializeClient (Mirror.NetworkReader,bool) (at Assets/Mirror/Core/NetworkIdentity.cs:1128)
+Mirror.NetworkClient:ApplySpawnPayload (Mirror.NetworkIdentity,Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:1151)
+Mirror.NetworkClient:OnSpawn (Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:1451)
+Mirror.NetworkClient/<>c__DisplayClass61_0`1<Mirror.SpawnMessage>:<RegisterHandler>g__HandlerWrapped|0 (Mirror.NetworkConnection,Mirror.SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.NetworkMessages/<>c__DisplayClass9_0`2<Mirror.SpawnMessage, Mirror.NetworkConnection>:<WrapHandler>g__Wrapped|0 (Mirror.NetworkConnection,Mirror.SpawnMessage,int) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.SpawnMessage, Mirror.NetworkConnection>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke (Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2 (System.ArraySegment`1<byte>,kcp2k.KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData (System.ArraySegment`1<byte>,kcp2k.KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated (uint) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[20:53:05.975] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[20:53:05.976] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[20:53:05.976] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[20:53:05.977] [Log] 血条对象层级检查：
+[20:53:05.977] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[20:53:05.978] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[20:53:05.978] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:53:05.978] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:53:05.978] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:53:05.978] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[20:53:05.978] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:53:05.979] [Log] 为 士兵 找到了Role脚本（子对象）
+[20:53:05.980] [Log] 战斗正面模型缩放:1.3
+[20:53:05.980] [Log] 战斗背面模型缩放:1.3
+[20:53:05.980] [Log] 基建模型缩放:1.3
+[20:53:05.980] [Log] HealthBar Canvas Configuration:
+[20:53:05.981] [Log]   Render Mode: WorldSpace
+[20:53:05.981] [Log]   Sorting Order: 100
+[20:53:05.981] [Log]   Sorting Layer: Default
+[20:53:05.981] [Log]   World Camera: None
+[20:53:05.981] [Log]   Plane Distance: 100
+[20:53:05.981] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:53:05.981] [Log] OnAttack
+[20:53:05.981] [Log] 正面
+[20:53:06.222] [Log] OnAttack
+[20:53:06.223] [Log] 正面
+[20:53:06.582] [Log] OnAttack
+[20:53:06.582] [Log] 正面
+[20:53:06.600] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:06.601] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:06.601] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:06.601] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:06.601] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:06.603] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:06.603] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:06.604] [Log] Client spawn handler instantiating [netId17 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, 0.58019, 0.00000, 0.81448)]
+[20:53:06.604] [Exception] ArgumentException: Animation not found: Skill
+Parameter name: animationName
+Spine.AnimationState.SetAnimation (System.Int32 trackIndex, System.String animationName, System.Boolean loop) (at D:/unityxiangmu/ArkNights/Assets/Character/Spine/Runtime/spine-csharp/AnimationState.cs:680)
+Role.onSkillF () (at Assets/Scripts/Units/Role.cs:422)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnSkillF() (at Assets/Scripts/Units/SoldierController.cs:1052)
+SoldierController:InvokeUserCode_RpcOnSkillF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[20:53:07.028] [Log] OnAttack
+[20:53:07.028] [Log] 正面
+[20:53:07.212] [Log] OnAttack
+[20:53:07.212] [Log] 正面
+[20:53:07.582] [Log] OnAttack
+[20:53:07.582] [Log] 正面
+[20:53:07.600] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:07.601] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:07.602] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:07.603] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:07.603] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:07.604] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:07.604] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:07.604] [Log] Client spawn handler instantiating [netId18 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, 0.58019, 0.00000, 0.81448)]
+[20:53:08.212] [Log] OnAttack
+[20:53:08.212] [Log] 正面
+[20:53:08.363] [Log] OnAttack
+[20:53:08.364] [Log] 正面
+[20:53:08.581] [Log] OnAttack
+[20:53:08.581] [Log] 正面
+[20:53:08.599] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:08.599] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:08.600] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:08.601] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:08.601] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:08.607] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:08.608] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:08.608] [Log] Client spawn handler instantiating [netId19 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, 0.58019, 0.00000, 0.81448)]
+[20:53:09.216] [Log] OnAttack
+[20:53:09.216] [Log] 正面
+[20:53:09.576] [Log] OnAttack
+[20:53:09.576] [Log] 正面
+[20:53:09.608] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:09.610] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:09.610] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:09.610] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:09.610] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:09.612] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:09.612] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:09.613] [Log] Client spawn handler instantiating [netId20 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, 0.58019, 0.00000, 0.81448)]
+[20:53:09.692] [Log] OnAttack
+[20:53:09.692] [Log] 正面
+[20:53:10.219] [Log] OnAttack
+[20:53:10.219] [Log] 正面
+[20:53:10.585] [Log] OnAttack
+[20:53:10.585] [Log] 正面
+[20:53:10.620] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:10.621] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:10.622] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:10.622] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:10.623] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:10.623] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:10.623] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:10.623] [Log] Client spawn handler instantiating [netId21 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, 0.58019, 0.00000, 0.81448)]
+[20:53:11.026] [Log] OnAttack
+[20:53:11.026] [Log] 正面
+[20:53:11.211] [Log] OnAttack
+[20:53:11.211] [Log] 正面
+[20:53:11.572] [Log] OnAttack
+[20:53:11.572] [Log] 正面
+[20:53:11.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:11.606] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:11.607] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:11.607] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:11.608] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:11.608] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:11.608] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:11.609] [Log] Client spawn handler instantiating [netId22 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, 0.58019, 0.00000, 0.81448)]
+[20:53:12.220] [Log] OnAttack
+[20:53:12.222] [Log] 正面
+[20:53:12.365] [Log] OnAttack
+[20:53:12.365] [Log] 正面
+[20:53:12.576] [Log] OnAttack
+[20:53:12.576] [Log] 正面
+[20:53:12.595] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:12.595] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:12.596] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:12.596] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:12.599] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:12.599] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:12.599] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:12.599] [Log] Client spawn handler instantiating [netId23 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, 0.58019, 0.00000, 0.81448)]
+[20:53:12.616] [Log] OnAttack
+[20:53:12.616] [Log] 正面
+[20:53:13.586] [Log] OnAttack
+[20:53:13.586] [Log] 正面
+[20:53:13.602] [Log] 已删除士兵 yinhui(Clone) 的技能按钮
+[20:53:13.604] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:13.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:13.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:13.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:13.607] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:13.607] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:13.608] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:13.608] [Log] Client spawn handler instantiating [netId24 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, 0.58019, 0.00000, 0.81448)]
+[20:53:13.626] [Exception] ArgumentException: Animation not found: Skill
+Parameter name: animationName
+Spine.AnimationState.SetAnimation (System.Int32 trackIndex, System.String animationName, System.Boolean loop) (at D:/unityxiangmu/ArkNights/Assets/Character/Spine/Runtime/spine-csharp/AnimationState.cs:680)
+Role.onSkillF () (at Assets/Scripts/Units/Role.cs:422)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnSkillF() (at Assets/Scripts/Units/SoldierController.cs:1052)
+SoldierController:InvokeUserCode_RpcOnSkillF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[20:53:13.627] [Log] OnAttack
+[20:53:13.628] [Log] 正面
+[20:53:14.577] [Log] OnAttack
+[20:53:14.578] [Log] 正面
+[20:53:14.611] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:14.611] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:14.612] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:14.612] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:14.612] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:14.613] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:14.613] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:14.613] [Log] Client spawn handler instantiating [netId25 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, -0.38145, 0.00000, 0.92439)]
+[20:53:14.615] [Log] OnAttack
+[20:53:14.616] [Log] 正面
+[20:53:15.574] [Log] OnAttack
+[20:53:15.574] [Log] 正面
+[20:53:15.614] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:15.614] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:15.615] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:15.615] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:15.616] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:15.616] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:15.617] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:15.617] [Log] Client spawn handler instantiating [netId26 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, -0.38145, 0.00000, 0.92439)]
+[20:53:15.617] [Log] OnAttack
+[20:53:15.617] [Log] 正面
+[20:53:16.578] [Log] OnAttack
+[20:53:16.578] [Log] 正面
+[20:53:16.593] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:16.593] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:16.593] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:16.596] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:16.596] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:16.596] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:16.596] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:16.596] [Log] Client spawn handler instantiating [netId27 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, -0.38145, 0.00000, 0.92439)]
+[20:53:16.612] [Log] OnAttack
+[20:53:16.612] [Log] 正面
+[20:53:17.579] [Log] OnAttack
+[20:53:17.579] [Log] 正面
+[20:53:17.597] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:17.598] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:17.599] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:17.599] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:17.599] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:17.599] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:17.600] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:17.600] [Log] Client spawn handler instantiating [netId28 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, -0.38145, 0.00000, 0.92439)]
+[20:53:17.618] [Log] OnAttack
+[20:53:17.618] [Log] 正面
+[20:53:18.584] [Log] OnAttack
+[20:53:18.584] [Log] 正面
+[20:53:18.602] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:18.603] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:18.603] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:18.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:18.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:18.606] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:18.606] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:18.606] [Log] Client spawn handler instantiating [netId29 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, -0.38145, 0.00000, 0.92439)]
+[20:53:18.622] [Log] OnAttack
+[20:53:18.623] [Log] 正面
+[20:53:19.584] [Log] OnAttack
+[20:53:19.586] [Log] 正面
+[20:53:19.600] [Log] 已删除士兵 keluosi2(Clone) 的技能按钮
+[20:53:19.604] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:19.604] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:19.604] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:19.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:19.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:19.606] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:19.606] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:19.606] [Log] Client spawn handler instantiating [netId30 asset ID:4063565017 pos:(9.00, 0.06, 6.00) rotation:(0.00000, -0.38145, 0.00000, 0.92439)]
+[20:53:22.402] [Exception] ArgumentException: Animation not found: Skill
+Parameter name: animationName
+Spine.AnimationState.SetAnimation (System.Int32 trackIndex, System.String animationName, System.Boolean loop) (at D:/unityxiangmu/ArkNights/Assets/Character/Spine/Runtime/spine-csharp/AnimationState.cs:680)
+Role.onSkillF () (at Assets/Scripts/Units/Role.cs:422)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnSkillF() (at Assets/Scripts/Units/SoldierController.cs:1052)
+SoldierController:InvokeUserCode_RpcOnSkillF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[20:53:23.362] [Log] OnAttack
+[20:53:23.362] [Log] 正面
+[20:53:23.398] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:23.399] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:23.399] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:23.400] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:23.400] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:23.400] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:23.401] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:23.401] [Log] Client spawn handler instantiating [netId31 asset ID:4063565017 pos:(13.65, 0.06, 12.83) rotation:(0.00000, 0.01903, 0.00000, 0.99982)]
+[20:53:24.188] [Exception] ArgumentException: Animation not found: Skill
+Parameter name: animationName
+Spine.AnimationState.SetAnimation (System.Int32 trackIndex, System.String animationName, System.Boolean loop) (at D:/unityxiangmu/ArkNights/Assets/Character/Spine/Runtime/spine-csharp/AnimationState.cs:680)
+Role.onSkillF () (at Assets/Scripts/Units/Role.cs:422)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnSkillF() (at Assets/Scripts/Units/SoldierController.cs:1052)
+SoldierController:InvokeUserCode_RpcOnSkillF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[20:53:24.359] [Log] OnAttack
+[20:53:24.359] [Log] 正面
+[20:53:24.414] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:24.416] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:24.416] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:24.417] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:24.418] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:24.418] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:24.418] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:24.418] [Log] Client spawn handler instantiating [netId32 asset ID:4063565017 pos:(13.65, 0.06, 12.83) rotation:(0.00000, 0.01903, 0.00000, 0.99982)]
+[20:53:25.379] [Log] OnAttack
+[20:53:25.379] [Log] 正面
+[20:53:25.413] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:25.414] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:25.415] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:25.416] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:25.416] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:25.417] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:25.422] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:25.423] [Log] Client spawn handler instantiating [netId33 asset ID:4063565017 pos:(13.65, 0.06, 12.83) rotation:(0.00000, 0.01903, 0.00000, 0.99982)]
+[20:53:26.372] [Log] OnAttack
+[20:53:26.372] [Log] 正面
+[20:53:26.405] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:26.406] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:26.407] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:26.408] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:26.409] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:26.409] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:26.409] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:26.410] [Log] Client spawn handler instantiating [netId34 asset ID:4063565017 pos:(13.65, 0.06, 12.83) rotation:(0.00000, 0.01903, 0.00000, 0.99982)]
+[20:53:27.369] [Log] OnAttack
+[20:53:27.369] [Log] 正面
+[20:53:27.402] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:27.408] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:27.408] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:27.409] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:27.410] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:27.410] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:27.410] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:27.410] [Log] Client spawn handler instantiating [netId35 asset ID:4063565017 pos:(13.65, 0.06, 12.83) rotation:(0.00000, 0.01903, 0.00000, 0.99982)]
+[20:53:28.368] [Log] OnAttack
+[20:53:28.368] [Log] 正面
+[20:53:28.400] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:28.401] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:28.401] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:28.402] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:28.402] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:28.403] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:28.403] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:28.404] [Log] Client spawn handler instantiating [netId36 asset ID:4063565017 pos:(13.65, 0.06, 12.83) rotation:(0.00000, 0.01903, 0.00000, 0.99982)]
+[20:53:29.366] [Log] OnAttack
+[20:53:29.366] [Log] 正面
+[20:53:29.399] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:29.399] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:29.400] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:29.400] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:29.401] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:29.401] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:29.401] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:29.403] [Log] Client spawn handler instantiating [netId37 asset ID:4063565017 pos:(13.65, 0.06, 12.83) rotation:(0.00000, 0.01903, 0.00000, 0.99982)]
+[20:53:30.365] [Log] OnAttack
+[20:53:30.365] [Log] 正面
+[20:53:30.409] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:30.412] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:30.412] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:30.413] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:30.414] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:30.414] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:30.414] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:30.415] [Log] Client spawn handler instantiating [netId38 asset ID:4063565017 pos:(13.65, 0.06, 12.83) rotation:(0.00000, 0.01903, 0.00000, 0.99982)]
+[20:53:31.367] [Log] OnAttack
+[20:53:31.367] [Log] 正面
+[20:53:31.400] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:31.400] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:31.401] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:31.401] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:31.406] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:31.406] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:31.406] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:31.406] [Log] Client spawn handler instantiating [netId39 asset ID:4063565017 pos:(13.65, 0.06, 12.83) rotation:(0.00000, 0.01903, 0.00000, 0.99982)]
+[20:53:32.370] [Log] OnAttack
+[20:53:32.370] [Log] 正面
+[20:53:32.408] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:32.409] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:32.410] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:32.410] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:32.411] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:32.412] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:32.412] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:32.413] [Log] Client spawn handler instantiating [netId40 asset ID:4063565017 pos:(13.65, 0.06, 12.83) rotation:(0.00000, 0.01903, 0.00000, 0.99982)]
+[20:53:33.722] [Exception] ArgumentException: Animation not found: Skill
+Parameter name: animationName
+Spine.AnimationState.SetAnimation (System.Int32 trackIndex, System.String animationName, System.Boolean loop) (at D:/unityxiangmu/ArkNights/Assets/Character/Spine/Runtime/spine-csharp/AnimationState.cs:680)
+Role.onSkillF () (at Assets/Scripts/Units/Role.cs:422)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnSkillF() (at Assets/Scripts/Units/SoldierController.cs:1052)
+SoldierController:InvokeUserCode_RpcOnSkillF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[20:53:34.669] [Log] OnAttack
+[20:53:34.669] [Log] 正面
+[20:53:34.705] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:34.705] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:34.706] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:34.707] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:34.707] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:34.707] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:34.707] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:34.708] [Log] Client spawn handler instantiating [netId41 asset ID:4063565017 pos:(12.68, 0.06, 16.56) rotation:(0.00000, -0.21625, 0.00000, 0.97634)]
+[20:53:35.659] [Log] OnAttack
+[20:53:35.659] [Log] 正面
+[20:53:35.729] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:35.730] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:35.731] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:35.731] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:35.732] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:35.733] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:35.733] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:53:35.734] [Log] Client spawn handler instantiating [netId42 asset ID:4063565017 pos:(12.68, 0.06, 16.56) rotation:(0.00000, -0.21625, 0.00000, 0.97634)]
+==========================================
+游戏日志结束 - 2026/3/10 20:53:36
+==========================================

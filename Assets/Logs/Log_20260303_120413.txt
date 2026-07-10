@@ -1,0 +1,22 @@
+==========================================
+游戏日志开始 - 2026/3/3 12:04:13
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[12:04:13.601] [Warning] yinhui was open in Prefab Edit Mode while launching with Mirror. If this causes issues, please let us know.
+[12:04:14.093] [Log] === 客户端预制体列表诊断 (启动时) ===
+[12:04:14.093] [Log] 客户端 SpawnPrefabs 数量: 11
+[12:04:14.093] [Log]   [0] amiya -> AssetId: 1054292600
+[12:04:14.093] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[12:04:14.095] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[12:04:14.095] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[12:04:14.095] [Log]   [4] chen -> AssetId: 1033753810
+[12:04:14.095] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[12:04:14.095] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[12:04:14.095] [Log]   [7] Guowangta -> AssetId: 500381289
+[12:04:14.095] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[12:04:14.095] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[12:04:14.095] [Log]   [10] yinhui -> AssetId: 2171254035
+==========================================
+游戏日志结束 - 2026/3/3 12:04:18
+==========================================

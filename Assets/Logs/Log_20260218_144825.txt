@@ -1,0 +1,29 @@
+==========================================
+游戏日志开始 - 2026/2/18 14:48:25
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[14:48:25.967] [Error] NetworkManager not found in scene!
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI:Start () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:27)
+
+[14:48:25.968] [Log] === 客户端预制体列表诊断 (启动时) ===
+[14:48:25.968] [Log] 客户端 SpawnPrefabs 数量: 10
+[14:48:25.968] [Log]   [0] Anemyamiya -> AssetId: 3767952548
+[14:48:25.968] [Log]   [1] amiya -> AssetId: 1054292600
+[14:48:25.968] [Log]   [2] chen -> AssetId: 1033753810
+[14:48:25.968] [Log]   [3] yinhui -> AssetId: 2171254035
+[14:48:25.969] [Log]   [4] AnemyGongzhuta (1) -> AssetId: 3034425767
+[14:48:25.969] [Log]   [5] AnemyGongzhuta -> AssetId: 258553055
+[14:48:25.969] [Log]   [6] AnemyGuowangta -> AssetId: 3706946732
+[14:48:25.969] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[14:48:25.969] [Log]   [8] Gongzhuta -> AssetId: 48394343
+[14:48:25.969] [Log]   [9] Guowangta -> AssetId: 500381289
+[14:48:27.948] [Error] NetworkManager not found in scene!
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:81)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+==========================================
+游戏日志结束 - 2026/2/18 14:48:35
+==========================================

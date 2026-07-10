@@ -1,0 +1,40 @@
+==========================================
+游戏日志开始 - 2026/3/10 16:40:10
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[16:40:10.552] [Log] === 客户端预制体列表诊断 (启动时) ===
+[16:40:10.552] [Log] 客户端 SpawnPrefabs 数量: 13
+[16:40:10.552] [Log]   [0] amiya -> AssetId: 1054292600
+[16:40:10.552] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[16:40:10.553] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[16:40:10.553] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[16:40:10.553] [Log]   [4] chen -> AssetId: 1033753810
+[16:40:10.553] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[16:40:10.553] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[16:40:10.553] [Log]   [7] Guowangta -> AssetId: 500381289
+[16:40:10.553] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[16:40:10.553] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[16:40:10.553] [Log]   [10] yinhui -> AssetId: 2171254035
+[16:40:10.553] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[16:40:10.553] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[16:40:11.865] [Log] 返回主菜单
+[16:40:12.647] [Log] [Host] 局域网IP: 10.153.233.253, 端口: 7777
+[16:40:12.662] [Log] Not in Room scene...disconnecting connection(0)
+[16:40:12.662] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[16:40:12.663] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__15:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:112)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:103)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[16:40:13.062] [Warning] Failed to create agent because there is no valid NavMesh
+[16:40:13.234] [Log] [MyNetworkRoomManager] 客户端 0 加入房间，RoomPlayer 已赋予客户端权威
+[16:40:13.240] [Log] 战斗正面模型缩放:1
+[16:40:13.240] [Log] 战斗背面模型缩放:1
+[16:40:13.241] [Log] 基建模型缩放:1
+[16:40:42.779] [Log] [MyNetworkRoomManager] 客户端 0 断开连接
+==========================================
+游戏日志结束 - 2026/3/10 16:40:42
+==========================================

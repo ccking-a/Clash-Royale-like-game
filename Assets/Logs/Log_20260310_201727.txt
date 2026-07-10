@@ -1,0 +1,890 @@
+==========================================
+游戏日志开始 - 2026/3/10 20:17:27
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[20:17:28.000] [Log] === 客户端预制体列表诊断 (启动时) ===
+[20:17:28.000] [Log] 客户端 SpawnPrefabs 数量: 13
+[20:17:28.001] [Log]   [0] amiya -> AssetId: 1054292600
+[20:17:28.001] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[20:17:28.001] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[20:17:28.001] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[20:17:28.001] [Log]   [4] chen -> AssetId: 1033753810
+[20:17:28.001] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[20:17:28.001] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[20:17:28.001] [Log]   [7] Guowangta -> AssetId: 500381289
+[20:17:28.002] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[20:17:28.002] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[20:17:28.002] [Log]   [10] yinhui -> AssetId: 2171254035
+[20:17:28.002] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[20:17:28.002] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[20:17:34.647] [Log] Attempting to save Assets/Logs/Log_20260310_201727.txt.meta are blocked.
+[20:17:41.789] [Log] 返回主菜单
+[20:17:44.631] [Log] === 客户端启动序列开始 ===
+[20:17:44.631] [Log] 原始输入: ''
+[20:17:44.632] [Warning] 输入为空，使用默认地址 'localhost'
+[20:17:44.632] [Log] 将尝试连接到: localhost
+[20:17:44.683] [Exception] ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+System.Net.Dns.GetHostByName (System.String hostName) (at <6db90f4241f34718aade286911577a8a>:0)
+System.Net.Dns.GetHostEntry (System.String hostNameOrAddress) (at <6db90f4241f34718aade286911577a8a>:0)
+System.Net.Dns.GetHostAddresses (System.String hostNameOrAddress) (at <6db90f4241f34718aade286911577a8a>:0)
+kcp2k.Common.ResolveHostname (System.String hostname, System.Net.IPAddress[]& addresses) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/Common.cs:16)
+kcp2k.KcpClient.Connect (System.String address, System.UInt16 port) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:101)
+kcp2k.KcpTransport.ClientConnect (System.String address) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:160)
+Mirror.NetworkClient.Connect (System.String address) (at Assets/Mirror/Core/NetworkClient.cs:204)
+Mirror.NetworkManager.StartClient () (at Assets/Mirror/Core/NetworkManager.cs:410)
+NetworkLobbyUI+<StartClientAfterSceneLoad>d__18.MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:200)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <8cdc7e7e8a17404287a8b220eb9eec72>:0)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+NetworkLobbyUI:OnClientButtonClicked() (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:179)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[20:17:44.684] [Log] StartClient() 调用完成。
+[20:17:44.685] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.565] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.580] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.592] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.612] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.630] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.643] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.660] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.679] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.698] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.709] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.728] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.749] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.777] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.794] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.808] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.823] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.843] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.857] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.878] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.891] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.910] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.926] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.944] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.962] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.976] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:45.994] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.010] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.025] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.044] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.060] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.080] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.094] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.110] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.126] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.146] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.165] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.176] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.194] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.211] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.228] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.243] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.261] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.276] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.302] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.332] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.356] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.388] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.413] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.439] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.454] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.482] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.501] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.535] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.550] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.570] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.584] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.603] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.614] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.646] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.661] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.682] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.706] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.730] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.745] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.764] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.782] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.799] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.828] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.847] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.868] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.899] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.926] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.933] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.952] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.966] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:46.997] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.014] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.030] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.046] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.064] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.081] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.099] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.131] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.149] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.180] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.198] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.217] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.233] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.251] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.290] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.305] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.318] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.335] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.349] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.396] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.413] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.435] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.449] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.472] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.491] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.500] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.517] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.535] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.550] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.570] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.584] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.601] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.618] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.632] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.650] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.669] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.684] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.702] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.719] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.734] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.751] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.765] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.951] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.978] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:47.997] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.011] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.028] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.043] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.066] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.096] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.113] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.134] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.160] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.180] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.196] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.215] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.246] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.262] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.279] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.296] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.312] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.327] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.345] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.363] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.379] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.398] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.428] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.446] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.465] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.497] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.512] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.527] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.546] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.561] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.577] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.595] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.611] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.627] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.642] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.660] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.679] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.694] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.713] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.730] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.747] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.759] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.779] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.795] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.812] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.832] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.860] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.878] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:17:48.895] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Mirror.NetworkClient.Broadcast () (at Assets/Mirror/Core/NetworkClient.cs:1646)
+Mirror.NetworkClient.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1579)
+Mirror.NetworkLoop.NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+==========================================
+游戏日志结束 - 2026/3/10 20:17:48
+==========================================

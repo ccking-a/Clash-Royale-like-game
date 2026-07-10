@@ -1,0 +1,110 @@
+==========================================
+游戏日志开始 - 2026/2/22 1:22:58
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[01:22:58.530] [Log] === 客户端预制体列表诊断 (启动时) ===
+[01:22:58.530] [Log] 客户端 SpawnPrefabs 数量: 12
+[01:22:58.530] [Log]   [0] amiya -> AssetId: 1054292600
+[01:22:58.530] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[01:22:58.530] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[01:22:58.530] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[01:22:58.530] [Log]   [4] chen -> AssetId: 1033753810
+[01:22:58.530] [Log]   [5] Enemyyinhui -> AssetId: 3630190241
+[01:22:58.530] [Log]   [6] Gongzhuta -> AssetId: 48394343
+[01:22:58.530] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[01:22:58.530] [Log]   [8] Guowangta -> AssetId: 500381289
+[01:22:58.530] [Log]   [9] NetWorkManager -> AssetId: 1567436743
+[01:22:58.530] [Log]   [10] RoomPlayer -> AssetId: 4019188151
+[01:22:58.530] [Log]   [11] yinhui -> AssetId: 2171254035
+[01:22:59.230] [Log] 场景中共有 82 个对象
+[01:22:59.230] [Log] 找到Label
+[01:22:59.230] [Log] 找到Icon
+[01:22:59.230] [Log] 找到Slot_7
+[01:22:59.231] [Log] 找到Label
+[01:22:59.231] [Log] 找到Icon
+[01:22:59.231] [Log] 找到Slot_6
+[01:22:59.231] [Log] 找到Label
+[01:22:59.231] [Log] 找到Icon
+[01:22:59.231] [Log] 找到Slot_5
+[01:22:59.231] [Log] 找到Label
+[01:22:59.231] [Log] 找到Icon
+[01:22:59.233] [Log] 找到Slot_4
+[01:22:59.233] [Log] 找到Label
+[01:22:59.233] [Log] 找到Icon
+[01:22:59.233] [Log] 找到Slot_3
+[01:22:59.233] [Log] 找到Label
+[01:22:59.233] [Log] 找到Icon
+[01:22:59.233] [Log] 找到Slot_2
+[01:22:59.233] [Log] 找到Label
+[01:22:59.233] [Log] 找到Icon
+[01:22:59.233] [Log] 找到Slot_1
+[01:22:59.233] [Log] 找到Label
+[01:22:59.233] [Log] 找到Icon
+[01:22:59.234] [Log] 找到Slot_0
+[01:22:59.234] [Log] 找到Label
+[01:22:59.234] [Log] 找到Label
+[01:22:59.234] [Log] 找到Icon
+[01:22:59.234] [Log] 找到UnitCard_7
+[01:22:59.234] [Log] 找到Label
+[01:22:59.234] [Log] 找到Label
+[01:22:59.234] [Log] 找到Icon
+[01:22:59.234] [Log] 找到UnitCard_6
+[01:22:59.234] [Log] 找到Label
+[01:22:59.235] [Log] 找到Label
+[01:22:59.235] [Log] 找到Icon
+[01:22:59.235] [Log] 找到UnitCard_5
+[01:22:59.235] [Log] 找到Label
+[01:22:59.235] [Log] 找到Label
+[01:22:59.235] [Log] 找到Icon
+[01:22:59.235] [Log] 找到UnitCard_4
+[01:22:59.235] [Log] 找到Label
+[01:22:59.235] [Log] 找到Label
+[01:22:59.235] [Log] 找到Icon
+[01:22:59.235] [Log] 找到UnitCard_3
+[01:22:59.235] [Log] 找到Label
+[01:22:59.235] [Log] 找到Label
+[01:22:59.235] [Log] 找到Icon
+[01:22:59.237] [Log] 找到UnitCard_2
+[01:22:59.237] [Log] 找到Label
+[01:22:59.237] [Log] 找到Label
+[01:22:59.237] [Log] 找到Icon
+[01:22:59.237] [Log] 找到UnitCard_1
+[01:22:59.237] [Log] 找到Label
+[01:22:59.237] [Log] 找到Label
+[01:22:59.237] [Log] 找到Icon
+[01:22:59.237] [Log] 找到UnitCard_0
+[01:22:59.237] [Log] 找到[Debug Updater]
+[01:22:59.238] [Log] 找到Text (TMP)
+[01:22:59.238] [Log] 找到Placeholder
+[01:22:59.238] [Log] 找到Panel_Button
+[01:22:59.238] [Log] 找到111
+[01:22:59.238] [Log] 找到Text (Legacy)
+[01:22:59.238] [Log] 找到IPinput
+[01:22:59.238] [Log] 找到Placeholder
+[01:22:59.238] [Log] 找到chen
+[01:22:59.238] [Log] 找到Main Camera
+[01:22:59.239] [Log] 找到Host
+[01:22:59.239] [Log] 找到amiya
+[01:22:59.239] [Log] 找到Text (TMP)
+[01:22:59.239] [Error] 找到NetWorkManager
+UnityEngine.Debug:LogError (object)
+DebugHierarchy:PrintAllObjects () (at Assets/Scripts/Utils/DebugHierarchy.cs:16)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[01:22:59.239] [Log] 找到NetWorkManager
+[01:22:59.239] [Log] 找到Text (Legacy)
+[01:22:59.239] [Log] 找到UnitSelectionPanel
+[01:22:59.239] [Log] 找到EventSystem
+[01:22:59.239] [Log] 找到UnitGrid
+[01:22:59.240] [Log] 找到portinput
+[01:22:59.240] [Log] 找到Log
+[01:22:59.240] [Log] 找到Client
+[01:22:59.240] [Log] 找到Canvas
+[01:22:59.240] [Log] 找到Status
+[01:22:59.241] [Log] 找到TitleText
+[01:22:59.241] [Log] 找到SelectedSlots
+[01:22:59.241] [Log] 找到Text (TMP)
+==========================================
+游戏日志结束 - 2026/2/22 1:23:07
+==========================================

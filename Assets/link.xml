@@ -1,0 +1,25 @@
+<linker>
+    <!-- 强制保留 NavMesh 相关的整个程序集 -->
+    <assembly fullname="Unity.AI.Navigation" preserve="all"/>
+    <assembly fullname="UnityEngine.AIModule" preserve="all"/>
+    
+    <!-- 如果你的场景或预制体中用到了 NavMeshModifier 等组件，也保留它们 -->
+    <assembly fullname="Unity.AI.Navigation.Editor" preserve="all"/>
+    <!-- 保留 Mirror 核心程序集 -->
+    <assembly fullname="Mirror" preserve="all"/>
+    
+    <!-- 保留 KCP 传输层 -->
+    <assembly fullname="Mirror.Transports.KCP" preserve="all"/>
+    
+    <!-- 保留你的项目程序集 -->
+    <assembly fullname="Assembly-CSharp" preserve="all">
+        <!-- 明确保留网络管理器类型 -->
+        <type fullname="NetworkManager" preserve="all"/>
+
+        <!-- 保留所有可能的网络对象类型 -->
+    </assembly>
+    
+    <!-- 保留系统网络相关类型 -->
+    <assembly fullname="System.Net.Sockets" preserve="all"/>
+    <assembly fullname="System.Net" preserve="all"/>
+</linker>

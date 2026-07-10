@@ -1,0 +1,549 @@
+==========================================
+游戏日志开始 - 2026/2/24 13:17:20
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[13:17:21.162] [Log] === 客户端预制体列表诊断 (启动时) ===
+[13:17:21.162] [Log] 客户端 SpawnPrefabs 数量: 11
+[13:17:21.162] [Log]   [0] amiya -> AssetId: 1054292600
+[13:17:21.162] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[13:17:21.162] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[13:17:21.162] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[13:17:21.164] [Log]   [4] chen -> AssetId: 1033753810
+[13:17:21.164] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[13:17:21.164] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[13:17:21.164] [Log]   [7] Guowangta -> AssetId: 500381289
+[13:17:21.164] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[13:17:21.164] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[13:17:21.164] [Log]   [10] yinhui -> AssetId: 2171254035
+[13:17:25.274] [Log] [Host] 局域网IP: 192.168.1.7, 端口: 7777
+[13:17:25.298] [Log] Not in Room scene...disconnecting connection(0)
+[13:17:25.299] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[13:17:25.300] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__12:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:107)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:98)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[13:17:25.340] [Log] 已设置 29 个地面瓦片
+[13:17:25.341] [Log] 已设置 9 个地面瓦片
+[13:17:25.349] [Log] 已设置 253 个地面瓦片
+[13:17:25.356] [Log] 已设置 253 个地面瓦片
+[13:17:25.781] [Warning] Failed to create agent because there is no valid NavMesh
+[13:17:25.874] [Log] 士兵 当前最大攻击目标数更新为: 1
+[13:17:25.878] [Log] 为 士兵 找到了Role脚本（子对象）
+[13:17:25.879] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[13:17:25.879] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[13:17:25.879] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[13:17:25.881] [Log] 血条对象层级检查：
+[13:17:25.881] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[13:17:25.881] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[13:17:25.881] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[13:17:25.881] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[13:17:25.881] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[13:17:25.881] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[13:17:25.881] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[13:17:25.885] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[13:17:25.929] [Log] HealthBar Canvas Configuration:
+[13:17:25.929] [Log]   Render Mode: WorldSpace
+[13:17:25.929] [Log]   Sorting Order: 100
+[13:17:25.929] [Log]   Sorting Layer: Default
+[13:17:25.929] [Log]   World Camera: None
+[13:17:25.929] [Log]   Plane Distance: 100
+[13:17:25.931] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[13:17:25.932] [Warning] Pathfinding初始化时MapManager实例不存在
+[13:17:25.932] [Log] 找不到目标了
+[13:17:25.948] [Log] 找不到目标了
+[13:17:25.955] [Log] 找不到目标了
+[13:17:25.959] [Log] 找不到目标了
+[13:17:25.964] [Log] 找不到目标了
+[13:17:25.968] [Log] 找不到目标了
+[13:17:25.972] [Log] 找不到目标了
+[13:17:25.977] [Log] 找不到目标了
+[13:17:25.982] [Log] 找不到目标了
+[13:17:25.986] [Log] 找不到目标了
+[13:17:25.991] [Log] 找不到目标了
+[13:17:25.995] [Log] 找不到目标了
+[13:17:25.999] [Log] 找不到目标了
+[13:17:26.004] [Log] 找不到目标了
+[13:17:26.008] [Log] 找不到目标了
+[13:17:26.012] [Log] 找不到目标了
+[13:17:26.017] [Log] 找不到目标了
+[13:17:26.020] [Log] 找不到目标了
+[13:17:26.025] [Log] 找不到目标了
+[13:17:26.029] [Log] 找不到目标了
+[13:17:26.033] [Log] 找不到目标了
+[13:17:26.038] [Log] 找不到目标了
+[13:17:26.043] [Log] 找不到目标了
+[13:17:26.048] [Log] 找不到目标了
+[13:17:26.052] [Log] 找不到目标了
+[13:17:26.057] [Log] 找不到目标了
+[13:17:26.061] [Log] 找不到目标了
+[13:17:26.065] [Log] 找不到目标了
+[13:17:26.070] [Log] 找不到目标了
+[13:17:26.076] [Log] 找不到目标了
+[13:17:26.080] [Log] 找不到目标了
+[13:17:26.086] [Log] 找不到目标了
+[13:17:26.091] [Log] 找不到目标了
+[13:17:26.096] [Log] 找不到目标了
+[13:17:26.101] [Log] 找不到目标了
+[13:17:26.106] [Log] 找不到目标了
+[13:17:26.111] [Log] 找不到目标了
+[13:17:26.116] [Log] 找不到目标了
+[13:17:26.120] [Log] 找不到目标了
+[13:17:26.125] [Log] 找不到目标了
+[13:17:26.130] [Log] 找不到目标了
+[13:17:26.136] [Log] 找不到目标了
+[13:17:26.140] [Log] 找不到目标了
+[13:17:26.145] [Log] 找不到目标了
+[13:17:26.151] [Log] 找不到目标了
+[13:17:26.155] [Log] 找不到目标了
+[13:17:26.160] [Log] 找不到目标了
+[13:17:26.165] [Log] 找不到目标了
+[13:17:26.169] [Log] 找不到目标了
+[13:17:26.175] [Log] 找不到目标了
+[13:17:26.180] [Log] 找不到目标了
+[13:17:26.185] [Log] 找不到目标了
+[13:17:26.189] [Log] 找不到目标了
+[13:17:26.195] [Log] 找不到目标了
+[13:17:26.199] [Log] 找不到目标了
+[13:17:26.203] [Log] 找不到目标了
+[13:17:26.209] [Log] 找不到目标了
+[13:17:26.215] [Log] 找不到目标了
+[13:17:26.219] [Log] 找不到目标了
+[13:17:26.225] [Log] 找不到目标了
+[13:17:26.229] [Log] 找不到目标了
+[13:17:26.235] [Log] 找不到目标了
+[13:17:26.240] [Log] 找不到目标了
+[13:17:26.245] [Log] 找不到目标了
+[13:17:26.248] [Log] 找不到目标了
+[13:17:26.253] [Log] 找不到目标了
+[13:17:26.260] [Log] 找不到目标了
+[13:17:26.265] [Log] 找不到目标了
+[13:17:26.269] [Log] 找不到目标了
+[13:17:26.274] [Log] 找不到目标了
+[13:17:26.279] [Log] 找不到目标了
+[13:17:26.283] [Log] 找不到目标了
+[13:17:26.287] [Log] 找不到目标了
+[13:17:26.293] [Log] 找不到目标了
+[13:17:26.297] [Log] 找不到目标了
+[13:17:26.300] [Log] 找不到目标了
+[13:17:26.306] [Log] 找不到目标了
+[13:17:26.311] [Log] 找不到目标了
+[13:17:26.316] [Log] 找不到目标了
+[13:17:26.320] [Log] 找不到目标了
+[13:17:26.325] [Log] 找不到目标了
+[13:17:26.330] [Log] 找不到目标了
+[13:17:26.336] [Log] 找不到目标了
+[13:17:26.340] [Log] 找不到目标了
+[13:17:26.345] [Log] 找不到目标了
+[13:17:26.349] [Log] 找不到目标了
+[13:17:26.355] [Log] 找不到目标了
+[13:17:26.359] [Log] 找不到目标了
+[13:17:26.364] [Log] 找不到目标了
+[13:17:26.369] [Log] 找不到目标了
+[13:17:26.374] [Log] 找不到目标了
+[13:17:26.378] [Log] 找不到目标了
+[13:17:26.383] [Log] 找不到目标了
+[13:17:26.389] [Log] 找不到目标了
+[13:17:26.393] [Log] 找不到目标了
+[13:17:26.398] [Log] 找不到目标了
+[13:17:26.403] [Log] 找不到目标了
+[13:17:26.408] [Log] 找不到目标了
+[13:17:26.412] [Log] 找不到目标了
+[13:17:26.418] [Log] 找不到目标了
+[13:17:26.422] [Log] 找不到目标了
+[13:17:26.428] [Log] 找不到目标了
+[13:17:26.433] [Log] 找不到目标了
+[13:17:26.437] [Log] 找不到目标了
+[13:17:26.442] [Log] 找不到目标了
+[13:17:26.446] [Log] 找不到目标了
+[13:17:26.453] [Log] 找不到目标了
+[13:17:26.456] [Log] 找不到目标了
+[13:17:26.461] [Log] 找不到目标了
+[13:17:26.466] [Log] 找不到目标了
+[13:17:26.470] [Log] 找不到目标了
+[13:17:26.476] [Log] 找不到目标了
+[13:17:26.481] [Log] 找不到目标了
+[13:17:26.486] [Log] 找不到目标了
+[13:17:26.491] [Log] 找不到目标了
+[13:17:26.495] [Log] 找不到目标了
+[13:17:26.500] [Log] 找不到目标了
+[13:17:26.505] [Log] 找不到目标了
+[13:17:26.510] [Log] 找不到目标了
+[13:17:26.516] [Log] 找不到目标了
+[13:17:26.520] [Log] 找不到目标了
+[13:17:26.526] [Log] 找不到目标了
+[13:17:26.531] [Log] 找不到目标了
+[13:17:26.536] [Log] 找不到目标了
+[13:17:26.540] [Log] 找不到目标了
+[13:17:26.545] [Log] 找不到目标了
+[13:17:26.550] [Log] 找不到目标了
+[13:17:26.556] [Log] 找不到目标了
+[13:17:26.561] [Log] 找不到目标了
+[13:17:26.567] [Log] 找不到目标了
+[13:17:26.572] [Log] 找不到目标了
+[13:17:26.577] [Log] 找不到目标了
+[13:17:26.582] [Log] 找不到目标了
+[13:17:26.586] [Log] 找不到目标了
+[13:17:26.592] [Log] 找不到目标了
+[13:17:26.597] [Log] 找不到目标了
+[13:17:26.602] [Log] 找不到目标了
+[13:17:26.607] [Log] 找不到目标了
+[13:17:26.610] [Log] 找不到目标了
+[13:17:26.616] [Log] 找不到目标了
+[13:17:26.622] [Log] 找不到目标了
+[13:17:26.626] [Log] 找不到目标了
+[13:17:26.631] [Log] 找不到目标了
+[13:17:26.636] [Log] 找不到目标了
+[13:17:26.640] [Log] 找不到目标了
+[13:17:26.645] [Log] 找不到目标了
+[13:17:26.650] [Log] 找不到目标了
+[13:17:26.656] [Log] 找不到目标了
+[13:17:26.661] [Log] 找不到目标了
+[13:17:26.666] [Log] 找不到目标了
+[13:17:26.671] [Log] 找不到目标了
+[13:17:26.676] [Log] 找不到目标了
+[13:17:26.682] [Log] 找不到目标了
+[13:17:26.687] [Log] 找不到目标了
+[13:17:26.691] [Log] 找不到目标了
+[13:17:26.696] [Log] 找不到目标了
+[13:17:26.701] [Log] 找不到目标了
+[13:17:26.706] [Log] 找不到目标了
+[13:17:26.710] [Log] 找不到目标了
+[13:17:26.715] [Log] 找不到目标了
+[13:17:26.719] [Log] 找不到目标了
+[13:17:26.723] [Log] 找不到目标了
+[13:17:26.729] [Log] 找不到目标了
+[13:17:26.733] [Log] 找不到目标了
+[13:17:26.738] [Log] 找不到目标了
+[13:17:26.742] [Log] 找不到目标了
+[13:17:26.746] [Log] 找不到目标了
+[13:17:26.750] [Log] 找不到目标了
+[13:17:26.755] [Log] 找不到目标了
+[13:17:26.759] [Log] 找不到目标了
+[13:17:26.763] [Log] 找不到目标了
+[13:17:26.767] [Log] 找不到目标了
+[13:17:26.771] [Log] 找不到目标了
+[13:17:26.776] [Log] 找不到目标了
+[13:17:26.780] [Log] 找不到目标了
+[13:17:26.785] [Log] 找不到目标了
+[13:17:26.789] [Log] 找不到目标了
+[13:17:26.794] [Log] 找不到目标了
+[13:17:26.798] [Log] 找不到目标了
+[13:17:26.802] [Log] 找不到目标了
+[13:17:26.806] [Log] 找不到目标了
+[13:17:26.810] [Log] 找不到目标了
+[13:17:26.814] [Log] 找不到目标了
+[13:17:26.818] [Log] 找不到目标了
+[13:17:26.823] [Log] 找不到目标了
+[13:17:26.828] [Log] 找不到目标了
+[13:17:26.832] [Log] 找不到目标了
+[13:17:26.837] [Log] 找不到目标了
+[13:17:26.841] [Log] 找不到目标了
+[13:17:26.845] [Log] 找不到目标了
+[13:17:26.849] [Log] 找不到目标了
+[13:17:26.853] [Log] 找不到目标了
+[13:17:26.857] [Log] 找不到目标了
+[13:17:26.862] [Log] 找不到目标了
+[13:17:26.865] [Log] 找不到目标了
+[13:17:26.870] [Log] 找不到目标了
+[13:17:26.875] [Log] 找不到目标了
+[13:17:26.878] [Log] 找不到目标了
+[13:17:26.883] [Log] 找不到目标了
+[13:17:26.888] [Log] 找不到目标了
+[13:17:26.893] [Log] 找不到目标了
+[13:17:26.897] [Log] 找不到目标了
+[13:17:26.902] [Log] 找不到目标了
+[13:17:26.905] [Log] 找不到目标了
+[13:17:26.909] [Log] 找不到目标了
+[13:17:26.913] [Log] 找不到目标了
+[13:17:26.918] [Log] 找不到目标了
+[13:17:26.922] [Log] 找不到目标了
+[13:17:26.926] [Log] 找不到目标了
+[13:17:26.930] [Log] 找不到目标了
+[13:17:26.935] [Log] 找不到目标了
+[13:17:26.940] [Log] 找不到目标了
+[13:17:26.945] [Log] 找不到目标了
+[13:17:26.952] [Log] 找不到目标了
+[13:17:26.957] [Log] 找不到目标了
+[13:17:26.961] [Log] 找不到目标了
+[13:17:26.965] [Log] 找不到目标了
+[13:17:26.970] [Log] 找不到目标了
+[13:17:26.974] [Log] 找不到目标了
+[13:17:26.978] [Log] 找不到目标了
+[13:17:26.982] [Log] 找不到目标了
+[13:17:26.987] [Log] 找不到目标了
+[13:17:26.991] [Log] 找不到目标了
+[13:17:26.996] [Log] 找不到目标了
+[13:17:27.000] [Log] 找不到目标了
+[13:17:27.004] [Log] 找不到目标了
+[13:17:27.008] [Log] 找不到目标了
+[13:17:27.013] [Log] 找不到目标了
+[13:17:27.016] [Log] 找不到目标了
+[13:17:27.021] [Log] 找不到目标了
+[13:17:27.026] [Log] 找不到目标了
+[13:17:27.030] [Log] 找不到目标了
+[13:17:27.034] [Log] 找不到目标了
+[13:17:27.039] [Log] 找不到目标了
+[13:17:27.043] [Log] 找不到目标了
+[13:17:27.047] [Log] 找不到目标了
+[13:17:27.051] [Log] 找不到目标了
+[13:17:27.057] [Log] 找不到目标了
+[13:17:27.060] [Log] 找不到目标了
+[13:17:27.064] [Log] 找不到目标了
+[13:17:27.069] [Log] 找不到目标了
+[13:17:27.073] [Log] 找不到目标了
+[13:17:27.078] [Log] 找不到目标了
+[13:17:27.082] [Log] 找不到目标了
+[13:17:27.087] [Log] 找不到目标了
+[13:17:27.091] [Log] 找不到目标了
+[13:17:27.095] [Log] 找不到目标了
+[13:17:27.099] [Log] 找不到目标了
+[13:17:27.104] [Log] 找不到目标了
+[13:17:27.109] [Log] 找不到目标了
+[13:17:27.113] [Log] 找不到目标了
+[13:17:27.119] [Log] 找不到目标了
+[13:17:27.122] [Log] 找不到目标了
+[13:17:27.126] [Log] 找不到目标了
+[13:17:27.131] [Log] 找不到目标了
+[13:17:27.135] [Log] 找不到目标了
+[13:17:27.139] [Log] 找不到目标了
+[13:17:27.143] [Log] 找不到目标了
+[13:17:27.148] [Log] 找不到目标了
+[13:17:27.152] [Log] 找不到目标了
+[13:17:27.156] [Log] 找不到目标了
+[13:17:27.160] [Log] 找不到目标了
+[13:17:27.165] [Log] 找不到目标了
+[13:17:27.169] [Log] 找不到目标了
+[13:17:27.173] [Log] 找不到目标了
+[13:17:27.177] [Log] 找不到目标了
+[13:17:27.181] [Log] 找不到目标了
+[13:17:27.185] [Log] 找不到目标了
+[13:17:27.189] [Log] 找不到目标了
+[13:17:27.195] [Log] 找不到目标了
+[13:17:27.199] [Log] 找不到目标了
+[13:17:27.202] [Log] 找不到目标了
+[13:17:27.206] [Log] 找不到目标了
+[13:17:27.211] [Log] 找不到目标了
+[13:17:27.215] [Log] 找不到目标了
+[13:17:27.220] [Log] 找不到目标了
+[13:17:27.224] [Log] 找不到目标了
+[13:17:27.229] [Log] 找不到目标了
+[13:17:27.232] [Log] 找不到目标了
+[13:17:27.236] [Log] 找不到目标了
+[13:17:27.241] [Log] 找不到目标了
+[13:17:27.245] [Log] 找不到目标了
+[13:17:27.249] [Log] 找不到目标了
+[13:17:27.253] [Log] 找不到目标了
+[13:17:27.258] [Log] 找不到目标了
+[13:17:27.263] [Log] 找不到目标了
+[13:17:27.266] [Log] 找不到目标了
+[13:17:27.272] [Log] 找不到目标了
+[13:17:27.276] [Log] 找不到目标了
+[13:17:27.280] [Log] 找不到目标了
+[13:17:27.285] [Log] 找不到目标了
+[13:17:27.289] [Log] 找不到目标了
+[13:17:27.293] [Log] 找不到目标了
+[13:17:27.298] [Log] 找不到目标了
+[13:17:27.303] [Log] 找不到目标了
+[13:17:27.307] [Log] 找不到目标了
+[13:17:27.311] [Log] 找不到目标了
+[13:17:27.315] [Log] 找不到目标了
+[13:17:27.320] [Log] 找不到目标了
+[13:17:27.325] [Log] 找不到目标了
+[13:17:27.329] [Log] 找不到目标了
+[13:17:27.333] [Log] 找不到目标了
+[13:17:27.337] [Log] 找不到目标了
+[13:17:27.342] [Log] 找不到目标了
+[13:17:27.346] [Log] 找不到目标了
+[13:17:27.350] [Log] 找不到目标了
+[13:17:27.354] [Log] 找不到目标了
+[13:17:27.358] [Log] 找不到目标了
+[13:17:27.362] [Log] 找不到目标了
+[13:17:27.367] [Log] 找不到目标了
+[13:17:27.370] [Log] 找不到目标了
+[13:17:27.376] [Log] 找不到目标了
+[13:17:27.381] [Log] 找不到目标了
+[13:17:27.385] [Log] 找不到目标了
+[13:17:27.389] [Log] 找不到目标了
+[13:17:27.394] [Log] 找不到目标了
+[13:17:27.399] [Log] 找不到目标了
+[13:17:27.403] [Log] 找不到目标了
+[13:17:27.406] [Log] 找不到目标了
+[13:17:27.411] [Log] 找不到目标了
+[13:17:27.415] [Log] 找不到目标了
+[13:17:27.419] [Log] 找不到目标了
+[13:17:27.423] [Log] 找不到目标了
+[13:17:27.427] [Log] 找不到目标了
+[13:17:27.432] [Log] 找不到目标了
+[13:17:27.436] [Log] 找不到目标了
+[13:17:27.440] [Log] 找不到目标了
+[13:17:27.445] [Log] 找不到目标了
+[13:17:27.451] [Log] 找不到目标了
+[13:17:27.513] [Log] 找不到目标了
+[13:17:27.543] [Log] 找不到目标了
+[13:17:27.549] [Log] 找不到目标了
+[13:17:27.581] [Log] 已设置 29 个地面瓦片
+[13:17:27.581] [Log] 已设置 9 个地面瓦片
+[13:17:27.586] [Log] 已设置 253 个地面瓦片
+[13:17:27.591] [Log] 已设置 253 个地面瓦片
+[13:17:27.915] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[13:17:27.915] [Log] 找不到目标了
+[13:17:27.916] [Log] [MyNetworkRoomManager] ★ 进入游戏场景
+[13:17:27.917] [Log] [MyNetworkRoomManager] NetworkGameState 已生成
+[13:17:27.918] [Log] [MyNetworkRoomManager] 清理 RoomPlayer: RoomPlayer(Clone)
+[13:17:27.921] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[13:17:27.921] [Log] 士兵 当前最大攻击目标数更新为: 1
+[13:17:27.921] [Log] 士兵 未找到Role脚本
+[13:17:27.921] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[13:17:27.921] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[13:17:27.921] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[13:17:27.922] [Log] 血条对象层级检查：
+[13:17:27.922] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[13:17:27.922] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[13:17:27.922] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[13:17:27.922] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[13:17:27.922] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[13:17:27.922] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[13:17:27.922] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[13:17:27.922] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[13:17:27.922] [Log] 士兵 当前最大攻击目标数更新为: 1
+[13:17:27.922] [Log] 士兵 未找到Role脚本
+[13:17:27.923] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[13:17:27.923] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[13:17:27.923] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[13:17:27.923] [Log] 血条对象层级检查：
+[13:17:27.923] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[13:17:27.923] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[13:17:27.923] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[13:17:27.923] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[13:17:27.923] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[13:17:27.923] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[13:17:27.923] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[13:17:27.923] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[13:17:27.923] [Log] 士兵 当前最大攻击目标数更新为: 1
+[13:17:27.923] [Log] 士兵 未找到Role脚本
+[13:17:27.923] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[13:17:27.924] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[13:17:27.924] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[13:17:27.924] [Log] 血条对象层级检查：
+[13:17:27.924] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[13:17:27.924] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[13:17:27.925] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[13:17:27.925] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[13:17:27.925] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[13:17:27.925] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[13:17:27.925] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[13:17:27.925] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[13:17:27.925] [Log] 士兵 当前最大攻击目标数更新为: 1
+[13:17:27.925] [Log] 士兵 未找到Role脚本
+[13:17:27.925] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[13:17:27.925] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[13:17:27.925] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[13:17:27.926] [Log] 血条对象层级检查：
+[13:17:27.926] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[13:17:27.926] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[13:17:27.926] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[13:17:27.926] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[13:17:27.926] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[13:17:27.926] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[13:17:27.926] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[13:17:27.926] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[13:17:27.926] [Log] 士兵 当前最大攻击目标数更新为: 1
+[13:17:27.926] [Log] 士兵 未找到Role脚本
+[13:17:27.926] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[13:17:27.927] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[13:17:27.927] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[13:17:27.927] [Log] 血条对象层级检查：
+[13:17:27.927] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[13:17:27.927] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[13:17:27.927] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[13:17:27.927] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[13:17:27.927] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[13:17:27.927] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[13:17:27.927] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[13:17:27.927] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[13:17:27.927] [Log] 士兵 当前最大攻击目标数更新为: 1
+[13:17:27.928] [Log] 士兵 未找到Role脚本
+[13:17:27.928] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[13:17:27.928] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[13:17:27.928] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[13:17:27.928] [Log] 血条对象层级检查：
+[13:17:27.928] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[13:17:27.928] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[13:17:27.928] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[13:17:27.928] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[13:17:27.928] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[13:17:27.928] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[13:17:27.929] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[13:17:27.973] [Log] HealthBar Canvas Configuration:
+[13:17:27.973] [Log]   Render Mode: WorldSpace
+[13:17:27.973] [Log]   Sorting Order: 100
+[13:17:27.973] [Log]   Sorting Layer: Default
+[13:17:27.973] [Log]   World Camera: None
+[13:17:27.973] [Log]   Plane Distance: 100
+[13:17:27.973] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[13:17:27.975] [Log] HealthBar Canvas Configuration:
+[13:17:27.975] [Log]   Render Mode: WorldSpace
+[13:17:27.975] [Log]   Sorting Order: 100
+[13:17:27.975] [Log]   Sorting Layer: Default
+[13:17:27.975] [Log]   World Camera: None
+[13:17:27.975] [Log]   Plane Distance: 100
+[13:17:27.975] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[13:17:27.975] [Log] HealthBar Canvas Configuration:
+[13:17:27.975] [Log]   Render Mode: WorldSpace
+[13:17:27.975] [Log]   Sorting Order: 100
+[13:17:27.975] [Log]   Sorting Layer: Default
+[13:17:27.975] [Log]   World Camera: None
+[13:17:27.975] [Log]   Plane Distance: 100
+[13:17:27.975] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[13:17:27.975] [Log] HealthBar Canvas Configuration:
+[13:17:27.975] [Log]   Render Mode: WorldSpace
+[13:17:27.975] [Log]   Sorting Order: 100
+[13:17:27.975] [Log]   Sorting Layer: Default
+[13:17:27.975] [Log]   World Camera: None
+[13:17:27.975] [Log]   Plane Distance: 100
+[13:17:27.975] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[13:17:27.975] [Log] HealthBar Canvas Configuration:
+[13:17:27.975] [Log]   Render Mode: WorldSpace
+[13:17:27.975] [Log]   Sorting Order: 100
+[13:17:27.975] [Log]   Sorting Layer: Default
+[13:17:27.975] [Log]   World Camera: None
+[13:17:27.975] [Log]   Plane Distance: 100
+[13:17:27.975] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[13:17:27.975] [Log] HealthBar Canvas Configuration:
+[13:17:27.975] [Log]   Render Mode: WorldSpace
+[13:17:27.975] [Log]   Sorting Order: 100
+[13:17:27.975] [Log]   Sorting Layer: Default
+[13:17:27.976] [Log]   World Camera: None
+[13:17:27.976] [Log]   Plane Distance: 100
+[13:17:27.976] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[13:17:27.977] [Log] 收集到 544 个地砖
+[13:17:27.978] [Log] 所有瓦片的网格坐标初始化完成
+[13:17:27.978] [Log] 识别到 8 个桥梁位置
+[13:17:27.978] [Log] [MapManager] 初始化完成, 共 544 个地砖, 其中 4 个高台
+==========================================
+游戏日志结束 - 2026/2/24 13:18:33
+==========================================

@@ -1,0 +1,1418 @@
+==========================================
+游戏日志开始 - 2026/3/10 11:15:15
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[11:15:16.182] [Log] === 客户端预制体列表诊断 (启动时) ===
+[11:15:16.183] [Log] 客户端 SpawnPrefabs 数量: 13
+[11:15:16.183] [Log]   [0] amiya -> AssetId: 1054292600
+[11:15:16.183] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[11:15:16.183] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[11:15:16.183] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[11:15:16.183] [Log]   [4] chen -> AssetId: 1033753810
+[11:15:16.183] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[11:15:16.183] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[11:15:16.183] [Log]   [7] Guowangta -> AssetId: 500381289
+[11:15:16.183] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[11:15:16.183] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[11:15:16.183] [Log]   [10] yinhui -> AssetId: 2171254035
+[11:15:16.183] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[11:15:16.183] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[11:15:23.784] [Log] 返回主菜单
+[11:15:24.368] [Log] [Host] 局域网IP: 10.153.233.253, 端口: 7777
+[11:15:24.389] [Log] Not in Room scene...disconnecting connection(0)
+[11:15:24.390] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[11:15:24.390] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__15:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:111)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:102)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[11:15:24.413] [Log] 已设置 29 个地面瓦片
+[11:15:24.413] [Log] 已设置 9 个地面瓦片
+[11:15:24.418] [Log] 已设置 253 个地面瓦片
+[11:15:24.423] [Log] 已设置 253 个地面瓦片
+[11:15:24.761] [Warning] Failed to create agent because there is no valid NavMesh
+[11:15:24.847] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:24.852] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:15:24.855] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:15:24.855] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:15:24.855] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:15:24.857] [Log] 血条对象层级检查：
+[11:15:24.857] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:24.857] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:24.857] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:24.857] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:24.857] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:24.857] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:15:24.857] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:24.859] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[11:15:24.872] [Log] HealthBar Canvas Configuration:
+[11:15:24.872] [Log]   Render Mode: WorldSpace
+[11:15:24.872] [Log]   Sorting Order: 100
+[11:15:24.872] [Log]   Sorting Layer: Default
+[11:15:24.872] [Log]   World Camera: None
+[11:15:24.872] [Log]   Plane Distance: 100
+[11:15:24.872] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:24.876] [Warning] Pathfinding初始化时MapManager实例不存在
+[11:15:24.876] [Log] 找不到目标了
+[11:15:24.891] [Log] 找不到目标了
+[11:15:24.897] [Log] 找不到目标了
+[11:15:24.901] [Log] 找不到目标了
+[11:15:24.906] [Log] 找不到目标了
+[11:15:24.912] [Log] 找不到目标了
+[11:15:24.918] [Log] 找不到目标了
+[11:15:24.924] [Log] 找不到目标了
+[11:15:24.930] [Log] 找不到目标了
+[11:15:24.934] [Log] 找不到目标了
+[11:15:24.937] [Log] 找不到目标了
+[11:15:24.944] [Log] 找不到目标了
+[11:15:24.949] [Log] 找不到目标了
+[11:15:24.953] [Log] 找不到目标了
+[11:15:24.960] [Log] 找不到目标了
+[11:15:24.965] [Log] 找不到目标了
+[11:15:24.968] [Log] 找不到目标了
+[11:15:24.973] [Log] 找不到目标了
+[11:15:24.978] [Log] 找不到目标了
+[11:15:24.983] [Log] 找不到目标了
+[11:15:24.988] [Log] 找不到目标了
+[11:15:24.994] [Log] 找不到目标了
+[11:15:24.998] [Log] 找不到目标了
+[11:15:25.002] [Log] 找不到目标了
+[11:15:25.008] [Log] 找不到目标了
+[11:15:25.014] [Log] 找不到目标了
+[11:15:25.017] [Log] 找不到目标了
+[11:15:25.022] [Log] 找不到目标了
+[11:15:25.029] [Log] 找不到目标了
+[11:15:25.033] [Log] 找不到目标了
+[11:15:25.038] [Log] 找不到目标了
+[11:15:25.045] [Log] 找不到目标了
+[11:15:25.049] [Log] 找不到目标了
+[11:15:25.053] [Log] 找不到目标了
+[11:15:25.059] [Log] 找不到目标了
+[11:15:25.064] [Log] 找不到目标了
+[11:15:25.068] [Log] 找不到目标了
+[11:15:25.073] [Log] 找不到目标了
+[11:15:25.080] [Log] 找不到目标了
+[11:15:25.084] [Log] 找不到目标了
+[11:15:25.090] [Log] 找不到目标了
+[11:15:25.095] [Log] 找不到目标了
+[11:15:25.101] [Log] 找不到目标了
+[11:15:25.104] [Log] 找不到目标了
+[11:15:25.111] [Log] 找不到目标了
+[11:15:25.115] [Log] 找不到目标了
+[11:15:25.120] [Log] 找不到目标了
+[11:15:25.125] [Log] 找不到目标了
+[11:15:25.130] [Log] 找不到目标了
+[11:15:25.135] [Log] 找不到目标了
+[11:15:25.141] [Log] 找不到目标了
+[11:15:25.147] [Log] 找不到目标了
+[11:15:25.151] [Log] 找不到目标了
+[11:15:25.155] [Log] 找不到目标了
+[11:15:25.162] [Log] 找不到目标了
+[11:15:25.167] [Log] 找不到目标了
+[11:15:25.171] [Log] 找不到目标了
+[11:15:25.177] [Log] 找不到目标了
+[11:15:25.181] [Log] 找不到目标了
+[11:15:25.186] [Log] 找不到目标了
+[11:15:25.193] [Log] 找不到目标了
+[11:15:25.198] [Log] 找不到目标了
+[11:15:25.202] [Log] 找不到目标了
+[11:15:25.207] [Log] 找不到目标了
+[11:15:25.214] [Log] 找不到目标了
+[11:15:25.217] [Log] 找不到目标了
+[11:15:25.222] [Log] 找不到目标了
+[11:15:25.228] [Log] 找不到目标了
+[11:15:25.233] [Log] 找不到目标了
+[11:15:25.237] [Log] 找不到目标了
+[11:15:25.241] [Log] 找不到目标了
+[11:15:25.248] [Log] 找不到目标了
+[11:15:25.252] [Log] 找不到目标了
+[11:15:25.258] [Log] 找不到目标了
+[11:15:25.264] [Log] 找不到目标了
+[11:15:25.267] [Log] 找不到目标了
+[11:15:25.272] [Log] 找不到目标了
+[11:15:25.277] [Log] 找不到目标了
+[11:15:25.282] [Log] 找不到目标了
+[11:15:25.287] [Log] 找不到目标了
+[11:15:25.293] [Log] 找不到目标了
+[11:15:25.298] [Log] 找不到目标了
+[11:15:25.303] [Log] 找不到目标了
+[11:15:25.308] [Log] 找不到目标了
+[11:15:25.313] [Log] 找不到目标了
+[11:15:25.319] [Log] 找不到目标了
+[11:15:25.323] [Log] 找不到目标了
+[11:15:25.330] [Log] 找不到目标了
+[11:15:25.334] [Log] 找不到目标了
+[11:15:25.338] [Log] 找不到目标了
+[11:15:25.345] [Log] 找不到目标了
+[11:15:25.350] [Log] 找不到目标了
+[11:15:25.355] [Log] 找不到目标了
+[11:15:25.361] [Log] 找不到目标了
+[11:15:25.366] [Log] 找不到目标了
+[11:15:25.369] [Log] 找不到目标了
+[11:15:25.374] [Log] 找不到目标了
+[11:15:25.380] [Log] 找不到目标了
+[11:15:25.384] [Log] 找不到目标了
+[11:15:25.389] [Log] 找不到目标了
+[11:15:25.395] [Log] 找不到目标了
+[11:15:25.400] [Log] 找不到目标了
+[11:15:25.403] [Log] 找不到目标了
+[11:15:25.411] [Log] 找不到目标了
+[11:15:25.416] [Log] 找不到目标了
+[11:15:25.420] [Log] 找不到目标了
+[11:15:25.427] [Log] 找不到目标了
+[11:15:25.433] [Log] 找不到目标了
+[11:15:25.437] [Log] 找不到目标了
+[11:15:25.442] [Log] 找不到目标了
+[11:15:25.448] [Log] 找不到目标了
+[11:15:25.453] [Log] 找不到目标了
+[11:15:25.456] [Log] 找不到目标了
+[11:15:25.463] [Log] 找不到目标了
+[11:15:25.468] [Log] 找不到目标了
+[11:15:25.473] [Log] 找不到目标了
+[11:15:25.478] [Log] 找不到目标了
+[11:15:25.481] [Log] 找不到目标了
+[11:15:25.486] [Log] 找不到目标了
+[11:15:25.490] [Log] 找不到目标了
+[11:15:25.496] [Log] 找不到目标了
+[11:15:25.499] [Log] 找不到目标了
+[11:15:25.504] [Log] 找不到目标了
+[11:15:25.508] [Log] 找不到目标了
+[11:15:25.514] [Log] 找不到目标了
+[11:15:25.518] [Log] 找不到目标了
+[11:15:25.522] [Log] 找不到目标了
+[11:15:25.527] [Log] 找不到目标了
+[11:15:25.532] [Log] 找不到目标了
+[11:15:25.535] [Log] 找不到目标了
+[11:15:25.538] [Log] 找不到目标了
+[11:15:25.545] [Log] 找不到目标了
+[11:15:25.551] [Log] 找不到目标了
+[11:15:25.554] [Log] 找不到目标了
+[11:15:25.559] [Log] 找不到目标了
+[11:15:25.564] [Log] 找不到目标了
+[11:15:25.567] [Log] 找不到目标了
+[11:15:25.571] [Log] 找不到目标了
+[11:15:25.575] [Log] 找不到目标了
+[11:15:25.581] [Log] 找不到目标了
+[11:15:25.584] [Log] 找不到目标了
+[11:15:25.587] [Log] 找不到目标了
+[11:15:25.592] [Log] 找不到目标了
+[11:15:25.597] [Log] 找不到目标了
+[11:15:25.601] [Log] 找不到目标了
+[11:15:25.605] [Log] 找不到目标了
+[11:15:25.609] [Log] 找不到目标了
+[11:15:25.616] [Log] 找不到目标了
+[11:15:25.619] [Log] 找不到目标了
+[11:15:25.621] [Log] 找不到目标了
+[11:15:25.627] [Log] 找不到目标了
+[11:15:25.631] [Log] 找不到目标了
+[11:15:25.634] [Log] 找不到目标了
+[11:15:25.638] [Log] 找不到目标了
+[11:15:25.642] [Log] 找不到目标了
+[11:15:25.647] [Log] 找不到目标了
+[11:15:25.651] [Log] 找不到目标了
+[11:15:25.655] [Log] 找不到目标了
+[11:15:25.658] [Log] 找不到目标了
+[11:15:25.664] [Log] 找不到目标了
+[11:15:25.667] [Log] 找不到目标了
+[11:15:25.671] [Log] 找不到目标了
+[11:15:25.674] [Log] 找不到目标了
+[11:15:25.680] [Log] 找不到目标了
+[11:15:25.684] [Log] 找不到目标了
+[11:15:25.687] [Log] 找不到目标了
+[11:15:25.691] [Log] 找不到目标了
+[11:15:25.696] [Log] 找不到目标了
+[11:15:25.702] [Log] 找不到目标了
+[11:15:25.705] [Log] 找不到目标了
+[11:15:25.709] [Log] 找不到目标了
+[11:15:25.775] [Log] 找不到目标了
+[11:15:25.783] [Log] 找不到目标了
+[11:15:25.819] [Log] 已设置 29 个地面瓦片
+[11:15:25.819] [Log] 已设置 9 个地面瓦片
+[11:15:25.825] [Log] 已设置 253 个地面瓦片
+[11:15:25.829] [Log] 已设置 253 个地面瓦片
+[11:15:26.135] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[11:15:26.135] [Log] 找不到目标了
+[11:15:26.139] [Warning] NetworkClient can't AddPlayer before being ready. Please call NetworkClient.Ready() first. Clients are considered ready after joining the game world.
+[11:15:26.140] [Log] [PlayerElixir] OnStartServer: netId=8, playerIndex=0, connId=0
+[11:15:26.140] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[11:15:26.441] [Log] 玩家 8 阵营: TeamA
+[11:15:26.441] [Log] 服务器分配阵营: 玩家 8 = TeamA
+[11:15:26.441] [Log] [MyNetworkRoomManager] ★ 进入游戏场景
+[11:15:26.443] [Log] [MyNetworkRoomManager] NetworkGameState 已生成
+[11:15:26.446] [Log] [MyNetworkRoomManager] 清理 RoomPlayer: RoomPlayer(Clone)
+[11:15:26.447] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:127)
+
+[11:15:26.447] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:26.447] [Log] 士兵 未找到Role脚本
+[11:15:26.447] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:15:26.447] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:15:26.447] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:15:26.447] [Log] 血条对象层级检查：
+[11:15:26.447] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:26.449] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:26.449] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:26.449] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:26.449] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:26.449] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:15:26.449] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:26.449] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:127)
+
+[11:15:26.449] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:26.449] [Log] 士兵 未找到Role脚本
+[11:15:26.450] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:15:26.450] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:15:26.450] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:15:26.450] [Log] 血条对象层级检查：
+[11:15:26.450] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:26.450] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:26.450] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:26.450] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:26.450] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:26.450] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:15:26.450] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:26.450] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:127)
+
+[11:15:26.450] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:26.451] [Log] 士兵 未找到Role脚本
+[11:15:26.451] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:15:26.451] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:15:26.451] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:15:26.451] [Log] 血条对象层级检查：
+[11:15:26.451] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:26.451] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:26.451] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:26.451] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:26.451] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:26.451] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:15:26.451] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:26.451] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:127)
+
+[11:15:26.452] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:26.452] [Log] 士兵 未找到Role脚本
+[11:15:26.452] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:15:26.452] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:15:26.452] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:15:26.452] [Log] 血条对象层级检查：
+[11:15:26.452] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:26.452] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:26.452] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:26.452] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:26.452] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:26.452] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:15:26.452] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:26.452] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:127)
+
+[11:15:26.452] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:26.452] [Log] 士兵 未找到Role脚本
+[11:15:26.453] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:15:26.453] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:15:26.453] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:15:26.453] [Log] 血条对象层级检查：
+[11:15:26.453] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:26.453] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:26.453] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:26.453] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:26.453] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:26.453] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:15:26.453] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:26.453] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:127)
+
+[11:15:26.453] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:26.454] [Log] 士兵 未找到Role脚本
+[11:15:26.454] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:15:26.454] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:15:26.454] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:15:26.456] [Log] 血条对象层级检查：
+[11:15:26.456] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:26.456] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:26.456] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:26.456] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:26.456] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:26.456] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:15:26.456] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:26.500] [Log] HealthBar Canvas Configuration:
+[11:15:26.500] [Log]   Render Mode: WorldSpace
+[11:15:26.500] [Log]   Sorting Order: 100
+[11:15:26.500] [Log]   Sorting Layer: Default
+[11:15:26.500] [Log]   World Camera: None
+[11:15:26.500] [Log]   Plane Distance: 100
+[11:15:26.500] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:26.500] [Log] HealthBar Canvas Configuration:
+[11:15:26.500] [Log]   Render Mode: WorldSpace
+[11:15:26.500] [Log]   Sorting Order: 100
+[11:15:26.500] [Log]   Sorting Layer: Default
+[11:15:26.500] [Log]   World Camera: None
+[11:15:26.500] [Log]   Plane Distance: 100
+[11:15:26.501] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:26.501] [Log] HealthBar Canvas Configuration:
+[11:15:26.501] [Log]   Render Mode: WorldSpace
+[11:15:26.501] [Log]   Sorting Order: 100
+[11:15:26.501] [Log]   Sorting Layer: Default
+[11:15:26.501] [Log]   World Camera: None
+[11:15:26.501] [Log]   Plane Distance: 100
+[11:15:26.501] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:26.501] [Log] HealthBar Canvas Configuration:
+[11:15:26.501] [Log]   Render Mode: WorldSpace
+[11:15:26.501] [Log]   Sorting Order: 100
+[11:15:26.501] [Log]   Sorting Layer: Default
+[11:15:26.501] [Log]   World Camera: None
+[11:15:26.501] [Log]   Plane Distance: 100
+[11:15:26.501] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:26.501] [Log] HealthBar Canvas Configuration:
+[11:15:26.501] [Log]   Render Mode: WorldSpace
+[11:15:26.501] [Log]   Sorting Order: 100
+[11:15:26.501] [Log]   Sorting Layer: Default
+[11:15:26.501] [Log]   World Camera: None
+[11:15:26.501] [Log]   Plane Distance: 100
+[11:15:26.502] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:26.502] [Log] HealthBar Canvas Configuration:
+[11:15:26.502] [Log]   Render Mode: WorldSpace
+[11:15:26.502] [Log]   Sorting Order: 100
+[11:15:26.502] [Log]   Sorting Layer: Default
+[11:15:26.502] [Log]   World Camera: None
+[11:15:26.502] [Log]   Plane Distance: 100
+[11:15:26.502] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:26.504] [Log] 收集到 544 个地砖
+[11:15:26.504] [Log] 所有瓦片的网格坐标初始化完成
+[11:15:26.505] [Log] 识别到 8 个桥梁位置
+[11:15:26.505] [Log] [MapManager] 初始化完成, 共 544 个地砖, 其中 4 个高台
+[11:15:26.505] [Log] [PlayerElixir] OnStartClient: netId=8, isLocalPlayer=True, playerIndex=0
+[11:15:26.507] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[11:15:26.508] [Log] [PlayerElixir] ★ 本地玩家启动, netId=8, playerIndex=0
+[11:15:26.508] [Log] 本地costcontroler初始化: netId=8, isLocalPlayer=True
+[11:15:28.266] [Log] 播放倒计时音乐
+[11:15:34.511] [Log] 播放游戏开始音乐
+[11:15:34.512] [Log] 游戏开始，播放第二首音乐
+[11:15:34.514] [Log] 绑定了 4 个Toggle组件
+[11:15:34.515] [Log] 绑定了 4 个Image组件
+[11:15:34.515] [Log] 绑定了 4 个Text组件
+[11:15:34.516] [Log] 绑定了ToggleGroup组件
+[11:15:34.516] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[11:15:34.516] [Log] 绑定了SkillPosition组件
+[11:15:34.517] [Log] [UIManager] 使用玩家选择的 8 个干员
+[11:15:34.518] [Log] 游戏开始！
+[11:15:35.908] [Log] UIManager: Toggle 3 开始拖拽
+[11:15:35.920] [Log] UIManager: Toggle 3 拖拽距离: 16.50237
+[11:15:35.932] [Log] UIManager: Toggle 3 拖拽距离: 44.95394
+[11:15:35.943] [Log] UIManager: Toggle 3 拖拽距离: 82.22695
+[11:15:35.957] [Log] UIManager: Toggle 3 拖拽距离: 140.0609
+[11:15:35.957] [Log] UIManager: Toggle 3 拖拽距离超过阈值，开始放置模式
+[11:15:35.957] [Log] UIManager: Toggle 3 兵种索引: 3
+[11:15:35.959] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[11:15:35.964] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetPreview(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:51)
+NetworkUnitPlacer:StartPlacingUnitLocal(Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+<>c__DisplayClass22_0:<InitializeUnitSystem>b__2(BaseEventData) (at Assets/Scripts/UI/UIManager.cs:388)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[11:15:35.965] [Log] 开始放置
+[11:15:35.965] [Log] UIManager: Toggle 3 调用了放置逻辑
+[11:15:35.966] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[11:15:36.003] [Log] 战斗正面模型缩放:1.3
+[11:15:36.004] [Log] 战斗背面模型缩放:1.3
+[11:15:36.004] [Log] 基建模型缩放:1.3
+[11:15:36.547] [Log] UIManager: Toggle 3 结束拖拽
+[11:15:36.550] [Log] [放置] 玩家1 当前拥有3.558755费用, 需要3
+[11:15:36.551] [Log] [放置验证] MapManager存在, nearestTile=Cube (219), 请求位置=(3.00, 0.00, 12.00)
+[11:15:36.556] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetNetworkUnit(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:88)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(Vector3, Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage(NetworkConnectionToClient, CommandMessage, Int32) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke(NetworkConnectionToClient, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData(Int32, ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update() (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast() (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:36.557] [Error] "Resume" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:36.557] [Error] "ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:36.559] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 0.6
+[11:15:36.559] [Log] [放置] 玩家1 放置单位 keluosi2, teamIndex=0
+[11:15:36.561] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=3
+[11:15:36.563] [Log] 卡牌 3 已放入队列
+[11:15:36.563] [Log] 从队列取出卡牌 4
+[11:15:36.563] [Log] 位置 3 的卡牌已替换为索引 4 的卡牌
+[11:15:36.565] [Log] 为兵种 3 创建了技能按钮，士兵: keluosi2(Clone)
+[11:15:36.565] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[11:15:36.566] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[11:15:36.566] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:36.566] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:15:36.566] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:15:36.566] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:15:36.566] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:15:36.568] [Log] 血条对象层级检查：
+[11:15:36.568] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:36.568] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:36.568] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:36.568] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:36.568] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:36.568] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:15:36.568] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:36.568] [Log] 战斗正面模型缩放:1.3
+[11:15:36.568] [Log] 战斗背面模型缩放:1.3
+[11:15:36.568] [Log] 基建模型缩放:1.3
+[11:15:36.578] [Log] HealthBar Canvas Configuration:
+[11:15:36.578] [Log]   Render Mode: WorldSpace
+[11:15:36.578] [Log]   Sorting Order: 100
+[11:15:36.578] [Log]   Sorting Layer: Default
+[11:15:36.578] [Log]   World Camera: None
+[11:15:36.578] [Log]   Plane Distance: 100
+[11:15:36.578] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:37.156] [Log] 士兵 士兵 技能【1】请求激活，1
+[11:15:37.169] [Log] 士兵 战斗检测范围更新为: 7
+[11:15:37.170] [Log] 士兵 技能状态设置为: True
+[11:15:37.170] [Log] 士兵 当前最大攻击目标数更新为: 3
+[11:15:37.170] [Log] 士兵 战斗检测范围更新为: 7
+[11:15:37.491] [Log] 士兵 锁定目标: AnemyGongzhuta
+[11:15:37.493] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:15:37.493] [Log] 士兵 调用技能模型: onSkillF
+[11:15:37.495] [Exception] ArgumentException: Animation not found: Skill
+Parameter name: animationName
+Spine.AnimationState.SetAnimation (System.Int32 trackIndex, System.String animationName, System.Boolean loop) (at Assets/Character/Spine/Runtime/spine-csharp/AnimationState.cs:680)
+Role.onSkillF () (at Assets/Scripts/Units/Role.cs:422)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnSkillF() (at Assets/Scripts/Units/SoldierController.cs:1044)
+SoldierController:InvokeUserCode_RpcOnSkillF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+Mirror.LocalConnectionToServer:Update() (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:15:38.147] [Log] 技能按钮 0 冷却完成！
+[11:15:40.337] [Log] 士兵 士兵 技能【1】请求激活，1
+[11:15:40.348] [Log] 士兵 战斗检测范围更新为: 8
+[11:15:40.349] [Log] 士兵 技能状态设置为: True
+[11:15:40.349] [Log] 士兵 当前最大攻击目标数更新为: 3
+[11:15:40.349] [Log] 士兵 战斗检测范围更新为: 8
+[11:15:40.349] [Exception] ArgumentException: Animation not found: Skill
+Parameter name: animationName
+Spine.AnimationState.SetAnimation (System.Int32 trackIndex, System.String animationName, System.Boolean loop) (at Assets/Character/Spine/Runtime/spine-csharp/AnimationState.cs:680)
+Role.onSkillF () (at Assets/Scripts/Units/Role.cs:422)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnSkillF() (at Assets/Scripts/Units/SoldierController.cs:1044)
+SoldierController:InvokeUserCode_RpcOnSkillF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+Mirror.LocalConnectionToServer:Update() (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:15:41.333] [Log] 技能按钮 0 冷却完成！
+[11:15:44.017] [Log] UIManager: Toggle 0 开始拖拽
+[11:15:44.082] [Log] UIManager: Toggle 0 拖拽距离: 10.96368
+[11:15:44.096] [Log] UIManager: Toggle 0 拖拽距离: 27.40907
+[11:15:44.108] [Log] UIManager: Toggle 0 拖拽距离: 52.07718
+[11:15:44.120] [Log] UIManager: Toggle 0 拖拽距离: 79.48611
+[11:15:44.133] [Log] UIManager: Toggle 0 拖拽距离: 120.6074
+[11:15:44.133] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[11:15:44.133] [Log] UIManager: Toggle 0 兵种索引: 0
+[11:15:44.134] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[11:15:44.137] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetPreview(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:51)
+NetworkUnitPlacer:StartPlacingUnitLocal(Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+<>c__DisplayClass22_0:<InitializeUnitSystem>b__2(BaseEventData) (at Assets/Scripts/UI/UIManager.cs:388)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[11:15:44.137] [Log] 开始放置
+[11:15:44.137] [Log] UIManager: Toggle 0 调用了放置逻辑
+[11:15:44.138] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:15:44.151] [Log] 战斗正面模型缩放:1.3
+[11:15:44.151] [Log] 战斗背面模型缩放:1.3
+[11:15:44.151] [Log] 基建模型缩放:1.3
+[11:15:44.673] [Log] UIManager: Toggle 0 结束拖拽
+[11:15:44.687] [Log] [放置] 玩家1 当前拥有7.052209费用, 需要3
+[11:15:44.687] [Log] [放置验证] MapManager存在, nearestTile=Cube (218), 请求位置=(2.00, 0.00, 12.00)
+[11:15:44.688] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetNetworkUnit(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:88)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(Vector3, Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage(NetworkConnectionToClient, CommandMessage, Int32) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke(NetworkConnectionToClient, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData(Int32, ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update() (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast() (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:44.688] [Error] "Resume" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:44.688] [Error] "ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:44.688] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 4.1
+[11:15:44.688] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[11:15:44.688] [Log] OnUnitPlaced 被调用: unitIndex=0, positionIndex=0
+[11:15:44.690] [Log] 卡牌 0 已放入队列
+[11:15:44.690] [Log] 从队列取出卡牌 5
+[11:15:44.690] [Log] 位置 0 的卡牌已替换为索引 5 的卡牌
+[11:15:44.690] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[11:15:44.690] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:15:44.691] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[11:15:44.691] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:44.691] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:15:44.691] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:15:44.691] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:15:44.691] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:15:44.692] [Log] 血条对象层级检查：
+[11:15:44.692] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:44.692] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:44.692] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:44.692] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:44.692] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:44.692] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:15:44.692] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:44.692] [Log] 战斗正面模型缩放:1.3
+[11:15:44.692] [Log] 战斗背面模型缩放:1.3
+[11:15:44.692] [Log] 基建模型缩放:1.3
+[11:15:44.703] [Log] HealthBar Canvas Configuration:
+[11:15:44.703] [Log]   Render Mode: WorldSpace
+[11:15:44.703] [Log]   Sorting Order: 100
+[11:15:44.703] [Log]   Sorting Layer: Default
+[11:15:44.703] [Log]   World Camera: None
+[11:15:44.703] [Log]   Plane Distance: 100
+[11:15:44.703] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:45.967] [Log] 士兵 士兵 技能【1】请求激活，1
+[11:15:45.968] [Log] 士兵 战斗检测范围更新为: 2.5
+[11:15:45.968] [Log] 士兵 技能状态设置为: True
+[11:15:45.969] [Log] 士兵 当前最大攻击目标数更新为: 3
+[11:15:45.969] [Log] 士兵 战斗检测范围更新为: 2.5
+[11:15:46.959] [Log] 技能按钮 1 冷却完成！
+[11:15:47.753] [Log] 士兵 锁定目标: AnemyGongzhuta
+[11:15:47.753] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:15:47.754] [Log] 士兵 调用技能模型: onSkillF
+[11:15:48.193] [Log] OnAttack
+[11:15:48.193] [Log] 正面
+[11:15:48.204] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:48.218] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.225] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.225] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.225] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.225] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.226] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.226] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.227] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.227] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.227] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.228] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.228] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.228] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.228] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.229] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.229] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.229] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.229] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.230] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.230] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.230] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.231] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.231] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.231] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.231] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.233] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.233] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.233] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.233] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.234] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.234] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.234] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.234] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.234] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.235] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.235] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.235] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.236] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.236] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.236] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.236] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.236] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:48.237] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:49.527] [Log] OnAttack
+[11:15:49.528] [Log] 正面
+[11:15:49.538] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:49.540] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:49.540] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:49.540] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:49.540] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:49.541] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:49.541] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:49.541] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:49.541] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:50.855] [Log] OnAttack
+[11:15:50.855] [Log] 正面
+[11:15:50.868] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:50.869] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:50.869] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:50.869] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:50.869] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:50.869] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:50.870] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:50.870] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:50.870] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:51.365] [Log] UIManager: Toggle 0 开始拖拽
+[11:15:51.412] [Log] UIManager: Toggle 0 拖拽距离: 33.14674
+[11:15:51.424] [Log] UIManager: Toggle 0 拖拽距离: 64.42573
+[11:15:51.438] [Log] UIManager: Toggle 0 拖拽距离: 122.4619
+[11:15:51.438] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[11:15:51.438] [Log] UIManager: Toggle 0 兵种索引: 5
+[11:15:51.439] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[11:15:51.443] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetPreview(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:51)
+NetworkUnitPlacer:StartPlacingUnitLocal(Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+<>c__DisplayClass22_0:<InitializeUnitSystem>b__2(BaseEventData) (at Assets/Scripts/UI/UIManager.cs:388)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[11:15:51.443] [Log] 开始放置
+[11:15:51.443] [Log] UIManager: Toggle 0 调用了放置逻辑
+[11:15:51.444] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:15:51.457] [Log] 战斗正面模型缩放:1
+[11:15:51.457] [Log] 战斗背面模型缩放:1
+[11:15:51.457] [Log] 基建模型缩放:1
+[11:15:51.785] [Log] UIManager: Toggle 0 结束拖拽
+[11:15:51.786] [Log] [放置] 玩家1 当前拥有9.745232费用, 需要3
+[11:15:51.788] [Log] [放置验证] MapManager存在, nearestTile=Cube (208), 请求位置=(10.00, 0.00, 11.00)
+[11:15:51.788] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetNetworkUnit(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:88)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(Vector3, Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage(NetworkConnectionToClient, CommandMessage, Int32) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke(NetworkConnectionToClient, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData(Int32, ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update() (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast() (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:51.789] [Error] "Resume" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:51.789] [Error] "ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:51.789] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 6.7
+[11:15:51.789] [Log] [放置] 玩家1 放置单位 chen, teamIndex=0
+[11:15:51.790] [Log] OnUnitPlaced 被调用: unitIndex=5, positionIndex=0
+[11:15:51.790] [Log] 卡牌 5 已放入队列
+[11:15:51.790] [Log] 从队列取出卡牌 6
+[11:15:51.790] [Log] 位置 0 的卡牌已替换为索引 6 的卡牌
+[11:15:51.791] [Log] 为兵种 0 创建了技能按钮，士兵: chen(Clone)
+[11:15:51.791] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:15:51.791] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[11:15:51.791] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:51.791] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:15:51.791] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:15:51.791] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:15:51.791] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:15:51.792] [Log] 血条对象层级检查：
+[11:15:51.792] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:51.792] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:51.792] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:51.792] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:51.792] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:51.793] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:15:51.793] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:51.793] [Log] 战斗正面模型缩放:1
+[11:15:51.793] [Log] 战斗背面模型缩放:1
+[11:15:51.793] [Log] 基建模型缩放:1
+[11:15:51.802] [Log] HealthBar Canvas Configuration:
+[11:15:51.803] [Log]   Render Mode: WorldSpace
+[11:15:51.803] [Log]   Sorting Order: 100
+[11:15:51.803] [Log]   Sorting Layer: Default
+[11:15:51.803] [Log]   World Camera: None
+[11:15:51.803] [Log]   Plane Distance: 100
+[11:15:51.803] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:52.197] [Log] OnAttack
+[11:15:52.198] [Log] 正面
+[11:15:52.210] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:52.211] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:52.212] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:52.212] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:52.213] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:52.213] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:52.213] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:52.213] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:52.213] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:52.350] [Log] UIManager: Toggle 0 开始拖拽
+[11:15:52.362] [Log] UIManager: Toggle 0 拖拽距离: 17.17164
+[11:15:52.376] [Log] UIManager: Toggle 0 拖拽距离: 53.37718
+[11:15:52.388] [Log] UIManager: Toggle 0 拖拽距离: 105.7646
+[11:15:52.388] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[11:15:52.390] [Log] UIManager: Toggle 0 兵种索引: 6
+[11:15:52.390] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[11:15:52.390] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetPreview(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:51)
+NetworkUnitPlacer:StartPlacingUnitLocal(Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+<>c__DisplayClass22_0:<InitializeUnitSystem>b__2(BaseEventData) (at Assets/Scripts/UI/UIManager.cs:388)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[11:15:52.390] [Log] 开始放置
+[11:15:52.391] [Log] UIManager: Toggle 0 调用了放置逻辑
+[11:15:52.391] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:15:52.406] [Log] 战斗正面模型缩放:1.3
+[11:15:52.406] [Log] 战斗背面模型缩放:1.3
+[11:15:52.407] [Log] 基建模型缩放:1.3
+[11:15:52.599] [Log] UIManager: Toggle 0 结束拖拽
+[11:15:52.601] [Log] [放置] 玩家1 当前拥有7.479273费用, 需要3
+[11:15:52.602] [Log] [放置验证] MapManager存在, nearestTile=Cube (171), 请求位置=(9.00, 0.00, 9.00)
+[11:15:52.603] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetNetworkUnit(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:88)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(Vector3, Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage(NetworkConnectionToClient, CommandMessage, Int32) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke(NetworkConnectionToClient, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData(Int32, ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update() (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast() (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:52.603] [Error] "Resume" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:52.603] [Error] "ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:52.603] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 4.5
+[11:15:52.603] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[11:15:52.604] [Log] OnUnitPlaced 被调用: unitIndex=6, positionIndex=0
+[11:15:52.604] [Log] 卡牌 6 已放入队列
+[11:15:52.604] [Log] 从队列取出卡牌 7
+[11:15:52.604] [Log] 位置 0 的卡牌已替换为索引 7 的卡牌
+[11:15:52.604] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[11:15:52.605] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:15:52.605] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[11:15:52.605] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:52.605] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:15:52.605] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:15:52.606] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:15:52.606] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:15:52.606] [Log] 血条对象层级检查：
+[11:15:52.606] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:52.606] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:52.606] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:52.606] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:52.606] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:52.606] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:15:52.607] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:52.607] [Log] 战斗正面模型缩放:1.3
+[11:15:52.607] [Log] 战斗背面模型缩放:1.3
+[11:15:52.607] [Log] 基建模型缩放:1.3
+[11:15:52.619] [Log] HealthBar Canvas Configuration:
+[11:15:52.619] [Log]   Render Mode: WorldSpace
+[11:15:52.619] [Log]   Sorting Order: 100
+[11:15:52.619] [Log]   Sorting Layer: Default
+[11:15:52.619] [Log]   World Camera: None
+[11:15:52.619] [Log]   Plane Distance: 100
+[11:15:52.620] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:53.040] [Log] UIManager: Toggle 0 开始拖拽
+[11:15:53.054] [Log] UIManager: Toggle 0 拖拽距离: 13.00123
+[11:15:53.069] [Log] UIManager: Toggle 0 拖拽距离: 38.5922
+[11:15:53.083] [Log] UIManager: Toggle 0 拖拽距离: 68.49501
+[11:15:53.098] [Log] UIManager: Toggle 0 拖拽距离: 103.1576
+[11:15:53.099] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[11:15:53.099] [Log] UIManager: Toggle 0 兵种索引: 7
+[11:15:53.099] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[11:15:53.099] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetPreview(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:51)
+NetworkUnitPlacer:StartPlacingUnitLocal(Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+<>c__DisplayClass22_0:<InitializeUnitSystem>b__2(BaseEventData) (at Assets/Scripts/UI/UIManager.cs:388)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[11:15:53.100] [Log] 开始放置
+[11:15:53.100] [Log] UIManager: Toggle 0 调用了放置逻辑
+[11:15:53.100] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:15:53.130] [Log] 战斗正面模型缩放:1.3
+[11:15:53.130] [Log] 战斗背面模型缩放:1.3
+[11:15:53.130] [Log] 基建模型缩放:1.3
+[11:15:53.293] [Log] UIManager: Toggle 0 结束拖拽
+[11:15:53.295] [Log] [放置] 玩家1 当前拥有5.010585费用, 需要3
+[11:15:53.296] [Log] [放置验证] MapManager存在, nearestTile=Cube (115), 请求位置=(7.00, 0.00, 6.00)
+[11:15:53.297] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetNetworkUnit(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:88)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(Vector3, Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage(NetworkConnectionToClient, CommandMessage, Int32) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke(NetworkConnectionToClient, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData(Int32, ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update() (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast() (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:53.297] [Error] "Resume" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:53.297] [Error] "ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:53.297] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 2.0
+[11:15:53.297] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[11:15:53.297] [Log] OnUnitPlaced 被调用: unitIndex=7, positionIndex=0
+[11:15:53.299] [Log] 卡牌 7 已放入队列
+[11:15:53.299] [Log] 从队列取出卡牌 3
+[11:15:53.299] [Log] 位置 0 的卡牌已替换为索引 3 的卡牌
+[11:15:53.299] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[11:15:53.299] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:15:53.300] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[11:15:53.300] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:53.300] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:15:53.300] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:15:53.300] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:15:53.300] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:15:53.300] [Log] 血条对象层级检查：
+[11:15:53.300] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:53.300] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:53.300] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:53.300] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:53.300] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:53.300] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:15:53.300] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:53.301] [Log] 战斗正面模型缩放:1.3
+[11:15:53.301] [Log] 战斗背面模型缩放:1.3
+[11:15:53.301] [Log] 基建模型缩放:1.3
+[11:15:53.311] [Log] HealthBar Canvas Configuration:
+[11:15:53.311] [Log]   Render Mode: WorldSpace
+[11:15:53.311] [Log]   Sorting Order: 100
+[11:15:53.311] [Log]   Sorting Layer: Default
+[11:15:53.311] [Log]   World Camera: None
+[11:15:53.311] [Log]   Plane Distance: 100
+[11:15:53.311] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:53.523] [Log] OnAttack
+[11:15:53.523] [Log] 正面
+[11:15:53.537] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:53.538] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:53.538] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:53.538] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:53.539] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:53.539] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:53.539] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:53.539] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:53.539] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:53.675] [Log] UIManager: Toggle 0 开始拖拽
+[11:15:53.689] [Log] UIManager: Toggle 0 拖拽距离: 15.98209
+[11:15:53.703] [Log] UIManager: Toggle 0 拖拽距离: 55.15953
+[11:15:53.717] [Log] UIManager: Toggle 0 拖拽距离: 109.095
+[11:15:53.717] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[11:15:53.717] [Log] UIManager: Toggle 0 兵种索引: 3
+[11:15:53.717] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[11:15:53.718] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetPreview(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:51)
+NetworkUnitPlacer:StartPlacingUnitLocal(Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+<>c__DisplayClass22_0:<InitializeUnitSystem>b__2(BaseEventData) (at Assets/Scripts/UI/UIManager.cs:388)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[11:15:53.718] [Log] 开始放置
+[11:15:53.718] [Log] UIManager: Toggle 0 调用了放置逻辑
+[11:15:53.719] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:15:53.734] [Log] 战斗正面模型缩放:1.3
+[11:15:53.734] [Log] 战斗背面模型缩放:1.3
+[11:15:53.734] [Log] 基建模型缩放:1.3
+[11:15:54.237] [Log] UIManager: Toggle 0 结束拖拽
+[11:15:54.858] [Log] OnAttack
+[11:15:54.858] [Log] 正面
+[11:15:54.872] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:54.875] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:54.875] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:54.875] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:54.876] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:54.876] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:54.876] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:54.876] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:54.876] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:55.086] [Log] [放置] 玩家1 当前拥有3.394068费用, 需要3
+[11:15:55.087] [Log] [放置验证] MapManager存在, nearestTile=Cube (230), 请求位置=(14.00, 0.00, 12.00)
+[11:15:55.087] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetNetworkUnit(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:88)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(Vector3, Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage(NetworkConnectionToClient, CommandMessage, Int32) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke(NetworkConnectionToClient, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData(Int32, ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update() (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast() (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:55.087] [Error] "Resume" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:55.087] [Error] "ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnitPoolManager:ResetUnitState (UnityEngine.GameObject) (at Assets/Scripts/Utils/UnitPoolManager.cs:191)
+UnitPoolManager:GetNetworkUnit (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:99)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:335)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[11:15:55.087] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 0.4
+[11:15:55.087] [Log] [放置] 玩家1 放置单位 keluosi2, teamIndex=0
+[11:15:55.087] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=0
+[11:15:55.089] [Log] 卡牌 3 已放入队列
+[11:15:55.089] [Log] 从队列取出卡牌 0
+[11:15:55.089] [Log] 位置 0 的卡牌已替换为索引 0 的卡牌
+[11:15:55.089] [Log] 为兵种 0 创建了技能按钮，士兵: keluosi2(Clone)
+[11:15:55.090] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:15:55.090] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[11:15:55.090] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:15:55.090] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:15:55.090] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:15:55.090] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:15:55.091] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:15:55.091] [Log] 血条对象层级检查：
+[11:15:55.091] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:15:55.091] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:15:55.091] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:15:55.091] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:15:55.091] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:15:55.091] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:15:55.091] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:15:55.091] [Log] 战斗正面模型缩放:1.3
+[11:15:55.091] [Log] 战斗背面模型缩放:1.3
+[11:15:55.091] [Log] 基建模型缩放:1.3
+[11:15:55.101] [Log] HealthBar Canvas Configuration:
+[11:15:55.101] [Log]   Render Mode: WorldSpace
+[11:15:55.101] [Log]   Sorting Order: 100
+[11:15:55.101] [Log]   Sorting Layer: Default
+[11:15:55.101] [Log]   World Camera: None
+[11:15:55.101] [Log]   Plane Distance: 100
+[11:15:55.103] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:15:56.194] [Log] OnAttack
+[11:15:56.194] [Log] 正面
+[11:15:56.207] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:56.208] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:56.209] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:56.209] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:56.209] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:56.210] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:56.210] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:56.210] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:56.210] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:56.711] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[11:15:56.711] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:15:56.711] [Log] 士兵 调用攻击模型: onAttackF
+[11:15:57.081] [Log] OnAttack
+[11:15:57.081] [Log] 正面
+[11:15:57.097] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:57.097] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:57.527] [Log] OnAttack
+[11:15:57.528] [Log] 正面
+[11:15:57.540] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:57.543] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:57.543] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:57.543] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:57.544] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:57.544] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:57.544] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:57.544] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:57.544] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:58.080] [Log] OnAttack
+[11:15:58.080] [Log] 正面
+[11:15:58.093] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:58.093] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:58.859] [Log] OnAttack
+[11:15:58.859] [Log] 正面
+[11:15:58.869] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:58.871] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:58.871] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:58.871] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:58.871] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:58.871] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:58.871] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:58.872] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:15:58.872] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:15:59.086] [Log] OnAttack
+[11:15:59.086] [Log] 正面
+[11:15:59.100] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:15:59.100] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:00.080] [Log] OnAttack
+[11:16:00.081] [Log] 正面
+[11:16:00.093] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:00.093] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:00.194] [Log] OnAttack
+[11:16:00.194] [Log] 正面
+[11:16:00.206] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:16:00.206] [Log] 士兵 死亡
+[11:16:00.206] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:00.208] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:00.208] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:00.209] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:00.209] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:00.209] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:00.209] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:00.209] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:00.210] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:00.222] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[11:16:00.222] [Log] 士兵 退出战斗状态，切换模型
+[11:16:00.222] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[11:16:00.222] [Log] 士兵 退出战斗状态，切换模型
+[11:16:00.707] [Log] 士兵 锁定目标: yinhui(Clone)
+[11:16:00.707] [Log] 士兵 调用攻击模型: onAttackF
+[11:16:00.995] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[11:16:00.995] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:16:00.995] [Log] 士兵 调用攻击模型: onAttackF
+[11:16:01.091] [Log] OnAttack
+[11:16:01.091] [Log] 正面
+[11:16:01.103] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:01.103] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:01.503] [Log] OnAttack
+[11:16:01.503] [Log] 正面
+[11:16:01.516] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:01.516] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:02.033] [Log] 士兵 锁定目标: AnemyGuowangta
+[11:16:02.033] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:16:02.033] [Log] 士兵 调用技能模型: onSkillF
+[11:16:02.035] [Exception] ArgumentException: Animation not found: Skill
+Parameter name: animationName
+Spine.AnimationState.SetAnimation (System.Int32 trackIndex, System.String animationName, System.Boolean loop) (at Assets/Character/Spine/Runtime/spine-csharp/AnimationState.cs:680)
+Role.onSkillF () (at Assets/Scripts/Units/Role.cs:422)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnSkillF() (at Assets/Scripts/Units/SoldierController.cs:1044)
+SoldierController:InvokeUserCode_RpcOnSkillF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+Mirror.LocalConnectionToServer:Update() (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:16:02.083] [Log] OnAttack
+[11:16:02.083] [Log] 正面
+[11:16:02.095] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:02.095] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:02.834] [Log] OnAttack
+[11:16:02.834] [Log] 正面
+[11:16:02.844] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:02.844] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:03.085] [Log] OnAttack
+[11:16:03.085] [Log] 正面
+[11:16:03.096] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:03.096] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:03.228] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[11:16:03.228] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:16:03.228] [Log] 士兵 调用攻击模型: onAttackF
+[11:16:03.340] [Log] 士兵 锁定目标: AnemyGuowangta
+[11:16:03.341] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:16:03.341] [Log] 士兵 调用技能模型: onSkillF
+[11:16:03.671] [Log] OnAttack
+[11:16:03.673] [Log] 正面
+[11:16:03.686] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:16:03.686] [Log] 士兵 死亡
+[11:16:03.686] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:03.686] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:03.686] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[11:16:03.686] [Log] 士兵 退出战斗状态，切换模型
+[11:16:03.687] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[11:16:03.687] [Log] 士兵 退出战斗状态，切换模型
+[11:16:03.699] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[11:16:03.699] [Log] 士兵 退出战斗状态，切换模型
+[11:16:03.787] [Log] OnAttack
+[11:16:03.787] [Log] 正面
+[11:16:03.800] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:03.800] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:03.800] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:03.801] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:03.801] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:03.801] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:03.801] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:03.801] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:03.802] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:05.108] [Log] OnAttack
+[11:16:05.108] [Log] 正面
+[11:16:05.121] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:05.121] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:05.121] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:05.121] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:05.121] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:05.123] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:05.123] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:05.123] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:05.123] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:05.590] [Log] 士兵 锁定目标: yinhui(Clone)
+[11:16:05.590] [Log] 士兵 调用攻击模型: onAttackF
+[11:16:05.693] [Log] 士兵 锁定目标: AnemyGuowangta
+[11:16:05.693] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:16:05.693] [Log] 士兵 调用攻击模型: onAttackF
+[11:16:06.093] [Log] 士兵 锁定目标: AnemyGuowangta
+[11:16:06.093] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:16:06.093] [Log] 士兵 调用攻击模型: onAttackF
+[11:16:06.208] [Log] OnAttack
+[11:16:06.208] [Log] 正面
+[11:16:06.225] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:06.225] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:06.450] [Log] OnAttack
+[11:16:06.450] [Log] 正面
+[11:16:06.465] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:06.465] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:06.466] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:06.466] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:06.466] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:06.466] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:06.466] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:06.467] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:16:06.467] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:06.468] [Log] OnAttack
+[11:16:06.468] [Log] 正面
+[11:16:06.481] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:16:06.481] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:16:06.786] [Log] [MyNetworkRoomManager] 客户端 0 断开连接
+==========================================
+游戏日志结束 - 2026/3/10 11:16:06
+==========================================

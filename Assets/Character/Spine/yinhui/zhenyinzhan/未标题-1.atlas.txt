@@ -1,0 +1,39 @@
+
+未标题-1.png
+size: 1041,941
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+椭圆 1
+  rotate: false
+  xy: 2, 2
+  size: 1037, 937
+  orig: 1257, 1086
+  offset: 220, 6
+  index: -1
+
+未标题-12.png
+size: 1669,1114
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+newtuoyuan
+  rotate: true
+  xy: 2, 2
+  size: 1110, 1665
+  orig: 1176, 1678
+  offset: 65, 4
+  index: -1
+
+未标题-13.png
+size: 1218,1684
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+椭圆 2
+  rotate: false
+  xy: 2, 2
+  size: 1214, 1680
+  orig: 1302, 1806
+  offset: 29, 72
+  index: -1

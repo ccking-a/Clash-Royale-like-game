@@ -1,0 +1,101 @@
+==========================================
+游戏日志开始 - 2026/2/17 19:58:13
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[19:58:13.449] [Log] === 客户端预制体列表诊断 (启动时) ===
+[19:58:13.449] [Log] 客户端 SpawnPrefabs 数量: 11
+[19:58:13.449] [Log]   [0] amiya -> AssetId: 1054292600
+[19:58:13.450] [Log]   [1] Anemyamiya -> AssetId: 3767952548
+[19:58:13.450] [Log]   [2] AnemyGongzhuta -> AssetId: 258553055
+[19:58:13.450] [Log]   [3] AnemyGongzhuta (1) -> AssetId: 3034425767
+[19:58:13.450] [Log]   [4] AnemyGuowangta -> AssetId: 3706946732
+[19:58:13.450] [Log]   [5] chen -> AssetId: 1033753810
+[19:58:13.450] [Log]   [6] Gongzhuta -> AssetId: 48394343
+[19:58:13.451] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[19:58:13.451] [Log]   [8] Guowangta -> AssetId: 500381289
+[19:58:13.451] [Log]   [9] NetworkGameState -> AssetId: 2193712816
+[19:58:13.451] [Log]   [10] yinhui -> AssetId: 2171254035
+[20:14:57.486] [Log] NetworkGameManager.OnStartServer() 被调用
+[20:14:57.494] [Log] 客户端 0 连接到服务器
+[20:14:57.514] [Log] ========== OnServerAddPlayer 被调用 ==========
+[20:14:57.514] [Log] 连接ID: 0
+[20:14:57.514] [Log] Player Prefab 是否存在: True
+[20:14:57.522] [Log] 服务器[PlayerElixir] OnStartServer: netId=2
+[20:14:57.522] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[20:14:57.526] [Log] 客户端[PlayerElixir] OnStartClient: netId=2, isLocalPlayer=True, currentElixir=2
+[20:14:57.527] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[20:14:57.530] [Log] 绑定了 0 个Toggle组件
+[20:14:57.531] [Log] 绑定了 0 个Image组件
+[20:14:57.531] [Log] 绑定了 0 个Text组件
+[20:14:57.531] [Warning] 未找到ToggleGroup组件
+[20:14:57.533] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[20:14:57.533] [Warning] 未找到SkillPosition组件
+[20:14:57.538] [Exception] NullReferenceException: Object reference not set to an instance of an object
+CountdownTimer.BindUI () (at Assets/Scripts/LoadScene/CountdownTimer.cs:29)
+CountdownTimer.OnStartClient () (at Assets/Scripts/LoadScene/CountdownTimer.cs:21)
+Mirror.NetworkIdentity.OnStartClient () (at Assets/Mirror/Core/NetworkIdentity.cs:757)
+UnityEngine.Debug:LogException(Exception, Object)
+Mirror.NetworkIdentity:OnStartClient() (at Assets/Mirror/Core/NetworkIdentity.cs:761)
+Mirror.NetworkClient:InvokeIdentityCallbacks(NetworkIdentity) (at Assets/Mirror/Core/NetworkClient.cs:1407)
+Mirror.NetworkClient:BootstrapIdentity(NetworkIdentity) (at Assets/Mirror/Core/NetworkClient.cs:1380)
+Mirror.NetworkClient:OnHostClientSpawn(SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:1372)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, SpawnMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, SpawnMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+Mirror.LocalConnectionToServer:Update() (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[20:14:57.539] [Log] 本地玩家[PlayerElixir] ★ 本地玩家圣水系统启动, netId=2, currentElixir=2
+[20:14:57.540] [Log] 本地costcontroler初始化: netId=2, isLocalPlayer=True
+[20:14:57.544] [Log] 连接 0 的玩家对象: Player [connId=0]
+[20:16:01.358] [Log] 客户端 1883308745 连接到服务器
+[20:16:01.379] [Log] ========== OnServerAddPlayer 被调用 ==========
+[20:16:01.379] [Log] 连接ID: 1883308745
+[20:16:01.379] [Log] Player Prefab 是否存在: True
+[20:16:01.380] [Log] 服务器[PlayerElixir] OnStartServer: netId=3
+[20:16:01.380] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[20:16:01.390] [Exception] MissingReferenceException: The object of type 'NetworkIdentity' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+UnityEngine.Object.get_name () (at <8cdc7e7e8a17404287a8b220eb9eec72>:0)
+NetworkGameManager+<CheckPlayerAfterSpawn>d__8.MoveNext () (at Assets/Scripts/Core/NetworkGameManager.cs:78)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <8cdc7e7e8a17404287a8b220eb9eec72>:0)
+
+[20:18:57.477] [Log] 收集到 0 个单位
+[20:18:57.477] [Log] 敌方单位: 0
+[20:18:57.478] [Log] 友方单位: 0
+[20:18:57.478] [Log] 我方防御塔: 0
+[20:18:57.479] [Log] 敌方防御塔: 0
+[20:18:57.479] [Log] === 单位信息 ===
+[20:18:57.479] [Log] ================
+[20:18:57.480] [Log] 游戏结束
+[20:18:57.481] [Log] 游戏结束，暂停计时，对局时长: 04:01
+[20:18:57.481] [Log] costcontroler结束
+[20:18:57.509] [Log] audio结束
+[20:18:57.510] [Log] 隐藏了所有Canvas
+[20:18:57.511] [Log] 收集到 0 个单位
+[20:18:57.511] [Log] 敌方单位: 0
+[20:18:57.511] [Log] 友方单位: 0
+[20:18:57.511] [Log] 我方防御塔: 0
+[20:18:57.511] [Log] 敌方防御塔: 0
+[20:19:00.469] [Log] 返回主场景
+[20:19:00.485] [Warning] Multiple NetworkManagers detected in the scene. Only one NetworkManager can exist at a time. The duplicate NetworkManager will be destroyed.
+[20:19:00.766] [Log] === 客户端预制体列表诊断 (启动时) ===
+[20:19:00.767] [Log] 客户端 SpawnPrefabs 数量: 11
+[20:19:00.767] [Log]   [0] amiya -> AssetId: 1054292600
+[20:19:00.767] [Log]   [1] Anemyamiya -> AssetId: 3767952548
+[20:19:00.767] [Log]   [2] AnemyGongzhuta -> AssetId: 258553055
+[20:19:00.767] [Log]   [3] AnemyGongzhuta (1) -> AssetId: 3034425767
+[20:19:00.767] [Log]   [4] AnemyGuowangta -> AssetId: 3706946732
+[20:19:00.767] [Log]   [5] chen -> AssetId: 1033753810
+[20:19:00.768] [Log]   [6] Gongzhuta -> AssetId: 48394343
+[20:19:00.768] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[20:19:00.768] [Log]   [8] Guowangta -> AssetId: 500381289
+[20:19:00.768] [Log]   [9] NetworkGameState -> AssetId: 2193712816
+[20:19:00.768] [Log]   [10] yinhui -> AssetId: 2171254035
+==========================================
+游戏日志结束 - 2026/2/17 22:00:35
+==========================================

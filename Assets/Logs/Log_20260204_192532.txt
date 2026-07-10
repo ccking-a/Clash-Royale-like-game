@@ -1,0 +1,813 @@
+==========================================
+游戏日志开始 - 2026/2/4 19:25:32
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[19:25:41.185] [Log] 已设置 29 个地面瓦片
+[19:25:41.185] [Log] 已设置 9 个地面瓦片
+[19:25:41.191] [Log] 已设置 253 个地面瓦片
+[19:25:41.198] [Log] 已设置 253 个地面瓦片
+[19:25:41.201] [Log] GameManager.Awake()被调用
+[19:25:41.203] [Log] CostControler: 成功找到CostBar
+[19:25:41.203] [Log] CostControler: 成功找到Cost填充
+[19:25:41.203] [Log] CostControler: 成功找到圣水数值文本
+[19:25:41.204] [Log] CostControler: 成功找到圣水不足提示文本
+[19:25:41.204] [Log] CostControler: 成功找到游戏时间文本
+[19:25:41.582] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[19:25:41.586] [Log] NetworkGameManager.OnStartServer() 被调用
+[19:25:41.590] [Warning] Multiple NetworkManagers detected in the scene. Only one NetworkManager can exist at a time. The duplicate NetworkManager will be destroyed.
+[19:25:41.590] [Error] GameManager组件未找到
+UnityEngine.Debug:LogError (object)
+NetworkGameManager:OnStartServer () (at Assets/Scripts/Core/NetworkGameManager.cs:54)
+Mirror.NetworkManager:FinishStartHost () (at Assets/Mirror/Core/NetworkManager.cs:537)
+Mirror.NetworkManager:FinishLoadSceneHost () (at Assets/Mirror/Core/NetworkManager.cs:1021)
+Mirror.NetworkManager:FinishLoadScene () (at Assets/Mirror/Core/NetworkManager.cs:985)
+Mirror.NetworkManager:UpdateScene () (at Assets/Mirror/Core/NetworkManager.cs:963)
+Mirror.NetworkManager:LateUpdate () (at Assets/Mirror/Core/NetworkManager.cs:257)
+
+[19:25:41.836] [Log] 收集到 544 个地砖
+[19:25:41.836] [Log] 所有瓦片的网格坐标初始化完成
+[19:25:41.837] [Log] 识别到 8 个桥梁位置
+[19:25:41.840] [Log] 客户端 0 连接到服务器
+[19:25:41.847] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:25:41.848] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:41.852] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:41.852] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:41.853] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:41.854] [Log] 血条对象层级检查：
+[19:25:41.855] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:41.855] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:41.855] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:41.855] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:41.855] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:41.855] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:41.855] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:41.858] [Log] 战斗正面模型缩放:1.3
+[19:25:41.858] [Log] 战斗背面模型缩放:1.3
+[19:25:41.858] [Log] 基建模型缩放:1.3
+[19:25:41.858] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:25:41.858] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:41.858] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:41.858] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:41.858] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:41.860] [Log] 血条对象层级检查：
+[19:25:41.860] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:41.860] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:41.860] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:41.860] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:41.860] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:41.860] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:41.861] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:41.861] [Log] 战斗正面模型缩放:1.3
+[19:25:41.861] [Log] 战斗背面模型缩放:1.3
+[19:25:41.861] [Log] 基建模型缩放:1.3
+[19:25:41.862] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:25:41.862] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:41.862] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:41.862] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:41.862] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:41.863] [Log] 血条对象层级检查：
+[19:25:41.863] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:41.863] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:41.863] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:41.863] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:41.863] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:41.863] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:41.863] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:41.863] [Log] 战斗正面模型缩放:1
+[19:25:41.864] [Log] 战斗背面模型缩放:1
+[19:25:41.864] [Log] 基建模型缩放:1
+[19:25:41.864] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:106)
+
+[19:25:41.864] [Log] 未找到Role脚本
+[19:25:41.864] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:41.864] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:41.864] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:41.864] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:41.864] [Log] 血条对象层级检查：
+[19:25:41.865] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:41.865] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:41.865] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:41.865] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:41.865] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:41.865] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:41.865] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:41.865] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:106)
+
+[19:25:41.865] [Log] 未找到Role脚本
+[19:25:41.865] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:41.865] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:41.867] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:41.867] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:41.867] [Log] 血条对象层级检查：
+[19:25:41.867] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:41.867] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:41.867] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:41.867] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:41.868] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:41.868] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:41.868] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:41.868] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:106)
+
+[19:25:41.868] [Log] 未找到Role脚本
+[19:25:41.868] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:41.868] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:41.868] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:41.868] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:41.869] [Log] 血条对象层级检查：
+[19:25:41.869] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:41.869] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:41.869] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:41.869] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:41.869] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:41.869] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:41.869] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:41.869] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:106)
+
+[19:25:41.869] [Log] 未找到Role脚本
+[19:25:41.869] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:41.869] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:41.871] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:41.871] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:41.871] [Log] 血条对象层级检查：
+[19:25:41.871] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:41.871] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:41.871] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:41.872] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:41.872] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:41.872] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:41.872] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:41.872] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:106)
+
+[19:25:41.872] [Log] 未找到Role脚本
+[19:25:41.872] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:41.872] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:41.873] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:41.873] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:41.873] [Log] 血条对象层级检查：
+[19:25:41.873] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:41.873] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:41.873] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:41.874] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:41.874] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:41.874] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:41.874] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:41.874] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:106)
+
+[19:25:41.874] [Log] 未找到Role脚本
+[19:25:41.874] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:41.874] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:41.875] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:41.875] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:41.875] [Log] 血条对象层级检查：
+[19:25:41.875] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:41.875] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:41.875] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:41.875] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:41.875] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:41.875] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:41.875] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:41.876] [Log] 播放倒计时音乐
+[19:25:41.881] [Log] 进入倒计时，播放第一首音乐
+[19:25:41.883] [Log] 收集到 9 个单位
+[19:25:41.883] [Log] 敌方单位: 1
+[19:25:41.883] [Log] 友方单位: 2
+[19:25:41.883] [Log] 我方防御塔: 3
+[19:25:41.883] [Log] 敌方防御塔: 3
+[19:25:41.936] [Log] HealthBar Canvas Configuration:
+[19:25:41.936] [Log]   Render Mode: WorldSpace
+[19:25:41.936] [Log]   Sorting Order: 100
+[19:25:41.936] [Log]   Sorting Layer: Default
+[19:25:41.936] [Log]   World Camera: None
+[19:25:41.936] [Log]   Plane Distance: 100
+[19:25:41.936] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:41.937] [Log] HealthBar Canvas Configuration:
+[19:25:41.937] [Log]   Render Mode: WorldSpace
+[19:25:41.937] [Log]   Sorting Order: 100
+[19:25:41.937] [Log]   Sorting Layer: Default
+[19:25:41.937] [Log]   World Camera: None
+[19:25:41.937] [Log]   Plane Distance: 100
+[19:25:41.937] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:41.937] [Log] HealthBar Canvas Configuration:
+[19:25:41.937] [Log]   Render Mode: WorldSpace
+[19:25:41.937] [Log]   Sorting Order: 100
+[19:25:41.937] [Log]   Sorting Layer: Default
+[19:25:41.937] [Log]   World Camera: None
+[19:25:41.937] [Log]   Plane Distance: 100
+[19:25:41.937] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:41.937] [Log] HealthBar Canvas Configuration:
+[19:25:41.938] [Log]   Render Mode: WorldSpace
+[19:25:41.938] [Log]   Sorting Order: 100
+[19:25:41.938] [Log]   Sorting Layer: Default
+[19:25:41.938] [Log]   World Camera: None
+[19:25:41.938] [Log]   Plane Distance: 100
+[19:25:41.938] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:41.938] [Log] HealthBar Canvas Configuration:
+[19:25:41.938] [Log]   Render Mode: WorldSpace
+[19:25:41.938] [Log]   Sorting Order: 100
+[19:25:41.938] [Log]   Sorting Layer: Default
+[19:25:41.938] [Log]   World Camera: None
+[19:25:41.940] [Log]   Plane Distance: 100
+[19:25:41.940] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:41.940] [Log] HealthBar Canvas Configuration:
+[19:25:41.940] [Log]   Render Mode: WorldSpace
+[19:25:41.940] [Log]   Sorting Order: 100
+[19:25:41.940] [Log]   Sorting Layer: Default
+[19:25:41.940] [Log]   World Camera: None
+[19:25:41.940] [Log]   Plane Distance: 100
+[19:25:41.940] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:41.940] [Log] HealthBar Canvas Configuration:
+[19:25:41.941] [Log]   Render Mode: WorldSpace
+[19:25:41.941] [Log]   Sorting Order: 100
+[19:25:41.941] [Log]   Sorting Layer: Default
+[19:25:41.941] [Log]   World Camera: None
+[19:25:41.941] [Log]   Plane Distance: 100
+[19:25:41.942] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:41.942] [Log] HealthBar Canvas Configuration:
+[19:25:41.942] [Log]   Render Mode: WorldSpace
+[19:25:41.942] [Log]   Sorting Order: 100
+[19:25:41.942] [Log]   Sorting Layer: Default
+[19:25:41.942] [Log]   World Camera: None
+[19:25:41.942] [Log]   Plane Distance: 100
+[19:25:41.942] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:41.942] [Log] HealthBar Canvas Configuration:
+[19:25:41.942] [Log]   Render Mode: WorldSpace
+[19:25:41.942] [Log]   Sorting Order: 100
+[19:25:41.942] [Log]   Sorting Layer: Default
+[19:25:41.943] [Log]   World Camera: None
+[19:25:41.943] [Log]   Plane Distance: 100
+[19:25:41.943] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:41.959] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[19:25:41.962] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[19:25:44.958] [Log] 播放游戏开始音乐
+[19:25:44.958] [Log] 游戏开始，播放第二首音乐
+[19:25:44.960] [Log] 开局倒计时结束（3秒），开始生成敌兵
+[19:25:44.973] [Log] 游戏开始！
+[19:25:44.973] [Log] UIManager: 自动找到了NetworkUnitPlacer
+[19:25:46.081] [Log] 士兵 锁定目标: amiya
+[19:25:46.081] [Log] 士兵 调用攻击模型: onAttackF
+[19:25:46.121] [Log] 士兵 锁定目标: Anemyamiya (1)
+[19:25:46.121] [Log] 士兵 调用攻击模型: onAttackF
+[19:25:46.651] [Log] OnAttack
+[19:25:46.651] [Log] 正面
+[19:25:46.662] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:46.664] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:46.688] [Log] OnAttack
+[19:25:46.688] [Log] 正面
+[19:25:46.700] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:46.701] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:47.916] [Log] OnAttack
+[19:25:47.917] [Log] 正面
+[19:25:47.927] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:47.927] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:47.963] [Log] OnAttack
+[19:25:47.963] [Log] 正面
+[19:25:47.975] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:47.975] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:48.974] [Log] 在位置 (8.00, 0.50, 20.00) 生成敌兵，使用地砖 (8, 21)
+[19:25:48.974] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:25:48.974] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:48.975] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:48.976] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:48.976] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:48.976] [Log] 血条对象层级检查：
+[19:25:48.976] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:48.976] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:48.976] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:48.976] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:48.977] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:48.977] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:48.977] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:48.977] [Log] 战斗正面模型缩放:1.3
+[19:25:48.977] [Log] 战斗背面模型缩放:1.3
+[19:25:48.977] [Log] 基建模型缩放:1.3
+[19:25:48.977] [Log] HealthBar Canvas Configuration:
+[19:25:48.977] [Log]   Render Mode: WorldSpace
+[19:25:48.978] [Log]   Sorting Order: 100
+[19:25:48.978] [Log]   Sorting Layer: Default
+[19:25:48.978] [Log]   World Camera: None
+[19:25:48.978] [Log]   Plane Distance: 100
+[19:25:48.978] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:49.187] [Log] OnAttack
+[19:25:49.188] [Log] 正面
+[19:25:49.199] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:49.201] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:49.226] [Log] OnAttack
+[19:25:49.226] [Log] 正面
+[19:25:49.239] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:49.240] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:50.458] [Log] OnAttack
+[19:25:50.458] [Log] 正面
+[19:25:50.468] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:50.468] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:50.497] [Log] OnAttack
+[19:25:50.497] [Log] 正面
+[19:25:50.512] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:50.512] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:51.720] [Log] OnAttack
+[19:25:51.720] [Log] 正面
+[19:25:51.732] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:51.732] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:51.760] [Log] OnAttack
+[19:25:51.760] [Log] 正面
+[19:25:51.772] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:51.772] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:52.976] [Log] 在位置 (8.00, 0.50, 20.00) 生成敌兵，使用地砖 (8, 21)
+[19:25:52.976] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:25:52.976] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:52.977] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:52.977] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:52.977] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:52.977] [Log] 血条对象层级检查：
+[19:25:52.978] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:52.978] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:52.978] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:52.979] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:52.979] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:52.979] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:52.979] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:52.979] [Log] 战斗正面模型缩放:1.3
+[19:25:52.979] [Log] 战斗背面模型缩放:1.3
+[19:25:52.979] [Log] 基建模型缩放:1.3
+[19:25:52.980] [Log] HealthBar Canvas Configuration:
+[19:25:52.981] [Log]   Render Mode: WorldSpace
+[19:25:52.981] [Log]   Sorting Order: 100
+[19:25:52.981] [Log]   Sorting Layer: Default
+[19:25:52.981] [Log]   World Camera: None
+[19:25:52.981] [Log]   Plane Distance: 100
+[19:25:52.982] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:52.992] [Log] OnAttack
+[19:25:52.993] [Log] 正面
+[19:25:53.005] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:53.005] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:53.030] [Log] OnAttack
+[19:25:53.031] [Log] 正面
+[19:25:53.043] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:53.044] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:53.300] [Log] 士兵 锁定目标: amiya
+[19:25:53.300] [Log] 士兵 调用攻击模型: onAttackF
+[19:25:53.363] [Log] 敌人离开范围，解除锁定
+[19:25:53.364] [Log] 士兵 退出战斗状态，切换模型
+[19:25:53.426] [Log] 士兵 锁定目标: amiya
+[19:25:53.426] [Log] 士兵 调用攻击模型: onAttackF
+[19:25:53.999] [Log] OnAttack
+[19:25:53.999] [Log] 正面
+[19:25:54.011] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:54.011] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:54.250] [Log] OnAttack
+[19:25:54.250] [Log] 正面
+[19:25:54.262] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:54.262] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:54.289] [Log] OnAttack
+[19:25:54.289] [Log] 正面
+[19:25:54.302] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:54.302] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:55.262] [Log] OnAttack
+[19:25:55.262] [Log] 正面
+[19:25:55.274] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:55.275] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:55.523] [Log] OnAttack
+[19:25:55.523] [Log] 正面
+[19:25:55.538] [Warning] Setting linear velocity of a kinematic body is not supported.
+[19:25:55.539] [Log] 士兵 死亡
+[19:25:55.541] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:55.542] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:55.543] [Log] 士兵 目标不再有效，清除目标
+[19:25:55.543] [Log] 士兵 退出战斗状态，切换模型
+[19:25:55.556] [Log] 士兵 目标不再有效，清除目标
+[19:25:55.556] [Log] 士兵 退出战斗状态，切换模型
+[19:25:56.339] [Log] 士兵 锁定目标: chen
+[19:25:56.340] [Log] 士兵 调用攻击模型: onAttackF
+[19:25:56.364] [Log] 士兵 锁定目标: Anemyamiya (1)
+[19:25:56.365] [Log] 士兵 调用攻击模型: onAttackF
+[19:25:56.814] [Log] OnAttack
+[19:25:56.814] [Log] 正面
+[19:25:56.834] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:56.834] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:56.917] [Log] OnAttack
+[19:25:56.917] [Log] 正面
+[19:25:56.930] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:56.930] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:56.979] [Log] 在位置 (8.00, 0.50, 20.00) 生成敌兵，使用地砖 (8, 21)
+[19:25:56.980] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:25:56.980] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:25:56.981] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:25:56.981] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:25:56.981] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:25:56.982] [Log] 血条对象层级检查：
+[19:25:56.982] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:25:56.982] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:25:56.982] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:25:56.982] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:25:56.982] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:25:56.983] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:25:56.983] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:25:56.983] [Log] 战斗正面模型缩放:1.3
+[19:25:56.983] [Log] 战斗背面模型缩放:1.3
+[19:25:56.983] [Log] 基建模型缩放:1.3
+[19:25:56.984] [Log] HealthBar Canvas Configuration:
+[19:25:56.984] [Log]   Render Mode: WorldSpace
+[19:25:56.984] [Log]   Sorting Order: 100
+[19:25:56.984] [Log]   Sorting Layer: Default
+[19:25:56.984] [Log]   World Camera: None
+[19:25:56.985] [Log]   Plane Distance: 100
+[19:25:56.985] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:25:57.372] [Log] OnAttack
+[19:25:57.372] [Log] 正面
+[19:25:57.384] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:57.384] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:57.560] [Log] 士兵 锁定目标: chen
+[19:25:57.561] [Log] 士兵 调用攻击模型: onAttackF
+[19:25:57.636] [Log] 敌人离开范围，解除锁定
+[19:25:57.636] [Log] 士兵 退出战斗状态，切换模型
+[19:25:57.700] [Log] 士兵 锁定目标: chen
+[19:25:57.701] [Log] 士兵 调用攻击模型: onAttackF
+[19:25:58.184] [Log] OnAttack
+[19:25:58.184] [Log] 正面
+[19:25:58.197] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:58.197] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:58.275] [Log] OnAttack
+[19:25:58.275] [Log] 正面
+[19:25:58.288] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:58.288] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:58.301] [Log] OnAttack
+[19:25:58.301] [Log] 正面
+[19:25:58.315] [Warning] Setting linear velocity of a kinematic body is not supported.
+[19:25:58.315] [Log] 士兵 死亡
+[19:25:58.315] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:58.315] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:58.328] [Log] 士兵 目标不再有效，清除目标
+[19:25:58.328] [Log] 士兵 退出战斗状态，切换模型
+[19:25:58.342] [Log] 在攻击范围内发现敌人
+[19:25:58.342] [Log] 士兵 锁定目标: Anemyamiya(Clone)
+[19:25:58.342] [Log] 士兵 调用攻击模型: onAttackF
+[19:25:58.777] [Log] OnAttack
+[19:25:58.778] [Log] 正面
+[19:25:58.791] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:58.792] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:59.354] [Log] OnAttack
+[19:25:59.355] [Log] 正面
+[19:25:59.365] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:59.365] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:59.535] [Log] OnAttack
+[19:25:59.537] [Log] 正面
+[19:25:59.549] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:25:59.549] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:25:59.681] [Log] 士兵 锁定目标: chen
+[19:25:59.681] [Log] 士兵 调用攻击模型: onAttackF
+[19:25:59.694] [Log] 敌人离开范围，解除锁定
+[19:25:59.694] [Log] 士兵 退出战斗状态，切换模型
+[19:25:59.746] [Log] 士兵 锁定目标: chen
+[19:25:59.746] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:00.286] [Log] OnAttack
+[19:26:00.286] [Log] 正面
+[19:26:00.298] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:00.298] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:00.325] [Log] OnAttack
+[19:26:00.325] [Log] 正面
+[19:26:00.337] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:00.337] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:00.934] [Log] OnAttack
+[19:26:00.936] [Log] 正面
+[19:26:00.936] [Log] OnAttack
+[19:26:00.936] [Log] 正面
+[19:26:00.981] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:00.981] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:00.985] [Log] 在位置 (8.00, 0.50, 20.00) 生成敌兵，使用地砖 (8, 21)
+[19:26:00.985] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:00.985] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:00.987] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:26:00.987] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:26:00.987] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:26:00.987] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:26:00.987] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:26:00.987] [Log] 血条对象层级检查：
+[19:26:00.987] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:26:00.987] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:26:00.988] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:26:00.988] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:26:00.988] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:26:00.988] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:26:00.988] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:26:00.988] [Log] 战斗正面模型缩放:1.3
+[19:26:00.988] [Log] 战斗背面模型缩放:1.3
+[19:26:00.988] [Log] 基建模型缩放:1.3
+[19:26:00.990] [Log] HealthBar Canvas Configuration:
+[19:26:00.990] [Log]   Render Mode: WorldSpace
+[19:26:00.990] [Log]   Sorting Order: 100
+[19:26:00.990] [Log]   Sorting Layer: Default
+[19:26:00.990] [Log]   World Camera: None
+[19:26:00.990] [Log]   Plane Distance: 100
+[19:26:00.990] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:26:01.587] [Log] OnAttack
+[19:26:01.587] [Log] 正面
+[19:26:01.599] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:01.600] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:01.781] [Log] OnAttack
+[19:26:01.781] [Log] 正面
+[19:26:01.796] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:01.796] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:02.072] [Log] OnAttack
+[19:26:02.074] [Log] 正面
+[19:26:02.090] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:02.090] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:02.360] [Log] OnAttack
+[19:26:02.360] [Log] 正面
+[19:26:02.375] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:02.377] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:02.852] [Log] OnAttack
+[19:26:02.854] [Log] 正面
+[19:26:02.870] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:02.870] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:03.277] [Log] OnAttack
+[19:26:03.278] [Log] 正面
+[19:26:03.291] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:03.291] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:03.338] [Log] OnAttack
+[19:26:03.338] [Log] 正面
+[19:26:03.352] [Warning] Setting linear velocity of a kinematic body is not supported.
+[19:26:03.354] [Log] 士兵 死亡
+[19:26:03.355] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:03.355] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:03.355] [Log] 士兵 目标不再有效，清除目标
+[19:26:03.355] [Log] 士兵 退出战斗状态，切换模型
+[19:26:03.369] [Log] 士兵 目标不再有效，清除目标
+[19:26:03.369] [Log] 士兵 退出战斗状态，切换模型
+[19:26:04.995] [Log] 在位置 (8.00, 0.50, 20.00) 生成敌兵，使用地砖 (8, 21)
+[19:26:04.996] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:26:04.996] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:26:04.996] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:26:04.996] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:26:04.996] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:26:04.996] [Log] 血条对象层级检查：
+[19:26:04.997] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:26:04.997] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:26:04.997] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:26:04.997] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:26:04.998] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:26:04.998] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:26:04.998] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:26:04.998] [Log] 战斗正面模型缩放:1.3
+[19:26:04.998] [Log] 战斗背面模型缩放:1.3
+[19:26:04.998] [Log] 基建模型缩放:1.3
+[19:26:05.001] [Log] HealthBar Canvas Configuration:
+[19:26:05.001] [Log]   Render Mode: WorldSpace
+[19:26:05.001] [Log]   Sorting Order: 100
+[19:26:05.003] [Log]   Sorting Layer: Default
+[19:26:05.003] [Log]   World Camera: None
+[19:26:05.003] [Log]   Plane Distance: 100
+[19:26:05.003] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:26:08.322] [Log] 士兵 锁定目标: Anemyamiya(Clone)
+[19:26:08.322] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:08.655] [Log] 士兵 锁定目标: Gongzhuta (1)
+[19:26:08.655] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:09.229] [Log] OnAttack
+[19:26:09.229] [Log] 正面
+[19:26:09.241] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:09.241] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:09.291] [Log] 士兵 锁定目标: Gongzhuta (1)
+[19:26:09.291] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:09.873] [Log] OnAttack
+[19:26:09.874] [Log] 正面
+[19:26:09.884] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:09.884] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:10.497] [Log] OnAttack
+[19:26:10.498] [Log] 正面
+[19:26:10.509] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:10.510] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:10.888] [Log] 在位置 (8.00, 0.50, 20.00) 生成敌兵，使用地砖 (8, 21)
+[19:26:10.889] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:26:10.889] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:26:10.890] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:26:10.890] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:26:10.890] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:26:10.891] [Log] 血条对象层级检查：
+[19:26:10.891] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:26:10.891] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:26:10.891] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:26:10.891] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:26:10.891] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:26:10.891] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:26:10.891] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:26:10.892] [Log] 战斗正面模型缩放:1.3
+[19:26:10.892] [Log] 战斗背面模型缩放:1.3
+[19:26:10.892] [Log] 基建模型缩放:1.3
+[19:26:10.893] [Log] HealthBar Canvas Configuration:
+[19:26:10.893] [Log]   Render Mode: WorldSpace
+[19:26:10.893] [Log]   Sorting Order: 100
+[19:26:10.893] [Log]   Sorting Layer: Default
+[19:26:10.893] [Log]   World Camera: None
+[19:26:10.893] [Log]   Plane Distance: 100
+[19:26:10.893] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:26:11.136] [Log] OnAttack
+[19:26:11.136] [Log] 正面
+[19:26:11.149] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:11.149] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:11.369] [Log] 士兵 锁定目标: Gongzhuta (1)
+[19:26:11.369] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:11.517] [Log] 敌人离开范围，解除锁定
+[19:26:11.518] [Log] 士兵 退出战斗状态，切换模型
+[19:26:11.569] [Log] 士兵 锁定目标: Gongzhuta (1)
+[19:26:11.569] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:11.761] [Log] OnAttack
+[19:26:11.761] [Log] 正面
+[19:26:11.774] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:11.774] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:11.940] [Log] OnAttack
+[19:26:11.940] [Log] 正面
+[19:26:11.952] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:11.953] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:12.148] [Log] OnAttack
+[19:26:12.148] [Log] 正面
+[19:26:12.159] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:12.159] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:13.023] [Log] OnAttack
+[19:26:13.023] [Log] 正面
+[19:26:13.035] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:13.036] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:13.076] [Log] 士兵 锁定目标: Gongzhuta (1)
+[19:26:13.076] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:13.208] [Log] OnAttack
+[19:26:13.208] [Log] 正面
+[19:26:13.222] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:13.222] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:13.415] [Log] OnAttack
+[19:26:13.415] [Log] 正面
+[19:26:13.430] [Warning] Setting linear velocity of a kinematic body is not supported.
+[19:26:13.430] [Log] 士兵 死亡
+[19:26:13.431] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:13.431] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:13.431] [Log] 士兵 目标不再有效，清除目标
+[19:26:13.431] [Log] 士兵 退出战斗状态，切换模型
+[19:26:13.431] [Log] 士兵 目标不再有效，清除目标
+[19:26:13.431] [Log] 士兵 退出战斗状态，切换模型
+[19:26:13.444] [Log] 士兵 目标不再有效，清除目标
+[19:26:13.444] [Log] 士兵 退出战斗状态，切换模型
+[19:26:13.445] [Log] 士兵 目标不再有效，清除目标
+[19:26:13.445] [Log] 士兵 退出战斗状态，切换模型
+[19:26:14.774] [Log] 士兵 锁定目标: Anemyamiya(Clone)
+[19:26:14.774] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:14.897] [Log] 在位置 (8.00, 0.50, 20.00) 生成敌兵，使用地砖 (8, 21)
+[19:26:14.899] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:26:14.899] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:26:14.900] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:26:14.900] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:26:14.900] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:26:14.900] [Log] 血条对象层级检查：
+[19:26:14.900] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:26:14.901] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:26:14.901] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:26:14.901] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:26:14.901] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:26:14.901] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:26:14.901] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:26:14.901] [Log] 战斗正面模型缩放:1.3
+[19:26:14.901] [Log] 战斗背面模型缩放:1.3
+[19:26:14.901] [Log] 基建模型缩放:1.3
+[19:26:14.903] [Log] HealthBar Canvas Configuration:
+[19:26:14.903] [Log]   Render Mode: WorldSpace
+[19:26:14.904] [Log]   Sorting Order: 100
+[19:26:14.904] [Log]   Sorting Layer: Default
+[19:26:14.904] [Log]   World Camera: None
+[19:26:14.904] [Log]   Plane Distance: 100
+[19:26:14.904] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:26:15.132] [Log] 士兵 锁定目标: Gongzhuta
+[19:26:15.132] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:15.704] [Log] OnAttack
+[19:26:15.704] [Log] 正面
+[19:26:15.720] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:15.720] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:16.974] [Log] OnAttack
+[19:26:16.974] [Log] 正面
+[19:26:16.985] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:16.985] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:17.174] [Log] 士兵 锁定目标: Anemyamiya(Clone)
+[19:26:17.174] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:17.174] [Log] 士兵 锁定目标: Guowangta
+[19:26:17.174] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:17.594] [Log] 士兵 锁定目标: Guowangta
+[19:26:17.594] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:17.594] [Log] 士兵 锁定目标: Guowangta
+[19:26:17.595] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:17.753] [Log] OnAttack
+[19:26:17.753] [Log] 正面
+[19:26:17.767] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:17.767] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:18.162] [Log] OnAttack
+[19:26:18.163] [Log] 正面
+[19:26:18.164] [Log] OnAttack
+[19:26:18.164] [Log] 正面
+[19:26:18.188] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:18.189] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:18.189] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:18.189] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:18.234] [Log] OnAttack
+[19:26:18.234] [Log] 正面
+[19:26:18.250] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:18.250] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:18.909] [Log] 在位置 (8.00, 0.50, 20.00) 生成敌兵，使用地砖 (8, 21)
+[19:26:18.909] [Log] 为 士兵 找到了Role脚本（子对象）
+[19:26:18.911] [Log] 士兵 当前最大攻击目标数更新为: 1
+[19:26:18.911] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[19:26:18.911] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[19:26:18.911] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[19:26:18.912] [Log] 血条对象层级检查：
+[19:26:18.912] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[19:26:18.912] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[19:26:18.912] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[19:26:18.912] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[19:26:18.912] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[19:26:18.912] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[19:26:18.912] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[19:26:18.913] [Log] 战斗正面模型缩放:1.3
+[19:26:18.913] [Log] 战斗背面模型缩放:1.3
+[19:26:18.913] [Log] 基建模型缩放:1.3
+[19:26:18.914] [Log] HealthBar Canvas Configuration:
+[19:26:18.914] [Log]   Render Mode: WorldSpace
+[19:26:18.914] [Log]   Sorting Order: 100
+[19:26:18.914] [Log]   Sorting Layer: Default
+[19:26:18.914] [Log]   World Camera: None
+[19:26:18.914] [Log]   Plane Distance: 100
+[19:26:18.914] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[19:26:19.009] [Log] OnAttack
+[19:26:19.009] [Log] 正面
+[19:26:19.025] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:19.025] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:19.436] [Log] OnAttack
+[19:26:19.436] [Log] 正面
+[19:26:19.437] [Log] OnAttack
+[19:26:19.437] [Log] 正面
+[19:26:19.450] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:19.450] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:19.450] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:19.450] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:19.508] [Log] OnAttack
+[19:26:19.508] [Log] 正面
+[19:26:19.521] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:19.521] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:19.898] [Log] 士兵 锁定目标: Guowangta
+[19:26:19.898] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:20.276] [Log] OnAttack
+[19:26:20.276] [Log] 正面
+[19:26:20.288] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:20.288] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:20.355] [Log] 士兵 锁定目标: Gongzhuta
+[19:26:20.355] [Log] 士兵 调用攻击模型: onAttackF
+[19:26:20.478] [Log] OnAttack
+[19:26:20.479] [Log] 正面
+[19:26:20.491] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:20.491] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:20.699] [Log] OnAttack
+[19:26:20.700] [Log] 正面
+[19:26:20.700] [Log] OnAttack
+[19:26:20.701] [Log] 正面
+[19:26:20.718] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:20.718] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:20.718] [Log] 结束
+[19:26:20.796] [Log] 开始
+[19:26:20.797] [Log] 收集到 13 个单位
+[19:26:20.797] [Log] 敌方单位: 8
+[19:26:20.797] [Log] 友方单位: 0
+[19:26:20.797] [Log] 我方防御塔: 2
+[19:26:20.797] [Log] 敌方防御塔: 3
+[19:26:20.797] [Log] === 单位信息 ===
+[19:26:20.798] [Log] 单位: Anemyamiya(Clone), 类型: Enemy, 位置: (6.21, 0.06, 17.86)
+[19:26:20.798] [Log] 单位: Anemyamiya(Clone), 类型: Enemy, 位置: (3.31, 0.06, 12.26)
+[19:26:20.798] [Log] 单位: Anemyamiya(Clone), 类型: Enemy, 位置: (2.74, 0.08, 7.72)
+[19:26:20.798] [Log] 单位: Anemyamiya(Clone), 类型: Enemy, 位置: (3.19, 0.18, 7.32)
+[19:26:20.798] [Log] 单位: Anemyamiya(Clone), 类型: Enemy, 位置: (10.25, 0.07, 4.33)
+[19:26:20.798] [Log] 单位: Anemyamiya(Clone), 类型: Enemy, 位置: (9.64, 0.06, 4.27)
+[19:26:20.798] [Log] 单位: Anemyamiya(Clone), 类型: Enemy, 位置: (8.90, 0.07, 4.25)
+[19:26:20.798] [Log] 单位: Anemyamiya(Clone), 类型: Enemy, 位置: (10.97, 0.07, 4.15)
+[19:26:20.800] [Log] 单位: Guowangta, 类型: EnemyTower, 位置: (8.29, 1.42, 25.53)
+[19:26:20.800] [Log] 单位: Gongzhuta (1), 类型: EnemyTower, 位置: (14.00, 0.00, 22.00)
+[19:26:20.800] [Log] 单位: Gongzhuta, 类型: EnemyTower, 位置: (3.00, 0.00, 22.00)
+[19:26:20.800] [Log] 单位: Guowangta, 类型: MyTower, 位置: (8.75, 1.57, 1.35)
+[19:26:20.801] [Log] 单位: Gongzhuta, 类型: MyTower, 位置: (3.00, -0.20, 5.00)
+[19:26:20.801] [Log] ================
+[19:26:20.801] [Log] 游戏结束
+[19:26:20.801] [Log] 游戏结束，暂停计时，对局时长: 00:37
+[19:26:21.002] [Log] 隐藏了所有Canvas
+[19:26:21.003] [Warning] Setting linear velocity of a kinematic body is not supported.
+[19:26:21.003] [Log] 士兵 死亡
+[19:26:21.003] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[19:26:21.003] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[19:26:21.101] [Log] OnAttack
+[19:26:21.102] [Log] 正面
+[19:26:21.102] [Log] OnAttack
+[19:26:21.102] [Log] 正面
+==========================================
+游戏日志结束 - 2026/2/4 19:26:21
+==========================================

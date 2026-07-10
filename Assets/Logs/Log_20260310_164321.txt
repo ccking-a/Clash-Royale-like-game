@@ -1,0 +1,109 @@
+==========================================
+游戏日志开始 - 2026/3/10 16:43:21
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[16:43:22.159] [Log] === 客户端预制体列表诊断 (启动时) ===
+[16:43:22.159] [Log] 客户端 SpawnPrefabs 数量: 13
+[16:43:22.159] [Log]   [0] amiya -> AssetId: 1054292600
+[16:43:22.159] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[16:43:22.159] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[16:43:22.159] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[16:43:22.159] [Log]   [4] chen -> AssetId: 1033753810
+[16:43:22.159] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[16:43:22.159] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[16:43:22.159] [Log]   [7] Guowangta -> AssetId: 500381289
+[16:43:22.159] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[16:43:22.160] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[16:43:22.160] [Log]   [10] yinhui -> AssetId: 2171254035
+[16:43:22.160] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[16:43:22.160] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[16:43:24.342] [Log] 返回主菜单
+[16:43:25.591] [Log] 返回主菜单
+[16:43:26.093] [Log] [Host] 局域网IP: 10.153.233.253, 端口: 7777
+[16:43:26.107] [Log] Not in Room scene...disconnecting connection(0)
+[16:43:26.108] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[16:43:26.108] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__15:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:112)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:103)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[16:43:26.597] [Log] [MyNetworkRoomManager] 客户端 0 加入房间，RoomPlayer 已赋予客户端权威
+[16:43:26.602] [Log] 战斗正面模型缩放:1
+[16:43:26.602] [Log] 战斗背面模型缩放:1
+[16:43:26.602] [Log] 基建模型缩放:1
+[16:43:31.609] [Log] OnAttack
+[16:43:31.611] [Log] 正面
+[16:43:32.177] [Log] OnAttack
+[16:43:32.177] [Log] 正面
+[16:43:33.109] [Log] OnAttack
+[16:43:33.109] [Log] 正面
+[16:43:33.678] [Log] OnAttack
+[16:43:33.678] [Log] 正面
+[16:43:35.776] [Log] OnAttack
+[16:43:35.776] [Log] 正面
+[16:43:36.243] [Log] OnAttack
+[16:43:36.244] [Log] 正面
+[16:43:36.810] [Log] OnAttack
+[16:43:36.810] [Log] 正面
+[16:43:37.743] [Log] OnAttack
+[16:43:37.743] [Log] 正面
+[16:43:38.327] [Log] OnAttack
+[16:43:38.327] [Log] 正面
+[16:43:38.910] [Log] OnAttack
+[16:43:38.910] [Log] 正面
+[16:43:45.823] [Log] OnAttack
+[16:43:45.823] [Log] 正面
+[16:43:47.056] [Log] OnAttack
+[16:43:47.056] [Log] 正面
+[16:43:52.473] [Log] OnAttack
+[16:43:52.474] [Log] 正面
+[16:43:53.041] [Log] OnAttack
+[16:43:53.041] [Log] 正面
+[16:43:53.974] [Log] OnAttack
+[16:43:53.974] [Log] 正面
+[16:43:54.540] [Log] OnAttack
+[16:43:54.542] [Log] 正面
+[16:43:56.190] [Log] OnAttack
+[16:43:56.190] [Log] 正面
+[16:43:56.758] [Log] OnAttack
+[16:43:56.758] [Log] 正面
+[16:43:57.689] [Log] OnAttack
+[16:43:57.689] [Log] 正面
+[16:43:58.256] [Log] OnAttack
+[16:43:58.257] [Log] 正面
+[16:43:59.189] [Log] OnAttack
+[16:43:59.189] [Log] 正面
+[16:43:59.757] [Log] OnAttack
+[16:43:59.757] [Log] 正面
+[16:44:03.974] [Log] OnAttack
+[16:44:03.974] [Log] 正面
+[16:44:10.986] [Log] OnAttack
+[16:44:10.987] [Log] 正面
+[16:44:13.152] [Log] OnAttack
+[16:44:13.153] [Log] 正面
+[16:44:13.719] [Log] OnAttack
+[16:44:13.720] [Log] 正面
+[16:44:14.717] [Log] OnAttack
+[16:44:14.717] [Log] 正面
+[16:44:15.518] [Log] OnAttack
+[16:44:15.518] [Log] 正面
+[16:44:18.351] [Log] OnAttack
+[16:44:18.352] [Log] 正面
+[16:44:18.902] [Log] OnAttack
+[16:44:18.902] [Log] 正面
+[16:44:19.837] [Log] OnAttack
+[16:44:19.837] [Log] 正面
+[16:44:20.403] [Log] OnAttack
+[16:44:20.403] [Log] 正面
+[16:44:21.347] [Log] OnAttack
+[16:44:21.348] [Log] 正面
+[16:44:21.905] [Log] OnAttack
+[16:44:21.905] [Log] 正面
+[16:44:23.002] [Log] OnAttack
+[16:44:23.002] [Log] 正面
+==========================================
+游戏日志结束 - 2026/3/10 16:44:23
+==========================================

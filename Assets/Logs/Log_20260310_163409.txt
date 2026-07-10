@@ -1,0 +1,40 @@
+==========================================
+游戏日志开始 - 2026/3/10 16:34:09
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[16:34:09.990] [Log] === 客户端预制体列表诊断 (启动时) ===
+[16:34:09.990] [Log] 客户端 SpawnPrefabs 数量: 13
+[16:34:09.990] [Log]   [0] amiya -> AssetId: 1054292600
+[16:34:09.990] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[16:34:09.990] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[16:34:09.990] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[16:34:09.990] [Log]   [4] chen -> AssetId: 1033753810
+[16:34:09.990] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[16:34:09.990] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[16:34:09.991] [Log]   [7] Guowangta -> AssetId: 500381289
+[16:34:09.991] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[16:34:09.991] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[16:34:09.991] [Log]   [10] yinhui -> AssetId: 2171254035
+[16:34:09.991] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[16:34:09.991] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[16:34:12.935] [Log] 返回主菜单
+[16:34:13.516] [Log] [Host] 局域网IP: 10.153.233.253, 端口: 7777
+[16:34:13.534] [Log] Not in Room scene...disconnecting connection(0)
+[16:34:13.535] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[16:34:13.535] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__15:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:112)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:103)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[16:34:14.001] [Warning] Failed to create agent because there is no valid NavMesh
+[16:34:14.114] [Log] [MyNetworkRoomManager] 客户端 0 加入房间，RoomPlayer 已赋予客户端权威
+[16:34:14.120] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[16:35:06.333] [Log] [MyNetworkRoomManager] 客户端 0 断开连接
+==========================================
+游戏日志结束 - 2026/3/10 16:35:06
+==========================================

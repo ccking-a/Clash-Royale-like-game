@@ -1,0 +1,1171 @@
+==========================================
+游戏日志开始 - 2026/3/11 11:11:34
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[11:11:34.937] [Log] === 客户端预制体列表诊断 (启动时) ===
+[11:11:34.939] [Log] 客户端 SpawnPrefabs 数量: 13
+[11:11:34.939] [Log]   [0] amiya -> AssetId: 1054292600
+[11:11:34.939] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[11:11:34.939] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[11:11:34.939] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[11:11:34.939] [Log]   [4] chen -> AssetId: 1033753810
+[11:11:34.939] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[11:11:34.939] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[11:11:34.939] [Log]   [7] Guowangta -> AssetId: 500381289
+[11:11:34.939] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[11:11:34.939] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[11:11:34.939] [Log]   [10] yinhui -> AssetId: 2171254035
+[11:11:34.939] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[11:11:34.939] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[11:11:40.780] [Log] 返回主菜单
+[11:11:41.612] [Log] [Host] 局域网IP: 10.153.233.253, 端口: 7777
+[11:11:41.625] [Log] Not in Room scene...disconnecting connection(0)
+[11:11:41.625] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[11:11:41.627] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__15:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:112)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:103)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[11:11:42.080] [Log] [MyNetworkRoomManager] 客户端 0 加入房间，RoomPlayer 已赋予客户端权威
+[11:11:42.085] [Log] 战斗正面模型缩放:1
+[11:11:42.085] [Log] 战斗背面模型缩放:1
+[11:11:42.085] [Log] 基建模型缩放:1
+[11:11:55.425] [Log] [MyNetworkRoomManager] 客户端 1883322259 连接到服务器
+[11:11:55.788] [Log] [MyNetworkRoomManager] 客户端 1883322259 加入房间，RoomPlayer 已赋予客户端权威
+[11:11:55.790] [Log] 战斗正面模型缩放:1
+[11:11:55.790] [Log] 战斗背面模型缩放:1
+[11:11:55.790] [Log] 基建模型缩放:1
+[11:12:00.230] [Log] 已设置 29 个地面瓦片
+[11:12:00.230] [Log] 已设置 9 个地面瓦片
+[11:12:00.233] [Log] 已设置 253 个地面瓦片
+[11:12:00.238] [Log] 已设置 253 个地面瓦片
+[11:12:00.565] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[11:12:00.569] [Warning] NetworkClient can't AddPlayer before being ready. Please call NetworkClient.Ready() first. Clients are considered ready after joining the game world.
+[11:12:00.570] [Log] [PlayerElixir] OnStartServer: netId=9, playerIndex=0, connId=0
+[11:12:00.570] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[11:12:00.895] [Log] 玩家 9 阵营: TeamA
+[11:12:00.895] [Log] 服务器分配阵营: 玩家 9 = TeamA
+[11:12:00.896] [Log] [PlayerElixir] ★ playerIndex 同步: 0 → 1, isLocalPlayer=False
+[11:12:00.896] [Log] [PlayerElixir] OnStartServer: netId=10, playerIndex=1, connId=1883322259
+[11:12:00.896] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[11:12:00.896] [Log] 玩家 10 阵营: TeamB
+[11:12:00.896] [Log] 服务器分配阵营: 玩家 10 = TeamB
+[11:12:00.896] [Log] [MyNetworkRoomManager] ★ 进入游戏场景
+[11:12:00.898] [Log] [MyNetworkRoomManager] NetworkGameState 已生成
+[11:12:00.900] [Log] [MyNetworkRoomManager] 清理 RoomPlayer: RoomPlayer(Clone)
+[11:12:00.901] [Log] [MyNetworkRoomManager] 清理 RoomPlayer: RoomPlayer(Clone)
+[11:12:00.903] [Log] [PlayerElixir] OnStartClient: netId=9, isLocalPlayer=True, playerIndex=0
+[11:12:00.903] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[11:12:00.903] [Log] [PlayerElixir] ★ 本地玩家启动, netId=9, playerIndex=0
+[11:12:00.905] [Log] 本地costcontroler初始化: netId=9, isLocalPlayer=True
+[11:12:00.905] [Log] [PlayerElixir] OnStartClient: netId=10, isLocalPlayer=False, playerIndex=1
+[11:12:00.905] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[11:12:00.906] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[11:12:00.906] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:00.910] [Log] 士兵 未找到Role脚本
+[11:12:00.913] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:12:00.913] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:12:00.913] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:12:00.914] [Log] 血条对象层级检查：
+[11:12:00.914] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:00.915] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:00.915] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:00.915] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:00.915] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:00.915] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:12:00.915] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:12:00.915] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[11:12:00.915] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:00.916] [Log] 士兵 未找到Role脚本
+[11:12:00.916] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:12:00.917] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:12:00.917] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:12:00.917] [Log] 血条对象层级检查：
+[11:12:00.917] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:00.917] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:00.917] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:00.917] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:00.917] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:00.917] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:12:00.917] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:12:00.917] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[11:12:00.917] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:00.918] [Log] 士兵 未找到Role脚本
+[11:12:00.918] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:12:00.918] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:12:00.918] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:12:00.918] [Log] 血条对象层级检查：
+[11:12:00.918] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:00.918] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:00.918] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:00.918] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:00.918] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:00.918] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:12:00.919] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:12:00.919] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[11:12:00.919] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:00.919] [Log] 士兵 未找到Role脚本
+[11:12:00.919] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:12:00.919] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:12:00.919] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:12:00.919] [Log] 血条对象层级检查：
+[11:12:00.919] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:00.919] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:00.919] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:00.919] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:00.919] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:00.919] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:12:00.919] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:12:00.919] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[11:12:00.919] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:00.919] [Log] 士兵 未找到Role脚本
+[11:12:00.921] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:12:00.921] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:12:00.921] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:12:00.921] [Log] 血条对象层级检查：
+[11:12:00.921] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:00.922] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:00.922] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:00.922] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:00.922] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:00.922] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:12:00.922] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:12:00.922] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[11:12:00.922] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:00.922] [Log] 士兵 未找到Role脚本
+[11:12:00.922] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[11:12:00.922] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[11:12:00.922] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[11:12:00.923] [Log] 血条对象层级检查：
+[11:12:00.923] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:00.923] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:00.923] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:00.923] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:00.923] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:00.923] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[11:12:00.923] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:12:00.977] [Log] HealthBar Canvas Configuration:
+[11:12:00.977] [Log]   Render Mode: WorldSpace
+[11:12:00.977] [Log]   Sorting Order: 100
+[11:12:00.977] [Log]   Sorting Layer: Default
+[11:12:00.977] [Log]   World Camera: None
+[11:12:00.977] [Log]   Plane Distance: 100
+[11:12:00.977] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:00.977] [Log] HealthBar Canvas Configuration:
+[11:12:00.977] [Log]   Render Mode: WorldSpace
+[11:12:00.977] [Log]   Sorting Order: 100
+[11:12:00.977] [Log]   Sorting Layer: Default
+[11:12:00.977] [Log]   World Camera: None
+[11:12:00.977] [Log]   Plane Distance: 100
+[11:12:00.977] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:00.977] [Log] HealthBar Canvas Configuration:
+[11:12:00.977] [Log]   Render Mode: WorldSpace
+[11:12:00.979] [Log]   Sorting Order: 100
+[11:12:00.979] [Log]   Sorting Layer: Default
+[11:12:00.979] [Log]   World Camera: None
+[11:12:00.979] [Log]   Plane Distance: 100
+[11:12:00.979] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:00.979] [Log] HealthBar Canvas Configuration:
+[11:12:00.979] [Log]   Render Mode: WorldSpace
+[11:12:00.979] [Log]   Sorting Order: 100
+[11:12:00.979] [Log]   Sorting Layer: Default
+[11:12:00.979] [Log]   World Camera: None
+[11:12:00.979] [Log]   Plane Distance: 100
+[11:12:00.979] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:00.979] [Log] HealthBar Canvas Configuration:
+[11:12:00.979] [Log]   Render Mode: WorldSpace
+[11:12:00.979] [Log]   Sorting Order: 100
+[11:12:00.979] [Log]   Sorting Layer: Default
+[11:12:00.979] [Log]   World Camera: None
+[11:12:00.979] [Log]   Plane Distance: 100
+[11:12:00.979] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:00.979] [Log] HealthBar Canvas Configuration:
+[11:12:00.979] [Log]   Render Mode: WorldSpace
+[11:12:00.979] [Log]   Sorting Order: 100
+[11:12:00.979] [Log]   Sorting Layer: Default
+[11:12:00.980] [Log]   World Camera: None
+[11:12:00.980] [Log]   Plane Distance: 100
+[11:12:00.980] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:00.985] [Log] 收集到 544 个地砖
+[11:12:00.985] [Log] 所有瓦片的网格坐标初始化完成
+[11:12:00.985] [Log] 识别到 8 个桥梁位置
+[11:12:00.985] [Log] [MapManager] 初始化完成, 共 544 个地砖, 其中 4 个高台
+[11:12:00.987] [Log] 播放倒计时音乐
+[11:12:03.997] [Log] 播放游戏开始音乐
+[11:12:03.997] [Log] 游戏开始，播放第二首音乐
+[11:12:03.999] [Log] 绑定了 4 个Toggle组件
+[11:12:03.999] [Log] 绑定了 4 个Image组件
+[11:12:03.999] [Log] 绑定了 4 个Text组件
+[11:12:04.000] [Log] 绑定了ToggleGroup组件
+[11:12:04.000] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[11:12:04.000] [Log] 绑定了SkillPosition组件
+[11:12:04.001] [Log] [UIManager] 使用玩家选择的 8 个干员
+[11:12:04.003] [Log] 游戏开始！
+[11:12:04.625] [Log] UIManager: Toggle 3 开始拖拽
+[11:12:04.658] [Log] UIManager: Toggle 3 结束拖拽
+[11:12:04.663] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[11:12:04.665] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[11:12:04.786] [Log] 战斗正面模型缩放:1.3
+[11:12:04.786] [Log] 战斗背面模型缩放:1.3
+[11:12:04.786] [Log] 基建模型缩放:1.3
+[11:12:05.587] [Log] [放置] 玩家1 当前拥有3.279088费用, 需要3
+[11:12:05.588] [Log] [放置验证] MapManager存在, nearestTile=Cube (156), 请求位置=(12.00, 0.00, 8.00)
+[11:12:05.591] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 0.3
+[11:12:05.591] [Log] [放置] 玩家1 放置单位 keluosi2, teamIndex=0
+[11:12:05.593] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=3, soldier=True, netId=12
+[11:12:05.593] [Log] 卡牌 3 已放入队列
+[11:12:05.593] [Log] 从队列取出卡牌 4
+[11:12:05.593] [Log] 位置 3 的卡牌已替换为索引 4 的卡牌
+[11:12:05.596] [Log] 为兵种 3 创建了技能按钮，士兵: keluosi2(Clone)
+[11:12:05.596] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[11:12:05.596] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[11:12:05.597] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:05.597] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:12:05.597] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:12:05.597] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:12:05.597] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:12:05.597] [Log] 血条对象层级检查：
+[11:12:05.597] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:05.597] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:05.597] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:05.597] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:05.598] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:05.598] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:12:05.598] [Log] 为 士兵 创建了血条，当前生命值: 60/60
+[11:12:05.598] [Log] 战斗正面模型缩放:1.3
+[11:12:05.598] [Log] 战斗背面模型缩放:1.3
+[11:12:05.598] [Log] 基建模型缩放:1.3
+[11:12:05.609] [Log] HealthBar Canvas Configuration:
+[11:12:05.609] [Log]   Render Mode: WorldSpace
+[11:12:05.609] [Log]   Sorting Order: 100
+[11:12:05.609] [Log]   Sorting Layer: Default
+[11:12:05.609] [Log]   World Camera: None
+[11:12:05.609] [Log]   Plane Distance: 100
+[11:12:05.609] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:07.851] [Log] [放置] 玩家2 当前拥有4.986258费用, 需要3
+[11:12:07.852] [Log] [放置验证] MapManager存在, nearestTile=AnemyGongzhuta (1), 请求位置=(14.00, 0.00, 22.00)
+[11:12:07.853] [Log] [Server] 玩家 netId=10 消耗 3 圣水, 剩余 2.0
+[11:12:07.855] [Log] [放置] 玩家2 放置单位 keluosi2, teamIndex=1
+[11:12:07.855] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:07.856] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:12:07.856] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:12:07.856] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:12:07.856] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:12:07.856] [Log] 血条对象层级检查：
+[11:12:07.856] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:07.857] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:07.857] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:07.857] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:07.857] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:07.857] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:12:07.857] [Log] 为 士兵 创建了血条，当前生命值: 60/60
+[11:12:07.857] [Log] 战斗正面模型缩放:1.3
+[11:12:07.857] [Log] 战斗背面模型缩放:1.3
+[11:12:07.857] [Log] 基建模型缩放:1.3
+[11:12:07.858] [Log] HealthBar Canvas Configuration:
+[11:12:07.858] [Log]   Render Mode: WorldSpace
+[11:12:07.859] [Log]   Sorting Order: 100
+[11:12:07.859] [Log]   Sorting Layer: Default
+[11:12:07.859] [Log]   World Camera: None
+[11:12:07.859] [Log]   Plane Distance: 100
+[11:12:07.859] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:08.847] [Log] UIManager: Toggle 3 开始拖拽
+[11:12:08.895] [Log] 士兵 锁定目标: keluosi2(Clone)
+[11:12:08.895] [Log] 士兵 调用攻击模型: onAttackF
+[11:12:08.896] [Log] UIManager: Toggle 3 结束拖拽
+[11:12:08.896] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[11:12:08.896] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[11:12:09.157] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[11:12:09.157] [Log] 士兵 调用攻击模型: onAttackF
+[11:12:09.274] [Log] OnAttack
+[11:12:09.274] [Log] 正面
+[11:12:09.305] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:09.306] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:09.336] [Log] 战斗正面模型缩放:1.3
+[11:12:09.336] [Log] 战斗背面模型缩放:1.3
+[11:12:09.336] [Log] 基建模型缩放:1.3
+[11:12:09.539] [Log] OnAttack
+[11:12:09.539] [Log] 正面
+[11:12:09.551] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:09.551] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:09.854] [Log] [放置] 玩家1 当前拥有3.693829费用, 需要3
+[11:12:09.854] [Log] [放置验证] MapManager存在, nearestTile=Cube (231), 请求位置=(15.00, 0.00, 12.00)
+[11:12:09.855] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 0.7
+[11:12:09.855] [Log] [放置] 玩家1 放置单位 amiya, teamIndex=0
+[11:12:09.855] [Log] OnUnitPlaced 被调用: unitIndex=4, positionIndex=3, soldier=True, netId=14
+[11:12:09.855] [Log] 卡牌 4 已放入队列
+[11:12:09.855] [Log] 从队列取出卡牌 5
+[11:12:09.855] [Log] 位置 3 的卡牌已替换为索引 5 的卡牌
+[11:12:09.855] [Log] 为兵种 4 创建了技能按钮，士兵: amiya(Clone)
+[11:12:09.855] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[11:12:09.855] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[11:12:09.855] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:09.857] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:12:09.857] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:12:09.857] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:12:09.857] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:12:09.857] [Log] 血条对象层级检查：
+[11:12:09.857] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:09.857] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:09.857] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:09.857] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:09.857] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:09.857] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:12:09.857] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:12:09.857] [Log] 战斗正面模型缩放:1.3
+[11:12:09.857] [Log] 战斗背面模型缩放:1.3
+[11:12:09.857] [Log] 基建模型缩放:1.3
+[11:12:09.867] [Log] HealthBar Canvas Configuration:
+[11:12:09.867] [Log]   Render Mode: WorldSpace
+[11:12:09.867] [Log]   Sorting Order: 100
+[11:12:09.867] [Log]   Sorting Layer: Default
+[11:12:09.867] [Log]   World Camera: None
+[11:12:09.867] [Log]   Plane Distance: 100
+[11:12:09.867] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:10.271] [Log] OnAttack
+[11:12:10.271] [Log] 正面
+[11:12:10.308] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:10.308] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:10.540] [Log] OnAttack
+[11:12:10.540] [Log] 正面
+[11:12:10.552] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:10.552] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:11.042] [Log] UIManager: Toggle 0 开始拖拽
+[11:12:11.090] [Log] UIManager: Toggle 0 结束拖拽
+[11:12:11.090] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:12:11.091] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[11:12:11.191] [Log] 战斗正面模型缩放:1.3
+[11:12:11.191] [Log] 战斗背面模型缩放:1.3
+[11:12:11.191] [Log] 基建模型缩放:1.3
+[11:12:11.273] [Log] OnAttack
+[11:12:11.273] [Log] 正面
+[11:12:11.301] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:11.301] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:11.526] [Log] OnAttack
+[11:12:11.526] [Log] 正面
+[11:12:11.552] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:11.552] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:12.079] [Log] [放置] 玩家1 当前拥有2.402789费用, 需要3
+[11:12:12.272] [Log] OnAttack
+[11:12:12.273] [Log] 正面
+[11:12:12.308] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:12:12.309] [Log] 士兵 死亡
+[11:12:12.310] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:12.310] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:12.358] [Log] 士兵 锁定目标: amiya(Clone)
+[11:12:12.358] [Log] 士兵 调用攻击模型: onAttackF
+[11:12:12.727] [Log] OnAttack
+[11:12:12.727] [Log] 正面
+[11:12:12.761] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:12.761] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:13.340] [Log] 士兵 锁定目标: amiya(Clone)
+[11:12:13.340] [Log] 士兵 调用攻击模型: onAttackF
+[11:12:13.607] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[11:12:13.607] [Log] 士兵 调用攻击模型: onAttackF
+[11:12:13.728] [Log] OnAttack
+[11:12:13.728] [Log] 正面
+[11:12:13.761] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:13.761] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:14.181] [Log] OnAttack
+[11:12:14.181] [Log] 正面
+[11:12:14.208] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:14.208] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:14.231] [Log] [放置] 玩家1 当前拥有4.112879费用, 需要3
+[11:12:14.231] [Log] [放置验证] MapManager存在, nearestTile=Cube (231), 请求位置=(15.00, 0.00, 12.00)
+[11:12:14.232] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 1.1
+[11:12:14.233] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[11:12:14.233] [Log] OnUnitPlaced 被调用: unitIndex=0, positionIndex=0, soldier=True, netId=15
+[11:12:14.233] [Log] 卡牌 0 已放入队列
+[11:12:14.233] [Log] 从队列取出卡牌 6
+[11:12:14.233] [Log] 位置 0 的卡牌已替换为索引 6 的卡牌
+[11:12:14.234] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[11:12:14.235] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:12:14.235] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[11:12:14.235] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:14.235] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:12:14.235] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:12:14.235] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:12:14.235] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:12:14.236] [Log] 血条对象层级检查：
+[11:12:14.236] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:14.236] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:14.236] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:14.236] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:14.236] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:14.236] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:12:14.236] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:12:14.236] [Log] 战斗正面模型缩放:1.3
+[11:12:14.236] [Log] 战斗背面模型缩放:1.3
+[11:12:14.236] [Log] 基建模型缩放:1.3
+[11:12:14.249] [Log] HealthBar Canvas Configuration:
+[11:12:14.249] [Log]   Render Mode: WorldSpace
+[11:12:14.249] [Log]   Sorting Order: 100
+[11:12:14.249] [Log]   Sorting Layer: Default
+[11:12:14.249] [Log]   World Camera: None
+[11:12:14.249] [Log]   Plane Distance: 100
+[11:12:14.249] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:14.733] [Log] OnAttack
+[11:12:14.733] [Log] 正面
+[11:12:14.762] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:14.762] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:15.451] [Log] OnAttack
+[11:12:15.451] [Log] 正面
+[11:12:15.462] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:15.462] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:15.735] [Log] OnAttack
+[11:12:15.735] [Log] 正面
+[11:12:15.767] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:15.767] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:16.186] [Log] 士兵 士兵 技能【真银斩】请求激活，攻击范围扩大
+[11:12:16.189] [Log] 士兵 战斗检测范围更新为: 3.5
+[11:12:16.189] [Log] 士兵 技能状态设置为: True
+[11:12:16.190] [Log] 士兵 当前最大攻击目标数更新为: 3
+[11:12:16.190] [Log] 士兵 战斗检测范围更新为: 3.5
+[11:12:16.719] [Log] OnAttack
+[11:12:16.719] [Log] 正面
+[11:12:16.733] [Log] OnAttack
+[11:12:16.733] [Log] 正面
+[11:12:16.770] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:16.770] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:16.770] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:16.770] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:16.967] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[11:12:16.967] [Log] 士兵 调用技能模型: onSkillF
+[11:12:17.421] [Log] OnAttack
+[11:12:17.421] [Log] 正面
+[11:12:17.465] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:17.478] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.485] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.486] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.486] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.486] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.487] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.487] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.488] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.488] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.488] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.488] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.489] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.489] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.489] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.491] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.491] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.491] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.491] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.492] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.492] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.492] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.493] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.494] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.494] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.494] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.494] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.494] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.494] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.496] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.496] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.496] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.496] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.497] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.497] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.497] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.497] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.498] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.498] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.498] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.498] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.499] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.499] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:17.499] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:17.739] [Log] OnAttack
+[11:12:17.739] [Log] 正面
+[11:12:17.785] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:17.785] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:17.989] [Log] OnAttack
+[11:12:17.989] [Log] 正面
+[11:12:18.039] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:18.039] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:18.743] [Log] OnAttack
+[11:12:18.743] [Log] 正面
+[11:12:18.744] [Log] OnAttack
+[11:12:18.745] [Log] 正面
+[11:12:18.786] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:12:18.786] [Log] 士兵 死亡
+[11:12:18.786] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:18.786] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:18.787] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:18.787] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:18.788] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:18.788] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:18.788] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:18.788] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:18.788] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:18.789] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:18.789] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:18.841] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[11:12:18.842] [Log] 士兵 锁定目标: yinhui(Clone)
+[11:12:18.842] [Log] 士兵 调用攻击模型: onAttackF
+[11:12:19.210] [Log] OnAttack
+[11:12:19.210] [Log] 正面
+[11:12:19.244] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:19.245] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:20.077] [Log] OnAttack
+[11:12:20.077] [Log] 正面
+[11:12:20.090] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:20.091] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:20.091] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:20.092] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:20.092] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:20.092] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:20.092] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:20.092] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:20.093] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:20.105] [Log] UIManager: Toggle 0 开始拖拽
+[11:12:20.174] [Log] UIManager: Toggle 0 结束拖拽
+[11:12:20.176] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:12:20.176] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[11:12:20.212] [Log] OnAttack
+[11:12:20.212] [Log] 正面
+[11:12:20.238] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:20.238] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:20.295] [Log] 战斗正面模型缩放:1.3
+[11:12:20.295] [Log] 战斗背面模型缩放:1.3
+[11:12:20.295] [Log] 基建模型缩放:1.3
+[11:12:20.914] [Log] [放置] 玩家1 当前拥有6.444789费用, 需要3
+[11:12:20.914] [Log] [放置验证] MapManager存在, nearestTile=Cube (230), 请求位置=(14.00, 0.00, 12.00)
+[11:12:20.915] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 3.4
+[11:12:20.915] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[11:12:20.915] [Log] OnUnitPlaced 被调用: unitIndex=6, positionIndex=0, soldier=True, netId=19
+[11:12:20.915] [Log] 卡牌 6 已放入队列
+[11:12:20.915] [Log] 从队列取出卡牌 7
+[11:12:20.915] [Log] 位置 0 的卡牌已替换为索引 7 的卡牌
+[11:12:20.916] [Log] 为兵种 6 创建了技能按钮，士兵: yinhui(Clone)
+[11:12:20.916] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[11:12:20.916] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[11:12:20.916] [Log] 士兵 当前最大攻击目标数更新为: 1
+[11:12:20.917] [Log] 为 士兵 找到了Role脚本（子对象）
+[11:12:20.917] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[11:12:20.917] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[11:12:20.917] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[11:12:20.917] [Log] 血条对象层级检查：
+[11:12:20.917] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[11:12:20.917] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[11:12:20.917] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[11:12:20.917] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[11:12:20.917] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[11:12:20.918] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[11:12:20.918] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[11:12:20.918] [Log] 战斗正面模型缩放:1.3
+[11:12:20.918] [Log] 战斗背面模型缩放:1.3
+[11:12:20.918] [Log] 基建模型缩放:1.3
+[11:12:20.928] [Log] HealthBar Canvas Configuration:
+[11:12:20.928] [Log]   Render Mode: WorldSpace
+[11:12:20.928] [Log]   Sorting Order: 100
+[11:12:20.928] [Log]   Sorting Layer: Default
+[11:12:20.928] [Log]   World Camera: None
+[11:12:20.928] [Log]   Plane Distance: 100
+[11:12:20.928] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[11:12:21.209] [Log] OnAttack
+[11:12:21.209] [Log] 正面
+[11:12:21.243] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:21.243] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:21.408] [Log] OnAttack
+[11:12:21.408] [Log] 正面
+[11:12:21.442] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:21.442] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:21.443] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:21.443] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:21.443] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:21.443] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:21.443] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:21.443] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:21.444] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:22.211] [Log] OnAttack
+[11:12:22.212] [Log] 正面
+[11:12:22.241] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:22.241] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:22.747] [Log] OnAttack
+[11:12:22.747] [Log] 正面
+[11:12:22.795] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:22.796] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:22.796] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:22.798] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:22.798] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:22.799] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:22.799] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:22.799] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:22.799] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:23.214] [Log] OnAttack
+[11:12:23.216] [Log] 正面
+[11:12:23.267] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:23.267] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:23.416] [Log] 士兵 士兵 技能【真银斩】请求激活，攻击范围扩大
+[11:12:23.418] [Log] 士兵 战斗检测范围更新为: 3.5
+[11:12:23.418] [Log] 士兵 技能状态设置为: True
+[11:12:23.418] [Log] 士兵 当前最大攻击目标数更新为: 3
+[11:12:23.418] [Log] 士兵 战斗检测范围更新为: 3.5
+[11:12:23.649] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[11:12:23.649] [Log] 士兵 调用技能模型: onSkillF
+[11:12:24.072] [Log] OnAttack
+[11:12:24.072] [Log] 正面
+[11:12:24.091] [Log] OnAttack
+[11:12:24.091] [Log] 正面
+[11:12:24.125] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:24.127] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.127] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.128] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.128] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.128] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.129] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.129] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.129] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:24.129] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:24.131] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.131] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.131] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.132] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.132] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.132] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.132] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:24.132] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:24.210] [Log] OnAttack
+[11:12:24.210] [Log] 正面
+[11:12:24.228] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:24.228] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:24.410] [Log] 技能按钮 3 冷却完成！
+[11:12:25.211] [Log] OnAttack
+[11:12:25.211] [Log] 正面
+[11:12:25.232] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:12:25.232] [Log] 士兵 死亡
+[11:12:25.232] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:25.232] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:25.278] [Log] 士兵 锁定目标: yinhui(Clone)
+[11:12:25.278] [Log] 士兵 调用攻击模型: onAttackF
+[11:12:25.425] [Log] OnAttack
+[11:12:25.425] [Log] 正面
+[11:12:25.476] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:25.479] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:25.479] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:25.479] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:25.480] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:25.480] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:25.480] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:25.480] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:25.481] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:25.648] [Log] OnAttack
+[11:12:25.648] [Log] 正面
+[11:12:25.681] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:25.681] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:26.668] [Log] OnAttack
+[11:12:26.668] [Log] 正面
+[11:12:26.679] [Log] 士兵 攻击了 士兵, 造成 15 点伤害 (物理: 15, 法术: 0)
+[11:12:26.679] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:26.750] [Log] OnAttack
+[11:12:26.751] [Log] 正面
+[11:12:26.778] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:12:26.778] [Log] 士兵 死亡
+[11:12:26.779] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:12:26.779] [Log] 士兵 死亡
+[11:12:26.779] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:26.781] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:26.781] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:26.782] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:26.782] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:26.782] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:26.782] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:26.783] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:26.783] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:26.788] [Error] Disconnecting connection: Mirror.LocalConnectionToServer because handling a message of type Mirror.RpcMessage caused an Exception. This can happen if the other side accidentally (or an attacker intentionally) sent invalid data. Reason: System.NullReferenceException: Object reference not set to an instance of an object
+  at PlatformManager.UserCode_RpcSyncPlatformReleased__GameObject (UnityEngine.GameObject platformTileObj) [0x00000] in D:\unityxiangmu\ArkNights\Assets\Scripts\Map\PlatformManager.cs:125 
+  at PlatformManager.InvokeUserCode_RpcSyncPlatformReleased__GameObject (Mirror.NetworkBehaviour obj, Mirror.NetworkReader reader, Mirror.NetworkConnectionToClient senderConnection) [0x00022] in <e71bbf56520448f1b4293ed344e138d3>:0 
+  at Mirror.RemoteCalls.RemoteProcedureCalls.Invoke (System.UInt16 functionHash, Mirror.RemoteCalls.RemoteCallType remoteCallType, Mirror.NetworkReader reader, Mirror.NetworkBehaviour component, Mirror.NetworkConnectionToClient senderConnection) [0x00019] in D:\unityxiangmu\ArkNights\Assets\Mirror\Core\RemoteCalls.cs:133 
+  at Mirror.NetworkIdentity.HandleRemoteCall (System.Byte componentIndex, System.UInt16 functionHash, Mirror.RemoteCalls.RemoteCallType remoteCallType, Mirror.NetworkReader reader, Mirror.NetworkConnectionToClient senderConnection) [0x00065] in D:\unityxiangmu\ArkNights\Assets\Mirror\Core\NetworkIdentity.cs:245 
+  at Mirror.NetworkClient.OnRPCMessage (Mirror.RpcMessage message) [0x00020] in D:\unityxiangmu\ArkNights\Assets\Mirror\Core\NetworkClient.cs:1435 
+  at (wrapper delegate-invoke) System.Action`1[Mirror.RpcMessage].invoke_void_T(Mirror.RpcMessage)
+  at Mirror.NetworkClient+<>c__DisplayClass61_0`1[T].<RegisterHandler>g__HandlerWrapped|0 (Mirror.NetworkConnection _, T value) [0x00000] in D:\unityxiangmu\ArkNights\Assets\Mirror\Core\NetworkClient.cs:544 
+  at Mirror.NetworkMessages+<>c__DisplayClass9_0`2[T,C].<WrapHandler>g__Wrapped|0 (C conn, T msg, System.Int32 _) [0x00000] in D:\unityxiangmu\ArkNights\Assets\Mirror\Core\NetworkMessages.cs:206 
+  at Mirror.NetworkMessages+<>c__DisplayClass8_0`2[T,C].<WrapHandler>b__0 (Mirror.NetworkConnection conn, Mirror.NetworkReader reader, System.Int32 channelId) [0x000ac] in D:\unityxiangmu\ArkNights\Assets\Mirror\Core\NetworkMessages.cs:179 
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.RpcMessage, Mirror.NetworkConnection>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:186)
+Mirror.NetworkClient:UnpackAndInvoke (Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:358)
+Mirror.LocalConnectionToServer:Update () (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:12:26.789] [Error] Skipped Data message handling because connection is null.
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:415)
+Mirror.LocalConnectionToServer:Update () (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:12:26.789] [Error] Skipped Data message handling because connection is null.
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:415)
+Mirror.LocalConnectionToServer:Update () (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:12:26.789] [Error] Skipped Data message handling because connection is null.
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:415)
+Mirror.LocalConnectionToServer:Update () (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:12:26.789] [Error] Skipped Data message handling because connection is null.
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:415)
+Mirror.LocalConnectionToServer:Update () (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:12:26.789] [Error] Skipped Data message handling because connection is null.
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:415)
+Mirror.LocalConnectionToServer:Update () (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:12:26.789] [Error] Skipped Data message handling because connection is null.
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:415)
+Mirror.LocalConnectionToServer:Update () (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:12:26.789] [Error] Skipped Data message handling because connection is null.
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:415)
+Mirror.LocalConnectionToServer:Update () (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:12:26.789] [Error] Skipped Data message handling because connection is null.
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkClient:OnTransportData (System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkClient.cs:415)
+Mirror.LocalConnectionToServer:Update () (at Assets/Mirror/Core/LocalConnectionToServer.cs:70)
+Mirror.NetworkClient:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkClient.cs:1619)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:208)
+
+[11:12:26.802] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.825] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.837] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.837] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[11:12:26.837] [Log] 士兵 退出战斗状态，切换模型
+[11:12:26.859] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.871] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.891] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.903] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.925] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.937] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.957] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.969] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:26.992] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.003] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.024] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.038] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.058] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.071] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.091] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.105] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.124] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.137] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.158] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.171] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.191] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.202] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.223] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.236] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.258] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.273] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.286] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.308] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.320] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.341] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.357] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.374] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.388] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.408] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.422] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.441] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.456] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.474] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.488] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.508] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.523] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.540] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.552] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.574] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.585] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.607] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.619] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.641] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.653] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.673] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.688] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.707] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.721] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.741] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.755] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.774] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.787] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.808] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.822] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.842] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.855] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.875] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.887] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.907] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.921] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.942] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.956] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.974] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:27.988] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.007] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.020] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.041] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.054] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.074] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.087] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.087] [Log] OnAttack
+[11:12:28.087] [Log] 正面
+[11:12:28.108] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.121] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.141] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.153] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.175] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.190] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.205] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.224] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.237] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.257] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.270] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.292] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.305] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.325] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.338] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.357] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.371] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.392] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.404] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.425] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.437] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.458] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.469] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.491] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.505] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.525] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.538] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.558] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.571] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.591] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.604] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.625] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.640] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.658] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.670] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.691] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.703] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.725] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.736] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.757] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.770] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.791] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.803] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.824] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.836] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.858] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.870] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.891] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.903] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.923] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.936] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.958] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.970] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:28.990] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.009] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.022] [Log] 士兵 锁定目标: AnemyGuowangta
+[11:12:29.022] [Warning] Setting linear velocity of a kinematic body is not supported.
+[11:12:29.022] [Log] 士兵 调用技能模型: onSkillF
+[11:12:29.022] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.040] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.040] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:29.042] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.042] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.042] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.043] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.043] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.043] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.043] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.043] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:29.055] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.076] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.087] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.107] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.120] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.141] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.155] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.175] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.187] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.206] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.220] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.241] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.257] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.270] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.291] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.305] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.325] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.338] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.357] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.370] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.390] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.403] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.425] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.426] [Log] OnAttack
+[11:12:29.426] [Log] 正面
+[11:12:29.437] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.437] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:29.438] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.438] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.438] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.439] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.439] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.439] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.440] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:29.440] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:29.451] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.475] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.488] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.507] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.526] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.538] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.557] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.570] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.590] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.603] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.625] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.639] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.659] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.672] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.690] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.704] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.725] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.737] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.758] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.769] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.792] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.815] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.827] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.838] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.858] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.869] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.890] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.902] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.924] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.943] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.956] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.974] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:29.987] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.009] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.023] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.042] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.055] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.074] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.086] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.107] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.121] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.141] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.153] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.175] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.187] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.208] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.221] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.240] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.253] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.274] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.288] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.308] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.320] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.334] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.357] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.368] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.391] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.406] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.420] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.441] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.453] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.473] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.491] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.505] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.524] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.537] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.557] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.570] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.590] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.601] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.624] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.636] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.657] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.671] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.685] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.706] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.722] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.741] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.753] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.753] [Log] OnAttack
+[11:12:30.753] [Log] 正面
+[11:12:30.774] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.787] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.787] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:30.788] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:30.788] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:30.788] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:30.789] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:30.789] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:30.789] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:30.789] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:30.789] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:30.808] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.823] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.837] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.856] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.874] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.891] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.903] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.925] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.937] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.957] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.970] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:30.991] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.003] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.024] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.036] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.057] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.070] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.091] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.102] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.125] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.137] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.157] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.171] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.191] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.202] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.223] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.241] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.253] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.275] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.288] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.307] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.320] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.340] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.354] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.375] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.388] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.408] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.424] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.438] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.458] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.471] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.490] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.503] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.525] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.539] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.558] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.572] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.590] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.605] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.623] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.636] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.657] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.669] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.690] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.707] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.721] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.740] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.755] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.774] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.785] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.807] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.824] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.837] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.858] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.868] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.891] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.902] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.924] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.935] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.957] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.974] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:31.987] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.007] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.021] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.041] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.053] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.074] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.091] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.093] [Log] OnAttack
+[11:12:32.093] [Log] 正面
+[11:12:32.105] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.124] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.136] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.137] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[11:12:32.138] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:32.138] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:32.138] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:32.138] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:32.139] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:32.139] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:32.139] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[11:12:32.139] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[11:12:32.157] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.175] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.187] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.207] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.219] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.241] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.254] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.274] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.291] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.303] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.325] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.335] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.359] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.372] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.391] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.403] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.425] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.438] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.457] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.469] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.491] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.504] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.521] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.540] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.551] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+[11:12:32.574] [Warning] [Client] function 'System.Void NetworkUnitPlacer::Update()' called when client was not active
+==========================================
+游戏日志结束 - 2026/3/11 11:12:32
+==========================================

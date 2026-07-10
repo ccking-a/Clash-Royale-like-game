@@ -1,0 +1,1243 @@
+==========================================
+游戏日志开始 - 2026/2/18 14:01:28
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[14:01:28.601] [Log] === 客户端预制体列表诊断 (启动时) ===
+[14:01:28.601] [Log] 客户端 SpawnPrefabs 数量: 11
+[14:01:28.601] [Log]   [0] Anemyamiya -> AssetId: 3767952548
+[14:01:28.602] [Log]   [1] amiya -> AssetId: 1054292600
+[14:01:28.602] [Log]   [2] chen -> AssetId: 1033753810
+[14:01:28.602] [Log]   [3] yinhui -> AssetId: 2171254035
+[14:01:28.602] [Log]   [4] AnemyGongzhuta (1) -> AssetId: 3034425767
+[14:01:28.602] [Log]   [5] AnemyGongzhuta -> AssetId: 258553055
+[14:01:28.602] [Log]   [6] AnemyGuowangta -> AssetId: 3706946732
+[14:01:28.602] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[14:01:28.602] [Log]   [8] Gongzhuta -> AssetId: 48394343
+[14:01:28.602] [Log]   [9] Guowangta -> AssetId: 500381289
+[14:01:28.602] [Log]   [10] NetworkGameState -> AssetId: 2193712816
+[14:01:31.473] [Log] 已设置 29 个地面瓦片
+[14:01:31.475] [Log] 已设置 9 个地面瓦片
+[14:01:31.480] [Log] 已设置 253 个地面瓦片
+[14:01:31.485] [Log] 已设置 253 个地面瓦片
+[14:01:31.881] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[14:01:31.886] [Log] NetworkGameManager.OnStartServer() 被调用
+[14:01:31.950] [Log] 收集到 544 个地砖
+[14:01:31.951] [Log] 所有瓦片的网格坐标初始化完成
+[14:01:31.951] [Log] 识别到 8 个桥梁位置
+[14:01:31.955] [Log] 客户端 0 连接到服务器
+[14:01:31.965] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:31.967] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:31.970] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:31.971] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:31.971] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:31.974] [Log] 血条对象层级检查：
+[14:01:31.974] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:31.974] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:31.974] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:31.974] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:31.974] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:31.974] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:31.974] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:31.977] [Log] 战斗正面模型缩放:1.3
+[14:01:31.977] [Log] 战斗背面模型缩放:1.3
+[14:01:31.977] [Log] 基建模型缩放:1.3
+[14:01:31.977] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:105)
+
+[14:01:31.979] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:31.979] [Log] 士兵 未找到Role脚本
+[14:01:31.979] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:31.981] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:31.981] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:31.981] [Log] 血条对象层级检查：
+[14:01:31.981] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:31.982] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:31.982] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:31.982] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:31.982] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:31.982] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:31.982] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:31.982] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:105)
+
+[14:01:31.982] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:31.983] [Log] 士兵 未找到Role脚本
+[14:01:31.983] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:31.983] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:31.983] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:31.984] [Log] 血条对象层级检查：
+[14:01:31.984] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:31.984] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:31.984] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:31.984] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:31.984] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:31.985] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:31.985] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:31.985] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:31.985] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:31.985] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:31.985] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:31.985] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:31.985] [Log] 血条对象层级检查：
+[14:01:31.985] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:31.985] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:31.985] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:31.987] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:31.987] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:31.987] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:31.987] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:31.987] [Log] 战斗正面模型缩放:1
+[14:01:31.987] [Log] 战斗背面模型缩放:1
+[14:01:31.987] [Log] 基建模型缩放:1
+[14:01:31.987] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:31.987] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:31.987] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:31.987] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:31.989] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:31.989] [Log] 血条对象层级检查：
+[14:01:31.989] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:31.989] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:31.989] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:31.989] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:31.989] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:31.989] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:31.989] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:31.990] [Log] 战斗正面模型缩放:1.3
+[14:01:31.990] [Log] 战斗背面模型缩放:1.3
+[14:01:31.991] [Log] 基建模型缩放:1.3
+[14:01:31.991] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:105)
+
+[14:01:31.991] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:31.991] [Log] 士兵 未找到Role脚本
+[14:01:31.992] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:31.992] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:31.992] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:31.992] [Log] 血条对象层级检查：
+[14:01:31.992] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:31.992] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:31.992] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:31.992] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:31.992] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:31.993] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:31.993] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:31.993] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:31.993] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:31.993] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:31.993] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:31.995] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:31.995] [Log] 血条对象层级检查：
+[14:01:31.995] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:31.995] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:31.995] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:31.996] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:31.996] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:31.996] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:31.996] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:31.996] [Log] 战斗正面模型缩放:1.3
+[14:01:31.996] [Log] 战斗背面模型缩放:1.3
+[14:01:31.996] [Log] 基建模型缩放:1.3
+[14:01:31.996] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:105)
+
+[14:01:31.996] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:31.997] [Log] 士兵 未找到Role脚本
+[14:01:31.997] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:31.997] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:31.997] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:31.998] [Log] 血条对象层级检查：
+[14:01:31.998] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:31.998] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:31.998] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:31.998] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:31.998] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:31.999] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:31.999] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:31.999] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:31.999] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:31.999] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:31.999] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:32.001] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:32.001] [Log] 血条对象层级检查：
+[14:01:32.001] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:32.001] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:32.001] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:32.001] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:32.002] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:32.002] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:32.002] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:32.002] [Log] 战斗正面模型缩放:1.3
+[14:01:32.002] [Log] 战斗背面模型缩放:1.3
+[14:01:32.002] [Log] 基建模型缩放:1.3
+[14:01:32.002] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:105)
+
+[14:01:32.002] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:32.002] [Log] 士兵 未找到Role脚本
+[14:01:32.003] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:32.003] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:32.003] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:32.003] [Log] 血条对象层级检查：
+[14:01:32.003] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:32.003] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:32.004] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:32.004] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:32.004] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:32.004] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:32.004] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:32.004] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:32.004] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:32.004] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:32.006] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:32.006] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:32.006] [Log] 血条对象层级检查：
+[14:01:32.006] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:32.006] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:32.006] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:32.006] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:32.007] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:32.007] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:32.007] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:32.007] [Log] 战斗正面模型缩放:1.3
+[14:01:32.007] [Log] 战斗背面模型缩放:1.3
+[14:01:32.007] [Log] 基建模型缩放:1.3
+[14:01:32.008] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:105)
+
+[14:01:32.008] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:32.008] [Log] 士兵 未找到Role脚本
+[14:01:32.009] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:32.009] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:32.009] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:32.009] [Log] 血条对象层级检查：
+[14:01:32.009] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:32.010] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:32.010] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:32.010] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:32.010] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:32.010] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:32.010] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:32.011] [Log] 收集到 12 个单位
+[14:01:32.011] [Log] 敌方单位: 4
+[14:01:32.011] [Log] 友方单位: 2
+[14:01:32.011] [Log] 我方防御塔: 3
+[14:01:32.012] [Log] 敌方防御塔: 3
+[14:01:32.117] [Log] HealthBar Canvas Configuration:
+[14:01:32.117] [Log]   Render Mode: WorldSpace
+[14:01:32.117] [Log]   Sorting Order: 100
+[14:01:32.117] [Log]   Sorting Layer: Default
+[14:01:32.119] [Log]   World Camera: None
+[14:01:32.119] [Log]   Plane Distance: 100
+[14:01:32.119] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.119] [Log] HealthBar Canvas Configuration:
+[14:01:32.119] [Log]   Render Mode: WorldSpace
+[14:01:32.119] [Log]   Sorting Order: 100
+[14:01:32.120] [Log]   Sorting Layer: Default
+[14:01:32.120] [Log]   World Camera: None
+[14:01:32.120] [Log]   Plane Distance: 100
+[14:01:32.120] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.120] [Log] HealthBar Canvas Configuration:
+[14:01:32.120] [Log]   Render Mode: WorldSpace
+[14:01:32.120] [Log]   Sorting Order: 100
+[14:01:32.120] [Log]   Sorting Layer: Default
+[14:01:32.121] [Log]   World Camera: None
+[14:01:32.121] [Log]   Plane Distance: 100
+[14:01:32.121] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.121] [Log] HealthBar Canvas Configuration:
+[14:01:32.121] [Log]   Render Mode: WorldSpace
+[14:01:32.121] [Log]   Sorting Order: 100
+[14:01:32.121] [Log]   Sorting Layer: Default
+[14:01:32.121] [Log]   World Camera: None
+[14:01:32.121] [Log]   Plane Distance: 100
+[14:01:32.122] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.122] [Log] HealthBar Canvas Configuration:
+[14:01:32.122] [Log]   Render Mode: WorldSpace
+[14:01:32.122] [Log]   Sorting Order: 100
+[14:01:32.122] [Log]   Sorting Layer: Default
+[14:01:32.122] [Log]   World Camera: None
+[14:01:32.122] [Log]   Plane Distance: 100
+[14:01:32.122] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.122] [Log] HealthBar Canvas Configuration:
+[14:01:32.122] [Log]   Render Mode: WorldSpace
+[14:01:32.122] [Log]   Sorting Order: 100
+[14:01:32.122] [Log]   Sorting Layer: Default
+[14:01:32.122] [Log]   World Camera: None
+[14:01:32.122] [Log]   Plane Distance: 100
+[14:01:32.122] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.122] [Log] HealthBar Canvas Configuration:
+[14:01:32.122] [Log]   Render Mode: WorldSpace
+[14:01:32.122] [Log]   Sorting Order: 100
+[14:01:32.124] [Log]   Sorting Layer: Default
+[14:01:32.124] [Log]   World Camera: None
+[14:01:32.124] [Log]   Plane Distance: 100
+[14:01:32.124] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.124] [Log] HealthBar Canvas Configuration:
+[14:01:32.124] [Log]   Render Mode: WorldSpace
+[14:01:32.124] [Log]   Sorting Order: 100
+[14:01:32.124] [Log]   Sorting Layer: Default
+[14:01:32.124] [Log]   World Camera: None
+[14:01:32.124] [Log]   Plane Distance: 100
+[14:01:32.124] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.124] [Log] HealthBar Canvas Configuration:
+[14:01:32.124] [Log]   Render Mode: WorldSpace
+[14:01:32.124] [Log]   Sorting Order: 100
+[14:01:32.124] [Log]   Sorting Layer: Default
+[14:01:32.125] [Log]   World Camera: None
+[14:01:32.125] [Log]   Plane Distance: 100
+[14:01:32.125] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.125] [Log] HealthBar Canvas Configuration:
+[14:01:32.125] [Log]   Render Mode: WorldSpace
+[14:01:32.125] [Log]   Sorting Order: 100
+[14:01:32.125] [Log]   Sorting Layer: Default
+[14:01:32.125] [Log]   World Camera: None
+[14:01:32.125] [Log]   Plane Distance: 100
+[14:01:32.125] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.125] [Log] HealthBar Canvas Configuration:
+[14:01:32.125] [Log]   Render Mode: WorldSpace
+[14:01:32.125] [Log]   Sorting Order: 100
+[14:01:32.125] [Log]   Sorting Layer: Default
+[14:01:32.125] [Log]   World Camera: None
+[14:01:32.127] [Log]   Plane Distance: 100
+[14:01:32.127] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.127] [Log] HealthBar Canvas Configuration:
+[14:01:32.127] [Log]   Render Mode: WorldSpace
+[14:01:32.127] [Log]   Sorting Order: 100
+[14:01:32.127] [Log]   Sorting Layer: Default
+[14:01:32.127] [Log]   World Camera: None
+[14:01:32.127] [Log]   Plane Distance: 100
+[14:01:32.127] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:32.141] [Log] ========== OnServerAddPlayer 被调用 ==========
+[14:01:32.141] [Log] 连接ID: 0
+[14:01:32.141] [Log] Player Prefab 是否存在: True
+[14:01:32.147] [Log] 服务器[PlayerElixir] OnStartServer: netId=15
+[14:01:32.147] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[14:01:32.151] [Log] 客户端[PlayerElixir] OnStartClient: netId=15, isLocalPlayer=True, currentElixir=2
+[14:01:32.152] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[14:01:32.152] [Log] 绑定了 4 个Toggle组件
+[14:01:32.154] [Log] 绑定了 4 个Image组件
+[14:01:32.154] [Log] 绑定了 4 个Text组件
+[14:01:32.155] [Log] 绑定了ToggleGroup组件
+[14:01:32.155] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[14:01:32.155] [Log] 绑定了SkillPosition组件
+[14:01:32.159] [Log] 本地玩家[PlayerElixir] ★ 本地玩家圣水系统启动, netId=15, currentElixir=2
+[14:01:32.160] [Log] 本地costcontroler初始化: netId=15, isLocalPlayer=True
+[14:01:32.160] [Error] 当前costcontroler1111111本地脚本
+UnityEngine.Debug:LogError (object)
+CostControler:Start () (at Assets/Scripts/UnitControler/CostControler.cs:144)
+
+[14:01:32.188] [Log] 连接 0 的玩家对象: Player [connId=0]
+[14:01:33.529] [Log] 客户端 1883322621 连接到服务器
+[14:01:33.862] [Log] 士兵 锁定目标: amiya
+[14:01:33.862] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:33.863] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:33.878] [Log] 士兵 锁定目标: amiya
+[14:01:33.879] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:33.879] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:34.081] [Log] 士兵 锁定目标: amiya
+[14:01:34.081] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:34.082] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:34.205] [Log] ========== OnServerAddPlayer 被调用 ==========
+[14:01:34.205] [Log] 连接ID: 1883322621
+[14:01:34.205] [Log] Player Prefab 是否存在: True
+[14:01:34.207] [Log] 服务器[PlayerElixir] OnStartServer: netId=16
+[14:01:34.207] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[14:01:34.209] [Error] 当前costcontroler非本地脚本
+UnityEngine.Debug:LogError (object)
+CostControler:Start () (at Assets/Scripts/UnitControler/CostControler.cs:139)
+
+[14:01:34.211] [Log] 客户端[PlayerElixir] OnStartClient: netId=16, isLocalPlayer=False, currentElixir=2
+[14:01:34.211] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[14:01:34.227] [Log] 连接 1883322621 的玩家对象: Player [connId=1883322621]
+[14:01:34.430] [Log] OnAttack
+[14:01:34.430] [Log] 正面
+[14:01:34.447] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:34.448] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:34.464] [Log] OnAttack
+[14:01:34.464] [Log] 正面
+[14:01:34.479] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:34.480] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:34.660] [Log] OnAttack
+[14:01:34.661] [Log] 正面
+[14:01:34.675] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:34.675] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:35.008] [Log] 士兵 锁定目标: amiya
+[14:01:35.008] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:35.008] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:35.181] [Warning] CostControler: 未找到音频播放器
+[14:01:35.181] [Log] 游戏开始！
+[14:01:35.577] [Log] OnAttack
+[14:01:35.578] [Log] 正面
+[14:01:35.591] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:35.591] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:35.650] [Log] 士兵 锁定目标: chen
+[14:01:35.651] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:35.651] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:35.651] [Log] 士兵 锁定目标: amiya (2)
+[14:01:35.651] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:35.651] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:35.698] [Log] OnAttack
+[14:01:35.698] [Log] 正面
+[14:01:35.712] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:35.712] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:35.727] [Log] OnAttack
+[14:01:35.728] [Log] 正面
+[14:01:35.742] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:35.743] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:35.922] [Log] OnAttack
+[14:01:35.922] [Log] 正面
+[14:01:35.937] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:35.937] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:36.096] [Log] OnAttack
+[14:01:36.097] [Log] 正面
+[14:01:36.113] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:36.113] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:36.227] [Log] OnAttack
+[14:01:36.227] [Log] 正面
+[14:01:36.241] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:36.241] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:36.665] [Log] OnAttack
+[14:01:36.665] [Log] 正面
+[14:01:36.680] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:36.681] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:36.848] [Log] OnAttack
+[14:01:36.849] [Log] 正面
+[14:01:36.863] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:36.863] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:36.970] [Log] OnAttack
+[14:01:36.970] [Log] 正面
+[14:01:36.984] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:36.985] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:36.985] [Log] OnAttack
+[14:01:36.985] [Log] 正面
+[14:01:37.000] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:37.000] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:37.190] [Log] OnAttack
+[14:01:37.190] [Log] 正面
+[14:01:37.205] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:37.205] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:37.222] [Warning] CostControler: 未找到音频播放器
+[14:01:37.223] [Log] 游戏开始！
+[14:01:37.498] [Log] OnAttack
+[14:01:37.498] [Log] 正面
+[14:01:37.513] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:37.513] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:37.590] [Log] OnAttack
+[14:01:37.591] [Log] 正面
+[14:01:37.606] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:37.606] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:38.120] [Log] OnAttack
+[14:01:38.120] [Log] 正面
+[14:01:38.134] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:38.135] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:38.165] [Log] OnAttack
+[14:01:38.165] [Log] 正面
+[14:01:38.179] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:38.180] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:38.231] [Log] OnAttack
+[14:01:38.231] [Log] 正面
+[14:01:38.244] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:38.245] [Log] 士兵 死亡
+[14:01:38.247] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:38.247] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:38.261] [Log] 士兵 目标不再有效，清除目标
+[14:01:38.261] [Log] 士兵 退出战斗状态，切换模型
+[14:01:38.261] [Log] 士兵 目标不再有效，清除目标
+[14:01:38.261] [Log] 士兵 退出战斗状态，切换模型
+[14:01:38.261] [Log] 士兵 目标不再有效，清除目标
+[14:01:38.262] [Log] 士兵 退出战斗状态，切换模型
+[14:01:38.762] [Log] OnAttack
+[14:01:38.763] [Log] 正面
+[14:01:38.777] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:38.778] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:39.085] [Log] OnAttack
+[14:01:39.085] [Log] 正面
+[14:01:39.101] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:39.102] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:39.675] [Log] OnAttack
+[14:01:39.675] [Log] 正面
+[14:01:39.737] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:39.737] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:40.031] [Log] 士兵 锁定目标: Anemyamiya (1)
+[14:01:40.031] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:40.031] [Log] OnAttack
+[14:01:40.032] [Log] 正面
+[14:01:40.047] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:40.048] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:40.138] [Log] 士兵 锁定目标: Gongzhuta (1)
+[14:01:40.138] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:40.138] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:40.591] [Log] UIManager: Toggle 3 开始拖拽
+[14:01:40.591] [Log] OnAttack
+[14:01:40.591] [Log] 正面
+[14:01:40.609] [Log] UIManager: Toggle 3 拖拽距离: 23.9626
+[14:01:40.609] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:40.609] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:40.625] [Log] UIManager: Toggle 3 拖拽距离: 56.98981
+[14:01:40.641] [Log] UIManager: Toggle 3 拖拽距离: 102.5432
+[14:01:40.641] [Log] UIManager: Toggle 3 拖拽距离超过阈值，开始放置模式
+[14:01:40.641] [Log] UIManager: Toggle 3 兵种索引: 3
+[14:01:40.642] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[14:01:40.702] [Log] UIManager: Toggle 3 调用了放置逻辑
+[14:01:40.703] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[14:01:40.723] [Log] OnAttack
+[14:01:40.723] [Log] 正面
+[14:01:40.723] [Log] 战斗正面模型缩放:1.3
+[14:01:40.723] [Log] 战斗背面模型缩放:1.3
+[14:01:40.723] [Log] 基建模型缩放:1.3
+[14:01:40.745] [Log] 士兵 锁定目标: Gongzhuta (1)
+[14:01:40.745] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:40.745] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:40.746] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:40.746] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:40.966] [Log] UIManager: Toggle 3 结束拖拽
+[14:01:40.968] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:157)
+
+[14:01:40.968] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:173)
+
+[14:01:40.972] [Log] 当前拥有8.95532费用
+[14:01:40.972] [Error] 没找到高台
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:274)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[14:01:40.977] [Error] 当前地块True部署FalseTrueNormal
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:282)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[14:01:40.980] [Log] [Server] 玩家 netId=15 消耗 3 圣水, 剩余 6.0
+[14:01:40.981] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=3
+[14:01:40.981] [Log] 卡牌 3 已放入队列
+[14:01:40.982] [Log] 从队列取出卡牌 4
+[14:01:40.982] [Log] 位置 3 的卡牌已替换为索引 4 的卡牌
+[14:01:40.985] [Log] 为兵种 3 创建了技能按钮，士兵: yinhui(Clone)
+[14:01:40.985] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[14:01:40.986] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[14:01:40.986] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:40.986] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:40.987] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:40.987] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:40.987] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:40.988] [Log] 血条对象层级检查：
+[14:01:40.988] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:40.988] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:40.988] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:40.988] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:40.988] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:40.988] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:40.988] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:40.988] [Log] 战斗正面模型缩放:1.3
+[14:01:40.988] [Log] 战斗背面模型缩放:1.3
+[14:01:40.988] [Log] 基建模型缩放:1.3
+[14:01:41.005] [Log] HealthBar Canvas Configuration:
+[14:01:41.005] [Log]   Render Mode: WorldSpace
+[14:01:41.005] [Log]   Sorting Order: 100
+[14:01:41.006] [Log]   Sorting Layer: Default
+[14:01:41.006] [Log]   World Camera: None
+[14:01:41.006] [Log]   Plane Distance: 100
+[14:01:41.006] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:41.160] [Log] OnAttack
+[14:01:41.160] [Log] 正面
+[14:01:41.175] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:41.175] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:41.189] [Log] 士兵 锁定目标: amiya
+[14:01:41.189] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:41.189] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:41.298] [Log] OnAttack
+[14:01:41.299] [Log] 正面
+[14:01:41.314] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:41.314] [Log] 士兵 死亡
+[14:01:41.314] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:41.314] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:41.315] [Log] OnAttack
+[14:01:41.315] [Log] 正面
+[14:01:41.338] [Log] 士兵 目标不再有效，清除目标
+[14:01:41.338] [Log] 士兵 退出战斗状态，切换模型
+[14:01:41.338] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:41.339] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:41.363] [Log] 士兵 锁定目标: yinhui(Clone)
+[14:01:41.363] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:41.363] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:41.682] [Log] 士兵 锁定目标: amiya (2)
+[14:01:41.683] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:41.697] [Log] OnAttack
+[14:01:41.697] [Log] 正面
+[14:01:41.711] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:41.712] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:41.827] [Log] 士兵 锁定目标: Gongzhuta
+[14:01:41.827] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:41.827] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:41.931] [Log] OnAttack
+[14:01:41.932] [Log] 正面
+[14:01:41.947] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:41.947] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:41.977] [Log] OnAttack
+[14:01:41.978] [Log] 正面
+[14:01:41.993] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:41.994] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:42.406] [Log] OnAttack
+[14:01:42.406] [Log] 正面
+[14:01:42.423] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:42.424] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:42.580] [Log] OnAttack
+[14:01:42.581] [Log] 正面
+[14:01:42.596] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:42.597] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:43.035] [Log] OnAttack
+[14:01:43.035] [Log] 正面
+[14:01:43.050] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:43.050] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:43.209] [Log] OnAttack
+[14:01:43.209] [Log] 正面
+[14:01:43.224] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:43.224] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:43.239] [Log] OnAttack
+[14:01:43.239] [Log] 正面
+[14:01:43.253] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:43.253] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:43.663] [Log] OnAttack
+[14:01:43.663] [Log] 正面
+[14:01:43.677] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:43.677] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:43.849] [Log] OnAttack
+[14:01:43.850] [Log] 正面
+[14:01:43.864] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:43.864] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:44.364] [Log] OnAttack
+[14:01:44.364] [Log] 正面
+[14:01:44.378] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:44.378] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:44.468] [Log] OnAttack
+[14:01:44.470] [Log] 正面
+[14:01:44.483] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:44.484] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:44.512] [Log] OnAttack
+[14:01:44.512] [Log] 正面
+[14:01:44.527] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:44.527] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:44.934] [Log] OnAttack
+[14:01:44.935] [Log] 正面
+[14:01:44.949] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:44.949] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:45.127] [Log] OnAttack
+[14:01:45.127] [Log] 正面
+[14:01:45.142] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:45.142] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:45.699] [Log] OnAttack
+[14:01:45.700] [Log] 正面
+[14:01:45.717] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:45.717] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:45.734] [Log] OnAttack
+[14:01:45.735] [Log] 正面
+[14:01:45.825] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:45.826] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:45.826] [Log] OnAttack
+[14:01:45.826] [Log] 正面
+[14:01:45.889] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:45.889] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:46.198] [Log] OnAttack
+[14:01:46.199] [Log] 正面
+[14:01:46.213] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:46.214] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:46.365] [Log] UIManager: Toggle 0 开始拖拽
+[14:01:46.380] [Log] OnAttack
+[14:01:46.380] [Log] 正面
+[14:01:46.394] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:46.394] [Log] 士兵 死亡
+[14:01:46.395] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:46.395] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:46.410] [Log] UIManager: Toggle 0 拖拽距离: 11.98137
+[14:01:46.411] [Log] 士兵 目标不再有效，清除目标
+[14:01:46.411] [Log] 士兵 退出战斗状态，切换模型
+[14:01:46.411] [Log] 士兵 目标不再有效，清除目标
+[14:01:46.411] [Log] 士兵 退出战斗状态，切换模型
+[14:01:46.431] [Log] UIManager: Toggle 0 拖拽距离: 39.05427
+[14:01:46.445] [Log] UIManager: Toggle 0 拖拽距离: 71.95007
+[14:01:46.462] [Log] 士兵 锁定目标: yinhui(Clone)
+[14:01:46.462] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:46.462] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:46.462] [Log] UIManager: Toggle 0 拖拽距离: 115.7373
+[14:01:46.463] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[14:01:46.463] [Log] UIManager: Toggle 0 兵种索引: 0
+[14:01:46.463] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[14:01:46.464] [Log] UIManager: Toggle 0 调用了放置逻辑
+[14:01:46.466] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[14:01:46.485] [Log] 战斗正面模型缩放:1.3
+[14:01:46.485] [Log] 战斗背面模型缩放:1.3
+[14:01:46.485] [Log] 基建模型缩放:1.3
+[14:01:46.612] [Log] 士兵 锁定目标: yinhui(Clone)
+[14:01:46.612] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:46.613] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:46.800] [Log] UIManager: Toggle 0 结束拖拽
+[14:01:46.801] [Error] 543个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:157)
+
+[14:01:46.801] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:173)
+
+[14:01:46.802] [Log] 当前拥有10费用
+[14:01:46.803] [Error] 没找到高台
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:274)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[14:01:46.803] [Error] 当前地块True部署FalseTrueNormal
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:282)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[14:01:46.805] [Log] [Server] 玩家 netId=15 消耗 3 圣水, 剩余 7.0
+[14:01:46.805] [Log] OnUnitPlaced 被调用: unitIndex=0, positionIndex=0
+[14:01:46.805] [Log] 卡牌 0 已放入队列
+[14:01:46.805] [Log] 从队列取出卡牌 5
+[14:01:46.805] [Log] 位置 0 的卡牌已替换为索引 5 的卡牌
+[14:01:46.807] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[14:01:46.807] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[14:01:46.807] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[14:01:46.808] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:46.808] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:46.808] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:46.808] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:46.808] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:46.808] [Log] 血条对象层级检查：
+[14:01:46.810] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:46.810] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:46.810] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:46.810] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:46.810] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:46.810] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:46.810] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:46.810] [Log] 战斗正面模型缩放:1.3
+[14:01:46.811] [Log] 战斗背面模型缩放:1.3
+[14:01:46.811] [Log] 基建模型缩放:1.3
+[14:01:46.824] [Log] HealthBar Canvas Configuration:
+[14:01:46.824] [Log]   Render Mode: WorldSpace
+[14:01:46.824] [Log]   Sorting Order: 100
+[14:01:46.824] [Log]   Sorting Layer: Default
+[14:01:46.824] [Log]   World Camera: None
+[14:01:46.824] [Log]   Plane Distance: 100
+[14:01:46.824] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:47.003] [Log] OnAttack
+[14:01:47.003] [Log] 正面
+[14:01:47.020] [Log] 士兵 锁定目标: amiya (2)
+[14:01:47.020] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:47.020] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:47.021] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:47.021] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:47.036] [Log] OnAttack
+[14:01:47.036] [Log] 正面
+[14:01:47.037] [Log] OnAttack
+[14:01:47.037] [Log] 正面
+[14:01:47.053] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:47.053] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:47.053] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:47.053] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:47.194] [Log] OnAttack
+[14:01:47.194] [Log] 正面
+[14:01:47.208] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:47.208] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:47.465] [Log] OnAttack
+[14:01:47.465] [Log] 正面
+[14:01:47.480] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:47.480] [Log] 士兵 死亡
+[14:01:47.480] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:47.481] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:47.497] [Log] 士兵 目标不再有效，清除目标
+[14:01:47.497] [Log] 士兵 退出战斗状态，切换模型
+[14:01:47.525] [Log] 在攻击范围内发现敌人
+[14:01:47.525] [Log] 士兵 锁定目标: yinhui(Clone)
+[14:01:47.525] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:47.527] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:47.528] [Log] OnAttack
+[14:01:47.528] [Log] 正面
+[14:01:47.544] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:47.544] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:47.579] [Warning] Command System.Void SoldierController::CmdActivateSkill(System.Int32,System.Single) called on yinhui(Clone) without authority.
+[14:01:47.580] [Log] 士兵 士兵 技能【1】请求激活，1
+[14:01:47.858] [Warning] Command System.Void SoldierController::CmdActivateSkill(System.Int32,System.Single) called on yinhui(Clone) without authority.
+[14:01:47.859] [Log] 士兵 士兵 技能【1】请求激活，1
+[14:01:48.105] [Log] OnAttack
+[14:01:48.105] [Log] 正面
+[14:01:48.121] [Log] 士兵 攻击了 士兵, 造成 20 点伤害 (物理: 20, 法术: 0)
+[14:01:48.121] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:48.268] [Log] OnAttack
+[14:01:48.270] [Log] 正面
+[14:01:48.284] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:48.284] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:48.299] [Log] OnAttack
+[14:01:48.300] [Log] 正面
+[14:01:48.314] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:48.314] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:48.349] [Log] UIManager: Toggle 0 开始拖拽
+[14:01:48.364] [Log] OnAttack
+[14:01:48.364] [Log] 正面
+[14:01:48.379] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:48.379] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:48.394] [Log] UIManager: Toggle 0 拖拽距离: 29.50047
+[14:01:48.410] [Log] UIManager: Toggle 0 拖拽距离: 64.5211
+[14:01:48.432] [Log] UIManager: Toggle 0 拖拽距离: 132.9463
+[14:01:48.433] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[14:01:48.433] [Log] UIManager: Toggle 0 兵种索引: 5
+[14:01:48.433] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[14:01:48.435] [Log] UIManager: Toggle 0 调用了放置逻辑
+[14:01:48.435] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[14:01:48.451] [Log] OnAttack
+[14:01:48.453] [Log] 正面
+[14:01:48.467] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:48.467] [Log] 士兵 死亡
+[14:01:48.468] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:48.468] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:48.468] [Log] 士兵 目标不再有效，清除目标
+[14:01:48.468] [Log] 士兵 退出战斗状态，切换模型
+[14:01:48.468] [Log] 士兵 目标不再有效，清除目标
+[14:01:48.468] [Log] 士兵 退出战斗状态，切换模型
+[14:01:48.470] [Log] 战斗正面模型缩放:1
+[14:01:48.470] [Log] 战斗背面模型缩放:1
+[14:01:48.470] [Log] 基建模型缩放:1
+[14:01:48.485] [Log] 士兵 目标不再有效，清除目标
+[14:01:48.486] [Log] 士兵 退出战斗状态，切换模型
+[14:01:48.573] [Log] 技能按钮 1 冷却完成！
+[14:01:48.685] [Log] UIManager: Toggle 0 结束拖拽
+[14:01:48.686] [Error] 542个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:157)
+
+[14:01:48.686] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:173)
+
+[14:01:48.687] [Log] 当前拥有8.417816费用
+[14:01:48.688] [Error] 没找到高台
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:274)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[14:01:48.688] [Error] 当前地块True部署FalseTrueNormal
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:282)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[14:01:48.690] [Log] [Server] 玩家 netId=15 消耗 3 圣水, 剩余 5.4
+[14:01:48.690] [Log] OnUnitPlaced 被调用: unitIndex=5, positionIndex=0
+[14:01:48.690] [Log] 卡牌 5 已放入队列
+[14:01:48.691] [Log] 从队列取出卡牌 6
+[14:01:48.691] [Log] 位置 0 的卡牌已替换为索引 6 的卡牌
+[14:01:48.691] [Log] 为兵种 0 创建了技能按钮，士兵: chen(Clone)
+[14:01:48.692] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[14:01:48.692] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[14:01:48.694] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:48.694] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:48.695] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:48.695] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:48.695] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:48.695] [Log] 血条对象层级检查：
+[14:01:48.696] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:48.696] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:48.696] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:48.696] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:48.696] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:48.696] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:48.696] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:48.697] [Log] 战斗正面模型缩放:1
+[14:01:48.697] [Log] 战斗背面模型缩放:1
+[14:01:48.697] [Log] 基建模型缩放:1
+[14:01:48.710] [Log] HealthBar Canvas Configuration:
+[14:01:48.710] [Log]   Render Mode: WorldSpace
+[14:01:48.710] [Log]   Sorting Order: 100
+[14:01:48.710] [Log]   Sorting Layer: Default
+[14:01:48.710] [Log]   World Camera: None
+[14:01:48.710] [Log]   Plane Distance: 100
+[14:01:48.710] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:48.858] [Log] 技能按钮 0 冷却完成！
+[14:01:48.859] [Log] OnAttack
+[14:01:48.859] [Log] 正面
+[14:01:48.873] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:48.875] [Log] 士兵 死亡
+[14:01:48.875] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:48.875] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:48.891] [Log] 士兵 目标不再有效，清除目标
+[14:01:48.891] [Log] 士兵 退出战斗状态，切换模型
+[14:01:49.333] [Log] UIManager: Toggle 3 开始拖拽
+[14:01:49.350] [Log] UIManager: Toggle 3 拖拽距离: 12.35001
+[14:01:49.366] [Log] UIManager: Toggle 3 拖拽距离: 27.12378
+[14:01:49.382] [Log] UIManager: Toggle 3 拖拽距离: 51.00854
+[14:01:49.398] [Log] UIManager: Toggle 3 拖拽距离: 80.92909
+[14:01:49.414] [Log] UIManager: Toggle 3 拖拽距离: 125.7322
+[14:01:49.414] [Log] UIManager: Toggle 3 拖拽距离超过阈值，开始放置模式
+[14:01:49.414] [Log] UIManager: Toggle 3 兵种索引: 4
+[14:01:49.414] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[14:01:49.418] [Log] UIManager: Toggle 3 调用了放置逻辑
+[14:01:49.418] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[14:01:49.436] [Log] 战斗正面模型缩放:1.3
+[14:01:49.436] [Log] 战斗背面模型缩放:1.3
+[14:01:49.436] [Log] 基建模型缩放:1.3
+[14:01:49.451] [Log] 士兵 锁定目标: chen(Clone)
+[14:01:49.452] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:49.452] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:49.452] [Log] 士兵 锁定目标: amiya (1)
+[14:01:49.452] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:49.452] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:49.452] [Log] 士兵 锁定目标: chen(Clone)
+[14:01:49.452] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:49.452] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:49.652] [Log] 士兵 锁定目标: chen(Clone)
+[14:01:49.652] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:49.652] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:49.700] [Log] UIManager: Toggle 3 结束拖拽
+[14:01:49.701] [Error] 542个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:157)
+
+[14:01:49.701] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:173)
+
+[14:01:49.702] [Log] 当前拥有6.26871费用
+[14:01:49.704] [Error] 没找到高台
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:274)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[14:01:49.704] [Error] 当前地块True部署FalseTrueNormal
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:282)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[14:01:49.706] [Log] [Server] 玩家 netId=15 消耗 3 圣水, 剩余 3.3
+[14:01:49.707] [Log] OnUnitPlaced 被调用: unitIndex=4, positionIndex=3
+[14:01:49.707] [Log] 卡牌 4 已放入队列
+[14:01:49.707] [Log] 从队列取出卡牌 7
+[14:01:49.708] [Log] 位置 3 的卡牌已替换为索引 7 的卡牌
+[14:01:49.708] [Log] 为兵种 3 创建了技能按钮，士兵: amiya(Clone)
+[14:01:49.708] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[14:01:49.709] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[14:01:49.714] [Log] 士兵 当前最大攻击目标数更新为: 1
+[14:01:49.714] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:49.714] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:49.715] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:49.715] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:49.715] [Log] 血条对象层级检查：
+[14:01:49.715] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:49.715] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:49.715] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:49.716] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:49.716] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:49.716] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:49.716] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:49.716] [Log] 战斗正面模型缩放:1.3
+[14:01:49.716] [Log] 战斗背面模型缩放:1.3
+[14:01:49.717] [Log] 基建模型缩放:1.3
+[14:01:49.730] [Log] HealthBar Canvas Configuration:
+[14:01:49.731] [Log]   Render Mode: WorldSpace
+[14:01:49.731] [Log]   Sorting Order: 100
+[14:01:49.731] [Log]   Sorting Layer: Default
+[14:01:49.731] [Log]   World Camera: None
+[14:01:49.731] [Log]   Plane Distance: 100
+[14:01:49.731] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:49.810] [Log] 士兵 锁定目标: amiya (1)
+[14:01:49.810] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:49.810] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:49.887] [Log] OnAttack
+[14:01:49.887] [Log] 正面
+[14:01:49.904] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:49.904] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:50.025] [Log] OnAttack
+[14:01:50.026] [Log] 正面
+[14:01:50.026] [Log] OnAttack
+[14:01:50.026] [Log] 正面
+[14:01:50.042] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:50.042] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:50.042] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:50.042] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:50.207] [Log] 士兵 锁定目标: Anemyamiya (1)
+[14:01:50.207] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:50.207] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:50.224] [Log] OnAttack
+[14:01:50.224] [Log] 正面
+[14:01:50.240] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:50.240] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:50.315] [Log] OnAttack
+[14:01:50.315] [Log] 正面
+[14:01:50.337] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:50.337] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:50.462] [Log] OnAttack
+[14:01:50.462] [Log] 正面
+[14:01:50.481] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:50.481] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:50.780] [Log] OnAttack
+[14:01:50.780] [Log] 正面
+[14:01:50.795] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:50.795] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:51.287] [Log] OnAttack
+[14:01:51.288] [Log] 正面
+[14:01:51.291] [Log] OnAttack
+[14:01:51.291] [Log] 正面
+[14:01:51.309] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:51.310] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:51.310] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:51.310] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:51.388] [Log] OnAttack
+[14:01:51.388] [Log] 正面
+[14:01:51.407] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:51.407] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:51.492] [Log] OnAttack
+[14:01:51.493] [Log] 正面
+[14:01:51.511] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:51.511] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:51.667] [Log] OnAttack
+[14:01:51.667] [Log] 正面
+[14:01:51.699] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:51.699] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:51.955] [Log] OnAttack
+[14:01:51.957] [Log] 正面
+[14:01:51.971] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:51.971] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:52.045] [Log] OnAttack
+[14:01:52.046] [Log] 正面
+[14:01:52.060] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:52.060] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:52.555] [Log] OnAttack
+[14:01:52.557] [Log] 正面
+[14:01:52.557] [Log] OnAttack
+[14:01:52.557] [Log] 正面
+[14:01:52.573] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:52.573] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:52.573] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:52.573] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:52.761] [Log] OnAttack
+[14:01:52.761] [Log] 正面
+[14:01:52.776] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:52.776] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:52.894] [Log] OnAttack
+[14:01:52.895] [Log] 正面
+[14:01:52.910] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:52.910] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:52.987] [Log] OnAttack
+[14:01:52.987] [Log] 正面
+[14:01:53.001] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:53.001] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:53.320] [Log] OnAttack
+[14:01:53.320] [Log] 正面
+[14:01:53.334] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:53.334] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:53.467] [Log] OnAttack
+[14:01:53.467] [Log] 正面
+[14:01:53.481] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:53.482] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:53.821] [Log] OnAttack
+[14:01:53.821] [Log] 正面
+[14:01:53.822] [Log] OnAttack
+[14:01:53.822] [Log] 正面
+[14:01:53.835] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:53.837] [Log] 士兵 死亡
+[14:01:53.837] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:53.837] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:53.837] [Log] 士兵 目标不再有效，清除目标
+[14:01:53.837] [Log] 士兵 退出战斗状态，切换模型
+[14:01:53.837] [Log] 士兵 目标不再有效，清除目标
+[14:01:53.837] [Log] 士兵 退出战斗状态，切换模型
+[14:01:53.852] [Log] 在攻击范围内发现敌人
+[14:01:53.852] [Log] 士兵 锁定目标: yinhui(Clone)
+[14:01:53.853] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:53.853] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:53.854] [Log] 士兵 目标不再有效，清除目标
+[14:01:53.858] [Log] 士兵 退出战斗状态，切换模型
+[14:01:53.858] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:53.858] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:53.875] [Log] 在攻击范围内发现敌人
+[14:01:53.875] [Log] 士兵 锁定目标: amiya(Clone)
+[14:01:53.875] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:53.876] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:54.229] [Log] 士兵 锁定目标: yinhui(Clone)
+[14:01:54.230] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:54.230] [Log] 士兵 调用攻击模型: onAttackF
+[14:01:54.325] [Log] OnAttack
+[14:01:54.325] [Log] 正面
+[14:01:54.340] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:54.340] [Log] 士兵 死亡
+[14:01:54.340] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:54.341] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:54.355] [Log] 士兵 目标不再有效，清除目标
+[14:01:54.355] [Log] 士兵 退出战斗状态，切换模型
+[14:01:54.371] [Log] 士兵 从非战斗状态切换到战斗状态
+[14:01:54.371] [Log] 士兵 在UpdateCombatState中调用攻击模型: onAttackF
+[14:01:54.447] [Log] OnAttack
+[14:01:54.448] [Log] 正面
+[14:01:54.462] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:54.462] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:54.579] [Log] OnAttack
+[14:01:54.579] [Log] 正面
+[14:01:54.593] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:54.593] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:54.805] [Log] OnAttack
+[14:01:54.805] [Log] 正面
+[14:01:54.820] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:54.820] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:54.881] [Log] OnAttack
+[14:01:54.881] [Log] 正面
+[14:01:54.895] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:54.896] [Log] 士兵 死亡
+[14:01:54.897] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:54.897] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:54.911] [Log] 士兵 目标不再有效，清除目标
+[14:01:54.911] [Log] 士兵 退出战斗状态，切换模型
+[14:01:54.926] [Log] 士兵 从非战斗状态切换到战斗状态
+[14:01:54.927] [Log] 士兵 在UpdateCombatState中调用攻击模型: onAttackF
+[14:01:55.434] [Log] OnAttack
+[14:01:55.434] [Log] 正面
+[14:01:55.448] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:55.448] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:55.722] [Log] OnAttack
+[14:01:55.722] [Log] 正面
+[14:01:55.737] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:55.737] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:55.848] [Log] OnAttack
+[14:01:55.849] [Log] 正面
+[14:01:55.863] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:55.863] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:56.773] [Log] OnAttack
+[14:01:56.773] [Log] 正面
+[14:01:56.787] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:56.787] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:56.981] [Log] OnAttack
+[14:01:56.983] [Log] 正面
+[14:01:56.998] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:56.998] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:57.111] [Log] OnAttack
+[14:01:57.111] [Log] 正面
+[14:01:57.126] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:57.126] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:58.097] [Log] OnAttack
+[14:01:58.097] [Log] 正面
+[14:01:58.112] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:58.112] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:58.249] [Log] OnAttack
+[14:01:58.250] [Log] 正面
+[14:01:58.263] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:58.263] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:58.389] [Log] OnAttack
+[14:01:58.389] [Log] 正面
+[14:01:58.403] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:01:58.403] [Log] 士兵 死亡
+[14:01:58.404] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:01:58.404] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:01:58.417] [Log] 士兵 目标不再有效，清除目标
+[14:01:58.417] [Log] 士兵 退出战斗状态，切换模型
+[14:01:58.417] [Log] 士兵 目标不再有效，清除目标
+[14:01:58.417] [Log] 士兵 退出战斗状态，切换模型
+[14:02:01.180] [Log] 士兵 锁定目标: yinhui(Clone)
+[14:02:01.181] [Log] 士兵 调用攻击模型: onAttackF
+[14:02:01.288] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[14:02:01.289] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:02:01.289] [Log] 士兵 调用攻击模型: onAttackF
+[14:02:01.797] [Log] OnAttack
+[14:02:01.797] [Log] 正面
+[14:02:01.812] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:02:01.812] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:02:03.135] [Log] OnAttack
+[14:02:03.137] [Log] 正面
+[14:02:03.150] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:02:03.152] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[14:02:04.017] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[14:02:04.017] [Warning] Setting linear velocity of a kinematic body is not supported.
+[14:02:04.017] [Log] 士兵 调用攻击模型: onAttackF
+[14:02:04.456] [Log] OnAttack
+[14:02:04.456] [Log] 正面
+[14:02:04.469] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[14:02:04.471] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+==========================================
+游戏日志结束 - 2026/2/18 14:02:04
+==========================================

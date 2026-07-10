@@ -1,0 +1,44 @@
+==========================================
+游戏日志开始 - 2026/3/10 18:36:06
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[18:36:06.613] [Log] === 客户端预制体列表诊断 (启动时) ===
+[18:36:06.613] [Log] 客户端 SpawnPrefabs 数量: 13
+[18:36:06.613] [Log]   [0] amiya -> AssetId: 1054292600
+[18:36:06.613] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[18:36:06.613] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[18:36:06.613] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[18:36:06.613] [Log]   [4] chen -> AssetId: 1033753810
+[18:36:06.613] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[18:36:06.613] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[18:36:06.613] [Log]   [7] Guowangta -> AssetId: 500381289
+[18:36:06.613] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[18:36:06.613] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[18:36:06.613] [Log]   [10] yinhui -> AssetId: 2171254035
+[18:36:06.613] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[18:36:06.613] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[18:36:09.191] [Log] 返回主菜单
+[18:36:14.704] [Log] === 客户端启动序列开始 ===
+[18:36:14.704] [Log] 原始输入: '127.0.0.1'
+[18:36:14.704] [Log] 将尝试连接到: 127.0.0.1
+[18:36:14.722] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[18:36:14.722] [Error] client启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartClientAfterSceneLoad>d__18:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:201)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnClientButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:179)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[18:36:14.724] [Log] StartClient() 调用完成。
+[18:36:15.264] [Log] Client spawn handler instantiating [netId1 asset ID:4019188151 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[18:36:15.271] [Log] Client spawn handler instantiating [netId2 asset ID:4019188151 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[18:36:15.276] [Log] 战斗正面模型缩放:1
+[18:36:15.277] [Log] 战斗背面模型缩放:1
+[18:36:15.277] [Log] 基建模型缩放:1
+[18:36:15.277] [Log] 战斗正面模型缩放:1
+[18:36:15.277] [Log] 战斗背面模型缩放:1
+[18:36:15.277] [Log] 基建模型缩放:1
+==========================================
+游戏日志结束 - 2026/3/10 18:36:58
+==========================================

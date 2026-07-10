@@ -1,0 +1,721 @@
+==========================================
+游戏日志开始 - 2026/2/18 16:26:35
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[16:26:35.597] [Log] === 客户端预制体列表诊断 (启动时) ===
+[16:26:35.597] [Log] 客户端 SpawnPrefabs 数量: 12
+[16:26:35.598] [Log]   [0] amiya -> AssetId: 1054292600
+[16:26:35.598] [Log]   [1] Anemyamiya -> AssetId: 3767952548
+[16:26:35.598] [Log]   [2] AnemyGongzhuta -> AssetId: 258553055
+[16:26:35.599] [Log]   [3] AnemyGongzhuta (1) -> AssetId: 3034425767
+[16:26:35.599] [Log]   [4] AnemyGuowangta -> AssetId: 3706946732
+[16:26:35.599] [Log]   [5] chen -> AssetId: 1033753810
+[16:26:35.599] [Log]   [6] Gongzhuta -> AssetId: 48394343
+[16:26:35.599] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[16:26:35.599] [Log]   [8] Guowangta -> AssetId: 500381289
+[16:26:35.599] [Log]   [9] NetworkGameState -> AssetId: 2193712816
+[16:26:35.599] [Log]   [10] RoomPlayer -> AssetId: 4019188151
+[16:26:35.599] [Log]   [11] yinhui -> AssetId: 2171254035
+[16:26:38.127] [Log] Attempting to save Assets/Logs/Log_20260218_162635.txt.meta are blocked.
+[16:26:43.033] [Warning] Import Error Code:(4)
+Message: Build asset version error: assets/logs/log_20260218_162635.txt in SourceAssetDB has modification time of '2026-02-18T08:26:35.274441Z' while content on disk has modification time of '2026-02-18T08:26:38.4263654Z'
+
+[16:26:44.312] [Log] === 客户端启动序列开始 ===
+[16:26:44.312] [Log] 原始输入: '127.0.0.1'
+[16:26:44.312] [Log] 将尝试连接到: 127.0.0.1
+[16:26:44.328] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[16:26:44.329] [Error] client启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartClientAfterSceneLoad>d__13:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:187)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnClientButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:173)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[16:26:44.329] [Log] StartClient() 调用完成。
+[16:26:44.349] [Log] 已设置 29 个地面瓦片
+[16:26:44.349] [Log] 已设置 9 个地面瓦片
+[16:26:44.354] [Log] 已设置 253 个地面瓦片
+[16:26:44.360] [Log] 已设置 253 个地面瓦片
+[16:26:44.732] [Warning] Failed to create agent because there is no valid NavMesh
+[16:26:44.841] [Warning] Failed to create agent because there is no valid NavMesh
+[16:26:44.845] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:26:44.849] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:26:44.849] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:26:44.849] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:26:44.852] [Log] 血条对象层级检查：
+[16:26:44.852] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:26:44.852] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:26:44.852] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:26:44.853] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:26:44.853] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:26:44.853] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:26:44.853] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:26:44.858] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[16:26:44.861] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:26:44.862] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:26:44.862] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:26:44.862] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:26:44.863] [Log] 血条对象层级检查：
+[16:26:44.863] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:26:44.863] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:26:44.863] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:26:44.863] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:26:44.863] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:26:44.863] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:26:44.864] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:26:44.864] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[16:26:44.864] [Log] HealthBar Canvas Configuration:
+[16:26:44.866] [Log]   Render Mode: WorldSpace
+[16:26:44.866] [Log]   Sorting Order: 100
+[16:26:44.866] [Log]   Sorting Layer: Default
+[16:26:44.866] [Log]   World Camera: None
+[16:26:44.866] [Log]   Plane Distance: 100
+[16:26:44.866] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:26:44.866] [Log] HealthBar Canvas Configuration:
+[16:26:44.867] [Log]   Render Mode: WorldSpace
+[16:26:44.867] [Log]   Sorting Order: 100
+[16:26:44.867] [Log]   Sorting Layer: Default
+[16:26:44.867] [Log]   World Camera: None
+[16:26:44.867] [Log]   Plane Distance: 100
+[16:26:44.867] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:14.654] [Log] 已设置 29 个地面瓦片
+[16:27:14.655] [Log] 已设置 9 个地面瓦片
+[16:27:14.659] [Log] 已设置 253 个地面瓦片
+[16:27:14.664] [Log] 已设置 253 个地面瓦片
+[16:27:14.924] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[16:27:15.225] [Log] 收集到 544 个地砖
+[16:27:15.228] [Log] 所有瓦片的网格坐标初始化完成
+[16:27:15.229] [Log] 识别到 8 个桥梁位置
+[16:27:15.230] [Log] 客户端[PlayerElixir] OnStartClient: netId=17, isLocalPlayer=True, currentElixir=2
+[16:27:15.230] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[16:27:15.232] [Log] 绑定了 4 个Toggle组件
+[16:27:15.233] [Log] 绑定了 4 个Image组件
+[16:27:15.233] [Log] 绑定了 4 个Text组件
+[16:27:15.235] [Log] 绑定了ToggleGroup组件
+[16:27:15.235] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[16:27:15.236] [Log] 绑定了SkillPosition组件
+[16:27:15.240] [Log] 本地玩家[PlayerElixir] ★ 本地玩家圣水系统启动, netId=17, currentElixir=2
+[16:27:15.240] [Log] 本地costcontroler初始化: netId=17, isLocalPlayer=True
+[16:27:15.243] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onMove () (at Assets/Scripts/Units/Role.cs:407)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnMove() (at Assets/Scripts/Units/SoldierController.cs:947)
+SoldierController:InvokeUserCode_RpcOnMove(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[16:27:15.244] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onMove () (at Assets/Scripts/Units/Role.cs:407)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnMove() (at Assets/Scripts/Units/SoldierController.cs:947)
+SoldierController:InvokeUserCode_RpcOnMove(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[16:27:15.244] [Log] 客户端[PlayerElixir] OnStartClient: netId=18, isLocalPlayer=False, currentElixir=2
+[16:27:15.244] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[16:27:15.246] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:27:15.246] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.247] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.247] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.247] [Log] 血条对象层级检查：
+[16:27:15.247] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.247] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.248] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.248] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.248] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.248] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.249] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.250] [Log] 战斗正面模型缩放:1
+[16:27:15.250] [Log] 战斗背面模型缩放:1
+[16:27:15.250] [Log] 基建模型缩放:1
+[16:27:15.251] [Log] 士兵 未找到Role脚本
+[16:27:15.251] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.251] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.251] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.252] [Log] 血条对象层级检查：
+[16:27:15.252] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.252] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.252] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.252] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.252] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.252] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.253] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.253] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:27:15.254] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.254] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.254] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.254] [Log] 血条对象层级检查：
+[16:27:15.254] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.254] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.254] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.255] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.255] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.255] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.255] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.255] [Log] 战斗正面模型缩放:1.3
+[16:27:15.255] [Log] 战斗背面模型缩放:1.3
+[16:27:15.255] [Log] 基建模型缩放:1.3
+[16:27:15.255] [Log] 士兵 未找到Role脚本
+[16:27:15.255] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.257] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.257] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.257] [Log] 血条对象层级检查：
+[16:27:15.257] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.257] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.257] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.257] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.257] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.257] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.257] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.257] [Log] 士兵 未找到Role脚本
+[16:27:15.258] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.258] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.258] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.259] [Log] 血条对象层级检查：
+[16:27:15.259] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.259] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.259] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.259] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.259] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.259] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.259] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.260] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:27:15.260] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.260] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.260] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.261] [Log] 血条对象层级检查：
+[16:27:15.261] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.261] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.261] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.261] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.262] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.262] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.262] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.263] [Log] 战斗正面模型缩放:1.3
+[16:27:15.263] [Log] 战斗背面模型缩放:1.3
+[16:27:15.263] [Log] 基建模型缩放:1.3
+[16:27:15.263] [Log] 士兵 未找到Role脚本
+[16:27:15.263] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.263] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.264] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.264] [Log] 血条对象层级检查：
+[16:27:15.264] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.264] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.264] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.264] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.264] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.265] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.265] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.265] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:27:15.265] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.265] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.265] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.265] [Log] 血条对象层级检查：
+[16:27:15.266] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.266] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.266] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.266] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.267] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.267] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.267] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.268] [Log] 战斗正面模型缩放:1.3
+[16:27:15.268] [Log] 战斗背面模型缩放:1.3
+[16:27:15.268] [Log] 基建模型缩放:1.3
+[16:27:15.268] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:27:15.268] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.268] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.268] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.269] [Log] 血条对象层级检查：
+[16:27:15.269] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.269] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.269] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.269] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.269] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.269] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.270] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.270] [Log] 战斗正面模型缩放:1.3
+[16:27:15.270] [Log] 战斗背面模型缩放:1.3
+[16:27:15.270] [Log] 基建模型缩放:1.3
+[16:27:15.270] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:27:15.270] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.270] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.270] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.272] [Log] 血条对象层级检查：
+[16:27:15.272] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.272] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.272] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.272] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.272] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.272] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.272] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.272] [Log] 战斗正面模型缩放:1.3
+[16:27:15.272] [Log] 战斗背面模型缩放:1.3
+[16:27:15.272] [Log] 基建模型缩放:1.3
+[16:27:15.272] [Log] 士兵 未找到Role脚本
+[16:27:15.273] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.273] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.273] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.273] [Log] 血条对象层级检查：
+[16:27:15.273] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.274] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.274] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.274] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.275] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.275] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.275] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.275] [Log] 士兵 未找到Role脚本
+[16:27:15.275] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:27:15.275] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:27:15.275] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:27:15.276] [Log] 血条对象层级检查：
+[16:27:15.276] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:27:15.276] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:27:15.276] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:27:15.277] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:27:15.277] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:27:15.277] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:27:15.277] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:27:15.280] [Log] 收集到 14 个单位
+[16:27:15.280] [Log] 敌方单位: 4
+[16:27:15.280] [Log] 友方单位: 4
+[16:27:15.280] [Log] 我方防御塔: 3
+[16:27:15.280] [Log] 敌方防御塔: 3
+[16:27:15.280] [Error] 当前costcontroler1111111本地脚本
+UnityEngine.Debug:LogError (object)
+CostControler:Start () (at Assets/Scripts/UnitControler/CostControler.cs:144)
+
+[16:27:15.281] [Error] 当前costcontroler非本地脚本
+UnityEngine.Debug:LogError (object)
+CostControler:Start () (at Assets/Scripts/UnitControler/CostControler.cs:139)
+
+[16:27:15.284] [Log] HealthBar Canvas Configuration:
+[16:27:15.284] [Log]   Render Mode: WorldSpace
+[16:27:15.284] [Log]   Sorting Order: 100
+[16:27:15.284] [Log]   Sorting Layer: Default
+[16:27:15.284] [Log]   World Camera: None
+[16:27:15.284] [Log]   Plane Distance: 100
+[16:27:15.284] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.285] [Log] HealthBar Canvas Configuration:
+[16:27:15.286] [Log]   Render Mode: WorldSpace
+[16:27:15.286] [Log]   Sorting Order: 100
+[16:27:15.286] [Log]   Sorting Layer: Default
+[16:27:15.286] [Log]   World Camera: None
+[16:27:15.286] [Log]   Plane Distance: 100
+[16:27:15.286] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.286] [Log] HealthBar Canvas Configuration:
+[16:27:15.286] [Log]   Render Mode: WorldSpace
+[16:27:15.286] [Log]   Sorting Order: 100
+[16:27:15.286] [Log]   Sorting Layer: Default
+[16:27:15.286] [Log]   World Camera: None
+[16:27:15.286] [Log]   Plane Distance: 100
+[16:27:15.286] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.287] [Log] HealthBar Canvas Configuration:
+[16:27:15.287] [Log]   Render Mode: WorldSpace
+[16:27:15.287] [Log]   Sorting Order: 100
+[16:27:15.287] [Log]   Sorting Layer: Default
+[16:27:15.287] [Log]   World Camera: None
+[16:27:15.288] [Log]   Plane Distance: 100
+[16:27:15.288] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.288] [Log] HealthBar Canvas Configuration:
+[16:27:15.288] [Log]   Render Mode: WorldSpace
+[16:27:15.288] [Log]   Sorting Order: 100
+[16:27:15.288] [Log]   Sorting Layer: Default
+[16:27:15.288] [Log]   World Camera: None
+[16:27:15.288] [Log]   Plane Distance: 100
+[16:27:15.288] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.288] [Log] HealthBar Canvas Configuration:
+[16:27:15.289] [Log]   Render Mode: WorldSpace
+[16:27:15.289] [Log]   Sorting Order: 100
+[16:27:15.289] [Log]   Sorting Layer: Default
+[16:27:15.289] [Log]   World Camera: None
+[16:27:15.289] [Log]   Plane Distance: 100
+[16:27:15.289] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.289] [Log] HealthBar Canvas Configuration:
+[16:27:15.289] [Log]   Render Mode: WorldSpace
+[16:27:15.289] [Log]   Sorting Order: 100
+[16:27:15.290] [Log]   Sorting Layer: Default
+[16:27:15.290] [Log]   World Camera: None
+[16:27:15.290] [Log]   Plane Distance: 100
+[16:27:15.290] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.290] [Log] HealthBar Canvas Configuration:
+[16:27:15.291] [Log]   Render Mode: WorldSpace
+[16:27:15.291] [Log]   Sorting Order: 100
+[16:27:15.291] [Log]   Sorting Layer: Default
+[16:27:15.291] [Log]   World Camera: None
+[16:27:15.291] [Log]   Plane Distance: 100
+[16:27:15.291] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.291] [Log] HealthBar Canvas Configuration:
+[16:27:15.291] [Log]   Render Mode: WorldSpace
+[16:27:15.291] [Log]   Sorting Order: 100
+[16:27:15.291] [Log]   Sorting Layer: Default
+[16:27:15.292] [Log]   World Camera: None
+[16:27:15.292] [Log]   Plane Distance: 100
+[16:27:15.292] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.292] [Log] HealthBar Canvas Configuration:
+[16:27:15.292] [Log]   Render Mode: WorldSpace
+[16:27:15.292] [Log]   Sorting Order: 100
+[16:27:15.292] [Log]   Sorting Layer: Default
+[16:27:15.292] [Log]   World Camera: None
+[16:27:15.292] [Log]   Plane Distance: 100
+[16:27:15.292] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.294] [Log] HealthBar Canvas Configuration:
+[16:27:15.294] [Log]   Render Mode: WorldSpace
+[16:27:15.294] [Log]   Sorting Order: 100
+[16:27:15.294] [Log]   Sorting Layer: Default
+[16:27:15.294] [Log]   World Camera: None
+[16:27:15.294] [Log]   Plane Distance: 100
+[16:27:15.294] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:15.294] [Log] HealthBar Canvas Configuration:
+[16:27:15.294] [Log]   Render Mode: WorldSpace
+[16:27:15.294] [Log]   Sorting Order: 100
+[16:27:15.294] [Log]   Sorting Layer: Default
+[16:27:15.294] [Log]   World Camera: None
+[16:27:15.295] [Log]   Plane Distance: 100
+[16:27:15.295] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:27:17.501] [Log] OnAttack
+[16:27:17.502] [Log] 正面
+[16:27:17.502] [Log] OnAttack
+[16:27:17.502] [Log] 正面
+[16:27:17.721] [Log] OnAttack
+[16:27:17.721] [Log] 正面
+[16:27:18.254] [Warning] CostControler: 未找到音频播放器
+[16:27:18.254] [Log] 游戏开始！
+[16:27:18.255] [Warning] CostControler: 未找到音频播放器
+[16:27:18.255] [Log] 游戏开始！
+[16:27:18.632] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onAttackF () (at Assets/Scripts/Units/Role.cs:383)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnAttackF() (at Assets/Scripts/Units/SoldierController.cs:927)
+SoldierController:InvokeUserCode_RpcOnAttackF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[16:27:18.771] [Log] OnAttack
+[16:27:18.771] [Log] 正面
+[16:27:18.772] [Log] OnAttack
+[16:27:18.772] [Log] 正面
+[16:27:18.772] [Log] OnAttack
+[16:27:18.772] [Log] 正面
+[16:27:18.963] [Log] OnAttack
+[16:27:18.964] [Log] 正面
+[16:27:19.195] [Log] OnAttack
+[16:27:19.195] [Log] 正面
+[16:27:19.260] [Log] OnAttack
+[16:27:19.261] [Log] 正面
+[16:27:19.577] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onAttackF () (at Assets/Scripts/Units/Role.cs:383)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnAttackF() (at Assets/Scripts/Units/SoldierController.cs:927)
+SoldierController:InvokeUserCode_RpcOnAttackF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[16:27:19.817] [Log] OnAttack
+[16:27:19.819] [Log] 正面
+[16:27:20.033] [Log] OnAttack
+[16:27:20.033] [Log] 正面
+[16:27:20.037] [Log] OnAttack
+[16:27:20.037] [Log] 正面
+[16:27:20.037] [Log] OnAttack
+[16:27:20.038] [Log] 正面
+[16:27:20.229] [Log] OnAttack
+[16:27:20.229] [Log] 正面
+[16:27:20.463] [Log] OnAttack
+[16:27:20.463] [Log] 正面
+[16:27:20.764] [Log] OnAttack
+[16:27:20.765] [Log] 正面
+[16:27:21.300] [Log] OnAttack
+[16:27:21.300] [Log] 正面
+[16:27:21.300] [Log] OnAttack
+[16:27:21.300] [Log] 正面
+[16:27:21.301] [Log] OnAttack
+[16:27:21.301] [Log] 正面
+[16:27:21.322] [Log] OnAttack
+[16:27:21.322] [Log] 正面
+[16:27:21.735] [Log] OnAttack
+[16:27:21.735] [Log] 正面
+[16:27:22.253] [Log] OnAttack
+[16:27:22.253] [Log] 正面
+[16:27:22.834] [Log] OnAttack
+[16:27:22.835] [Log] 正面
+[16:27:22.987] [Log] OnAttack
+[16:27:22.987] [Log] 正面
+[16:27:23.760] [Log] OnAttack
+[16:27:23.760] [Log] 正面
+[16:27:24.040] [Log] OnAttack
+[16:27:24.040] [Log] 正面
+[16:27:24.252] [Log] OnAttack
+[16:27:24.252] [Log] 正面
+[16:27:24.293] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onDie () (at Assets/Scripts/Units/Role.cs:465)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnDie() (at Assets/Scripts/Units/SoldierController.cs:957)
+SoldierController:InvokeUserCode_RpcOnDie(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[16:27:24.317] [Log] OnAttack
+[16:27:24.317] [Log] 正面
+[16:27:24.370] [Log] OnAttack
+[16:27:24.370] [Log] 正面
+[16:27:24.885] [Log] OnAttack
+[16:27:24.885] [Log] 正面
+[16:27:24.970] [Log] OnAttack
+[16:27:24.970] [Log] 正面
+[16:27:25.265] [Log] OnAttack
+[16:27:25.265] [Log] 正面
+[16:27:25.288] [Log] OnAttack
+[16:27:25.288] [Log] 正面
+[16:27:25.634] [Log] OnAttack
+[16:27:25.634] [Log] 正面
+[16:27:25.826] [Log] OnAttack
+[16:27:25.826] [Log] 正面
+[16:27:25.869] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onMove () (at Assets/Scripts/Units/Role.cs:407)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnMove() (at Assets/Scripts/Units/SoldierController.cs:947)
+SoldierController:InvokeUserCode_RpcOnMove(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[16:27:26.246] [Log] OnAttack
+[16:27:26.248] [Log] 正面
+[16:27:26.717] [Log] OnAttack
+[16:27:26.717] [Log] 正面
+[16:27:26.892] [Log] OnAttack
+[16:27:26.893] [Log] 正面
+[16:27:27.498] [Log] OnAttack
+[16:27:27.498] [Log] 正面
+[16:27:27.831] [Log] OnAttack
+[16:27:27.831] [Log] 正面
+[16:27:28.175] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onAttackF () (at Assets/Scripts/Units/Role.cs:383)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnAttackF() (at Assets/Scripts/Units/SoldierController.cs:927)
+SoldierController:InvokeUserCode_RpcOnAttackF(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[16:27:28.304] [Log] UIManager: Toggle 0 开始拖拽
+[16:27:28.327] [Log] UIManager: Toggle 0 拖拽距离: 38.81195
+[16:27:28.352] [Log] UIManager: Toggle 0 拖拽距离: 103.332
+[16:27:28.352] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[16:27:28.352] [Log] UIManager: Toggle 0 兵种索引: 0
+[16:27:28.353] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[16:27:28.426] [Log] UIManager: Toggle 0 调用了放置逻辑
+[16:27:28.427] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[16:27:28.569] [Log] UIManager: Toggle 0 结束拖拽
+[16:27:28.710] [Log] OnAttack
+[16:27:28.710] [Log] 正面
+[16:27:28.731] [Log] OnAttack
+[16:27:28.732] [Log] 正面
+[16:27:28.860] [Log] OnAttack
+[16:27:28.862] [Log] 正面
+[16:27:29.009] [Log] UIManager: Toggle 0 开始拖拽
+[16:27:29.072] [Log] OnAttack
+[16:27:29.072] [Log] 正面
+[16:27:29.095] [Log] UIManager: Toggle 0 拖拽距离: 16.03031
+[16:27:29.116] [Log] UIManager: Toggle 0 拖拽距离: 34.71457
+[16:27:29.142] [Log] UIManager: Toggle 0 结束拖拽
+[16:27:29.144] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[16:27:29.145] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[16:27:29.261] [Log] OnAttack
+[16:27:29.261] [Log] 正面
+[16:27:29.872] [Log] UIManager: Toggle 0 开始拖拽
+[16:27:29.895] [Log] UIManager: Toggle 0 拖拽距离: 60.20098
+[16:27:29.918] [Log] UIManager: Toggle 0 拖拽距离: 130.1964
+[16:27:29.922] [Log] UIManager: Toggle 0 拖拽距离超过阈值，开始放置模式
+[16:27:29.923] [Log] UIManager: Toggle 0 兵种索引: 0
+[16:27:29.923] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[16:27:29.924] [Log] UIManager: Toggle 0 调用了放置逻辑
+[16:27:29.924] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[16:27:29.991] [Log] OnAttack
+[16:27:29.991] [Log] 正面
+[16:27:30.124] [Log] OnAttack
+[16:27:30.125] [Log] 正面
+[16:27:30.211] [Log] OnAttack
+[16:27:30.212] [Log] 正面
+[16:27:30.297] [Log] UIManager: Toggle 0 结束拖拽
+[16:27:30.341] [Log] OnAttack
+[16:27:30.341] [Log] 正面
+[16:27:30.763] [Log] OnAttack
+[16:27:30.765] [Log] 正面
+[16:27:31.110] [Log] UIManager: Toggle 3 开始拖拽
+[16:27:31.153] [Log] UIManager: Toggle 3 拖拽距离: 23.99919
+[16:27:31.175] [Log] UIManager: Toggle 3 拖拽距离: 80.42719
+[16:27:31.197] [Log] UIManager: Toggle 3 拖拽距离: 165.4437
+[16:27:31.197] [Log] UIManager: Toggle 3 拖拽距离超过阈值，开始放置模式
+[16:27:31.198] [Log] UIManager: Toggle 3 兵种索引: 3
+[16:27:31.198] [Log] UIManager: Toggle 3 调用了放置逻辑
+[16:27:31.198] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[16:27:31.199] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[16:27:31.199] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[16:27:31.199] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[16:27:31.274] [Log] OnAttack
+[16:27:31.275] [Log] 正面
+[16:27:31.385] [Log] OnAttack
+[16:27:31.385] [Log] 正面
+[16:27:31.494] [Log] UIManager: Toggle 3 结束拖拽
+[16:27:31.617] [Log] OnAttack
+[16:27:31.617] [Log] 正面
+[16:27:31.704] [Log] OnAttack
+[16:27:31.705] [Log] 正面
+[16:27:32.277] [Log] OnAttack
+[16:27:32.277] [Log] 正面
+[16:27:32.536] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onDie () (at Assets/Scripts/Units/Role.cs:465)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnDie() (at Assets/Scripts/Units/SoldierController.cs:957)
+SoldierController:InvokeUserCode_RpcOnDie(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[16:27:32.536] [Log] OnAttack
+[16:27:32.537] [Log] 正面
+[16:27:33.127] [Log] OnAttack
+[16:27:33.128] [Log] 正面
+[16:27:33.212] [Log] OnAttack
+[16:27:33.212] [Log] 正面
+[16:27:33.237] [Log] OnAttack
+[16:27:33.237] [Log] 正面
+[16:27:33.470] [Log] OnAttack
+[16:27:33.470] [Log] 正面
+[16:27:33.766] [Log] OnAttack
+[16:27:33.766] [Log] 正面
+[16:27:34.402] [Log] OnAttack
+[16:27:34.402] [Log] 正面
+[16:27:34.621] [Log] OnAttack
+[16:27:34.621] [Log] 正面
+[16:27:34.696] [Log] OnAttack
+[16:27:34.696] [Log] 正面
+[16:27:34.735] [Log] OnAttack
+[16:27:34.736] [Log] 正面
+==========================================
+游戏日志结束 - 2026/2/18 16:29:35
+==========================================

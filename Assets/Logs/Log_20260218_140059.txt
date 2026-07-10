@@ -1,0 +1,355 @@
+==========================================
+游戏日志开始 - 2026/2/18 14:00:59
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[14:01:00.315] [Log] === 客户端预制体列表诊断 (启动时) ===
+[14:01:00.315] [Log] 客户端 SpawnPrefabs 数量: 11
+[14:01:00.315] [Log]   [0] Anemyamiya -> AssetId: 3767952548
+[14:01:00.315] [Log]   [1] amiya -> AssetId: 1054292600
+[14:01:00.315] [Log]   [2] chen -> AssetId: 1033753810
+[14:01:00.315] [Log]   [3] yinhui -> AssetId: 2171254035
+[14:01:00.315] [Log]   [4] AnemyGongzhuta (1) -> AssetId: 3034425767
+[14:01:00.315] [Log]   [5] AnemyGongzhuta -> AssetId: 258553055
+[14:01:00.317] [Log]   [6] AnemyGuowangta -> AssetId: 3706946732
+[14:01:00.317] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[14:01:00.317] [Log]   [8] Gongzhuta -> AssetId: 48394343
+[14:01:00.317] [Log]   [9] Guowangta -> AssetId: 500381289
+[14:01:00.317] [Log]   [10] NetworkGameState -> AssetId: 2193712816
+[14:01:05.398] [Log] === 客户端启动序列开始 ===
+[14:01:05.399] [Log] 原始输入: '127.0.0.1'
+[14:01:05.399] [Log] 将尝试连接到: 127.0.0.1
+[14:01:05.411] [Log] StartClient() 调用完成。
+[14:01:05.607] [Log] 已设置 29 个地面瓦片
+[14:01:05.607] [Log] 已设置 9 个地面瓦片
+[14:01:05.611] [Log] 已设置 253 个地面瓦片
+[14:01:05.616] [Log] 已设置 253 个地面瓦片
+[14:01:06.145] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[14:01:06.267] [Log] 收集到 544 个地砖
+[14:01:06.268] [Log] 所有瓦片的网格坐标初始化完成
+[14:01:06.268] [Log] 识别到 8 个桥梁位置
+[14:01:06.270] [Log] 客户端[PlayerElixir] OnStartClient: netId=15, isLocalPlayer=False, currentElixir=2
+[14:01:06.270] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[14:01:06.272] [Log] 客户端[PlayerElixir] OnStartClient: netId=16, isLocalPlayer=True, currentElixir=2
+[14:01:06.273] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[14:01:06.274] [Log] 绑定了 0 个Toggle组件
+[14:01:06.274] [Log] 绑定了 0 个Image组件
+[14:01:06.274] [Log] 绑定了 0 个Text组件
+[14:01:06.276] [Warning] 未找到ToggleGroup组件
+[14:01:06.276] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[14:01:06.276] [Warning] 未找到SkillPosition组件
+[14:01:06.278] [Log] 本地玩家[PlayerElixir] ★ 本地玩家圣水系统启动, netId=16, currentElixir=2
+[14:01:06.279] [Log] 本地costcontroler初始化: netId=16, isLocalPlayer=True
+[14:01:06.281] [Log] 士兵 未找到Role脚本
+[14:01:06.284] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.284] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.285] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.287] [Log] 血条对象层级检查：
+[14:01:06.287] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.287] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.287] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.287] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.287] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.287] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.287] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:06.289] [Log] 士兵 未找到Role脚本
+[14:01:06.289] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.289] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.289] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.289] [Log] 血条对象层级检查：
+[14:01:06.290] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.290] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.290] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.290] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.290] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.290] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.290] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:06.290] [Log] 士兵 未找到Role脚本
+[14:01:06.290] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.290] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.290] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.291] [Log] 血条对象层级检查：
+[14:01:06.291] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.291] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.291] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.291] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.291] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.291] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.291] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:06.293] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:06.293] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.293] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.293] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.293] [Log] 血条对象层级检查：
+[14:01:06.294] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.294] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.294] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.294] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.294] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.294] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.294] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:06.296] [Log] 战斗正面模型缩放:1.3
+[14:01:06.296] [Log] 战斗背面模型缩放:1.3
+[14:01:06.296] [Log] 基建模型缩放:1.3
+[14:01:06.297] [Log] 士兵 未找到Role脚本
+[14:01:06.297] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.297] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.297] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.297] [Log] 血条对象层级检查：
+[14:01:06.297] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.298] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.298] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.298] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.298] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.298] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.298] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:06.298] [Log] 士兵 未找到Role脚本
+[14:01:06.299] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.299] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.299] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.299] [Log] 血条对象层级检查：
+[14:01:06.299] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.299] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.299] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.299] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.299] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.299] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.299] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:06.301] [Log] 士兵 未找到Role脚本
+[14:01:06.301] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.301] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.301] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.301] [Log] 血条对象层级检查：
+[14:01:06.301] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.302] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.302] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.302] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.302] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.302] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.302] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:06.302] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:06.302] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.302] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.302] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.303] [Log] 血条对象层级检查：
+[14:01:06.303] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.303] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.303] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.303] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.303] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.303] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.303] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:06.303] [Log] 战斗正面模型缩放:1.3
+[14:01:06.303] [Log] 战斗背面模型缩放:1.3
+[14:01:06.303] [Log] 基建模型缩放:1.3
+[14:01:06.305] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:06.305] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.305] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.305] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.305] [Log] 血条对象层级检查：
+[14:01:06.306] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.306] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.306] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.306] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.306] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.306] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.306] [Log] 为 士兵 创建了血条，当前生命值: 80/100
+[14:01:06.306] [Log] 战斗正面模型缩放:1.3
+[14:01:06.307] [Log] 战斗背面模型缩放:1.3
+[14:01:06.307] [Log] 基建模型缩放:1.3
+[14:01:06.307] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:06.307] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.307] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.307] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.307] [Log] 血条对象层级检查：
+[14:01:06.307] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.307] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.307] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.309] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.309] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.309] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.309] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:06.309] [Log] 战斗正面模型缩放:1
+[14:01:06.309] [Log] 战斗背面模型缩放:1
+[14:01:06.309] [Log] 基建模型缩放:1
+[14:01:06.309] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:06.310] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.310] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.310] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.310] [Log] 血条对象层级检查：
+[14:01:06.311] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.311] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.311] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.311] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.311] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.311] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.311] [Log] 为 士兵 创建了血条，当前生命值: 90/100
+[14:01:06.311] [Log] 战斗正面模型缩放:1.3
+[14:01:06.311] [Log] 战斗背面模型缩放:1.3
+[14:01:06.311] [Log] 基建模型缩放:1.3
+[14:01:06.312] [Log] 为 士兵 找到了Role脚本（子对象）
+[14:01:06.312] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[14:01:06.312] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[14:01:06.312] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[14:01:06.312] [Log] 血条对象层级检查：
+[14:01:06.312] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[14:01:06.312] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[14:01:06.312] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[14:01:06.312] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[14:01:06.313] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[14:01:06.313] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[14:01:06.313] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[14:01:06.313] [Log] 战斗正面模型缩放:1.3
+[14:01:06.314] [Log] 战斗背面模型缩放:1.3
+[14:01:06.314] [Log] 基建模型缩放:1.3
+[14:01:06.316] [Log] 收集到 12 个单位
+[14:01:06.316] [Log] 敌方单位: 4
+[14:01:06.316] [Log] 友方单位: 2
+[14:01:06.316] [Log] 我方防御塔: 3
+[14:01:06.316] [Log] 敌方防御塔: 3
+[14:01:06.316] [Log] HealthBar Canvas Configuration:
+[14:01:06.317] [Log]   Render Mode: WorldSpace
+[14:01:06.317] [Log]   Sorting Order: 100
+[14:01:06.317] [Log]   Sorting Layer: Default
+[14:01:06.317] [Log]   World Camera: None
+[14:01:06.317] [Log]   Plane Distance: 100
+[14:01:06.317] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.317] [Log] HealthBar Canvas Configuration:
+[14:01:06.318] [Log]   Render Mode: WorldSpace
+[14:01:06.318] [Log]   Sorting Order: 100
+[14:01:06.318] [Log]   Sorting Layer: Default
+[14:01:06.318] [Log]   World Camera: None
+[14:01:06.318] [Log]   Plane Distance: 100
+[14:01:06.318] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.318] [Log] HealthBar Canvas Configuration:
+[14:01:06.318] [Log]   Render Mode: WorldSpace
+[14:01:06.318] [Log]   Sorting Order: 100
+[14:01:06.318] [Log]   Sorting Layer: Default
+[14:01:06.318] [Log]   World Camera: None
+[14:01:06.319] [Log]   Plane Distance: 100
+[14:01:06.319] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.319] [Log] HealthBar Canvas Configuration:
+[14:01:06.319] [Log]   Render Mode: WorldSpace
+[14:01:06.319] [Log]   Sorting Order: 100
+[14:01:06.319] [Log]   Sorting Layer: Default
+[14:01:06.319] [Log]   World Camera: None
+[14:01:06.319] [Log]   Plane Distance: 100
+[14:01:06.319] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.319] [Log] HealthBar Canvas Configuration:
+[14:01:06.319] [Log]   Render Mode: WorldSpace
+[14:01:06.320] [Log]   Sorting Order: 100
+[14:01:06.320] [Log]   Sorting Layer: Default
+[14:01:06.320] [Log]   World Camera: None
+[14:01:06.320] [Log]   Plane Distance: 100
+[14:01:06.320] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.320] [Log] HealthBar Canvas Configuration:
+[14:01:06.320] [Log]   Render Mode: WorldSpace
+[14:01:06.320] [Log]   Sorting Order: 100
+[14:01:06.320] [Log]   Sorting Layer: Default
+[14:01:06.320] [Log]   World Camera: None
+[14:01:06.321] [Log]   Plane Distance: 100
+[14:01:06.321] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.321] [Log] HealthBar Canvas Configuration:
+[14:01:06.321] [Log]   Render Mode: WorldSpace
+[14:01:06.321] [Log]   Sorting Order: 100
+[14:01:06.321] [Log]   Sorting Layer: Default
+[14:01:06.321] [Log]   World Camera: None
+[14:01:06.321] [Log]   Plane Distance: 100
+[14:01:06.321] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.321] [Log] HealthBar Canvas Configuration:
+[14:01:06.321] [Log]   Render Mode: WorldSpace
+[14:01:06.321] [Log]   Sorting Order: 100
+[14:01:06.321] [Log]   Sorting Layer: Default
+[14:01:06.321] [Log]   World Camera: None
+[14:01:06.321] [Log]   Plane Distance: 100
+[14:01:06.321] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.323] [Log] HealthBar Canvas Configuration:
+[14:01:06.323] [Log]   Render Mode: WorldSpace
+[14:01:06.323] [Log]   Sorting Order: 100
+[14:01:06.323] [Log]   Sorting Layer: Default
+[14:01:06.323] [Log]   World Camera: None
+[14:01:06.323] [Log]   Plane Distance: 100
+[14:01:06.323] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.323] [Log] HealthBar Canvas Configuration:
+[14:01:06.323] [Log]   Render Mode: WorldSpace
+[14:01:06.323] [Log]   Sorting Order: 100
+[14:01:06.324] [Log]   Sorting Layer: Default
+[14:01:06.324] [Log]   World Camera: None
+[14:01:06.324] [Log]   Plane Distance: 100
+[14:01:06.324] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.324] [Log] HealthBar Canvas Configuration:
+[14:01:06.324] [Log]   Render Mode: WorldSpace
+[14:01:06.324] [Log]   Sorting Order: 100
+[14:01:06.324] [Log]   Sorting Layer: Default
+[14:01:06.324] [Log]   World Camera: None
+[14:01:06.324] [Log]   Plane Distance: 100
+[14:01:06.324] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:06.325] [Log] HealthBar Canvas Configuration:
+[14:01:06.325] [Log]   Render Mode: WorldSpace
+[14:01:06.325] [Log]   Sorting Order: 100
+[14:01:06.325] [Log]   Sorting Layer: Default
+[14:01:06.325] [Log]   World Camera: None
+[14:01:06.325] [Log]   Plane Distance: 100
+[14:01:06.325] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[14:01:07.198] [Log] OnAttack
+[14:01:07.198] [Log] 正面
+[14:01:07.578] [Log] OnAttack
+[14:01:07.578] [Log] 正面
+[14:01:07.715] [Log] OnAttack
+[14:01:07.716] [Log] 正面
+[14:01:08.153] [Log] OnAttack
+[14:01:08.153] [Log] 正面
+[14:01:08.452] [Log] OnAttack
+[14:01:08.452] [Log] 正面
+[14:01:08.984] [Log] OnAttack
+[14:01:08.984] [Log] 正面
+[14:01:09.070] [Log] OnAttack
+[14:01:09.070] [Log] 正面
+[14:01:09.404] [Warning] CostControler: 未找到音频播放器
+[14:01:09.405] [Log] 游戏开始！
+[14:01:09.405] [Warning] CostControler: 未找到音频播放器
+[14:01:09.405] [Log] 游戏开始！
+[14:01:09.642] [Log] OnAttack
+[14:01:09.643] [Log] 正面
+[14:01:09.728] [Log] OnAttack
+[14:01:09.728] [Log] 正面
+[14:01:10.254] [Log] OnAttack
+[14:01:10.255] [Log] 正面
+[14:01:10.585] [Log] OnAttack
+[14:01:10.586] [Log] 正面
+[14:01:11.150] [Log] OnAttack
+[14:01:11.150] [Log] 正面
+[14:01:11.510] [Log] OnAttack
+[14:01:11.510] [Log] 正面
+[14:01:12.076] [Log] OnAttack
+[14:01:12.077] [Log] 正面
+[14:01:12.383] [Log] OnAttack
+[14:01:12.383] [Log] 正面
+[14:01:12.639] [Log] OnAttack
+[14:01:12.639] [Log] 正面
+[14:01:13.007] [Warning] Import Error Code:(4)
+Message: Build asset version error: assets/logs/log_20260218_140057.txt in SourceAssetDB has modification time of '2026-02-18T06:01:11.9093282Z' while content on disk has modification time of '2026-02-18T06:01:12.9262597Z'
+
+[14:01:13.222] [Log] OnAttack
+[14:01:13.222] [Log] 正面
+[14:01:13.462] [Log] OnAttack
+[14:01:13.462] [Log] 正面
+[14:01:13.871] [Log] OnAttack
+[14:01:13.872] [Log] 正面
+[14:01:13.872] [Log] OnAttack
+[14:01:13.872] [Log] 正面
+[14:01:14.330] [Log] OnAttack
+[14:01:14.330] [Log] 正面
+[14:01:14.723] [Log] OnAttack
+[14:01:14.723] [Log] 正面
+[14:01:15.134] [Log] OnAttack
+[14:01:15.134] [Log] 正面
+[14:01:15.135] [Log] OnAttack
+[14:01:15.135] [Log] 正面
+[14:01:15.596] [Log] OnAttack
+[14:01:15.597] [Log] 正面
+[14:01:15.992] [Log] OnAttack
+[14:01:15.992] [Log] 正面
+==========================================
+游戏日志结束 - 2026/2/18 14:01:16
+==========================================

@@ -1,0 +1,85 @@
+==========================================
+游戏日志开始 - 2026/2/18 0:23:11
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[00:23:11.579] [Log] === 客户端预制体列表诊断 (启动时) ===
+[00:23:11.579] [Log] 客户端 SpawnPrefabs 数量: 11
+[00:23:11.579] [Log]   [0] Anemyamiya -> AssetId: 3767952548
+[00:23:11.579] [Log]   [1] amiya -> AssetId: 1054292600
+[00:23:11.579] [Log]   [2] chen -> AssetId: 1033753810
+[00:23:11.579] [Log]   [3] yinhui -> AssetId: 2171254035
+[00:23:11.579] [Log]   [4] AnemyGongzhuta (1) -> AssetId: 3034425767
+[00:23:11.580] [Log]   [5] AnemyGongzhuta -> AssetId: 258553055
+[00:23:11.580] [Log]   [6] AnemyGuowangta -> AssetId: 3706946732
+[00:23:11.580] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[00:23:11.580] [Log]   [8] Gongzhuta -> AssetId: 48394343
+[00:23:11.580] [Log]   [9] Guowangta -> AssetId: 500381289
+[00:23:11.580] [Log]   [10] NetworkGameState -> AssetId: 2193712816
+[00:23:13.889] [Log] Attempting to save Assets/Logs/Log_20260218_002311.txt.meta are blocked.
+[00:23:27.260] [Log] Attempting to save Assets/Logs/Log_20260218_002313.txt.meta are blocked.
+[00:23:29.274] [Log] === 客户端启动序列开始 ===
+[00:23:29.274] [Log] 原始输入: '127.0.0.1'
+[00:23:29.275] [Log] 将尝试连接到: 127.0.0.1
+[00:23:29.289] [Log] StartClient() 调用完成。
+[00:23:29.344] [Log] 客户端[PlayerElixir] OnStartClient: netId=2, isLocalPlayer=False, currentElixir=2
+[00:23:29.346] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[00:23:29.350] [Exception] NullReferenceException: Object reference not set to an instance of an object
+CountdownTimer.BindUI () (at Assets/Scripts/LoadScene/CountdownTimer.cs:29)
+CountdownTimer.OnStartClient () (at Assets/Scripts/LoadScene/CountdownTimer.cs:21)
+Mirror.NetworkIdentity.OnStartClient () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkIdentity.cs:757)
+UnityEngine.Debug:LogException(Exception, Object)
+Mirror.NetworkIdentity:OnStartClient() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkIdentity.cs:761)
+Mirror.NetworkClient:InvokeIdentityCallbacks(NetworkIdentity) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:1407)
+Mirror.NetworkClient:BootstrapIdentity(NetworkIdentity) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:1380)
+Mirror.NetworkClient:OnObjectSpawnFinished(ObjectSpawnFinishedMessage) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:1333)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, ObjectSpawnFinishedMessage) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, ObjectSpawnFinishedMessage, Int32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[00:23:29.351] [Log] 客户端[PlayerElixir] OnStartClient: netId=3, isLocalPlayer=True, currentElixir=2
+[00:23:29.351] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[00:23:29.353] [Log] 绑定了 0 个Toggle组件
+[00:23:29.354] [Log] 绑定了 0 个Image组件
+[00:23:29.354] [Log] 绑定了 0 个Text组件
+[00:23:29.355] [Warning] 未找到ToggleGroup组件
+[00:23:29.355] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[00:23:29.355] [Warning] 未找到SkillPosition组件
+[00:23:29.357] [Exception] NullReferenceException: Object reference not set to an instance of an object
+CountdownTimer.BindUI () (at Assets/Scripts/LoadScene/CountdownTimer.cs:29)
+CountdownTimer.OnStartClient () (at Assets/Scripts/LoadScene/CountdownTimer.cs:21)
+Mirror.NetworkIdentity.OnStartClient () (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkIdentity.cs:757)
+UnityEngine.Debug:LogException(Exception, Object)
+Mirror.NetworkIdentity:OnStartClient() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkIdentity.cs:761)
+Mirror.NetworkClient:InvokeIdentityCallbacks(NetworkIdentity) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:1407)
+Mirror.NetworkClient:ApplySpawnPayload(NetworkIdentity, SpawnMessage) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:1163)
+Mirror.NetworkClient:OnSpawn(SpawnMessage) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:1451)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, SpawnMessage) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, SpawnMessage, Int32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[00:23:29.359] [Log] 本地玩家[PlayerElixir] ★ 本地玩家圣水系统启动, netId=3, currentElixir=2
+[00:23:29.359] [Log] 本地costcontroler初始化: netId=3, isLocalPlayer=True
+==========================================
+游戏日志结束 - 2026/2/18 0:23:47
+==========================================

@@ -1,0 +1,1684 @@
+==========================================
+游戏日志开始 - 2026/2/23 0:11:27
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[00:11:27.866] [Log] === 客户端预制体列表诊断 (启动时) ===
+[00:11:27.867] [Log] 客户端 SpawnPrefabs 数量: 11
+[00:11:27.867] [Log]   [0] amiya -> AssetId: 1054292600
+[00:11:27.867] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[00:11:27.867] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[00:11:27.867] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[00:11:27.867] [Log]   [4] chen -> AssetId: 1033753810
+[00:11:27.867] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[00:11:27.867] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[00:11:27.867] [Log]   [7] Guowangta -> AssetId: 500381289
+[00:11:27.867] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[00:11:27.867] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[00:11:27.867] [Log]   [10] yinhui -> AssetId: 2171254035
+[00:11:31.691] [Log] [Host] 局域网IP: 192.168.1.7, 端口: 7777
+[00:11:31.706] [Log] Not in Room scene...disconnecting connection(0)
+[00:11:31.707] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[00:11:31.707] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__12:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:107)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:98)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[00:11:31.732] [Log] 已设置 29 个地面瓦片
+[00:11:31.732] [Log] 已设置 9 个地面瓦片
+[00:11:31.737] [Log] 已设置 253 个地面瓦片
+[00:11:31.742] [Log] 已设置 253 个地面瓦片
+[00:11:32.085] [Warning] Failed to create agent because there is no valid NavMesh
+[00:11:32.183] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:32.187] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:11:32.189] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:32.189] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:32.189] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:32.192] [Log] 血条对象层级检查：
+[00:11:32.192] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:32.192] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:32.192] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:32.192] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:32.192] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:32.192] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:32.192] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:32.196] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[00:11:32.209] [Log] HealthBar Canvas Configuration:
+[00:11:32.209] [Log]   Render Mode: WorldSpace
+[00:11:32.209] [Log]   Sorting Order: 100
+[00:11:32.209] [Log]   Sorting Layer: Default
+[00:11:32.209] [Log]   World Camera: None
+[00:11:32.210] [Log]   Plane Distance: 100
+[00:11:32.210] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:32.212] [Warning] Pathfinding初始化时MapManager实例不存在
+[00:11:32.213] [Log] 找不到目标了
+[00:11:32.228] [Log] 找不到目标了
+[00:11:32.234] [Log] 找不到目标了
+[00:11:32.239] [Log] 找不到目标了
+[00:11:32.243] [Log] 找不到目标了
+[00:11:32.247] [Log] 找不到目标了
+[00:11:32.251] [Log] 找不到目标了
+[00:11:32.255] [Log] 找不到目标了
+[00:11:32.259] [Log] 找不到目标了
+[00:11:32.263] [Log] 找不到目标了
+[00:11:32.267] [Log] 找不到目标了
+[00:11:32.271] [Log] 找不到目标了
+[00:11:32.276] [Log] 找不到目标了
+[00:11:32.279] [Log] 找不到目标了
+[00:11:32.284] [Log] 找不到目标了
+[00:11:32.288] [Log] 找不到目标了
+[00:11:32.291] [Log] 找不到目标了
+[00:11:32.295] [Log] 找不到目标了
+[00:11:32.300] [Log] 找不到目标了
+[00:11:32.303] [Log] 找不到目标了
+[00:11:32.307] [Log] 找不到目标了
+[00:11:32.310] [Log] 找不到目标了
+[00:11:32.314] [Log] 找不到目标了
+[00:11:32.318] [Log] 找不到目标了
+[00:11:32.322] [Log] 找不到目标了
+[00:11:32.327] [Log] 找不到目标了
+[00:11:32.330] [Log] 找不到目标了
+[00:11:32.334] [Log] 找不到目标了
+[00:11:32.337] [Log] 找不到目标了
+[00:11:32.342] [Log] 找不到目标了
+[00:11:32.345] [Log] 找不到目标了
+[00:11:32.349] [Log] 找不到目标了
+[00:11:32.353] [Log] 找不到目标了
+[00:11:32.357] [Log] 找不到目标了
+[00:11:32.362] [Log] 找不到目标了
+[00:11:32.367] [Log] 找不到目标了
+[00:11:32.371] [Log] 找不到目标了
+[00:11:32.374] [Log] 找不到目标了
+[00:11:32.378] [Log] 找不到目标了
+[00:11:32.380] [Log] 找不到目标了
+[00:11:32.385] [Log] 找不到目标了
+[00:11:32.389] [Log] 找不到目标了
+[00:11:32.392] [Log] 找不到目标了
+[00:11:32.397] [Log] 找不到目标了
+[00:11:32.400] [Log] 找不到目标了
+[00:11:32.403] [Log] 找不到目标了
+[00:11:32.407] [Log] 找不到目标了
+[00:11:32.410] [Log] 找不到目标了
+[00:11:32.415] [Log] 找不到目标了
+[00:11:32.418] [Log] 找不到目标了
+[00:11:32.422] [Log] 找不到目标了
+[00:11:32.425] [Log] 找不到目标了
+[00:11:32.428] [Log] 找不到目标了
+[00:11:32.433] [Log] 找不到目标了
+[00:11:32.436] [Log] 找不到目标了
+[00:11:32.439] [Log] 找不到目标了
+[00:11:32.443] [Log] 找不到目标了
+[00:11:32.446] [Log] 找不到目标了
+[00:11:32.450] [Log] 找不到目标了
+[00:11:32.454] [Log] 找不到目标了
+[00:11:32.458] [Log] 找不到目标了
+[00:11:32.462] [Log] 找不到目标了
+[00:11:32.467] [Log] 找不到目标了
+[00:11:32.470] [Log] 找不到目标了
+[00:11:32.474] [Log] 找不到目标了
+[00:11:32.478] [Log] 找不到目标了
+[00:11:32.482] [Log] 找不到目标了
+[00:11:32.486] [Log] 找不到目标了
+[00:11:32.490] [Log] 找不到目标了
+[00:11:32.494] [Log] 找不到目标了
+[00:11:32.498] [Log] 找不到目标了
+[00:11:32.502] [Log] 找不到目标了
+[00:11:32.506] [Log] 找不到目标了
+[00:11:32.509] [Log] 找不到目标了
+[00:11:32.512] [Log] 找不到目标了
+[00:11:32.515] [Log] 找不到目标了
+[00:11:32.519] [Log] 找不到目标了
+[00:11:32.522] [Log] 找不到目标了
+[00:11:32.526] [Log] 找不到目标了
+[00:11:32.530] [Log] 找不到目标了
+[00:11:32.533] [Log] 找不到目标了
+[00:11:32.537] [Log] 找不到目标了
+[00:11:32.541] [Log] 找不到目标了
+[00:11:32.546] [Log] 找不到目标了
+[00:11:32.549] [Log] 找不到目标了
+[00:11:32.553] [Log] 找不到目标了
+[00:11:32.558] [Log] 找不到目标了
+[00:11:32.562] [Log] 找不到目标了
+[00:11:32.566] [Log] 找不到目标了
+[00:11:32.571] [Log] 找不到目标了
+[00:11:32.575] [Log] 找不到目标了
+[00:11:32.578] [Log] 找不到目标了
+[00:11:32.582] [Log] 找不到目标了
+[00:11:32.587] [Log] 找不到目标了
+[00:11:32.591] [Log] 找不到目标了
+[00:11:32.595] [Log] 找不到目标了
+[00:11:32.598] [Log] 找不到目标了
+[00:11:32.602] [Log] 找不到目标了
+[00:11:32.605] [Log] 找不到目标了
+[00:11:32.609] [Log] 找不到目标了
+[00:11:32.612] [Log] 找不到目标了
+[00:11:32.615] [Log] 找不到目标了
+[00:11:32.618] [Log] 找不到目标了
+[00:11:32.622] [Log] 找不到目标了
+[00:11:32.625] [Log] 找不到目标了
+[00:11:32.628] [Log] 找不到目标了
+[00:11:32.632] [Log] 找不到目标了
+[00:11:32.635] [Log] 找不到目标了
+[00:11:32.640] [Log] 找不到目标了
+[00:11:32.643] [Log] 找不到目标了
+[00:11:32.646] [Log] 找不到目标了
+[00:11:32.650] [Log] 找不到目标了
+[00:11:32.653] [Log] 找不到目标了
+[00:11:32.656] [Log] 找不到目标了
+[00:11:32.660] [Log] 找不到目标了
+[00:11:32.663] [Log] 找不到目标了
+[00:11:32.667] [Log] 找不到目标了
+[00:11:32.670] [Log] 找不到目标了
+[00:11:32.673] [Log] 找不到目标了
+[00:11:32.677] [Log] 找不到目标了
+[00:11:32.680] [Log] 找不到目标了
+[00:11:32.685] [Log] 找不到目标了
+[00:11:32.687] [Log] 找不到目标了
+[00:11:32.692] [Log] 找不到目标了
+[00:11:32.695] [Log] 找不到目标了
+[00:11:32.699] [Log] 找不到目标了
+[00:11:32.701] [Log] 找不到目标了
+[00:11:32.705] [Log] 找不到目标了
+[00:11:32.707] [Log] 找不到目标了
+[00:11:32.711] [Log] 找不到目标了
+[00:11:32.714] [Log] 找不到目标了
+[00:11:32.717] [Log] 找不到目标了
+[00:11:32.721] [Log] 找不到目标了
+[00:11:32.725] [Log] 找不到目标了
+[00:11:32.727] [Log] 找不到目标了
+[00:11:32.731] [Log] 找不到目标了
+[00:11:32.735] [Log] 找不到目标了
+[00:11:32.739] [Log] 找不到目标了
+[00:11:32.741] [Log] 找不到目标了
+[00:11:32.745] [Log] 找不到目标了
+[00:11:32.748] [Log] 找不到目标了
+[00:11:32.750] [Log] 找不到目标了
+[00:11:32.754] [Log] 找不到目标了
+[00:11:32.758] [Log] 找不到目标了
+[00:11:32.761] [Log] 找不到目标了
+[00:11:32.764] [Log] 找不到目标了
+[00:11:32.767] [Log] 找不到目标了
+[00:11:32.771] [Log] 找不到目标了
+[00:11:32.773] [Log] 找不到目标了
+[00:11:32.778] [Log] 找不到目标了
+[00:11:32.780] [Log] 找不到目标了
+[00:11:32.784] [Log] 找不到目标了
+[00:11:32.788] [Log] 找不到目标了
+[00:11:32.790] [Log] 找不到目标了
+[00:11:32.794] [Log] 找不到目标了
+[00:11:32.797] [Log] 找不到目标了
+[00:11:32.802] [Log] 找不到目标了
+[00:11:32.805] [Log] 找不到目标了
+[00:11:32.809] [Log] 找不到目标了
+[00:11:32.812] [Log] 找不到目标了
+[00:11:32.816] [Log] 找不到目标了
+[00:11:32.820] [Log] 找不到目标了
+[00:11:32.823] [Log] 找不到目标了
+[00:11:32.827] [Log] 找不到目标了
+[00:11:32.830] [Log] 找不到目标了
+[00:11:32.835] [Log] 找不到目标了
+[00:11:32.839] [Log] 找不到目标了
+[00:11:32.842] [Log] 找不到目标了
+[00:11:32.845] [Log] 找不到目标了
+[00:11:32.849] [Log] 找不到目标了
+[00:11:32.853] [Log] 找不到目标了
+[00:11:32.857] [Log] 找不到目标了
+[00:11:32.859] [Log] 找不到目标了
+[00:11:32.865] [Log] 找不到目标了
+[00:11:32.867] [Log] 找不到目标了
+[00:11:32.872] [Log] 找不到目标了
+[00:11:32.876] [Log] 找不到目标了
+[00:11:32.879] [Log] 找不到目标了
+[00:11:32.882] [Log] 找不到目标了
+[00:11:32.886] [Log] 找不到目标了
+[00:11:32.890] [Log] 找不到目标了
+[00:11:32.894] [Log] 找不到目标了
+[00:11:32.899] [Log] 找不到目标了
+[00:11:32.903] [Log] 找不到目标了
+[00:11:32.906] [Log] 找不到目标了
+[00:11:32.908] [Log] 找不到目标了
+[00:11:32.913] [Log] 找不到目标了
+[00:11:32.917] [Log] 找不到目标了
+[00:11:32.920] [Log] 找不到目标了
+[00:11:32.923] [Log] 找不到目标了
+[00:11:32.928] [Log] 找不到目标了
+[00:11:32.933] [Log] 找不到目标了
+[00:11:32.937] [Log] 找不到目标了
+[00:11:32.940] [Log] 找不到目标了
+[00:11:32.948] [Log] 找不到目标了
+[00:11:32.951] [Log] 找不到目标了
+[00:11:32.955] [Log] 找不到目标了
+[00:11:32.958] [Log] 找不到目标了
+[00:11:32.962] [Log] 找不到目标了
+[00:11:32.966] [Log] 找不到目标了
+[00:11:32.969] [Log] 找不到目标了
+[00:11:32.973] [Log] 找不到目标了
+[00:11:32.978] [Log] 找不到目标了
+[00:11:32.981] [Log] 找不到目标了
+[00:11:32.985] [Log] 找不到目标了
+[00:11:32.987] [Log] 找不到目标了
+[00:11:32.990] [Log] 找不到目标了
+[00:11:32.994] [Log] 找不到目标了
+[00:11:32.998] [Log] 找不到目标了
+[00:11:33.000] [Log] 找不到目标了
+[00:11:33.004] [Log] 找不到目标了
+[00:11:33.008] [Log] 找不到目标了
+[00:11:33.012] [Log] 找不到目标了
+[00:11:33.015] [Log] 找不到目标了
+[00:11:33.018] [Log] 找不到目标了
+[00:11:33.025] [Log] 找不到目标了
+[00:11:33.035] [Log] 找不到目标了
+[00:11:33.039] [Log] 找不到目标了
+[00:11:33.044] [Log] 找不到目标了
+[00:11:33.047] [Log] 找不到目标了
+[00:11:33.051] [Log] 找不到目标了
+[00:11:33.054] [Log] 找不到目标了
+[00:11:33.059] [Log] 找不到目标了
+[00:11:33.063] [Log] 找不到目标了
+[00:11:33.067] [Log] 找不到目标了
+[00:11:33.071] [Log] 找不到目标了
+[00:11:33.075] [Log] 找不到目标了
+[00:11:33.078] [Log] 找不到目标了
+[00:11:33.082] [Log] 找不到目标了
+[00:11:33.087] [Log] 找不到目标了
+[00:11:33.091] [Log] 找不到目标了
+[00:11:33.095] [Log] 找不到目标了
+[00:11:33.098] [Log] 找不到目标了
+[00:11:33.102] [Log] 找不到目标了
+[00:11:33.106] [Log] 找不到目标了
+[00:11:33.110] [Log] 找不到目标了
+[00:11:33.113] [Log] 找不到目标了
+[00:11:33.119] [Log] 找不到目标了
+[00:11:33.124] [Log] 找不到目标了
+[00:11:33.130] [Log] 找不到目标了
+[00:11:33.138] [Log] 找不到目标了
+[00:11:33.145] [Log] 找不到目标了
+[00:11:33.179] [Log] 已设置 29 个地面瓦片
+[00:11:33.180] [Log] 已设置 9 个地面瓦片
+[00:11:33.184] [Log] 已设置 253 个地面瓦片
+[00:11:33.189] [Log] 已设置 253 个地面瓦片
+[00:11:33.506] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[00:11:33.507] [Log] 收集到 540 个地砖
+[00:11:33.507] [Log] 所有瓦片的网格坐标初始化完成
+[00:11:33.508] [Log] 识别到 8 个桥梁位置
+[00:11:33.508] [Log] [MapManager] 初始化完成, 共 540 个地砖
+[00:11:33.508] [Log] 找不到目标了
+[00:11:33.510] [Log] [MyNetworkRoomManager] ★ 进入游戏场景
+[00:11:33.511] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[00:11:33.511] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:33.511] [Log] 士兵 未找到Role脚本
+[00:11:33.511] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:33.511] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:33.512] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:33.512] [Log] 血条对象层级检查：
+[00:11:33.512] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:33.512] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:33.512] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:33.512] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:33.512] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:33.512] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:33.512] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:33.512] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[00:11:33.512] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:33.513] [Log] 士兵 未找到Role脚本
+[00:11:33.513] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:33.513] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:33.513] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:33.513] [Log] 血条对象层级检查：
+[00:11:33.513] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:33.513] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:33.513] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:33.513] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:33.513] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:33.513] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:33.513] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:33.513] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[00:11:33.513] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:33.513] [Log] 士兵 未找到Role脚本
+[00:11:33.514] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:33.514] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:33.514] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:33.514] [Log] 血条对象层级检查：
+[00:11:33.514] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:33.514] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:33.514] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:33.514] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:33.514] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:33.514] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:33.514] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:33.514] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[00:11:33.515] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:33.515] [Log] 士兵 未找到Role脚本
+[00:11:33.515] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:33.515] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:33.515] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:33.515] [Log] 血条对象层级检查：
+[00:11:33.515] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:33.515] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:33.515] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:33.516] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:33.516] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:33.516] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:33.516] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:33.516] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[00:11:33.516] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:33.516] [Log] 士兵 未找到Role脚本
+[00:11:33.516] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:33.516] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:33.516] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:33.517] [Log] 血条对象层级检查：
+[00:11:33.517] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:33.517] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:33.517] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:33.517] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:33.517] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:33.517] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:33.517] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:33.517] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:121)
+
+[00:11:33.517] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:33.517] [Log] 士兵 未找到Role脚本
+[00:11:33.517] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:33.517] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:33.517] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:33.517] [Log] 血条对象层级检查：
+[00:11:33.517] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:33.517] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:33.517] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:33.519] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:33.519] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:33.519] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:33.519] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:33.559] [Log] HealthBar Canvas Configuration:
+[00:11:33.560] [Log]   Render Mode: WorldSpace
+[00:11:33.560] [Log]   Sorting Order: 100
+[00:11:33.560] [Log]   Sorting Layer: Default
+[00:11:33.560] [Log]   World Camera: None
+[00:11:33.560] [Log]   Plane Distance: 100
+[00:11:33.560] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:33.560] [Log] HealthBar Canvas Configuration:
+[00:11:33.560] [Log]   Render Mode: WorldSpace
+[00:11:33.560] [Log]   Sorting Order: 100
+[00:11:33.560] [Log]   Sorting Layer: Default
+[00:11:33.560] [Log]   World Camera: None
+[00:11:33.560] [Log]   Plane Distance: 100
+[00:11:33.560] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:33.560] [Log] HealthBar Canvas Configuration:
+[00:11:33.560] [Log]   Render Mode: WorldSpace
+[00:11:33.560] [Log]   Sorting Order: 100
+[00:11:33.560] [Log]   Sorting Layer: Default
+[00:11:33.560] [Log]   World Camera: None
+[00:11:33.560] [Log]   Plane Distance: 100
+[00:11:33.560] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:33.560] [Log] HealthBar Canvas Configuration:
+[00:11:33.560] [Log]   Render Mode: WorldSpace
+[00:11:33.560] [Log]   Sorting Order: 100
+[00:11:33.561] [Log]   Sorting Layer: Default
+[00:11:33.561] [Log]   World Camera: None
+[00:11:33.561] [Log]   Plane Distance: 100
+[00:11:33.561] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:33.561] [Log] HealthBar Canvas Configuration:
+[00:11:33.561] [Log]   Render Mode: WorldSpace
+[00:11:33.561] [Log]   Sorting Order: 100
+[00:11:33.561] [Log]   Sorting Layer: Default
+[00:11:33.561] [Log]   World Camera: None
+[00:11:33.561] [Log]   Plane Distance: 100
+[00:11:33.561] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:33.561] [Log] HealthBar Canvas Configuration:
+[00:11:33.562] [Log]   Render Mode: WorldSpace
+[00:11:33.562] [Log]   Sorting Order: 100
+[00:11:33.562] [Log]   Sorting Layer: Default
+[00:11:33.562] [Log]   World Camera: None
+[00:11:33.562] [Log]   Plane Distance: 100
+[00:11:33.562] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:33.564] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onMove () (at Assets/Scripts/Units/Role.cs:407)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:OnIsMovingChanged(Boolean, Boolean) (at Assets/Scripts/Units/SoldierController.cs:206)
+SoldierController:set_NetworkisMoving(Boolean)
+SoldierController:MoveToTargetWithPathfinding(Vector3) (at Assets/Scripts/Units/SoldierController.cs:419)
+SoldierController:ServerUpdateCombatState() (at Assets/Scripts/Units/SoldierController.cs:398)
+SoldierController:Update() (at Assets/Scripts/Units/SoldierController.cs:290)
+
+[00:11:33.567] [Log] [PlayerElixir] OnStartServer: netId=8, playerIndex=0, connId=0
+[00:11:33.567] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[00:11:33.568] [Warning] 未找到NetworkGameState实例
+[00:11:33.569] [Log] 玩家 8 阵营: TeamA
+[00:11:33.569] [Log] 服务器分配阵营: 玩家 8 = TeamA
+[00:11:33.570] [Log] [PlayerElixir] OnStartClient: netId=8, isLocalPlayer=True, playerIndex=0
+[00:11:33.570] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[00:11:33.570] [Warning] 未找到NetworkGameState实例
+[00:11:33.572] [Log] [PlayerElixir] ★ 本地玩家启动, netId=8, playerIndex=0
+[00:11:33.572] [Log] 本地costcontroler初始化: netId=8, isLocalPlayer=True
+[00:11:33.655] [Log] 服务器销毁房间玩家: RoomPlayer(Clone)
+[00:11:36.570] [Warning] CostControler: 未找到音频播放器
+[00:11:36.571] [Log] 绑定了 4 个Toggle组件
+[00:11:36.572] [Log] 绑定了 4 个Image组件
+[00:11:36.572] [Log] 绑定了 4 个Text组件
+[00:11:36.572] [Log] 绑定了ToggleGroup组件
+[00:11:36.572] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[00:11:36.572] [Log] 绑定了SkillPosition组件
+[00:11:36.573] [Log] [UIManager] 使用玩家选择的 8 个干员
+[00:11:36.576] [Log] 游戏开始！
+[00:11:36.938] [Log] UIManager: Toggle 3 开始拖拽
+[00:11:36.958] [Log] UIManager: Toggle 3 拖拽距离: 12.40997
+[00:11:36.969] [Log] UIManager: Toggle 3 拖拽距离: 22.09776
+[00:11:36.979] [Log] UIManager: Toggle 3 拖拽距离: 36.05088
+[00:11:36.988] [Log] UIManager: Toggle 3 拖拽距离: 48.66539
+[00:11:36.998] [Log] UIManager: Toggle 3 拖拽距离: 65.58138
+[00:11:37.007] [Log] UIManager: Toggle 3 拖拽距离: 88.15733
+[00:11:37.016] [Log] UIManager: Toggle 3 拖拽距离: 112.6856
+[00:11:37.018] [Log] UIManager: Toggle 3 拖拽距离超过阈值，开始放置模式
+[00:11:37.018] [Log] UIManager: Toggle 3 兵种索引: 1
+[00:11:37.018] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[00:11:37.168] [Log] 开始放置
+[00:11:37.168] [Log] UIManager: Toggle 3 调用了放置逻辑
+[00:11:37.170] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[00:11:37.186] [Log] 战斗正面模型缩放:1.3
+[00:11:37.186] [Log] 战斗背面模型缩放:1.3
+[00:11:37.186] [Log] 基建模型缩放:1.3
+[00:11:37.449] [Log] UIManager: Toggle 3 结束拖拽
+[00:11:37.452] [Log] [放置] 玩家1 当前拥有5.099271费用, 需要3
+[00:11:37.452] [Log] [放置验证] MapManager存在, nearestTile=Cube (104), 请求位置=(14.00, 0.00, 5.00)
+[00:11:37.454] [Error] [放置验证] 失败: tile=Cube (104), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:11:38.329] [Log] [放置] 玩家1 当前拥有5.722229费用, 需要3
+[00:11:38.330] [Log] [放置验证] MapManager存在, nearestTile=Cube (104), 请求位置=(14.00, 0.00, 5.00)
+[00:11:38.330] [Error] [放置验证] 失败: tile=Cube (104), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:11:42.575] [Log] [放置] 玩家1 当前拥有9.155521费用, 需要3
+[00:11:42.575] [Log] [放置验证] MapManager存在, nearestTile=Cube (104), 请求位置=(14.00, 0.00, 5.00)
+[00:11:42.575] [Error] [放置验证] 失败: tile=Cube (104), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:11:43.079] [Log] [放置] 玩家1 当前拥有9.574722费用, 需要3
+[00:11:43.079] [Log] [放置验证] MapManager存在, nearestTile=Cube (68), 请求位置=(14.00, 0.00, 3.00)
+[00:11:43.088] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 6.6
+[00:11:43.089] [Log] [放置] 玩家1 放置单位 amiya, teamIndex=0
+[00:11:43.091] [Log] OnUnitPlaced 被调用: unitIndex=1, positionIndex=3
+[00:11:43.091] [Log] 卡牌 1 已放入队列
+[00:11:43.091] [Log] 从队列取出卡牌 2
+[00:11:43.092] [Log] 位置 3 的卡牌已替换为索引 2 的卡牌
+[00:11:43.094] [Log] 为兵种 3 创建了技能按钮，士兵: amiya(Clone)
+[00:11:43.094] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[00:11:43.094] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[00:11:43.094] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:43.095] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:11:43.095] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:43.095] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:43.095] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:43.095] [Log] 血条对象层级检查：
+[00:11:43.095] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:43.096] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:43.096] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:43.096] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:43.096] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:43.096] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:43.096] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:43.096] [Log] 战斗正面模型缩放:1.3
+[00:11:43.096] [Log] 战斗背面模型缩放:1.3
+[00:11:43.096] [Log] 基建模型缩放:1.3
+[00:11:43.106] [Log] HealthBar Canvas Configuration:
+[00:11:43.106] [Log]   Render Mode: WorldSpace
+[00:11:43.106] [Log]   Sorting Order: 100
+[00:11:43.106] [Log]   Sorting Layer: Default
+[00:11:43.106] [Log]   World Camera: None
+[00:11:43.106] [Log]   Plane Distance: 100
+[00:11:43.106] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:43.982] [Log] UIManager: Toggle 3 开始拖拽
+[00:11:44.055] [Log] UIManager: Toggle 3 结束拖拽
+[00:11:44.056] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[00:11:44.056] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[00:11:44.141] [Log] 战斗正面模型缩放:1
+[00:11:44.142] [Log] 战斗背面模型缩放:1
+[00:11:44.142] [Log] 基建模型缩放:1
+[00:11:44.681] [Log] [放置] 玩家1 当前拥有7.812426费用, 需要3
+[00:11:44.681] [Log] [放置验证] MapManager存在, nearestTile=Cube (104), 请求位置=(14.00, 0.00, 5.00)
+[00:11:44.681] [Error] [放置验证] 失败: tile=Cube (104), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:11:45.282] [Log] [放置] 玩家1 当前拥有8.32791费用, 需要3
+[00:11:45.283] [Log] [放置验证] MapManager存在, nearestTile=Cube (238), 请求位置=(3.00, -0.20, 5.00)
+[00:11:45.283] [Error] [放置验证] 失败: tile=Cube (238), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:11:45.574] [Log] [放置] 玩家1 当前拥有8.538713费用, 需要3
+[00:11:45.574] [Log] [放置验证] MapManager存在, nearestTile=Cube (95), 请求位置=(5.00, 0.00, 5.00)
+[00:11:45.576] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 5.5
+[00:11:45.576] [Log] [放置] 玩家1 放置单位 chen, teamIndex=0
+[00:11:45.576] [Log] OnUnitPlaced 被调用: unitIndex=2, positionIndex=3
+[00:11:45.576] [Log] 卡牌 2 已放入队列
+[00:11:45.576] [Log] 从队列取出卡牌 7
+[00:11:45.576] [Log] 位置 3 的卡牌已替换为索引 7 的卡牌
+[00:11:45.577] [Log] 为兵种 3 创建了技能按钮，士兵: chen(Clone)
+[00:11:45.577] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[00:11:45.577] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[00:11:45.577] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:45.577] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:11:45.578] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:45.578] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:45.578] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:45.578] [Log] 血条对象层级检查：
+[00:11:45.578] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:45.578] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:45.578] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:45.578] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:45.578] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:45.579] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:45.579] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:45.579] [Log] 战斗正面模型缩放:1
+[00:11:45.579] [Log] 战斗背面模型缩放:1
+[00:11:45.579] [Log] 基建模型缩放:1
+[00:11:45.589] [Log] HealthBar Canvas Configuration:
+[00:11:45.589] [Log]   Render Mode: WorldSpace
+[00:11:45.589] [Log]   Sorting Order: 100
+[00:11:45.589] [Log]   Sorting Layer: Default
+[00:11:45.589] [Log]   World Camera: None
+[00:11:45.589] [Log]   Plane Distance: 100
+[00:11:45.589] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:46.373] [Log] UIManager: Toggle 1 开始拖拽
+[00:11:46.455] [Log] UIManager: Toggle 1 结束拖拽
+[00:11:46.456] [Log] Toggle事件: isOn=True, toggleIndex=1, 当前Toggle.isOn=True, 选择的Toggle: Toggle2 (UnityEngine.UI.Toggle)
+[00:11:46.456] [Log] UIManager: Toggle 1 位置偏移: (0.00, 60.00)
+[00:11:46.565] [Log] 战斗正面模型缩放:1
+[00:11:46.565] [Log] 战斗背面模型缩放:1
+[00:11:46.566] [Log] 基建模型缩放:1
+[00:11:48.779] [Log] [放置] 玩家1 当前拥有8.154255费用, 需要3
+[00:11:48.779] [Log] [放置验证] MapManager存在, nearestTile=Cube (238), 请求位置=(3.00, -0.20, 5.00)
+[00:11:48.779] [Error] [放置验证] 失败: tile=Cube (238), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:11:49.348] [Log] [放置] 玩家1 当前拥有8.569928费用, 需要3
+[00:11:49.349] [Log] [放置验证] MapManager存在, nearestTile=Cube (238), 请求位置=(3.00, -0.20, 5.00)
+[00:11:49.349] [Error] [放置验证] 失败: tile=Cube (238), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:11:49.808] [Log] [放置] 玩家1 当前拥有8.994235费用, 需要3
+[00:11:49.809] [Log] [放置验证] MapManager存在, nearestTile=Cube (95), 请求位置=(5.00, 0.00, 5.00)
+[00:11:49.810] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 6.0
+[00:11:49.811] [Log] [放置] 玩家1 放置单位 chen, teamIndex=0
+[00:11:49.811] [Log] OnUnitPlaced 被调用: unitIndex=5, positionIndex=1
+[00:11:49.811] [Log] 卡牌 5 已放入队列
+[00:11:49.811] [Log] 从队列取出卡牌 3
+[00:11:49.811] [Log] 位置 1 的卡牌已替换为索引 3 的卡牌
+[00:11:49.811] [Log] 为兵种 1 创建了技能按钮，士兵: chen(Clone)
+[00:11:49.811] [Log] Toggle事件: isOn=False, toggleIndex=1, 当前Toggle.isOn=False, 选择的Toggle: Toggle2 (UnityEngine.UI.Toggle)
+[00:11:49.811] [Log] UIManager: Toggle 1 位置偏移: (0.00, -60.00)
+[00:11:49.812] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:49.812] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:11:49.813] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:49.813] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:49.813] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:49.813] [Log] 血条对象层级检查：
+[00:11:49.813] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:49.813] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:49.813] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:49.813] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:49.813] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:49.813] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:49.813] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:49.814] [Log] 战斗正面模型缩放:1
+[00:11:49.814] [Log] 战斗背面模型缩放:1
+[00:11:49.814] [Log] 基建模型缩放:1
+[00:11:49.822] [Log] HealthBar Canvas Configuration:
+[00:11:49.822] [Log]   Render Mode: WorldSpace
+[00:11:49.822] [Log]   Sorting Order: 100
+[00:11:49.822] [Log]   Sorting Layer: Default
+[00:11:49.822] [Log]   World Camera: None
+[00:11:49.822] [Log]   Plane Distance: 100
+[00:11:49.822] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:50.616] [Log] UIManager: Toggle 1 开始拖拽
+[00:11:50.680] [Log] UIManager: Toggle 1 拖拽距离: 11.70909
+[00:11:50.691] [Log] UIManager: Toggle 1 拖拽距离: 28.8121
+[00:11:50.702] [Log] UIManager: Toggle 1 结束拖拽
+[00:11:50.704] [Log] Toggle事件: isOn=True, toggleIndex=1, 当前Toggle.isOn=True, 选择的Toggle: Toggle2 (UnityEngine.UI.Toggle)
+[00:11:50.704] [Log] UIManager: Toggle 1 位置偏移: (0.00, 60.00)
+[00:11:50.785] [Log] 战斗正面模型缩放:1.3
+[00:11:50.785] [Log] 战斗背面模型缩放:1.3
+[00:11:50.785] [Log] 基建模型缩放:1.3
+[00:11:51.392] [Log] [放置] 玩家1 当前拥有7.186556费用, 需要3
+[00:11:51.392] [Log] [放置验证] MapManager存在, nearestTile=Cube (58), 请求位置=(4.00, 0.00, 3.00)
+[00:11:51.395] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 4.2
+[00:11:51.395] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[00:11:51.395] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=1
+[00:11:51.395] [Log] 卡牌 3 已放入队列
+[00:11:51.396] [Log] 从队列取出卡牌 4
+[00:11:51.396] [Log] 位置 1 的卡牌已替换为索引 4 的卡牌
+[00:11:51.396] [Log] 为兵种 1 创建了技能按钮，士兵: yinhui(Clone)
+[00:11:51.396] [Log] Toggle事件: isOn=False, toggleIndex=1, 当前Toggle.isOn=False, 选择的Toggle: Toggle2 (UnityEngine.UI.Toggle)
+[00:11:51.396] [Log] UIManager: Toggle 1 位置偏移: (0.00, -60.00)
+[00:11:51.397] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:51.397] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:11:51.397] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:51.397] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:51.397] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:51.397] [Log] 血条对象层级检查：
+[00:11:51.397] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:51.397] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:51.397] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:51.397] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:51.397] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:51.398] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:51.398] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:51.398] [Log] 战斗正面模型缩放:1.3
+[00:11:51.398] [Log] 战斗背面模型缩放:1.3
+[00:11:51.398] [Log] 基建模型缩放:1.3
+[00:11:51.407] [Log] HealthBar Canvas Configuration:
+[00:11:51.407] [Log]   Render Mode: WorldSpace
+[00:11:51.407] [Log]   Sorting Order: 100
+[00:11:51.407] [Log]   Sorting Layer: Default
+[00:11:51.407] [Log]   World Camera: None
+[00:11:51.407] [Log]   Plane Distance: 100
+[00:11:51.407] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:52.425] [Log] UIManager: Toggle 1 开始拖拽
+[00:11:52.517] [Log] UIManager: Toggle 1 结束拖拽
+[00:11:52.518] [Log] Toggle事件: isOn=True, toggleIndex=1, 当前Toggle.isOn=True, 选择的Toggle: Toggle2 (UnityEngine.UI.Toggle)
+[00:11:52.518] [Log] UIManager: Toggle 1 位置偏移: (0.00, 60.00)
+[00:11:52.610] [Log] 战斗正面模型缩放:1.3
+[00:11:52.610] [Log] 战斗背面模型缩放:1.3
+[00:11:52.610] [Log] 基建模型缩放:1.3
+[00:11:55.181] [Log] 士兵 锁定目标: amiya(Clone)
+[00:11:55.186] [Log] 士兵 调用攻击模型: onAttackF
+[00:11:55.492] [Log] 士兵 锁定目标: chen(Clone)
+[00:11:55.492] [Log] 士兵 调用攻击模型: onAttackF
+[00:11:55.612] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[00:11:55.614] [Warning] Setting linear velocity of a kinematic body is not supported.
+[00:11:55.615] [Log] 士兵 调用攻击模型: onAttackF
+[00:11:55.662] [Log] [放置] 玩家1 当前拥有7.613976费用, 需要3
+[00:11:55.663] [Log] [放置验证] MapManager存在, nearestTile=Cube (238), 请求位置=(3.00, -0.20, 5.00)
+[00:11:55.663] [Error] [放置验证] 失败: tile=Cube (238), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:11:55.895] [Log] 士兵 锁定目标: AnemyGongzhuta
+[00:11:55.895] [Warning] Setting linear velocity of a kinematic body is not supported.
+[00:11:55.895] [Log] 士兵 调用攻击模型: onAttackF
+[00:11:56.192] [Log] OnAttack
+[00:11:56.193] [Log] 正面
+[00:11:56.208] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:11:56.208] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:11:56.226] [Log] [放置] 玩家1 当前拥有8.033283费用, 需要3
+[00:11:56.226] [Log] [放置验证] MapManager存在, nearestTile=Cube (238), 请求位置=(3.00, -0.20, 5.00)
+[00:11:56.226] [Error] [放置验证] 失败: tile=Cube (238), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:11:56.339] [Log] OnAttack
+[00:11:56.339] [Log] 正面
+[00:11:56.350] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:11:56.350] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:11:56.481] [Log] [放置] 玩家1 当前拥有8.240347费用, 需要3
+[00:11:56.481] [Log] [放置验证] MapManager存在, nearestTile=Cube (238), 请求位置=(3.00, -0.20, 5.00)
+[00:11:56.481] [Error] [放置验证] 失败: tile=Cube (238), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:11:56.907] [Log] OnAttack
+[00:11:56.908] [Log] 正面
+[00:11:56.921] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:11:56.922] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:11:57.450] [Log] OnAttack
+[00:11:57.450] [Log] 正面
+[00:11:57.465] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:11:57.465] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:11:57.610] [Log] [放置] 玩家1 当前拥有9.166795费用, 需要3
+[00:11:57.611] [Log] [放置验证] MapManager存在, nearestTile=Cube (57), 请求位置=(3.00, 0.00, 3.00)
+[00:11:57.615] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 6.2
+[00:11:57.616] [Log] [放置] 玩家1 放置单位 amiya, teamIndex=0
+[00:11:57.616] [Log] OnUnitPlaced 被调用: unitIndex=4, positionIndex=1
+[00:11:57.616] [Log] 卡牌 4 已放入队列
+[00:11:57.617] [Log] 从队列取出卡牌 1
+[00:11:57.617] [Log] 位置 1 的卡牌已替换为索引 1 的卡牌
+[00:11:57.617] [Log] 为兵种 1 创建了技能按钮，士兵: amiya(Clone)
+[00:11:57.617] [Log] Toggle事件: isOn=False, toggleIndex=1, 当前Toggle.isOn=False, 选择的Toggle: Toggle2 (UnityEngine.UI.Toggle)
+[00:11:57.617] [Log] UIManager: Toggle 1 位置偏移: (0.00, -60.00)
+[00:11:57.618] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:57.618] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:11:57.618] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:57.618] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:57.618] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:57.618] [Log] 血条对象层级检查：
+[00:11:57.619] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:57.619] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:57.619] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:57.619] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:57.619] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:57.619] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:57.619] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:57.619] [Log] 战斗正面模型缩放:1.3
+[00:11:57.619] [Log] 战斗背面模型缩放:1.3
+[00:11:57.619] [Log] 基建模型缩放:1.3
+[00:11:57.628] [Log] HealthBar Canvas Configuration:
+[00:11:57.628] [Log]   Render Mode: WorldSpace
+[00:11:57.628] [Log]   Sorting Order: 100
+[00:11:57.628] [Log]   Sorting Layer: Default
+[00:11:57.628] [Log]   World Camera: None
+[00:11:57.628] [Log]   Plane Distance: 100
+[00:11:57.628] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:57.837] [Log] OnAttack
+[00:11:57.837] [Log] 正面
+[00:11:57.848] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:11:57.848] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:11:58.368] [Log] UIManager: Toggle 0 开始拖拽
+[00:11:58.401] [Log] OnAttack
+[00:11:58.401] [Log] 正面
+[00:11:58.410] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:11:58.410] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:11:58.434] [Log] UIManager: Toggle 0 结束拖拽
+[00:11:58.434] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[00:11:58.434] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[00:11:58.547] [Log] 战斗正面模型缩放:1.3
+[00:11:58.548] [Log] 战斗背面模型缩放:1.3
+[00:11:58.548] [Log] 基建模型缩放:1.3
+[00:11:58.715] [Log] OnAttack
+[00:11:58.715] [Log] 正面
+[00:11:58.727] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:11:58.727] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:11:59.301] [Log] [放置] 玩家1 当前拥有7.525751费用, 需要3
+[00:11:59.301] [Log] [放置验证] MapManager存在, nearestTile=Cube (57), 请求位置=(3.00, 0.00, 3.00)
+[00:11:59.302] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 4.5
+[00:11:59.302] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[00:11:59.303] [Log] OnUnitPlaced 被调用: unitIndex=0, positionIndex=0
+[00:11:59.303] [Log] 卡牌 0 已放入队列
+[00:11:59.303] [Log] 从队列取出卡牌 2
+[00:11:59.303] [Log] 位置 0 的卡牌已替换为索引 2 的卡牌
+[00:11:59.303] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[00:11:59.303] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[00:11:59.303] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[00:11:59.303] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:11:59.305] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:11:59.305] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:11:59.305] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:11:59.305] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:11:59.305] [Log] 血条对象层级检查：
+[00:11:59.305] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:11:59.305] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:11:59.305] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:11:59.305] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:11:59.305] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:11:59.306] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:11:59.306] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:11:59.306] [Log] 战斗正面模型缩放:1.3
+[00:11:59.306] [Log] 战斗背面模型缩放:1.3
+[00:11:59.306] [Log] 基建模型缩放:1.3
+[00:11:59.318] [Log] HealthBar Canvas Configuration:
+[00:11:59.318] [Log]   Render Mode: WorldSpace
+[00:11:59.318] [Log]   Sorting Order: 100
+[00:11:59.318] [Log]   Sorting Layer: Default
+[00:11:59.318] [Log]   World Camera: None
+[00:11:59.319] [Log]   Plane Distance: 100
+[00:11:59.319] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:11:59.331] [Log] OnAttack
+[00:11:59.331] [Log] 正面
+[00:11:59.342] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:11:59.342] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:11:59.904] [Log] OnAttack
+[00:11:59.904] [Log] 正面
+[00:11:59.915] [Log] 士兵 锁定目标: AnemyGongzhuta
+[00:11:59.915] [Warning] Setting linear velocity of a kinematic body is not supported.
+[00:11:59.916] [Log] 士兵 调用攻击模型: onAttackF
+[00:11:59.916] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:11:59.916] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:11:59.982] [Log] OnAttack
+[00:11:59.982] [Log] 正面
+[00:11:59.993] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:11:59.993] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:00.004] [Log] UIManager: Toggle 0 开始拖拽
+[00:12:00.106] [Log] UIManager: Toggle 0 结束拖拽
+[00:12:00.106] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[00:12:00.106] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[00:12:00.216] [Log] 战斗正面模型缩放:1
+[00:12:00.217] [Log] 战斗背面模型缩放:1
+[00:12:00.217] [Log] 基建模型缩放:1
+[00:12:00.420] [Log] OnAttack
+[00:12:00.420] [Log] 正面
+[00:12:00.430] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:00.430] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:00.830] [Log] OnAttack
+[00:12:00.831] [Log] 正面
+[00:12:00.842] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:00.842] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:00.868] [Log] [放置] 玩家1 当前拥有5.777071费用, 需要3
+[00:12:00.868] [Log] [放置验证] MapManager存在, nearestTile=Cube (238), 请求位置=(3.00, -0.20, 5.00)
+[00:12:00.869] [Error] [放置验证] 失败: tile=Cube (238), isPlaceable=False, isOccupied=False
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:UserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (UnityEngine.Vector3,int,int) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:286)
+NetworkUnitPlacer:InvokeUserCode_CmdTryPlaceAtPosition__Vector3__Int32__Int32 (Mirror.NetworkBehaviour,Mirror.NetworkReader,Mirror.NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke (uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkBehaviour,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall (byte,uint16,Mirror.RemoteCalls.RemoteCallType,Mirror.NetworkReader,Mirror.NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkServer:OnCommandMessage (Mirror.NetworkConnectionToClient,Mirror.CommandMessage,int) (at Assets/Mirror/Core/NetworkServer.cs:396)
+Mirror.NetworkMessages/<>c__DisplayClass8_0`2<Mirror.CommandMessage, Mirror.NetworkConnectionToClient>:<WrapHandler>b__0 (Mirror.NetworkConnection,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkServer:UnpackAndInvoke (Mirror.NetworkConnectionToClient,Mirror.NetworkReader,int) (at Assets/Mirror/Core/NetworkServer.cs:742)
+Mirror.NetworkServer:OnTransportData (int,System.ArraySegment`1<byte>,int) (at Assets/Mirror/Core/NetworkServer.cs:813)
+Mirror.LocalConnectionToClient:Update () (at Assets/Mirror/Core/LocalConnectionToClient.cs:57)
+Mirror.NetworkServer:Broadcast () (at Assets/Mirror/Core/NetworkServer.cs:2029)
+Mirror.NetworkServer:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkServer.cs:2080)
+Mirror.NetworkLoop:NetworkLateUpdate () (at Assets/Mirror/Core/NetworkLoop.cs:207)
+
+[00:12:01.255] [Log] OnAttack
+[00:12:01.255] [Log] 正面
+[00:12:01.267] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:01.267] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:01.299] [Log] 士兵 锁定目标: AnemyGongzhuta
+[00:12:01.299] [Warning] Setting linear velocity of a kinematic body is not supported.
+[00:12:01.299] [Log] 士兵 调用攻击模型: onAttackF
+[00:12:01.405] [Log] OnAttack
+[00:12:01.405] [Log] 正面
+[00:12:01.417] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:01.417] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:01.630] [Log] [放置] 玩家1 当前拥有6.397345费用, 需要3
+[00:12:01.630] [Log] [放置验证] MapManager存在, nearestTile=Cube (58), 请求位置=(4.00, 0.00, 3.00)
+[00:12:01.632] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 3.4
+[00:12:01.632] [Log] [放置] 玩家1 放置单位 chen, teamIndex=0
+[00:12:01.632] [Log] OnUnitPlaced 被调用: unitIndex=2, positionIndex=0
+[00:12:01.632] [Log] 卡牌 2 已放入队列
+[00:12:01.632] [Log] 从队列取出卡牌 5
+[00:12:01.632] [Log] 位置 0 的卡牌已替换为索引 5 的卡牌
+[00:12:01.633] [Log] 为兵种 0 创建了技能按钮，士兵: chen(Clone)
+[00:12:01.633] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[00:12:01.633] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[00:12:01.633] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:12:01.633] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:12:01.633] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:12:01.633] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:12:01.633] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:12:01.633] [Log] 血条对象层级检查：
+[00:12:01.635] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:12:01.635] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:12:01.635] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:12:01.635] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:12:01.635] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:12:01.635] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:12:01.635] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:12:01.635] [Log] 战斗正面模型缩放:1
+[00:12:01.635] [Log] 战斗背面模型缩放:1
+[00:12:01.635] [Log] 基建模型缩放:1
+[00:12:01.644] [Log] HealthBar Canvas Configuration:
+[00:12:01.644] [Log]   Render Mode: WorldSpace
+[00:12:01.644] [Log]   Sorting Order: 100
+[00:12:01.644] [Log]   Sorting Layer: Default
+[00:12:01.645] [Log]   World Camera: None
+[00:12:01.645] [Log]   Plane Distance: 100
+[00:12:01.645] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:12:01.734] [Log] OnAttack
+[00:12:01.734] [Log] 正面
+[00:12:01.745] [Warning] Setting linear velocity of a kinematic body is not supported.
+[00:12:01.746] [Log] 士兵 死亡
+[00:12:01.747] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:01.747] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:01.747] [Log] 士兵 目标不再有效，清除目标
+[00:12:01.747] [Log] 士兵 退出战斗状态，切换模型
+[00:12:01.758] [Log] 士兵 目标不再有效，清除目标
+[00:12:01.758] [Log] 士兵 退出战斗状态，切换模型
+[00:12:01.759] [Log] 士兵 目标不再有效，清除目标
+[00:12:01.759] [Log] 士兵 退出战斗状态，切换模型
+[00:12:02.519] [Log] OnAttack
+[00:12:02.519] [Log] 正面
+[00:12:02.530] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:02.530] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:02.552] [Log] UIManager: Toggle 0 开始拖拽
+[00:12:02.652] [Log] UIManager: Toggle 0 结束拖拽
+[00:12:02.653] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[00:12:02.653] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[00:12:02.737] [Log] 战斗正面模型缩放:1
+[00:12:02.737] [Log] 战斗背面模型缩放:1
+[00:12:02.737] [Log] 基建模型缩放:1
+[00:12:03.285] [Log] [放置] 玩家1 当前拥有4.747559费用, 需要3
+[00:12:03.285] [Log] [放置验证] MapManager存在, nearestTile=Cube (58), 请求位置=(4.00, 0.00, 3.00)
+[00:12:03.288] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 1.7
+[00:12:03.288] [Log] [放置] 玩家1 放置单位 chen, teamIndex=0
+[00:12:03.288] [Log] OnUnitPlaced 被调用: unitIndex=5, positionIndex=0
+[00:12:03.288] [Log] 卡牌 5 已放入队列
+[00:12:03.288] [Log] 从队列取出卡牌 3
+[00:12:03.288] [Log] 位置 0 的卡牌已替换为索引 3 的卡牌
+[00:12:03.289] [Log] 为兵种 0 创建了技能按钮，士兵: chen(Clone)
+[00:12:03.289] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[00:12:03.289] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[00:12:03.289] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:12:03.289] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:12:03.290] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:12:03.290] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:12:03.290] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:12:03.290] [Log] 血条对象层级检查：
+[00:12:03.290] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:12:03.290] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:12:03.290] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:12:03.290] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:12:03.290] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:12:03.290] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:12:03.290] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:12:03.290] [Log] 战斗正面模型缩放:1
+[00:12:03.290] [Log] 战斗背面模型缩放:1
+[00:12:03.290] [Log] 基建模型缩放:1
+[00:12:03.299] [Log] HealthBar Canvas Configuration:
+[00:12:03.299] [Log]   Render Mode: WorldSpace
+[00:12:03.299] [Log]   Sorting Order: 100
+[00:12:03.299] [Log]   Sorting Layer: Default
+[00:12:03.300] [Log]   World Camera: None
+[00:12:03.300] [Log]   Plane Distance: 100
+[00:12:03.300] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:12:03.782] [Log] OnAttack
+[00:12:03.782] [Log] 正面
+[00:12:03.792] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:03.792] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:03.894] [Log] UIManager: Toggle 0 开始拖拽
+[00:12:03.982] [Log] UIManager: Toggle 0 结束拖拽
+[00:12:03.982] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[00:12:03.982] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[00:12:04.095] [Log] 战斗正面模型缩放:1.3
+[00:12:04.095] [Log] 战斗背面模型缩放:1.3
+[00:12:04.095] [Log] 基建模型缩放:1.3
+[00:12:04.968] [Log] [放置] 玩家1 当前拥有3.11064费用, 需要3
+[00:12:04.968] [Log] [放置验证] MapManager存在, nearestTile=Cube (67), 请求位置=(13.00, 0.00, 3.00)
+[00:12:04.969] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 0.1
+[00:12:04.969] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[00:12:04.969] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=0
+[00:12:04.970] [Log] 卡牌 3 已放入队列
+[00:12:04.970] [Log] 从队列取出卡牌 4
+[00:12:04.970] [Log] 位置 0 的卡牌已替换为索引 4 的卡牌
+[00:12:04.970] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[00:12:04.970] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[00:12:04.971] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[00:12:04.971] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:12:04.971] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:12:04.972] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:12:04.972] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:12:04.972] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:12:04.972] [Log] 血条对象层级检查：
+[00:12:04.972] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:12:04.972] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:12:04.972] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:12:04.972] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:12:04.972] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:12:04.973] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:12:04.973] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:12:04.973] [Log] 战斗正面模型缩放:1.3
+[00:12:04.973] [Log] 战斗背面模型缩放:1.3
+[00:12:04.973] [Log] 基建模型缩放:1.3
+[00:12:04.982] [Log] HealthBar Canvas Configuration:
+[00:12:04.982] [Log]   Render Mode: WorldSpace
+[00:12:04.982] [Log]   Sorting Order: 100
+[00:12:04.982] [Log]   Sorting Layer: Default
+[00:12:04.982] [Log]   World Camera: None
+[00:12:04.982] [Log]   Plane Distance: 100
+[00:12:04.982] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:12:05.053] [Log] OnAttack
+[00:12:05.053] [Log] 正面
+[00:12:05.064] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:05.064] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:05.545] [Log] UIManager: Toggle 0 开始拖拽
+[00:12:05.613] [Log] UIManager: Toggle 0 结束拖拽
+[00:12:05.613] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[00:12:05.613] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[00:12:05.717] [Log] 战斗正面模型缩放:1.3
+[00:12:05.717] [Log] 战斗背面模型缩放:1.3
+[00:12:05.717] [Log] 基建模型缩放:1.3
+[00:12:06.325] [Log] OnAttack
+[00:12:06.325] [Log] 正面
+[00:12:06.337] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:06.337] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:06.665] [Log] [放置] 玩家1 当前拥有1.4697费用, 需要3
+[00:12:06.702] [Log] 士兵 锁定目标: AnemyGuowangta
+[00:12:06.703] [Warning] Setting linear velocity of a kinematic body is not supported.
+[00:12:06.703] [Log] 士兵 调用攻击模型: onAttackF
+[00:12:07.058] [Log] 士兵 锁定目标: AnemyGuowangta
+[00:12:07.058] [Warning] Setting linear velocity of a kinematic body is not supported.
+[00:12:07.058] [Log] 士兵 调用攻击模型: onAttackF
+[00:12:07.146] [Log] OnAttack
+[00:12:07.146] [Log] 正面
+[00:12:07.157] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:07.157] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:07.339] [Log] 士兵 锁定目标: AnemyGuowangta
+[00:12:07.339] [Warning] Setting linear velocity of a kinematic body is not supported.
+[00:12:07.340] [Log] 士兵 调用攻击模型: onAttackF
+[00:12:07.562] [Log] OnAttack
+[00:12:07.562] [Log] 正面
+[00:12:07.573] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:07.573] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:07.584] [Log] OnAttack
+[00:12:07.585] [Log] 正面
+[00:12:07.597] [Warning] Setting linear velocity of a kinematic body is not supported.
+[00:12:07.597] [Log] 士兵 死亡
+[00:12:07.597] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:07.597] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:07.609] [Log] 士兵 目标不再有效，清除目标
+[00:12:07.609] [Log] 士兵 退出战斗状态，切换模型
+[00:12:07.703] [Log] OnAttack
+[00:12:07.703] [Log] 正面
+[00:12:07.715] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:07.716] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:07.776] [Log] OnAttack
+[00:12:07.776] [Log] 正面
+[00:12:07.786] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:07.786] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:07.915] [Log] [放置] 玩家1 当前拥有2.414443费用, 需要3
+[00:12:08.330] [Log] [放置] 玩家1 当前拥有2.726437费用, 需要3
+[00:12:08.341] [Log] OnAttack
+[00:12:08.341] [Log] 正面
+[00:12:08.352] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:08.352] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:08.639] [Log] OnAttack
+[00:12:08.639] [Log] 正面
+[00:12:08.649] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:08.649] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:08.893] [Log] OnAttack
+[00:12:08.893] [Log] 正面
+[00:12:08.905] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:08.906] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:08.918] [Log] [放置] 玩家1 当前拥有3.244029费用, 需要3
+[00:12:08.918] [Log] [放置验证] MapManager存在, nearestTile=Cube (69), 请求位置=(15.00, 0.00, 3.00)
+[00:12:08.923] [Log] [Server] 玩家 netId=8 消耗 3 圣水, 剩余 0.2
+[00:12:08.923] [Log] [放置] 玩家1 放置单位 amiya, teamIndex=0
+[00:12:08.924] [Log] OnUnitPlaced 被调用: unitIndex=4, positionIndex=0
+[00:12:08.924] [Log] 卡牌 4 已放入队列
+[00:12:08.924] [Log] 从队列取出卡牌 0
+[00:12:08.924] [Log] 位置 0 的卡牌已替换为索引 0 的卡牌
+[00:12:08.924] [Log] 为兵种 0 创建了技能按钮，士兵: amiya(Clone)
+[00:12:08.924] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[00:12:08.924] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[00:12:08.924] [Log] 士兵 当前最大攻击目标数更新为: 1
+[00:12:08.926] [Log] 为 士兵 找到了Role脚本（子对象）
+[00:12:08.926] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[00:12:08.926] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[00:12:08.926] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[00:12:08.926] [Log] 血条对象层级检查：
+[00:12:08.926] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[00:12:08.926] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[00:12:08.927] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[00:12:08.927] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[00:12:08.927] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[00:12:08.927] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[00:12:08.927] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[00:12:08.927] [Log] 战斗正面模型缩放:1.3
+[00:12:08.927] [Log] 战斗背面模型缩放:1.3
+[00:12:08.927] [Log] 基建模型缩放:1.3
+[00:12:08.935] [Log] HealthBar Canvas Configuration:
+[00:12:08.935] [Log]   Render Mode: WorldSpace
+[00:12:08.935] [Log]   Sorting Order: 100
+[00:12:08.936] [Log]   Sorting Layer: Default
+[00:12:08.936] [Log]   World Camera: None
+[00:12:08.936] [Log]   Plane Distance: 100
+[00:12:08.936] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[00:12:09.205] [Log] OnAttack
+[00:12:09.206] [Log] 正面
+[00:12:09.217] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:09.217] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:09.282] [Log] OnAttack
+[00:12:09.282] [Log] 正面
+[00:12:09.293] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:09.293] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:09.852] [Log] OnAttack
+[00:12:09.852] [Log] 正面
+[00:12:09.863] [Log] 结束
+[00:12:09.867] [Log] 开始
+[00:12:09.867] [Exception] NullReferenceException: Object reference not set to an instance of an object
+SoldierController+<GameEnd>d__66.MoveNext () (at Assets/Scripts/Units/SoldierController.cs:868)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <8cdc7e7e8a17404287a8b220eb9eec72>:0)
+UnityEngine.MonoBehaviour:StartCoroutine(String)
+SoldierController:Die() (at Assets/Scripts/Units/SoldierController.cs:798)
+SoldierController:TakeDamage(Single) (at Assets/Scripts/Units/SoldierController.cs:673)
+SoldierController:Attack() (at Assets/Scripts/Units/SoldierController.cs:505)
+SoldierController:Update() (at Assets/Scripts/Units/SoldierController.cs:303)
+
+[00:12:09.869] [Warning] Setting linear velocity of a kinematic body is not supported.
+[00:12:09.869] [Log] 士兵 死亡
+[00:12:09.869] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[00:12:09.869] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[00:12:09.869] [Log] 士兵 目标不再有效，清除目标
+[00:12:09.869] [Log] 士兵 退出战斗状态，切换模型
+[00:12:09.869] [Log] 找不到目标了
+[00:12:09.869] [Log] 士兵 目标不再有效，清除目标
+[00:12:09.869] [Log] 士兵 退出战斗状态，切换模型
+[00:12:09.869] [Log] 找不到目标了
+[00:12:09.869] [Log] 找不到目标了
+[00:12:09.870] [Log] 找不到目标了
+[00:12:09.870] [Log] 找不到目标了
+[00:12:09.870] [Log] 找不到目标了
+[00:12:09.870] [Log] 找不到目标了
+[00:12:09.870] [Log] 找不到目标了
+[00:12:09.881] [Log] 找不到目标了
+[00:12:09.881] [Log] 士兵 目标不再有效，清除目标
+[00:12:09.881] [Log] 士兵 退出战斗状态，切换模型
+[00:12:09.882] [Log] 找不到目标了
+[00:12:09.882] [Log] 找不到目标了
+[00:12:09.882] [Log] 找不到目标了
+[00:12:09.882] [Log] 找不到目标了
+[00:12:09.882] [Log] 找不到目标了
+[00:12:09.882] [Log] 找不到目标了
+[00:12:09.882] [Log] 找不到目标了
+[00:12:09.882] [Log] 找不到目标了
+[00:12:09.882] [Log] 找不到目标了
+[00:12:09.894] [Log] 找不到目标了
+[00:12:09.894] [Log] 找不到目标了
+[00:12:09.894] [Log] 找不到目标了
+[00:12:09.894] [Log] 找不到目标了
+[00:12:09.894] [Log] 找不到目标了
+[00:12:09.894] [Log] 找不到目标了
+[00:12:09.896] [Log] 找不到目标了
+[00:12:09.896] [Log] 找不到目标了
+[00:12:09.896] [Log] 找不到目标了
+[00:12:09.896] [Log] 找不到目标了
+[00:12:09.908] [Log] 找不到目标了
+[00:12:09.908] [Log] 找不到目标了
+[00:12:09.908] [Log] 找不到目标了
+[00:12:09.908] [Log] 找不到目标了
+[00:12:09.908] [Log] 找不到目标了
+[00:12:09.908] [Log] 找不到目标了
+[00:12:09.908] [Log] 找不到目标了
+[00:12:09.908] [Log] 找不到目标了
+[00:12:09.908] [Log] 找不到目标了
+[00:12:09.909] [Log] 找不到目标了
+[00:12:09.921] [Log] 找不到目标了
+[00:12:09.921] [Log] 找不到目标了
+[00:12:09.921] [Log] 找不到目标了
+[00:12:09.921] [Log] 找不到目标了
+[00:12:09.921] [Log] 找不到目标了
+[00:12:09.921] [Log] 找不到目标了
+[00:12:09.922] [Log] 找不到目标了
+[00:12:09.922] [Log] 找不到目标了
+[00:12:09.922] [Log] 找不到目标了
+[00:12:09.922] [Log] 找不到目标了
+[00:12:09.933] [Log] 找不到目标了
+[00:12:09.933] [Log] 找不到目标了
+[00:12:09.933] [Log] 找不到目标了
+[00:12:09.933] [Log] 找不到目标了
+[00:12:09.933] [Log] 找不到目标了
+[00:12:09.933] [Log] 找不到目标了
+[00:12:09.933] [Log] 找不到目标了
+[00:12:09.933] [Log] 找不到目标了
+[00:12:09.933] [Log] 找不到目标了
+[00:12:09.934] [Log] 找不到目标了
+[00:12:09.946] [Log] 找不到目标了
+[00:12:09.946] [Log] 找不到目标了
+[00:12:09.946] [Log] 找不到目标了
+[00:12:09.946] [Log] 找不到目标了
+[00:12:09.946] [Log] 找不到目标了
+[00:12:09.946] [Log] 找不到目标了
+[00:12:09.947] [Log] 找不到目标了
+[00:12:09.947] [Log] 找不到目标了
+[00:12:09.947] [Log] 找不到目标了
+[00:12:09.947] [Log] 找不到目标了
+[00:12:09.959] [Log] 找不到目标了
+[00:12:09.961] [Log] 找不到目标了
+[00:12:09.961] [Log] 找不到目标了
+[00:12:09.961] [Log] 找不到目标了
+[00:12:09.961] [Log] 找不到目标了
+[00:12:09.961] [Log] 找不到目标了
+[00:12:09.961] [Log] 找不到目标了
+[00:12:09.961] [Log] 找不到目标了
+[00:12:09.961] [Log] 找不到目标了
+[00:12:09.961] [Log] 找不到目标了
+[00:12:09.973] [Log] 找不到目标了
+[00:12:09.973] [Log] 找不到目标了
+[00:12:09.973] [Log] 找不到目标了
+[00:12:09.973] [Log] 找不到目标了
+[00:12:09.973] [Log] 找不到目标了
+[00:12:09.974] [Log] 找不到目标了
+[00:12:09.974] [Log] 找不到目标了
+[00:12:09.974] [Log] 找不到目标了
+[00:12:09.974] [Log] 找不到目标了
+[00:12:09.974] [Log] 找不到目标了
+[00:12:09.986] [Log] 找不到目标了
+[00:12:09.987] [Log] 找不到目标了
+[00:12:09.987] [Log] 找不到目标了
+[00:12:09.987] [Log] 找不到目标了
+[00:12:09.987] [Log] 找不到目标了
+[00:12:09.987] [Log] 找不到目标了
+[00:12:09.987] [Log] 找不到目标了
+[00:12:09.987] [Log] 找不到目标了
+[00:12:09.987] [Log] 找不到目标了
+[00:12:09.988] [Log] 找不到目标了
+[00:12:09.998] [Log] 找不到目标了
+[00:12:09.998] [Log] 找不到目标了
+[00:12:09.998] [Log] 找不到目标了
+[00:12:09.998] [Log] 找不到目标了
+[00:12:09.998] [Log] 找不到目标了
+[00:12:09.998] [Log] 找不到目标了
+[00:12:10.000] [Log] 找不到目标了
+[00:12:10.000] [Log] 找不到目标了
+[00:12:10.000] [Log] 找不到目标了
+[00:12:10.000] [Log] 找不到目标了
+[00:12:10.011] [Log] 找不到目标了
+[00:12:10.011] [Log] 找不到目标了
+[00:12:10.011] [Log] 找不到目标了
+[00:12:10.011] [Log] 找不到目标了
+[00:12:10.011] [Log] 找不到目标了
+[00:12:10.011] [Log] 找不到目标了
+[00:12:10.011] [Log] 找不到目标了
+[00:12:10.011] [Log] 找不到目标了
+[00:12:10.011] [Log] 找不到目标了
+[00:12:10.012] [Log] 找不到目标了
+[00:12:10.023] [Log] 找不到目标了
+[00:12:10.023] [Log] 找不到目标了
+[00:12:10.023] [Log] 找不到目标了
+[00:12:10.023] [Log] 找不到目标了
+[00:12:10.023] [Log] 找不到目标了
+[00:12:10.023] [Log] 找不到目标了
+[00:12:10.023] [Log] 找不到目标了
+[00:12:10.023] [Log] 找不到目标了
+[00:12:10.024] [Log] 找不到目标了
+[00:12:10.024] [Log] 找不到目标了
+[00:12:10.035] [Log] 找不到目标了
+[00:12:10.035] [Log] 找不到目标了
+[00:12:10.035] [Log] 找不到目标了
+[00:12:10.035] [Log] 找不到目标了
+[00:12:10.035] [Log] 找不到目标了
+[00:12:10.035] [Log] 找不到目标了
+[00:12:10.035] [Log] 找不到目标了
+[00:12:10.035] [Log] 找不到目标了
+[00:12:10.035] [Log] 找不到目标了
+[00:12:10.035] [Log] 找不到目标了
+[00:12:10.047] [Log] 找不到目标了
+[00:12:10.047] [Log] 找不到目标了
+[00:12:10.047] [Log] 找不到目标了
+[00:12:10.047] [Log] 找不到目标了
+[00:12:10.047] [Log] 找不到目标了
+[00:12:10.047] [Log] 找不到目标了
+[00:12:10.048] [Log] 找不到目标了
+[00:12:10.048] [Log] 找不到目标了
+[00:12:10.048] [Log] 找不到目标了
+[00:12:10.048] [Log] 找不到目标了
+[00:12:10.058] [Log] 找不到目标了
+[00:12:10.058] [Log] 找不到目标了
+[00:12:10.058] [Log] 找不到目标了
+[00:12:10.058] [Log] 找不到目标了
+[00:12:10.059] [Log] 找不到目标了
+[00:12:10.059] [Log] 找不到目标了
+[00:12:10.059] [Log] 找不到目标了
+[00:12:10.059] [Log] 找不到目标了
+[00:12:10.059] [Log] 找不到目标了
+[00:12:10.059] [Log] 找不到目标了
+[00:12:10.070] [Log] 找不到目标了
+[00:12:10.070] [Log] 找不到目标了
+[00:12:10.070] [Log] 找不到目标了
+[00:12:10.070] [Log] 找不到目标了
+[00:12:10.070] [Log] 找不到目标了
+[00:12:10.070] [Log] 找不到目标了
+[00:12:10.070] [Log] 找不到目标了
+[00:12:10.070] [Log] 找不到目标了
+[00:12:10.070] [Log] 找不到目标了
+[00:12:10.071] [Log] 找不到目标了
+[00:12:10.080] [Log] 找不到目标了
+[00:12:10.081] [Log] 找不到目标了
+[00:12:10.081] [Log] 找不到目标了
+[00:12:10.081] [Log] 找不到目标了
+[00:12:10.081] [Log] 找不到目标了
+[00:12:10.081] [Log] 找不到目标了
+[00:12:10.082] [Log] 找不到目标了
+[00:12:10.082] [Log] 找不到目标了
+[00:12:10.082] [Log] 找不到目标了
+[00:12:10.082] [Log] 找不到目标了
+[00:12:10.092] [Log] 找不到目标了
+[00:12:10.093] [Log] 找不到目标了
+[00:12:10.093] [Log] 找不到目标了
+[00:12:10.093] [Log] 找不到目标了
+[00:12:10.093] [Log] 找不到目标了
+[00:12:10.093] [Log] 找不到目标了
+[00:12:10.093] [Log] 找不到目标了
+[00:12:10.093] [Log] 找不到目标了
+[00:12:10.093] [Log] 找不到目标了
+[00:12:10.093] [Log] 找不到目标了
+[00:12:10.104] [Log] 找不到目标了
+[00:12:10.105] [Log] 找不到目标了
+[00:12:10.105] [Log] 找不到目标了
+[00:12:10.105] [Log] 找不到目标了
+[00:12:10.105] [Log] 找不到目标了
+[00:12:10.105] [Log] 找不到目标了
+[00:12:10.105] [Log] 找不到目标了
+[00:12:10.105] [Log] 找不到目标了
+[00:12:10.105] [Log] 找不到目标了
+[00:12:10.105] [Log] 找不到目标了
+[00:12:10.118] [Log] 找不到目标了
+[00:12:10.118] [Log] 找不到目标了
+[00:12:10.118] [Log] 找不到目标了
+[00:12:10.118] [Log] 找不到目标了
+[00:12:10.118] [Log] 找不到目标了
+[00:12:10.120] [Log] 找不到目标了
+[00:12:10.120] [Log] 找不到目标了
+[00:12:10.120] [Log] 找不到目标了
+[00:12:10.120] [Log] 找不到目标了
+[00:12:10.120] [Log] 找不到目标了
+[00:12:10.134] [Log] 找不到目标了
+[00:12:10.134] [Log] 找不到目标了
+[00:12:10.134] [Log] 找不到目标了
+[00:12:10.134] [Log] 找不到目标了
+[00:12:10.134] [Log] 找不到目标了
+[00:12:10.134] [Log] 找不到目标了
+[00:12:10.134] [Log] 找不到目标了
+[00:12:10.134] [Log] 找不到目标了
+[00:12:10.134] [Log] 找不到目标了
+[00:12:10.135] [Log] 找不到目标了
+[00:12:10.146] [Log] 找不到目标了
+[00:12:10.146] [Log] 找不到目标了
+[00:12:10.146] [Log] 找不到目标了
+[00:12:10.146] [Log] 找不到目标了
+[00:12:10.146] [Log] 找不到目标了
+[00:12:10.147] [Log] 找不到目标了
+[00:12:10.147] [Log] 找不到目标了
+[00:12:10.147] [Log] 找不到目标了
+[00:12:10.147] [Log] 找不到目标了
+[00:12:10.147] [Log] 找不到目标了
+[00:12:10.159] [Log] 找不到目标了
+[00:12:10.159] [Log] 找不到目标了
+[00:12:10.159] [Log] 找不到目标了
+[00:12:10.159] [Log] 找不到目标了
+[00:12:10.159] [Log] 找不到目标了
+[00:12:10.159] [Log] 找不到目标了
+[00:12:10.159] [Log] 找不到目标了
+[00:12:10.160] [Log] 找不到目标了
+[00:12:10.160] [Log] 找不到目标了
+[00:12:10.160] [Log] 找不到目标了
+[00:12:10.170] [Log] 找不到目标了
+[00:12:10.170] [Log] 找不到目标了
+[00:12:10.170] [Log] 找不到目标了
+[00:12:10.170] [Log] 找不到目标了
+[00:12:10.170] [Log] 找不到目标了
+[00:12:10.170] [Log] 找不到目标了
+[00:12:10.170] [Log] 找不到目标了
+[00:12:10.171] [Log] 找不到目标了
+[00:12:10.171] [Log] 找不到目标了
+[00:12:10.171] [Log] 找不到目标了
+[00:12:10.182] [Log] 找不到目标了
+[00:12:10.182] [Log] 找不到目标了
+[00:12:10.182] [Log] 找不到目标了
+[00:12:10.182] [Log] 找不到目标了
+[00:12:10.182] [Log] 找不到目标了
+[00:12:10.182] [Log] 找不到目标了
+[00:12:10.182] [Log] 找不到目标了
+[00:12:10.182] [Log] 找不到目标了
+[00:12:10.182] [Log] 找不到目标了
+[00:12:10.183] [Log] 找不到目标了
+[00:12:10.193] [Log] 找不到目标了
+[00:12:10.193] [Log] 找不到目标了
+[00:12:10.194] [Log] 找不到目标了
+[00:12:10.194] [Log] 找不到目标了
+[00:12:10.194] [Log] 找不到目标了
+[00:12:10.194] [Log] 找不到目标了
+[00:12:10.194] [Log] 找不到目标了
+[00:12:10.194] [Log] 找不到目标了
+[00:12:10.194] [Log] 找不到目标了
+[00:12:10.194] [Log] 找不到目标了
+[00:12:10.204] [Log] 找不到目标了
+[00:12:10.204] [Log] 找不到目标了
+[00:12:10.204] [Log] 找不到目标了
+[00:12:10.204] [Log] 找不到目标了
+[00:12:10.204] [Log] 找不到目标了
+[00:12:10.204] [Log] 找不到目标了
+[00:12:10.205] [Log] 找不到目标了
+[00:12:10.205] [Log] 找不到目标了
+[00:12:10.205] [Log] 找不到目标了
+[00:12:10.205] [Log] 找不到目标了
+[00:12:10.216] [Log] 找不到目标了
+[00:12:10.216] [Log] 找不到目标了
+[00:12:10.216] [Log] 找不到目标了
+[00:12:10.216] [Log] 找不到目标了
+[00:12:10.216] [Log] 找不到目标了
+[00:12:10.216] [Log] 找不到目标了
+[00:12:10.216] [Log] 找不到目标了
+[00:12:10.216] [Log] 找不到目标了
+[00:12:10.216] [Log] 找不到目标了
+[00:12:10.217] [Log] 找不到目标了
+[00:12:10.228] [Log] 找不到目标了
+[00:12:10.228] [Log] 找不到目标了
+[00:12:10.228] [Log] 找不到目标了
+[00:12:10.228] [Log] 找不到目标了
+[00:12:10.228] [Log] 找不到目标了
+[00:12:10.228] [Log] 找不到目标了
+[00:12:10.229] [Log] 找不到目标了
+[00:12:10.229] [Log] 找不到目标了
+[00:12:10.229] [Log] 找不到目标了
+[00:12:10.229] [Log] 找不到目标了
+[00:12:10.245] [Log] 找不到目标了
+[00:12:10.245] [Log] 找不到目标了
+[00:12:10.245] [Log] 找不到目标了
+[00:12:10.245] [Log] 找不到目标了
+[00:12:10.245] [Log] 找不到目标了
+[00:12:10.246] [Log] 找不到目标了
+[00:12:10.246] [Log] 找不到目标了
+[00:12:10.246] [Log] 找不到目标了
+[00:12:10.246] [Log] 找不到目标了
+[00:12:10.246] [Log] 找不到目标了
+[00:12:10.258] [Log] 找不到目标了
+[00:12:10.258] [Log] 找不到目标了
+[00:12:10.258] [Log] 找不到目标了
+[00:12:10.258] [Log] 找不到目标了
+[00:12:10.258] [Log] 找不到目标了
+[00:12:10.258] [Log] 找不到目标了
+[00:12:10.258] [Log] 找不到目标了
+[00:12:10.258] [Log] 找不到目标了
+[00:12:10.259] [Log] 找不到目标了
+[00:12:10.259] [Log] 找不到目标了
+[00:12:10.269] [Log] 找不到目标了
+[00:12:10.269] [Log] 找不到目标了
+[00:12:10.271] [Log] 找不到目标了
+[00:12:10.271] [Log] 找不到目标了
+[00:12:10.271] [Log] 找不到目标了
+[00:12:10.271] [Log] 找不到目标了
+[00:12:10.271] [Log] 找不到目标了
+[00:12:10.271] [Log] 找不到目标了
+[00:12:10.271] [Log] 找不到目标了
+[00:12:10.272] [Log] 找不到目标了
+[00:12:10.282] [Log] 找不到目标了
+[00:12:10.282] [Log] 找不到目标了
+[00:12:10.282] [Log] 找不到目标了
+[00:12:10.283] [Log] 找不到目标了
+[00:12:10.283] [Log] 找不到目标了
+[00:12:10.283] [Log] 找不到目标了
+[00:12:10.283] [Log] 找不到目标了
+[00:12:10.283] [Log] 找不到目标了
+[00:12:10.283] [Log] 找不到目标了
+[00:12:10.283] [Log] 找不到目标了
+[00:12:10.293] [Log] 找不到目标了
+[00:12:10.294] [Log] 找不到目标了
+[00:12:10.294] [Log] 找不到目标了
+[00:12:10.294] [Log] 找不到目标了
+[00:12:10.294] [Log] 找不到目标了
+[00:12:10.294] [Log] 找不到目标了
+[00:12:10.295] [Log] 找不到目标了
+[00:12:10.295] [Log] 找不到目标了
+[00:12:10.295] [Log] 找不到目标了
+[00:12:10.295] [Log] 找不到目标了
+[00:12:10.305] [Log] 找不到目标了
+[00:12:10.305] [Log] 找不到目标了
+[00:12:10.305] [Log] 找不到目标了
+[00:12:10.305] [Log] 找不到目标了
+[00:12:10.305] [Log] 找不到目标了
+[00:12:10.305] [Log] 找不到目标了
+[00:12:10.306] [Log] 找不到目标了
+[00:12:10.306] [Log] 找不到目标了
+[00:12:10.306] [Log] 找不到目标了
+[00:12:10.306] [Log] 找不到目标了
+[00:12:10.316] [Log] 找不到目标了
+[00:12:10.316] [Log] 找不到目标了
+[00:12:10.317] [Log] 找不到目标了
+[00:12:10.317] [Log] 找不到目标了
+[00:12:10.317] [Log] 找不到目标了
+[00:12:10.317] [Log] 找不到目标了
+[00:12:10.317] [Log] 找不到目标了
+[00:12:10.317] [Log] 找不到目标了
+[00:12:10.317] [Log] 找不到目标了
+[00:12:10.317] [Log] 找不到目标了
+[00:12:10.327] [Log] 找不到目标了
+[00:12:10.327] [Log] 找不到目标了
+[00:12:10.328] [Log] 找不到目标了
+[00:12:10.328] [Log] 找不到目标了
+[00:12:10.328] [Log] 找不到目标了
+[00:12:10.328] [Log] 找不到目标了
+[00:12:10.328] [Log] 找不到目标了
+[00:12:10.328] [Log] 找不到目标了
+[00:12:10.328] [Log] 找不到目标了
+[00:12:10.328] [Log] 找不到目标了
+[00:12:10.339] [Log] 找不到目标了
+[00:12:10.339] [Log] 找不到目标了
+[00:12:10.341] [Log] 找不到目标了
+[00:12:10.341] [Log] 找不到目标了
+[00:12:10.341] [Log] 找不到目标了
+[00:12:10.341] [Log] 找不到目标了
+[00:12:10.341] [Log] 找不到目标了
+[00:12:10.341] [Log] 找不到目标了
+[00:12:10.341] [Log] 找不到目标了
+[00:12:10.341] [Log] 找不到目标了
+[00:12:10.352] [Log] 找不到目标了
+[00:12:10.352] [Log] 找不到目标了
+[00:12:10.352] [Log] 找不到目标了
+[00:12:10.352] [Log] 找不到目标了
+[00:12:10.352] [Log] 找不到目标了
+[00:12:10.352] [Log] 找不到目标了
+[00:12:10.352] [Log] 找不到目标了
+[00:12:10.352] [Log] 找不到目标了
+[00:12:10.353] [Log] 找不到目标了
+[00:12:10.353] [Log] 找不到目标了
+[00:12:10.366] [Log] 找不到目标了
+[00:12:10.366] [Log] 找不到目标了
+[00:12:10.366] [Log] 找不到目标了
+[00:12:10.366] [Log] 找不到目标了
+[00:12:10.366] [Log] 找不到目标了
+[00:12:10.366] [Log] 找不到目标了
+[00:12:10.366] [Log] 找不到目标了
+[00:12:10.366] [Log] 找不到目标了
+[00:12:10.367] [Log] 找不到目标了
+[00:12:10.367] [Log] 找不到目标了
+==========================================
+游戏日志结束 - 2026/2/23 0:12:10
+==========================================

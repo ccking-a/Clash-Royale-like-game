@@ -1,0 +1,429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &709519943807527608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7457502633658584164}
+  - component: {fileID: 2889240256927424553}
+  - component: {fileID: 670674827059907088}
+  - component: {fileID: 8918045918274756649}
+  - component: {fileID: -5454384723826825094}
+  - component: {fileID: 6194630611827507923}
+  - component: {fileID: 4790966093190371849}
+  - component: {fileID: 8833052423970211769}
+  - component: {fileID: 8833052423970211770}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7457502633658584164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709519943807527608}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.5454373, y: -21.774626, z: 20.411589}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2889240256927424553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709519943807527608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  _assetId: 3836895760
+  serverOnly: 0
+  visibility: 0
+  hasSpawned: 0
+--- !u!114 &670674827059907088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709519943807527608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676cba8d4d2b08d4eaa7c441fa59988b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 1
+  syncInterval: 0
+  playerIndex: 0
+  currentElixir: 2
+  maxElixir: 10
+  elixirRegenRate: 1
+--- !u!114 &8918045918274756649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709519943807527608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e9e0ade987e5f7488471073382f5370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  gameCamera: {fileID: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  placementPreview: {fileID: 0}
+  allUnits:
+  - unitName: "\u51DB\u5FA1\u94F6\u7070"
+    unitPrefab: {fileID: 3231133298282783575, guid: 8c7430502a73c494e9845f7fd92bd5b6, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: ea7cf5229a2fcd344bfeb0f5c22b05d8, type: 3}
+    unitDescription: "\u94F6\u7070\u94F6\u7070\u94F6\u7070\u94F6\u7070"
+    unitType: 0
+    skillIcon: {fileID: 21300000, guid: ea7cf5229a2fcd344bfeb0f5c22b05d8, type: 3}
+    skillCooldownTime: 100
+    skillName: "\u771F\u94F6\u65A9"
+    skillDescription: "\u653B\u51FB\u8303\u56F4\u6269\u5927"
+    skillEffect:
+      effectType: 6
+      effectValue: 2
+      effectDescription: "\u653B\u51FB\u8303\u56F4\u6269\u5927"
+  - unitName: "\u963F\u7C73\u5A05\uFF08\u8FD1\u536B\uFF09"
+    unitPrefab: {fileID: 3231133298282783575, guid: bf713aa5f7a4d1641a8a9b6b637d593b, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: d181ee1883fc6a24f816909ed5cb3ead, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: d181ee1883fc6a24f816909ed5cb3ead, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: "\u9648"
+    unitPrefab: {fileID: 4495920571688096245, guid: 6ef4296f5c3509a41b4458fc93e595a6, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: 127b4f3f97b2e1e499b22a264901d2f0, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: 127b4f3f97b2e1e499b22a264901d2f0, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: "\u5BD2\u8292\u514B\u6D1B\u4E1D"
+    unitPrefab: {fileID: 9173825701649906957, guid: f4b05bf14642d2e44b2b481c5a90ecd8, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: b9f4af515364e5e418618826cfff7675, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: b9f4af515364e5e418618826cfff7675, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: 1
+    unitPrefab: {fileID: 3231133298282783575, guid: bf713aa5f7a4d1641a8a9b6b637d593b, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: d181ee1883fc6a24f816909ed5cb3ead, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: 127b4f3f97b2e1e499b22a264901d2f0, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: 1
+    unitPrefab: {fileID: 4495920571688096245, guid: 6ef4296f5c3509a41b4458fc93e595a6, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: 127b4f3f97b2e1e499b22a264901d2f0, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: 127b4f3f97b2e1e499b22a264901d2f0, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: 1
+    unitPrefab: {fileID: 3231133298282783575, guid: 8c7430502a73c494e9845f7fd92bd5b6, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: ae5ea78fdd08ca54d9cea1bf8957bc36, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: ae5ea78fdd08ca54d9cea1bf8957bc36, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: 1
+    unitPrefab: {fileID: 3231133298282783575, guid: 8c7430502a73c494e9845f7fd92bd5b6, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: 22c4f7d8099c4d149b2b6849fcb14f2c, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: 22c4f7d8099c4d149b2b6849fcb14f2c, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  requiredCost: 0
+--- !u!114 &-5454384723826825094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709519943807527608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c81da05370ad524ab64394362c77c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  unitToggles: []
+  unitIcons: []
+  unitCostTexts: []
+  skillButtonPrefab: {fileID: 5443488567499802907, guid: d381d564fe7f08c409fb304422c9a3db, type: 3}
+  skillButtonContainer: {fileID: 0}
+  buttonSpacing: 4
+  buttonSize: 160
+  toggleGroup: {fileID: 0}
+  networkUnitPlacer: {fileID: 0}
+  allUnits:
+  - unitName: "\u51DB\u5FA1\u94F6\u7070"
+    unitPrefab: {fileID: 3231133298282783575, guid: 8c7430502a73c494e9845f7fd92bd5b6, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: ea7cf5229a2fcd344bfeb0f5c22b05d8, type: 3}
+    unitDescription: "\u94F6\u7070\u94F6\u7070\u94F6\u7070\u94F6\u7070"
+    unitType: 0
+    skillIcon: {fileID: 21300000, guid: ea7cf5229a2fcd344bfeb0f5c22b05d8, type: 3}
+    skillCooldownTime: 100
+    skillName: "\u771F\u94F6\u65A9"
+    skillDescription: "\u653B\u51FB\u8303\u56F4\u6269\u5927"
+    skillEffect:
+      effectType: 6
+      effectValue: 2
+      effectDescription: "\u653B\u51FB\u8303\u56F4\u6269\u5927"
+  - unitName: "\u963F\u7C73\u5A05\uFF08\u8FD1\u536B\uFF09"
+    unitPrefab: {fileID: 3231133298282783575, guid: bf713aa5f7a4d1641a8a9b6b637d593b, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: d181ee1883fc6a24f816909ed5cb3ead, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: d181ee1883fc6a24f816909ed5cb3ead, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: "\u9648"
+    unitPrefab: {fileID: 4495920571688096245, guid: 6ef4296f5c3509a41b4458fc93e595a6, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: 127b4f3f97b2e1e499b22a264901d2f0, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: 127b4f3f97b2e1e499b22a264901d2f0, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: "\u5BD2\u8292\u514B\u6D1B\u4E1D"
+    unitPrefab: {fileID: 9173825701649906957, guid: f4b05bf14642d2e44b2b481c5a90ecd8, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: b9f4af515364e5e418618826cfff7675, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: b9f4af515364e5e418618826cfff7675, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: 1
+    unitPrefab: {fileID: 3231133298282783575, guid: bf713aa5f7a4d1641a8a9b6b637d593b, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: d181ee1883fc6a24f816909ed5cb3ead, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: 127b4f3f97b2e1e499b22a264901d2f0, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: 1
+    unitPrefab: {fileID: 4495920571688096245, guid: 6ef4296f5c3509a41b4458fc93e595a6, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: 127b4f3f97b2e1e499b22a264901d2f0, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: 127b4f3f97b2e1e499b22a264901d2f0, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: 1
+    unitPrefab: {fileID: 3231133298282783575, guid: 8c7430502a73c494e9845f7fd92bd5b6, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: ae5ea78fdd08ca54d9cea1bf8957bc36, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: ae5ea78fdd08ca54d9cea1bf8957bc36, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  - unitName: 1
+    unitPrefab: {fileID: 3231133298282783575, guid: 8c7430502a73c494e9845f7fd92bd5b6, type: 3}
+    elixirCost: 3
+    unitIcon: {fileID: 21300000, guid: 22c4f7d8099c4d149b2b6849fcb14f2c, type: 3}
+    unitDescription: 1
+    unitType: 1
+    skillIcon: {fileID: 21300000, guid: 22c4f7d8099c4d149b2b6849fcb14f2c, type: 3}
+    skillCooldownTime: 1
+    skillName: 1
+    skillDescription: 1
+    skillEffect:
+      effectType: 6
+      effectValue: 1
+      effectDescription: 1
+  handCards: 
+--- !u!114 &6194630611827507923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709519943807527608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42140d1aa5c30864fb8d7d7ab60125c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  countdownText: {fileID: 0}
+  gameUI: {fileID: 4844066903750660322, guid: 05c7d1197fec67746b0e0a863589d1e8, type: 3}
+  countdownUI: {fileID: 123993361900159312, guid: 6fd02ede41246434eafe4c727a965e6d, type: 3}
+--- !u!114 &4790966093190371849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709519943807527608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee2027fe1ef9d74fb8dcb127ba0f32e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  maxElixir: 10
+  currentElixir: 2
+  elixirRegenRate: 1
+  doubleElixirTime: 120
+  elixirBar: {fileID: 0}
+  elixirText: {fileID: 0}
+  elixirBarFill: {fileID: 0}
+  elixirParticle: {fileID: 0}
+  UIgameTime: {fileID: 0}
+  notEnoughElixirPanel: {fileID: 0}
+  notEnoughElixirText: {fileID: 0}
+  normalColor: {r: 1, g: 0, b: 1, a: 1}
+  doubleColor: {r: 0, g: 1, b: 1, a: 1}
+  gameTime: 0
+  audiow: {fileID: 0}
+--- !u!114 &8833052423970211769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709519943807527608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 057376c1eab60c341add40f18537dc0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  currentFaction: -1
+--- !u!114 &8833052423970211770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709519943807527608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6f7fc4e5172784aa61eace1356c8d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdownSource: {fileID: 0}
+  gameStartSource: {fileID: 0}
+  countdownMusic: {fileID: 8300000, guid: 00ad4363d71642e4293667f34c86d95c, type: 3}
+  gameStartMusic: {fileID: 8300000, guid: ee3f5c0bf5246b641b52c7b0ff444e85, type: 3}

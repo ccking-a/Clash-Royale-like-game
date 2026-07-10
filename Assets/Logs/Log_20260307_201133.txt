@@ -1,0 +1,874 @@
+==========================================
+游戏日志开始 - 2026/3/7 20:11:33
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[20:11:33.785] [Log] === 客户端预制体列表诊断 (启动时) ===
+[20:11:33.785] [Log] 客户端 SpawnPrefabs 数量: 12
+[20:11:33.785] [Log]   [0] amiya -> AssetId: 1054292600
+[20:11:33.785] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[20:11:33.785] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[20:11:33.785] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[20:11:33.785] [Log]   [4] chen -> AssetId: 1033753810
+[20:11:33.785] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[20:11:33.785] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[20:11:33.785] [Log]   [7] Guowangta -> AssetId: 500381289
+[20:11:33.785] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[20:11:33.785] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[20:11:33.785] [Log]   [10] yinhui -> AssetId: 2171254035
+[20:11:33.785] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[20:11:48.912] [Log] === 客户端启动序列开始 ===
+[20:11:48.912] [Log] 原始输入: '127.0.0.1'
+[20:11:48.912] [Log] 将尝试连接到: 127.0.0.1
+[20:11:48.926] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[20:11:48.927] [Error] client启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartClientAfterSceneLoad>d__14:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:187)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnClientButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:173)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[20:11:48.927] [Log] StartClient() 调用完成。
+[20:11:48.956] [Log] 已设置 29 个地面瓦片
+[20:11:48.957] [Log] 已设置 9 个地面瓦片
+[20:11:48.962] [Log] 已设置 253 个地面瓦片
+[20:11:48.969] [Log] 已设置 253 个地面瓦片
+[20:11:49.325] [Warning] Failed to create agent because there is no valid NavMesh
+[20:11:49.422] [Log] Client spawn handler instantiating [netId1 asset ID:4019188151 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:11:49.428] [Warning] Failed to create agent because there is no valid NavMesh
+[20:11:49.430] [Log] Client spawn handler instantiating [netId2 asset ID:4019188151 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:11:49.434] [Log] 为 士兵 找到了Role脚本（子对象）
+[20:11:49.436] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[20:11:49.436] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[20:11:49.436] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[20:11:49.439] [Log] 血条对象层级检查：
+[20:11:49.439] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[20:11:49.439] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[20:11:49.439] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:11:49.439] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:11:49.439] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:11:49.439] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[20:11:49.439] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:11:49.443] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[20:11:49.447] [Log] 为 士兵 找到了Role脚本（子对象）
+[20:11:49.447] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[20:11:49.447] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[20:11:49.447] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[20:11:49.447] [Log] 血条对象层级检查：
+[20:11:49.447] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[20:11:49.448] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[20:11:49.448] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:11:49.448] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:11:49.448] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:11:49.448] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[20:11:49.448] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:11:49.448] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[20:11:49.449] [Log] HealthBar Canvas Configuration:
+[20:11:49.449] [Log]   Render Mode: WorldSpace
+[20:11:49.449] [Log]   Sorting Order: 100
+[20:11:49.449] [Log]   Sorting Layer: Default
+[20:11:49.449] [Log]   World Camera: None
+[20:11:49.449] [Log]   Plane Distance: 100
+[20:11:49.449] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:11:49.449] [Log] HealthBar Canvas Configuration:
+[20:11:49.450] [Log]   Render Mode: WorldSpace
+[20:11:49.450] [Log]   Sorting Order: 100
+[20:11:49.450] [Log]   Sorting Layer: Default
+[20:11:49.450] [Log]   World Camera: None
+[20:11:49.450] [Log]   Plane Distance: 100
+[20:11:49.450] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:11:51.788] [Log] 已设置 29 个地面瓦片
+[20:11:51.789] [Log] 已设置 9 个地面瓦片
+[20:11:51.794] [Log] 已设置 253 个地面瓦片
+[20:11:51.799] [Log] 已设置 253 个地面瓦片
+[20:11:52.108] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[20:11:52.182] [Log] Client spawn handler instantiating [netId9 asset ID:3836895760 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:11:52.182] [Log] Client spawn handler instantiating [netId10 asset ID:3836895760 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:11:52.182] [Log] Client spawn handler instantiating [netId11 asset ID:1244671540 pos:(364.89, 639.43, 2.78) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:11:52.185] [Log] 玩家 9 阵营: TeamA
+[20:11:52.185] [Log] [PlayerElixir] OnStartClient: netId=9, isLocalPlayer=False, playerIndex=0
+[20:11:52.186] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[20:11:52.187] [Log] [PlayerElixir] ★ playerIndex 同步: 0 → 1, isLocalPlayer=True
+[20:11:52.188] [Log] [PlayerElixir] 玩家2摄像头已设置: pos.z=30, rot.y=180
+[20:11:52.188] [Log] [PlayerElixir] 玩家2: groundLayer已追加enemycubes, 最终mask=64
+[20:11:52.188] [Log] 玩家 10 阵营: TeamB
+[20:11:52.188] [Log] [PlayerElixir] OnStartClient: netId=10, isLocalPlayer=True, playerIndex=1
+[20:11:52.188] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[20:11:52.189] [Log] [PlayerElixir] ★ 本地玩家启动, netId=10, playerIndex=1
+[20:11:52.190] [Log] [PlayerElixir] 玩家2摄像头已设置: pos.z=30, rot.y=180
+[20:11:52.190] [Log] [PlayerElixir] 玩家2: groundLayer已追加enemycubes, 最终mask=64
+[20:11:52.190] [Log] 本地costcontroler初始化: netId=10, isLocalPlayer=True
+[20:11:52.193] [Log] 当前costcontroler非本地脚本
+[20:11:52.194] [Log] 士兵 未找到Role脚本
+[20:11:52.194] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:11:52.194] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:11:52.195] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:11:52.195] [Log] 血条对象层级检查：
+[20:11:52.195] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:11:52.195] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:11:52.195] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:11:52.195] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:11:52.195] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:11:52.195] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:11:52.195] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:11:52.195] [Log] 士兵 未找到Role脚本
+[20:11:52.195] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:11:52.195] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:11:52.195] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:11:52.196] [Log] 血条对象层级检查：
+[20:11:52.196] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:11:52.196] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:11:52.196] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:11:52.196] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:11:52.196] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:11:52.196] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:11:52.196] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:11:52.196] [Log] 士兵 未找到Role脚本
+[20:11:52.196] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:11:52.196] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:11:52.196] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:11:52.196] [Log] 血条对象层级检查：
+[20:11:52.196] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:11:52.198] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:11:52.198] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:11:52.198] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:11:52.198] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:11:52.198] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:11:52.198] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:11:52.198] [Log] 士兵 未找到Role脚本
+[20:11:52.198] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:11:52.198] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:11:52.198] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:11:52.198] [Log] 血条对象层级检查：
+[20:11:52.198] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:11:52.198] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:11:52.198] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:11:52.198] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:11:52.198] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:11:52.198] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:11:52.198] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:11:52.198] [Log] 士兵 未找到Role脚本
+[20:11:52.199] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:11:52.199] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:11:52.199] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:11:52.199] [Log] 血条对象层级检查：
+[20:11:52.199] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:11:52.199] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:11:52.199] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:11:52.199] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:11:52.199] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:11:52.199] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:11:52.199] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:11:52.199] [Log] 士兵 未找到Role脚本
+[20:11:52.199] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[20:11:52.199] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[20:11:52.201] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[20:11:52.201] [Log] 血条对象层级检查：
+[20:11:52.201] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[20:11:52.201] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[20:11:52.201] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:11:52.201] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:11:52.201] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:11:52.201] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[20:11:52.201] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:11:52.201] [Log] HealthBar Canvas Configuration:
+[20:11:52.202] [Log]   Render Mode: WorldSpace
+[20:11:52.202] [Log]   Sorting Order: 100
+[20:11:52.202] [Log]   Sorting Layer: Default
+[20:11:52.202] [Log]   World Camera: None
+[20:11:52.202] [Log]   Plane Distance: 100
+[20:11:52.202] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:11:52.202] [Log] HealthBar Canvas Configuration:
+[20:11:52.202] [Log]   Render Mode: WorldSpace
+[20:11:52.202] [Log]   Sorting Order: 100
+[20:11:52.202] [Log]   Sorting Layer: Default
+[20:11:52.202] [Log]   World Camera: None
+[20:11:52.202] [Log]   Plane Distance: 100
+[20:11:52.202] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:11:52.202] [Log] HealthBar Canvas Configuration:
+[20:11:52.203] [Log]   Render Mode: WorldSpace
+[20:11:52.203] [Log]   Sorting Order: 100
+[20:11:52.203] [Log]   Sorting Layer: Default
+[20:11:52.203] [Log]   World Camera: None
+[20:11:52.203] [Log]   Plane Distance: 100
+[20:11:52.203] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:11:52.203] [Log] HealthBar Canvas Configuration:
+[20:11:52.203] [Log]   Render Mode: WorldSpace
+[20:11:52.203] [Log]   Sorting Order: 100
+[20:11:52.203] [Log]   Sorting Layer: Default
+[20:11:52.203] [Log]   World Camera: None
+[20:11:52.203] [Log]   Plane Distance: 100
+[20:11:52.203] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:11:52.203] [Log] HealthBar Canvas Configuration:
+[20:11:52.203] [Log]   Render Mode: WorldSpace
+[20:11:52.203] [Log]   Sorting Order: 100
+[20:11:52.203] [Log]   Sorting Layer: Default
+[20:11:52.204] [Log]   World Camera: None
+[20:11:52.204] [Log]   Plane Distance: 100
+[20:11:52.204] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:11:52.204] [Log] HealthBar Canvas Configuration:
+[20:11:52.204] [Log]   Render Mode: WorldSpace
+[20:11:52.204] [Log]   Sorting Order: 100
+[20:11:52.204] [Log]   Sorting Layer: Default
+[20:11:52.204] [Log]   World Camera: None
+[20:11:52.204] [Log]   Plane Distance: 100
+[20:11:52.204] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:11:52.211] [Log] 收集到 544 个地砖
+[20:11:52.212] [Log] 所有瓦片的网格坐标初始化完成
+[20:11:52.213] [Log] 识别到 8 个桥梁位置
+[20:11:52.213] [Log] [MapManager] 初始化完成, 共 544 个地砖, 其中 4 个高台
+[20:11:54.894] [Warning] CostControler: 未找到音频播放器
+[20:11:54.895] [Log] 绑定了 4 个Toggle组件
+[20:11:54.895] [Log] 绑定了 4 个Image组件
+[20:11:54.895] [Log] 绑定了 4 个Text组件
+[20:11:54.896] [Log] 绑定了ToggleGroup组件
+[20:11:54.896] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[20:11:54.896] [Log] 绑定了SkillPosition组件
+[20:11:54.898] [Log] [UIManager] 使用玩家选择的 8 个干员
+[20:11:54.899] [Log] 游戏开始！
+[20:11:57.474] [Log] Client spawn handler instantiating [netId12 asset ID:1033753810 pos:(3.00, 0.06, 12.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:11:57.478] [Warning] chen(Clone) (netId=12): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 16 bytes, which caused a size hash mismatch of 10 vs. 0C. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[20:11:57.479] [Log] 为 士兵 找到了Role脚本（子对象）
+[20:11:57.479] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[20:11:57.479] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[20:11:57.479] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[20:11:57.480] [Log] 血条对象层级检查：
+[20:11:57.480] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[20:11:57.480] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[20:11:57.480] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:11:57.480] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:11:57.480] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:11:57.480] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[20:11:57.480] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[20:11:57.483] [Log] 战斗正面模型缩放:1
+[20:11:57.483] [Log] 战斗背面模型缩放:1
+[20:11:57.483] [Log] 基建模型缩放:1
+[20:11:57.485] [Log] HealthBar Canvas Configuration:
+[20:11:57.485] [Log]   Render Mode: WorldSpace
+[20:11:57.485] [Log]   Sorting Order: 100
+[20:11:57.485] [Log]   Sorting Layer: Default
+[20:11:57.485] [Log]   World Camera: None
+[20:11:57.485] [Log]   Plane Distance: 100
+[20:11:57.485] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:11:58.600] [Log] UIManager: Toggle 3 开始拖拽
+[20:11:58.655] [Log] UIManager: Toggle 3 拖拽距离: 51.27152
+[20:11:58.684] [Log] UIManager: Toggle 3 拖拽距离: 155.5259
+[20:11:58.684] [Log] UIManager: Toggle 3 拖拽距离超过阈值，开始放置模式
+[20:11:58.684] [Log] UIManager: Toggle 3 兵种索引: 6
+[20:11:58.685] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[20:11:58.771] [Exception] NotListeningException: NetworkManager is not listening, start a server or host before reparenting
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkObject:OnTransformParentChanged() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.12.2/Runtime/Core/NetworkObject.cs:1131)
+UnityEngine.Transform:SetParent(Transform)
+UnitPoolManager:GetPreview(GameObject, Vector3, Quaternion) (at Assets/Scripts/Utils/UnitPoolManager.cs:51)
+NetworkUnitPlacer:StartPlacingUnitLocal(Int32, Int32) (at Assets/Scripts/Core/NetworkUnitPlacer.cs:227)
+<>c__DisplayClass22_0:<InitializeUnitSystem>b__2(BaseEventData) (at Assets/Scripts/UI/UIManager.cs:388)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[20:11:58.772] [Log] 开始放置
+[20:11:58.772] [Log] UIManager: Toggle 3 调用了放置逻辑
+[20:11:58.773] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[20:11:58.803] [Log] 战斗正面模型缩放:1.3
+[20:11:58.804] [Log] 战斗背面模型缩放:1.3
+[20:11:58.804] [Log] 基建模型缩放:1.3
+[20:11:59.177] [Log] UIManager: Toggle 3 结束拖拽
+[20:11:59.205] [Log] Client spawn handler instantiating [netId13 asset ID:2171254035 pos:(6.00, 0.06, 18.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:11:59.205] [Warning] yinhui(Clone) (netId=13): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 16 bytes, which caused a size hash mismatch of 10 vs. 0C. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[20:11:59.207] [Log] OnUnitPlaced 被调用: unitIndex=6, positionIndex=3
+[20:11:59.207] [Log] 卡牌 6 已放入队列
+[20:11:59.207] [Log] 从队列取出卡牌 7
+[20:11:59.207] [Log] 位置 3 的卡牌已替换为索引 7 的卡牌
+[20:11:59.212] [Log] 为兵种 3 创建了技能按钮，士兵: yinhui(Clone)
+[20:11:59.213] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[20:11:59.213] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[20:11:59.214] [Log] 为 士兵 找到了Role脚本（子对象）
+[20:11:59.214] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[20:11:59.214] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[20:11:59.214] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[20:11:59.215] [Log] 血条对象层级检查：
+[20:11:59.215] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[20:11:59.215] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[20:11:59.215] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:11:59.215] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:11:59.215] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:11:59.215] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[20:11:59.215] [Log] 为 士兵 创建了血条，当前生命值: 99999/99999
+[20:11:59.215] [Log] 战斗正面模型缩放:1.3
+[20:11:59.215] [Log] 战斗背面模型缩放:1.3
+[20:11:59.215] [Log] 基建模型缩放:1.3
+[20:11:59.216] [Log] HealthBar Canvas Configuration:
+[20:11:59.216] [Log]   Render Mode: WorldSpace
+[20:11:59.216] [Log]   Sorting Order: 100
+[20:11:59.216] [Log]   Sorting Layer: Default
+[20:11:59.216] [Log]   World Camera: None
+[20:11:59.216] [Log]   Plane Distance: 100
+[20:11:59.216] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:11:59.755] [Log] 士兵 士兵 技能【1】请求激活，1
+[20:12:00.262] [Log] OnAttack
+[20:12:00.262] [Log] 正面
+[20:12:00.305] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.315] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.316] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.316] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.317] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.317] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.317] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.317] [Log] Client spawn handler instantiating [netId14 asset ID:4063565017 pos:(5.13, 0.06, 16.97) rotation:(0.00000, 0.93821, 0.00000, -0.34607)]
+[20:12:00.320] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.320] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.320] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.323] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.323] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.323] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.323] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:00.324] [Log] Client spawn handler instantiating [netId15 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:00.325] [Log] OnAttack
+[20:12:00.325] [Log] 正面
+[20:12:00.746] [Log] 技能按钮 0 冷却完成！
+[20:12:01.286] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.287] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.287] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.288] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.288] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.288] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.288] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.288] [Log] Client spawn handler instantiating [netId16 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:01.289] [Log] OnAttack
+[20:12:01.289] [Log] 正面
+[20:12:01.596] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.597] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.597] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.597] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.597] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.598] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.598] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:01.599] [Log] Client spawn handler instantiating [netId17 asset ID:4063565017 pos:(5.13, 0.06, 16.97) rotation:(0.00000, 0.93821, 0.00000, -0.34607)]
+[20:12:01.601] [Log] OnAttack
+[20:12:01.601] [Log] 正面
+[20:12:02.269] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.269] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.269] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.271] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.271] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.271] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.272] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.272] [Log] Client spawn handler instantiating [netId18 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:02.297] [Log] OnAttack
+[20:12:02.297] [Log] 正面
+[20:12:02.909] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.910] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.910] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.910] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.912] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.912] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.913] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:02.913] [Log] Client spawn handler instantiating [netId19 asset ID:4063565017 pos:(5.13, 0.06, 16.97) rotation:(0.00000, 0.93821, 0.00000, -0.34607)]
+[20:12:02.914] [Log] OnAttack
+[20:12:02.914] [Log] 正面
+[20:12:03.279] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:03.280] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:03.280] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:03.280] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:03.281] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:03.281] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:03.283] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:03.283] [Log] Client spawn handler instantiating [netId20 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:03.284] [Log] OnAttack
+[20:12:03.284] [Log] 正面
+[20:12:04.232] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.232] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.233] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.233] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.233] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.234] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.234] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.234] [Log] Client spawn handler instantiating [netId21 asset ID:4063565017 pos:(5.13, 0.06, 16.97) rotation:(0.00000, 0.93821, 0.00000, -0.34607)]
+[20:12:04.259] [Log] OnAttack
+[20:12:04.260] [Log] 正面
+[20:12:04.286] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.287] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.287] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.287] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.288] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.288] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.288] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:04.289] [Log] Client spawn handler instantiating [netId22 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:04.289] [Log] OnAttack
+[20:12:04.289] [Log] 正面
+[20:12:05.265] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.266] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.266] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.267] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.267] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.267] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.268] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.268] [Log] Client spawn handler instantiating [netId23 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:05.299] [Log] OnAttack
+[20:12:05.299] [Log] 正面
+[20:12:05.591] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.591] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.592] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.592] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.592] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.592] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.594] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:05.594] [Log] Client spawn handler instantiating [netId24 asset ID:4063565017 pos:(5.13, 0.06, 16.97) rotation:(0.00000, 0.93821, 0.00000, -0.34607)]
+[20:12:05.595] [Log] OnAttack
+[20:12:05.596] [Log] 正面
+[20:12:06.274] [Log] OnAttack
+[20:12:06.276] [Log] 正面
+[20:12:06.306] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.306] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.307] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.307] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.308] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.309] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.309] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.309] [Log] Client spawn handler instantiating [netId25 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:06.907] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.908] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.908] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.909] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.910] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.910] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.910] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:06.910] [Log] Client spawn handler instantiating [netId26 asset ID:4063565017 pos:(5.13, 0.06, 16.97) rotation:(0.00000, 0.93821, 0.00000, -0.34607)]
+[20:12:06.939] [Log] OnAttack
+[20:12:06.939] [Log] 正面
+[20:12:07.267] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:07.269] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:07.269] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:07.269] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:07.269] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:07.270] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:07.270] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:07.270] [Log] Client spawn handler instantiating [netId27 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:07.299] [Log] OnAttack
+[20:12:07.299] [Log] 正面
+[20:12:08.264] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.265] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.265] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.265] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.266] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.266] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.266] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.267] [Log] Client spawn handler instantiating [netId28 asset ID:4063565017 pos:(5.13, 0.06, 16.97) rotation:(0.00000, 0.93821, 0.00000, -0.34607)]
+[20:12:08.268] [Log] OnAttack
+[20:12:08.268] [Log] 正面
+[20:12:08.296] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.296] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.297] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.298] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.298] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.298] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.299] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:08.299] [Log] Client spawn handler instantiating [netId29 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:08.300] [Log] OnAttack
+[20:12:08.300] [Log] 正面
+[20:12:09.275] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.276] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.276] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.277] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.277] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.277] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.279] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.279] [Log] Client spawn handler instantiating [netId30 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:09.279] [Log] OnAttack
+[20:12:09.279] [Log] 正面
+[20:12:09.578] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.579] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.579] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.579] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.579] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.579] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.581] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:09.581] [Log] Client spawn handler instantiating [netId31 asset ID:4063565017 pos:(5.13, 0.06, 16.97) rotation:(0.00000, 0.93821, 0.00000, -0.34607)]
+[20:12:09.582] [Log] OnAttack
+[20:12:09.582] [Log] 正面
+[20:12:10.274] [Log] OnAttack
+[20:12:10.275] [Log] 正面
+[20:12:10.302] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.303] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.303] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.304] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.304] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.306] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.306] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.307] [Log] Client spawn handler instantiating [netId32 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:10.917] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.917] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.918] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.918] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.918] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.919] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.920] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:10.920] [Log] Client spawn handler instantiating [netId33 asset ID:4063565017 pos:(5.13, 0.06, 16.97) rotation:(0.00000, 0.93821, 0.00000, -0.34607)]
+[20:12:10.921] [Log] OnAttack
+[20:12:10.921] [Log] 正面
+[20:12:11.272] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:11.274] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:11.274] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:11.274] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:11.275] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:11.275] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:11.276] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:11.276] [Log] Client spawn handler instantiating [netId34 asset ID:4063565017 pos:(3.51, 0.06, 15.07) rotation:(0.00000, 0.34607, 0.00000, 0.93821)]
+[20:12:11.304] [Log] OnAttack
+[20:12:11.305] [Log] 正面
+[20:12:11.920] [Log] Client spawn handler instantiating [netId35 asset ID:2171254035 pos:(3.00, 0.06, 11.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:12:11.920] [Warning] yinhui(Clone) (netId=35): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 16 bytes, which caused a size hash mismatch of 10 vs. 0C. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[20:12:11.921] [Log] 为 士兵 找到了Role脚本（子对象）
+[20:12:11.921] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[20:12:11.921] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[20:12:11.921] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[20:12:11.921] [Log] 血条对象层级检查：
+[20:12:11.923] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[20:12:11.923] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[20:12:11.923] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:12:11.923] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:12:11.923] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:12:11.923] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[20:12:11.923] [Log] 为 士兵 创建了血条，当前生命值: 99999/99999
+[20:12:11.923] [Log] 战斗正面模型缩放:1.3
+[20:12:11.923] [Log] 战斗背面模型缩放:1.3
+[20:12:11.923] [Log] 基建模型缩放:1.3
+[20:12:11.924] [Log] HealthBar Canvas Configuration:
+[20:12:11.924] [Log]   Render Mode: WorldSpace
+[20:12:11.924] [Log]   Sorting Order: 100
+[20:12:11.924] [Log]   Sorting Layer: Default
+[20:12:11.924] [Log]   World Camera: None
+[20:12:11.924] [Log]   Plane Distance: 100
+[20:12:11.924] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:12:12.240] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:12.242] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:12.242] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:12.242] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:12.243] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:12.243] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:12.243] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:12.244] [Log] Client spawn handler instantiating [netId36 asset ID:4063565017 pos:(5.13, 0.06, 16.97) rotation:(0.00000, 0.93821, 0.00000, -0.34607)]
+[20:12:13.347] [Log] OnAttack
+[20:12:13.347] [Log] 正面
+[20:12:13.376] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:13.377] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:13.377] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:13.378] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:13.378] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:13.378] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:13.378] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:13.379] [Log] Client spawn handler instantiating [netId37 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:13.829] [Log] OnAttack
+[20:12:13.829] [Log] 正面
+[20:12:14.697] [Log] OnAttack
+[20:12:14.697] [Log] 正面
+[20:12:14.721] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:14.723] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:14.724] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:14.724] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:14.725] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:14.725] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:14.725] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:14.725] [Log] Client spawn handler instantiating [netId38 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:15.159] [Log] OnAttack
+[20:12:15.159] [Log] 正面
+[20:12:16.027] [Log] OnAttack
+[20:12:16.027] [Log] 正面
+[20:12:16.057] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:16.057] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:16.058] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:16.058] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:16.058] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:16.059] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:16.059] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:16.060] [Log] Client spawn handler instantiating [netId39 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:16.499] [Log] OnAttack
+[20:12:16.499] [Log] 正面
+[20:12:17.342] [Log] OnAttack
+[20:12:17.342] [Log] 正面
+[20:12:17.369] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:17.370] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:17.370] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:17.370] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:17.371] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:17.372] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:17.372] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:17.372] [Log] Client spawn handler instantiating [netId40 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:17.835] [Log] OnAttack
+[20:12:17.835] [Log] 正面
+[20:12:18.680] [Log] OnAttack
+[20:12:18.680] [Log] 正面
+[20:12:18.708] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:18.709] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:18.710] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:18.710] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:18.711] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:18.711] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:18.711] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:18.712] [Log] Client spawn handler instantiating [netId41 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:19.174] [Log] OnAttack
+[20:12:19.174] [Log] 正面
+[20:12:19.956] [Log] OnAttack
+[20:12:19.958] [Log] 正面
+[20:12:19.986] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:19.987] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:19.987] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:19.988] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:19.988] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:19.988] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:19.989] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:19.989] [Log] Client spawn handler instantiating [netId42 asset ID:4063565017 pos:(3.36, 0.06, 14.33) rotation:(0.00000, 0.26535, 0.00000, 0.96415)]
+[20:12:20.016] [Log] OnAttack
+[20:12:20.016] [Log] 正面
+[20:12:20.043] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:20.043] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:20.044] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:20.044] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:20.044] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:20.044] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:20.046] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:20.046] [Log] Client spawn handler instantiating [netId43 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:21.287] [Log] OnAttack
+[20:12:21.287] [Log] 正面
+[20:12:21.312] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.313] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.314] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.314] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.314] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.314] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.316] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.316] [Log] Client spawn handler instantiating [netId44 asset ID:4063565017 pos:(3.36, 0.06, 14.33) rotation:(0.00000, 0.26535, 0.00000, 0.96415)]
+[20:12:21.344] [Log] OnAttack
+[20:12:21.344] [Log] 正面
+[20:12:21.372] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.374] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.374] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.375] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.375] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.375] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.375] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:21.376] [Log] Client spawn handler instantiating [netId45 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:22.622] [Log] OnAttack
+[20:12:22.622] [Log] 正面
+[20:12:22.653] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.653] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.653] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.654] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.654] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.655] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.655] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.655] [Log] Client spawn handler instantiating [netId46 asset ID:4063565017 pos:(3.36, 0.06, 14.33) rotation:(0.00000, 0.26535, 0.00000, 0.96415)]
+[20:12:22.684] [Log] OnAttack
+[20:12:22.684] [Log] 正面
+[20:12:22.714] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.715] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.716] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.716] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.716] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.716] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.717] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:22.718] [Log] Client spawn handler instantiating [netId47 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:23.961] [Log] OnAttack
+[20:12:23.961] [Log] 正面
+[20:12:23.991] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:23.991] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:23.993] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:23.994] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:23.994] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:23.994] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:23.994] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:23.995] [Log] Client spawn handler instantiating [netId48 asset ID:4063565017 pos:(3.36, 0.06, 14.33) rotation:(0.00000, 0.26535, 0.00000, 0.96415)]
+[20:12:23.997] [Log] Client spawn handler instantiating [netId49 asset ID:2171254035 pos:(4.00, 0.06, 11.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[20:12:23.998] [Warning] yinhui(Clone) (netId=49): Mirror.NetworkTransformReliable OnDeserialize size mismatch. It read 16 bytes, which caused a size hash mismatch of 10 vs. 0C. Make sure that OnSerialize and OnDeserialize write/read the same amount of data in all cases.
+[20:12:23.998] [Log] 为 士兵 找到了Role脚本（子对象）
+[20:12:23.998] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[20:12:23.998] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[20:12:23.998] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[20:12:23.999] [Log] 血条对象层级检查：
+[20:12:23.999] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[20:12:23.999] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[20:12:23.999] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[20:12:23.999] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[20:12:23.999] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[20:12:23.999] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[20:12:23.999] [Log] 为 士兵 创建了血条，当前生命值: 99999/99999
+[20:12:23.999] [Log] 战斗正面模型缩放:1.3
+[20:12:23.999] [Log] 战斗背面模型缩放:1.3
+[20:12:23.999] [Log] 基建模型缩放:1.3
+[20:12:24.001] [Log] HealthBar Canvas Configuration:
+[20:12:24.001] [Log]   Render Mode: WorldSpace
+[20:12:24.001] [Log]   Sorting Order: 100
+[20:12:24.001] [Log]   Sorting Layer: Default
+[20:12:24.001] [Log]   World Camera: None
+[20:12:24.002] [Log]   Plane Distance: 100
+[20:12:24.002] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[20:12:24.032] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:24.033] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:24.033] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:24.033] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:24.034] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:24.034] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:24.034] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:24.034] [Log] Client spawn handler instantiating [netId50 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:24.036] [Log] OnAttack
+[20:12:24.036] [Log] 正面
+[20:12:25.279] [Log] OnAttack
+[20:12:25.279] [Log] 正面
+[20:12:25.333] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.333] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.334] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.334] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.336] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.336] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.336] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.337] [Log] Client spawn handler instantiating [netId51 asset ID:4063565017 pos:(3.36, 0.06, 14.33) rotation:(0.00000, 0.26535, 0.00000, 0.96415)]
+[20:12:25.365] [Log] OnAttack
+[20:12:25.365] [Log] 正面
+[20:12:25.392] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.393] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.393] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.394] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.394] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.394] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.395] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.395] [Log] Client spawn handler instantiating [netId52 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:25.424] [Log] OnAttack
+[20:12:25.424] [Log] 正面
+[20:12:25.483] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.483] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.485] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.485] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.486] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.486] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.487] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:25.487] [Log] Client spawn handler instantiating [netId53 asset ID:4063565017 pos:(3.28, 0.06, 13.25) rotation:(0.00000, 0.17991, 0.00000, 0.98368)]
+[20:12:26.628] [Log] OnAttack
+[20:12:26.629] [Log] 正面
+[20:12:26.658] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.658] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.659] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.659] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.659] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.660] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.660] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.660] [Log] Client spawn handler instantiating [netId54 asset ID:4063565017 pos:(3.36, 0.06, 14.33) rotation:(0.00000, 0.26535, 0.00000, 0.96415)]
+[20:12:26.691] [Log] OnAttack
+[20:12:26.691] [Log] 正面
+[20:12:26.723] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.723] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.724] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.724] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.724] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.725] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.725] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.725] [Log] Client spawn handler instantiating [netId55 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:26.756] [Log] OnAttack
+[20:12:26.756] [Log] 正面
+[20:12:26.815] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.815] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.816] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.816] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.817] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.818] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.818] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:26.818] [Log] Client spawn handler instantiating [netId56 asset ID:4063565017 pos:(3.28, 0.06, 13.25) rotation:(0.00000, 0.17991, 0.00000, 0.98368)]
+[20:12:27.943] [Log] OnAttack
+[20:12:27.943] [Log] 正面
+[20:12:28.001] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.001] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.002] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.002] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.003] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.003] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.004] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.004] [Log] Client spawn handler instantiating [netId57 asset ID:4063565017 pos:(3.36, 0.06, 14.33) rotation:(0.00000, 0.26535, 0.00000, 0.96415)]
+[20:12:28.035] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.035] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.035] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.036] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.036] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.036] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.037] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.037] [Log] Client spawn handler instantiating [netId58 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:28.038] [Log] OnAttack
+[20:12:28.038] [Log] 正面
+[20:12:28.097] [Log] OnAttack
+[20:12:28.099] [Log] 正面
+[20:12:28.131] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.131] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.131] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.132] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.133] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.133] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.133] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:28.133] [Log] Client spawn handler instantiating [netId59 asset ID:4063565017 pos:(3.28, 0.06, 13.25) rotation:(0.00000, 0.17991, 0.00000, 0.98368)]
+[20:12:29.276] [Log] OnAttack
+[20:12:29.276] [Log] 正面
+[20:12:29.334] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.336] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.337] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.337] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.337] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.337] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.338] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.338] [Log] Client spawn handler instantiating [netId60 asset ID:4063565017 pos:(3.36, 0.06, 14.33) rotation:(0.00000, 0.26535, 0.00000, 0.96415)]
+[20:12:29.368] [Log] OnAttack
+[20:12:29.368] [Log] 正面
+[20:12:29.399] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.401] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.401] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.402] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.402] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.402] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.402] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.404] [Log] Client spawn handler instantiating [netId61 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:29.434] [Log] OnAttack
+[20:12:29.434] [Log] 正面
+[20:12:29.499] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.500] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.500] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.502] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.502] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.503] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.503] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:29.503] [Log] Client spawn handler instantiating [netId62 asset ID:4063565017 pos:(3.28, 0.06, 13.25) rotation:(0.00000, 0.17991, 0.00000, 0.98368)]
+[20:12:30.625] [Log] OnAttack
+[20:12:30.625] [Log] 正面
+[20:12:30.653] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.654] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.655] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.655] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.656] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.656] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.656] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.656] [Log] Client spawn handler instantiating [netId63 asset ID:4063565017 pos:(3.36, 0.06, 14.33) rotation:(0.00000, 0.26535, 0.00000, 0.96415)]
+[20:12:30.694] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.695] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.695] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.695] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.696] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.697] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.697] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.697] [Log] Client spawn handler instantiating [netId64 asset ID:4063565017 pos:(4.26, 0.06, 15.84) rotation:(0.00000, 0.96415, 0.00000, -0.26535)]
+[20:12:30.698] [Log] OnAttack
+[20:12:30.698] [Log] 正面
+[20:12:30.757] [Log] OnAttack
+[20:12:30.758] [Log] 正面
+[20:12:30.818] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.819] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.821] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.821] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.821] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.822] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.822] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[20:12:30.822] [Log] Client spawn handler instantiating [netId65 asset ID:4063565017 pos:(3.28, 0.06, 13.25) rotation:(0.00000, 0.17991, 0.00000, 0.98368)]
+[20:12:31.948] [Log] OnAttack
+[20:12:31.949] [Log] 正面
+[20:12:32.012] [Log] OnAttack
+[20:12:32.012] [Log] 正面
+==========================================
+游戏日志结束 - 2026/3/7 20:12:35
+==========================================

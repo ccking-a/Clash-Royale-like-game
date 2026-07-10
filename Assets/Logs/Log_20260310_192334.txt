@@ -1,0 +1,49 @@
+==========================================
+游戏日志开始 - 2026/3/10 19:23:34
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[19:23:35.011] [Log] === 客户端预制体列表诊断 (启动时) ===
+[19:23:35.011] [Log] 客户端 SpawnPrefabs 数量: 13
+[19:23:35.011] [Log]   [0] amiya -> AssetId: 1054292600
+[19:23:35.011] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[19:23:35.011] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[19:23:35.011] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[19:23:35.011] [Log]   [4] chen -> AssetId: 1033753810
+[19:23:35.011] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[19:23:35.011] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[19:23:35.011] [Log]   [7] Guowangta -> AssetId: 500381289
+[19:23:35.012] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[19:23:35.012] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[19:23:35.012] [Log]   [10] yinhui -> AssetId: 2171254035
+[19:23:35.012] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[19:23:35.012] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[19:23:43.990] [Log] 返回主菜单
+[19:23:45.937] [Log] === 客户端启动序列开始 ===
+[19:23:45.939] [Log] 原始输入: '10.153.205.201'
+[19:23:45.939] [Log] 将尝试连接到: 10.153.205.201
+[19:23:45.957] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[19:23:45.958] [Error] client启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartClientAfterSceneLoad>d__18:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:201)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnClientButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:179)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[19:23:45.958] [Log] StartClient() 调用完成。
+[19:23:46.801] [Log] 已设置 29 个地面瓦片
+[19:23:46.801] [Log] 已设置 9 个地面瓦片
+[19:23:46.808] [Log] 已设置 253 个地面瓦片
+[19:23:46.816] [Log] 已设置 253 个地面瓦片
+[19:23:47.235] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[19:23:47.429] [Log] Client spawn handler instantiating [netId57 asset ID:4019188151 pos:(0.00, 0.00, 0.00) rotation:(0.00000, 0.00000, 0.00000, 1.00000)]
+[19:23:47.440] [Log] 战斗正面模型缩放:1
+[19:23:47.440] [Log] 战斗背面模型缩放:1
+[19:23:47.440] [Log] 基建模型缩放:1
+[19:23:47.442] [Log] 收集到 540 个地砖
+[19:23:47.443] [Log] 所有瓦片的网格坐标初始化完成
+[19:23:47.444] [Log] 识别到 8 个桥梁位置
+[19:23:47.444] [Log] [MapManager] 初始化完成, 共 540 个地砖, 其中 0 个高台
+==========================================
+游戏日志结束 - 2026/3/10 19:23:50
+==========================================

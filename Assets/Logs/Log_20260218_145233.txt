@@ -1,0 +1,22 @@
+==========================================
+游戏日志开始 - 2026/2/18 14:52:33
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[14:52:33.514] [Log] === 客户端预制体列表诊断 (启动时) ===
+[14:52:33.514] [Log] 客户端 SpawnPrefabs 数量: 10
+[14:52:33.515] [Log]   [0] Anemyamiya -> AssetId: 3767952548
+[14:52:33.515] [Log]   [1] amiya -> AssetId: 1054292600
+[14:52:33.515] [Log]   [2] chen -> AssetId: 1033753810
+[14:52:33.515] [Log]   [3] yinhui -> AssetId: 2171254035
+[14:52:33.516] [Log]   [4] AnemyGongzhuta (1) -> AssetId: 3034425767
+[14:52:33.516] [Log]   [5] AnemyGongzhuta -> AssetId: 258553055
+[14:52:33.516] [Log]   [6] AnemyGuowangta -> AssetId: 3706946732
+[14:52:33.516] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[14:52:33.516] [Log]   [8] Gongzhuta -> AssetId: 48394343
+[14:52:33.516] [Log]   [9] Guowangta -> AssetId: 500381289
+[14:52:34.700] [Log] Not in Room scene...disconnecting connection(0)
+[14:52:34.713] [Log] Not in Room scene...disconnecting connection(0)
+==========================================
+游戏日志结束 - 2026/2/18 14:52:49
+==========================================

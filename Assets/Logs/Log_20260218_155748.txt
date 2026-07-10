@@ -1,0 +1,57 @@
+==========================================
+游戏日志开始 - 2026/2/18 15:57:48
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[15:57:49.202] [Log] === 客户端预制体列表诊断 (启动时) ===
+[15:57:49.203] [Log] 客户端 SpawnPrefabs 数量: 12
+[15:57:49.203] [Log]   [0] amiya -> AssetId: 1054292600
+[15:57:49.203] [Log]   [1] Anemyamiya -> AssetId: 3767952548
+[15:57:49.203] [Log]   [2] AnemyGongzhuta -> AssetId: 258553055
+[15:57:49.203] [Log]   [3] AnemyGongzhuta (1) -> AssetId: 3034425767
+[15:57:49.203] [Log]   [4] AnemyGuowangta -> AssetId: 3706946732
+[15:57:49.203] [Log]   [5] chen -> AssetId: 1033753810
+[15:57:49.203] [Log]   [6] Gongzhuta -> AssetId: 48394343
+[15:57:49.203] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[15:57:49.204] [Log]   [8] Guowangta -> AssetId: 500381289
+[15:57:49.204] [Log]   [9] NetworkGameState -> AssetId: 2193712816
+[15:57:49.204] [Log]   [10] RoomPlayer -> AssetId: 4019188151
+[15:57:49.204] [Log]   [11] yinhui -> AssetId: 2171254035
+[15:57:50.114] [Log] === 客户端启动序列开始 ===
+[15:57:50.114] [Log] 原始输入: '127.0.0.1'
+[15:57:50.114] [Log] 将尝试连接到: 127.0.0.1
+[15:57:50.115] [Log] StartClient() 调用完成。
+[15:57:50.151] [Log] 已设置 29 个地面瓦片
+[15:57:50.151] [Log] 已设置 9 个地面瓦片
+[15:57:50.156] [Log] 已设置 253 个地面瓦片
+[15:57:50.160] [Log] 已设置 253 个地面瓦片
+[15:57:51.556] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[15:57:51.581] [Error] Ready() called with invalid connection object: conn=null
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkClient:Ready () (at Assets/Mirror/Core/NetworkClient.cs:1040)
+RoomToGame/<JoinAfterConnect>d__1:MoveNext () (at Assets/Scripts/LoadScene/RoomToGame.cs:34)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[15:57:51.581] [Error] AddPlayer requires a valid NetworkClient.connection.
+UnityEngine.Debug:LogError (object)
+Mirror.NetworkClient:AddPlayer () (at Assets/Mirror/Core/NetworkClient.cs:1084)
+RoomToGame/<JoinAfterConnect>d__1:MoveNext () (at Assets/Scripts/LoadScene/RoomToGame.cs:35)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[15:57:51.826] [Log] === 客户端预制体列表诊断 (启动时) ===
+[15:57:51.826] [Log] 客户端 SpawnPrefabs 数量: 12
+[15:57:51.826] [Log]   [0] amiya -> AssetId: 1054292600
+[15:57:51.826] [Log]   [1] Anemyamiya -> AssetId: 3767952548
+[15:57:51.828] [Log]   [2] AnemyGongzhuta -> AssetId: 258553055
+[15:57:51.829] [Log]   [3] AnemyGongzhuta (1) -> AssetId: 3034425767
+[15:57:51.829] [Log]   [4] AnemyGuowangta -> AssetId: 3706946732
+[15:57:51.829] [Log]   [5] chen -> AssetId: 1033753810
+[15:57:51.829] [Log]   [6] Gongzhuta -> AssetId: 48394343
+[15:57:51.829] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[15:57:51.829] [Log]   [8] Guowangta -> AssetId: 500381289
+[15:57:51.829] [Log]   [9] NetworkGameState -> AssetId: 2193712816
+[15:57:51.829] [Log]   [10] RoomPlayer -> AssetId: 4019188151
+[15:57:51.829] [Log]   [11] yinhui -> AssetId: 2171254035
+==========================================
+游戏日志结束 - 2026/2/18 15:57:57
+==========================================

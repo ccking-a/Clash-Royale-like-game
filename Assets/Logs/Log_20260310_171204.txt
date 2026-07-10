@@ -1,0 +1,55 @@
+==========================================
+游戏日志开始 - 2026/3/10 17:12:04
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[17:12:05.180] [Log] === 客户端预制体列表诊断 (启动时) ===
+[17:12:05.180] [Log] 客户端 SpawnPrefabs 数量: 13
+[17:12:05.180] [Log]   [0] amiya -> AssetId: 1054292600
+[17:12:05.180] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[17:12:05.180] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[17:12:05.180] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[17:12:05.180] [Log]   [4] chen -> AssetId: 1033753810
+[17:12:05.180] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[17:12:05.180] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[17:12:05.180] [Log]   [7] Guowangta -> AssetId: 500381289
+[17:12:05.180] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[17:12:05.180] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[17:12:05.180] [Log]   [10] yinhui -> AssetId: 2171254035
+[17:12:05.180] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[17:12:05.182] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[17:12:07.120] [Log] 返回主菜单
+[17:12:07.685] [Log] [Host] 局域网IP: 10.153.233.253, 端口: 7777
+[17:12:07.701] [Log] Not in Room scene...disconnecting connection(0)
+[17:12:07.701] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[17:12:07.702] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__15:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:112)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:103)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[17:12:08.240] [Log] [MyNetworkRoomManager] 客户端 0 加入房间，RoomPlayer 已赋予客户端权威
+[17:12:08.249] [Log] 战斗正面模型缩放:1
+[17:12:08.249] [Log] 战斗背面模型缩放:1
+[17:12:08.249] [Log] 基建模型缩放:1
+[17:13:03.522] [Log] OnAttack
+[17:13:03.522] [Log] 正面
+[17:13:04.679] [Log] OnAttack
+[17:13:04.679] [Log] 正面
+[17:13:05.846] [Log] OnAttack
+[17:13:05.847] [Log] 正面
+[17:13:09.551] [Log] OnAttack
+[17:13:09.551] [Log] 正面
+[17:13:10.118] [Log] OnAttack
+[17:13:10.118] [Log] 正面
+[17:13:11.049] [Log] OnAttack
+[17:13:11.049] [Log] 正面
+[17:13:11.619] [Log] OnAttack
+[17:13:11.619] [Log] 正面
+[17:13:12.551] [Log] OnAttack
+[17:13:12.551] [Log] 正面
+[17:13:19.393] [Log] [MyNetworkRoomManager] 客户端 0 断开连接
+==========================================
+游戏日志结束 - 2026/3/10 17:13:19
+==========================================

@@ -1,0 +1,605 @@
+==========================================
+游戏日志开始 - 2026/2/22 16:59:13
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[16:59:13.485] [Log] === 客户端预制体列表诊断 (启动时) ===
+[16:59:13.485] [Log] 客户端 SpawnPrefabs 数量: 12
+[16:59:13.485] [Log]   [0] amiya -> AssetId: 1054292600
+[16:59:13.485] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[16:59:13.485] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[16:59:13.485] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[16:59:13.485] [Log]   [4] chen -> AssetId: 1033753810
+[16:59:13.485] [Log]   [5] Enemyyinhui -> AssetId: 3630190241
+[16:59:13.485] [Log]   [6] Gongzhuta -> AssetId: 48394343
+[16:59:13.485] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[16:59:13.485] [Log]   [8] Guowangta -> AssetId: 500381289
+[16:59:13.485] [Log]   [9] NetWorkGameState -> AssetId: 1244671540
+[16:59:13.485] [Log]   [10] RoomPlayer -> AssetId: 4019188151
+[16:59:13.485] [Log]   [11] yinhui -> AssetId: 2171254035
+[16:59:21.746] [Log] === 客户端启动序列开始 ===
+[16:59:21.746] [Log] 原始输入: '127.0.0.1'
+[16:59:21.746] [Log] 将尝试连接到: 127.0.0.1
+[16:59:21.761] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[16:59:21.761] [Error] client启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartClientAfterSceneLoad>d__14:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:193)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnClientButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:179)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[16:59:21.761] [Log] StartClient() 调用完成。
+[16:59:21.784] [Log] 已设置 29 个地面瓦片
+[16:59:21.784] [Log] 已设置 9 个地面瓦片
+[16:59:21.791] [Log] 已设置 253 个地面瓦片
+[16:59:21.797] [Log] 已设置 253 个地面瓦片
+[16:59:22.214] [Warning] Failed to create agent because there is no valid NavMesh
+[16:59:22.325] [Warning] Failed to create agent because there is no valid NavMesh
+[16:59:22.329] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:59:22.332] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:59:22.332] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:59:22.333] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:59:22.335] [Log] 血条对象层级检查：
+[16:59:22.335] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:59:22.335] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:59:22.335] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:59:22.335] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:59:22.335] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:59:22.336] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:59:22.336] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:59:22.340] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[16:59:22.344] [Log] 为 士兵 找到了Role脚本（子对象）
+[16:59:22.344] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:59:22.345] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:59:22.345] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:59:22.345] [Log] 血条对象层级检查：
+[16:59:22.345] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:59:22.345] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:59:22.345] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:59:22.345] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:59:22.346] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:59:22.346] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:59:22.346] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:59:22.346] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[16:59:22.348] [Log] HealthBar Canvas Configuration:
+[16:59:22.348] [Log]   Render Mode: WorldSpace
+[16:59:22.348] [Log]   Sorting Order: 100
+[16:59:22.348] [Log]   Sorting Layer: Default
+[16:59:22.348] [Log]   World Camera: None
+[16:59:22.348] [Log]   Plane Distance: 100
+[16:59:22.349] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:59:22.349] [Log] HealthBar Canvas Configuration:
+[16:59:22.349] [Log]   Render Mode: WorldSpace
+[16:59:22.349] [Log]   Sorting Order: 100
+[16:59:22.349] [Log]   Sorting Layer: Default
+[16:59:22.349] [Log]   World Camera: None
+[16:59:22.349] [Log]   Plane Distance: 100
+[16:59:22.349] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:59:26.119] [Log] 已设置 29 个地面瓦片
+[16:59:26.120] [Log] 已设置 9 个地面瓦片
+[16:59:26.127] [Log] 已设置 253 个地面瓦片
+[16:59:26.134] [Log] 已设置 253 个地面瓦片
+[16:59:26.573] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[16:59:26.635] [Log] 玩家 11 阵营: TeamA
+[16:59:26.635] [Log] [PlayerElixir] OnStartClient: netId=11, isLocalPlayer=False, playerIndex=0
+[16:59:26.635] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[16:59:26.638] [Warning] Command System.Void GameStart::CmdSetGameTimeZero() called on Player(Clone) without authority.
+[16:59:26.641] [Log] [PlayerElixir] ★ playerIndex 同步: 0 → 1, isLocalPlayer=True
+[16:59:26.641] [Log] [PlayerElixir] 玩家2摄像头已设置: pos.z=30, rot.y=180
+[16:59:26.642] [Log] [PlayerElixir] 玩家2: groundLayer已追加enemycubes, 最终mask=64
+[16:59:26.642] [Log] 玩家 12 阵营: TeamB
+[16:59:26.642] [Log] [PlayerElixir] OnStartClient: netId=12, isLocalPlayer=True, playerIndex=1
+[16:59:26.642] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[16:59:26.643] [Log] [PlayerElixir] ★ 本地玩家启动, netId=12, playerIndex=1
+[16:59:26.643] [Log] [PlayerElixir] 玩家2摄像头已设置: pos.z=30, rot.y=180
+[16:59:26.643] [Log] [PlayerElixir] 玩家2: groundLayer已追加enemycubes, 最终mask=64
+[16:59:26.644] [Log] 本地costcontroler初始化: netId=12, isLocalPlayer=True
+[16:59:26.647] [Log] 当前costcontroler非本地脚本
+[16:59:26.648] [Log] 士兵 未找到Role脚本
+[16:59:26.648] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:59:26.648] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:59:26.648] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:59:26.648] [Log] 血条对象层级检查：
+[16:59:26.648] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:59:26.648] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:59:26.648] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:59:26.648] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:59:26.648] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:59:26.649] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:59:26.649] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:59:26.649] [Log] 士兵 未找到Role脚本
+[16:59:26.649] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:59:26.649] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:59:26.649] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:59:26.650] [Log] 血条对象层级检查：
+[16:59:26.650] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:59:26.650] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:59:26.650] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:59:26.650] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:59:26.650] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:59:26.650] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:59:26.650] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:59:26.650] [Log] 士兵 未找到Role脚本
+[16:59:26.650] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:59:26.650] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:59:26.650] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:59:26.652] [Log] 血条对象层级检查：
+[16:59:26.652] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:59:26.652] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:59:26.652] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:59:26.652] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:59:26.652] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:59:26.652] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:59:26.652] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:59:26.652] [Log] 士兵 未找到Role脚本
+[16:59:26.652] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:59:26.652] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:59:26.652] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:59:26.652] [Log] 血条对象层级检查：
+[16:59:26.652] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:59:26.652] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:59:26.653] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:59:26.653] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:59:26.653] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:59:26.653] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:59:26.653] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:59:26.653] [Log] 士兵 未找到Role脚本
+[16:59:26.653] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:59:26.653] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:59:26.653] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:59:26.653] [Log] 血条对象层级检查：
+[16:59:26.654] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:59:26.654] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:59:26.654] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:59:26.654] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:59:26.654] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:59:26.654] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:59:26.654] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:59:26.654] [Log] 士兵 未找到Role脚本
+[16:59:26.654] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[16:59:26.654] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[16:59:26.654] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[16:59:26.654] [Log] 血条对象层级检查：
+[16:59:26.654] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[16:59:26.656] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[16:59:26.656] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[16:59:26.656] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[16:59:26.656] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[16:59:26.656] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[16:59:26.656] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[16:59:26.657] [Log] HealthBar Canvas Configuration:
+[16:59:26.657] [Log]   Render Mode: WorldSpace
+[16:59:26.657] [Log]   Sorting Order: 100
+[16:59:26.657] [Log]   Sorting Layer: Default
+[16:59:26.657] [Log]   World Camera: None
+[16:59:26.657] [Log]   Plane Distance: 100
+[16:59:26.657] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:59:26.657] [Log] HealthBar Canvas Configuration:
+[16:59:26.657] [Log]   Render Mode: WorldSpace
+[16:59:26.657] [Log]   Sorting Order: 100
+[16:59:26.657] [Log]   Sorting Layer: Default
+[16:59:26.657] [Log]   World Camera: None
+[16:59:26.657] [Log]   Plane Distance: 100
+[16:59:26.657] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:59:26.657] [Log] HealthBar Canvas Configuration:
+[16:59:26.657] [Log]   Render Mode: WorldSpace
+[16:59:26.657] [Log]   Sorting Order: 100
+[16:59:26.657] [Log]   Sorting Layer: Default
+[16:59:26.657] [Log]   World Camera: None
+[16:59:26.657] [Log]   Plane Distance: 100
+[16:59:26.657] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:59:26.657] [Log] HealthBar Canvas Configuration:
+[16:59:26.657] [Log]   Render Mode: WorldSpace
+[16:59:26.657] [Log]   Sorting Order: 100
+[16:59:26.657] [Log]   Sorting Layer: Default
+[16:59:26.657] [Log]   World Camera: None
+[16:59:26.657] [Log]   Plane Distance: 100
+[16:59:26.657] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:59:26.657] [Log] HealthBar Canvas Configuration:
+[16:59:26.657] [Log]   Render Mode: WorldSpace
+[16:59:26.657] [Log]   Sorting Order: 100
+[16:59:26.657] [Log]   Sorting Layer: Default
+[16:59:26.657] [Log]   World Camera: None
+[16:59:26.657] [Log]   Plane Distance: 100
+[16:59:26.657] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:59:26.657] [Log] HealthBar Canvas Configuration:
+[16:59:26.657] [Log]   Render Mode: WorldSpace
+[16:59:26.657] [Log]   Sorting Order: 100
+[16:59:26.659] [Log]   Sorting Layer: Default
+[16:59:26.659] [Log]   World Camera: None
+[16:59:26.659] [Log]   Plane Distance: 100
+[16:59:26.659] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[16:59:29.665] [Warning] CostControler: 未找到音频播放器
+[16:59:29.665] [Log] 游戏开始！
+[16:59:29.665] [Warning] CostControler: 未找到音频播放器
+[16:59:29.667] [Log] 绑定了 4 个Toggle组件
+[16:59:29.667] [Log] 绑定了 4 个Image组件
+[16:59:29.667] [Log] 绑定了 4 个Text组件
+[16:59:29.667] [Log] 绑定了ToggleGroup组件
+[16:59:29.667] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[16:59:29.669] [Log] 绑定了SkillPosition组件
+[16:59:29.670] [Log] [UIManager] 使用玩家选择的 8 个干员
+[16:59:29.677] [Log] 游戏开始！
+[16:59:37.326] [Log] UIManager: Toggle 3 开始拖拽
+[16:59:37.374] [Log] UIManager: Toggle 3 结束拖拽
+[16:59:37.375] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[16:59:37.375] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[16:59:37.443] [Log] 战斗正面模型缩放:1
+[16:59:37.443] [Log] 战斗背面模型缩放:1
+[16:59:37.443] [Log] 基建模型缩放:1
+[16:59:37.699] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:37.699] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:38.046] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:38.046] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:38.313] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:38.313] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:38.486] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:38.486] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:38.631] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:38.631] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:50.598] [Log] UIManager: Toggle 2 开始拖拽
+[16:59:50.659] [Log] UIManager: Toggle 2 结束拖拽
+[16:59:50.660] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[16:59:50.660] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[16:59:50.660] [Log] Toggle事件: isOn=True, toggleIndex=2, 当前Toggle.isOn=True, 选择的Toggle: Toggle3 (UnityEngine.UI.Toggle)
+[16:59:50.660] [Log] UIManager: Toggle 2 位置偏移: (0.00, 60.00)
+[16:59:50.854] [Log] 战斗正面模型缩放:1.3
+[16:59:50.855] [Log] 战斗背面模型缩放:1.3
+[16:59:50.855] [Log] 基建模型缩放:1.3
+[16:59:51.187] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:51.187] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:51.507] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:51.507] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:51.735] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:51.735] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:52.004] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:52.004] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:52.277] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:52.277] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:52.497] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:52.497] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:52.784] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:52.784] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:53.046] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:53.046] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:53.292] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:53.292] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:53.535] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:53.535] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:53.801] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:53.802] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:54.049] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:54.049] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:54.319] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:54.319] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:54.578] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:54.578] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:54.831] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:54.831] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:55.073] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:55.073] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:55.341] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:55.341] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:55.585] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:55.585] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:55.830] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:55.830] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:56.133] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:56.133] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:56.360] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:56.360] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:56.642] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:56.642] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:56.871] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:56.872] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:57.080] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:57.081] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:57.427] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:57.427] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:57.601] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:57.601] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:57.913] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:57.913] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:58.139] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:58.139] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:58.355] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:58.355] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[16:59:59.775] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[16:59:59.775] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[17:00:00.013] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[17:00:00.013] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[17:00:00.198] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[17:00:00.199] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[17:00:00.513] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[17:00:00.513] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[17:00:04.111] [Log] UIManager: Toggle 3 开始拖拽
+[17:00:04.125] [Log] UIManager: Toggle 3 拖拽距离: 25.67297
+[17:00:04.140] [Log] UIManager: Toggle 3 拖拽距离: 64.28801
+[17:00:04.154] [Log] UIManager: Toggle 3 拖拽距离: 109.675
+[17:00:04.154] [Log] UIManager: Toggle 3 拖拽距离超过阈值，开始放置模式
+[17:00:04.154] [Log] UIManager: Toggle 3 兵种索引: 5
+[17:00:04.154] [Log] 开始放置
+[17:00:04.154] [Log] UIManager: Toggle 3 调用了放置逻辑
+[17:00:04.154] [Log] Toggle事件: isOn=False, toggleIndex=2, 当前Toggle.isOn=False, 选择的Toggle: Toggle3 (UnityEngine.UI.Toggle)
+[17:00:04.155] [Log] UIManager: Toggle 2 位置偏移: (0.00, -60.00)
+[17:00:04.155] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[17:00:04.155] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[17:00:04.187] [Log] 战斗正面模型缩放:1
+[17:00:04.187] [Log] 战斗背面模型缩放:1
+[17:00:04.187] [Log] 基建模型缩放:1
+[17:00:04.399] [Log] UIManager: Toggle 3 结束拖拽
+[17:00:04.399] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[17:00:04.400] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[17:00:05.234] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[17:00:05.235] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[17:00:05.442] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[17:00:05.443] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[17:00:05.849] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[17:00:05.849] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[17:00:06.113] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[17:00:06.113] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+==========================================
+游戏日志结束 - 2026/2/22 17:00:17
+==========================================

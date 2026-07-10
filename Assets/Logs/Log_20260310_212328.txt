@@ -1,0 +1,907 @@
+==========================================
+游戏日志开始 - 2026/3/10 21:23:28
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[21:23:29.163] [Log] === 客户端预制体列表诊断 (启动时) ===
+[21:23:29.164] [Log] 客户端 SpawnPrefabs 数量: 13
+[21:23:29.164] [Log]   [0] amiya -> AssetId: 1054292600
+[21:23:29.164] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[21:23:29.164] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[21:23:29.164] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[21:23:29.164] [Log]   [4] chen -> AssetId: 1033753810
+[21:23:29.164] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[21:23:29.164] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[21:23:29.164] [Log]   [7] Guowangta -> AssetId: 500381289
+[21:23:29.164] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[21:23:29.164] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[21:23:29.164] [Log]   [10] yinhui -> AssetId: 2171254035
+[21:23:29.164] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[21:23:29.164] [Log]   [12] keluosi2 -> AssetId: 3807422114
+[21:23:31.227] [Log] 返回主菜单
+[21:23:31.860] [Log] [Host] 局域网IP: 10.153.233.253, 端口: 7777
+[21:23:31.881] [Log] Not in Room scene...disconnecting connection(0)
+[21:23:31.882] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[21:23:31.883] [Error] host启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartHostAfterSceneLoad>d__15:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:112)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:103)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[21:23:32.540] [Log] [MyNetworkRoomManager] 客户端 0 加入房间，RoomPlayer 已赋予客户端权威
+[21:23:32.546] [Log] 战斗正面模型缩放:1
+[21:23:32.546] [Log] 战斗背面模型缩放:1
+[21:23:32.546] [Log] 基建模型缩放:1
+[21:23:42.581] [Log] [MyNetworkRoomManager] 客户端 1883310035 连接到服务器
+[21:23:42.993] [Log] [MyNetworkRoomManager] 客户端 1883310035 加入房间，RoomPlayer 已赋予客户端权威
+[21:23:42.994] [Log] 战斗正面模型缩放:1
+[21:23:42.994] [Log] 战斗背面模型缩放:1
+[21:23:42.994] [Log] 基建模型缩放:1
+[21:23:45.446] [Log] 已设置 29 个地面瓦片
+[21:23:45.448] [Log] 已设置 9 个地面瓦片
+[21:23:45.454] [Log] 已设置 253 个地面瓦片
+[21:23:45.461] [Log] 已设置 253 个地面瓦片
+[21:23:45.898] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[21:23:45.905] [Warning] NetworkClient can't AddPlayer before being ready. Please call NetworkClient.Ready() first. Clients are considered ready after joining the game world.
+[21:23:45.905] [Log] [PlayerElixir] OnStartServer: netId=9, playerIndex=0, connId=0
+[21:23:45.906] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[21:23:46.255] [Log] 玩家 9 阵营: TeamA
+[21:23:46.255] [Log] 服务器分配阵营: 玩家 9 = TeamA
+[21:23:46.256] [Log] [PlayerElixir] ★ playerIndex 同步: 0 → 1, isLocalPlayer=False
+[21:23:46.257] [Log] [PlayerElixir] OnStartServer: netId=10, playerIndex=1, connId=1883310035
+[21:23:46.257] [Log] NetworkUnitPlacer.OnStartServer() 被调用
+[21:23:46.257] [Log] 玩家 10 阵营: TeamB
+[21:23:46.257] [Log] 服务器分配阵营: 玩家 10 = TeamB
+[21:23:46.258] [Log] [MyNetworkRoomManager] ★ 进入游戏场景
+[21:23:46.260] [Log] [MyNetworkRoomManager] NetworkGameState 已生成
+[21:23:46.264] [Log] [MyNetworkRoomManager] 清理 RoomPlayer: RoomPlayer(Clone)
+[21:23:46.264] [Log] [MyNetworkRoomManager] 清理 RoomPlayer: RoomPlayer(Clone)
+[21:23:46.267] [Log] [PlayerElixir] OnStartClient: netId=9, isLocalPlayer=True, playerIndex=0
+[21:23:46.267] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[21:23:46.268] [Log] [PlayerElixir] ★ 本地玩家启动, netId=9, playerIndex=0
+[21:23:46.269] [Log] 本地costcontroler初始化: netId=9, isLocalPlayer=True
+[21:23:46.269] [Log] [PlayerElixir] OnStartClient: netId=10, isLocalPlayer=False, playerIndex=1
+[21:23:46.269] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[21:23:46.269] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:23:46.271] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:23:46.273] [Log] 士兵 未找到Role脚本
+[21:23:46.277] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:23:46.277] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:23:46.277] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:23:46.280] [Log] 血条对象层级检查：
+[21:23:46.280] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:23:46.280] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:23:46.280] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:23:46.280] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:23:46.280] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:23:46.280] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:23:46.280] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:23:46.280] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:23:46.280] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:23:46.280] [Log] 士兵 未找到Role脚本
+[21:23:46.282] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:23:46.282] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:23:46.282] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:23:46.282] [Log] 血条对象层级检查：
+[21:23:46.282] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:23:46.282] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:23:46.282] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:23:46.282] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:23:46.282] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:23:46.282] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:23:46.282] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:23:46.283] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:23:46.283] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:23:46.283] [Log] 士兵 未找到Role脚本
+[21:23:46.283] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:23:46.283] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:23:46.283] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:23:46.285] [Log] 血条对象层级检查：
+[21:23:46.285] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:23:46.285] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:23:46.285] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:23:46.285] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:23:46.285] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:23:46.285] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:23:46.285] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:23:46.285] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:23:46.285] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:23:46.285] [Log] 士兵 未找到Role脚本
+[21:23:46.285] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:23:46.285] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:23:46.286] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:23:46.286] [Log] 血条对象层级检查：
+[21:23:46.286] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:23:46.286] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:23:46.286] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:23:46.287] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:23:46.287] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:23:46.287] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:23:46.287] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:23:46.287] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:23:46.287] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:23:46.287] [Log] 士兵 未找到Role脚本
+[21:23:46.287] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:23:46.287] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:23:46.287] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:23:46.288] [Log] 血条对象层级检查：
+[21:23:46.288] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:23:46.288] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:23:46.288] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:23:46.288] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:23:46.288] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:23:46.288] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:23:46.288] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:23:46.288] [Error] 士兵 缺少NavMeshAgent组件
+UnityEngine.Debug:LogError (object)
+SoldierController:Start () (at Assets/Scripts/Units/SoldierController.cs:133)
+
+[21:23:46.288] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:23:46.288] [Log] 士兵 未找到Role脚本
+[21:23:46.288] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)
+[21:23:46.288] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)
+[21:23:46.289] [Log] 填充容器状态: active=True, size=(2.80, 0.25)
+[21:23:46.289] [Log] 血条对象层级检查：
+[21:23:46.289] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 0
+[21:23:46.289] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(3.00, 0.40)) - Active: True - SiblingIndex: 1
+[21:23:46.289] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:23:46.289] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:23:46.289] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:23:46.289] [Log] 血条尺寸: backgroundSize=(3.00, 0.40), fillSize=(0.00, 0.00)
+[21:23:46.289] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:23:46.352] [Log] HealthBar Canvas Configuration:
+[21:23:46.352] [Log]   Render Mode: WorldSpace
+[21:23:46.352] [Log]   Sorting Order: 100
+[21:23:46.352] [Log]   Sorting Layer: Default
+[21:23:46.352] [Log]   World Camera: None
+[21:23:46.353] [Log]   Plane Distance: 100
+[21:23:46.353] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:23:46.353] [Log] HealthBar Canvas Configuration:
+[21:23:46.353] [Log]   Render Mode: WorldSpace
+[21:23:46.353] [Log]   Sorting Order: 100
+[21:23:46.353] [Log]   Sorting Layer: Default
+[21:23:46.353] [Log]   World Camera: None
+[21:23:46.353] [Log]   Plane Distance: 100
+[21:23:46.353] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:23:46.353] [Log] HealthBar Canvas Configuration:
+[21:23:46.353] [Log]   Render Mode: WorldSpace
+[21:23:46.353] [Log]   Sorting Order: 100
+[21:23:46.353] [Log]   Sorting Layer: Default
+[21:23:46.353] [Log]   World Camera: None
+[21:23:46.353] [Log]   Plane Distance: 100
+[21:23:46.353] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:23:46.353] [Log] HealthBar Canvas Configuration:
+[21:23:46.353] [Log]   Render Mode: WorldSpace
+[21:23:46.353] [Log]   Sorting Order: 100
+[21:23:46.354] [Log]   Sorting Layer: Default
+[21:23:46.354] [Log]   World Camera: None
+[21:23:46.354] [Log]   Plane Distance: 100
+[21:23:46.354] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:23:46.354] [Log] HealthBar Canvas Configuration:
+[21:23:46.354] [Log]   Render Mode: WorldSpace
+[21:23:46.354] [Log]   Sorting Order: 100
+[21:23:46.354] [Log]   Sorting Layer: Default
+[21:23:46.354] [Log]   World Camera: None
+[21:23:46.354] [Log]   Plane Distance: 100
+[21:23:46.354] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:23:46.354] [Log] HealthBar Canvas Configuration:
+[21:23:46.354] [Log]   Render Mode: WorldSpace
+[21:23:46.354] [Log]   Sorting Order: 100
+[21:23:46.354] [Log]   Sorting Layer: Default
+[21:23:46.354] [Log]   World Camera: None
+[21:23:46.354] [Log]   Plane Distance: 100
+[21:23:46.354] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:23:46.361] [Log] 收集到 544 个地砖
+[21:23:46.362] [Log] 所有瓦片的网格坐标初始化完成
+[21:23:46.362] [Log] 识别到 8 个桥梁位置
+[21:23:46.362] [Log] [MapManager] 初始化完成, 共 544 个地砖, 其中 4 个高台
+[21:23:46.362] [Log] 播放倒计时音乐
+[21:23:49.385] [Log] 播放游戏开始音乐
+[21:23:49.385] [Log] 游戏开始，播放第二首音乐
+[21:23:49.389] [Log] 绑定了 4 个Toggle组件
+[21:23:49.390] [Log] 绑定了 4 个Image组件
+[21:23:49.390] [Log] 绑定了 4 个Text组件
+[21:23:49.391] [Log] 绑定了ToggleGroup组件
+[21:23:49.391] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[21:23:49.391] [Log] 绑定了SkillPosition组件
+[21:23:49.392] [Log] [UIManager] 使用玩家选择的 8 个干员
+[21:23:49.411] [Log] 游戏开始！
+[21:23:49.793] [Log] UIManager: Toggle 3 开始拖拽
+[21:23:49.844] [Log] UIManager: Toggle 3 结束拖拽
+[21:23:49.846] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[21:23:49.847] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[21:23:50.056] [Log] 战斗正面模型缩放:1.3
+[21:23:50.056] [Log] 战斗背面模型缩放:1.3
+[21:23:50.057] [Log] 基建模型缩放:1.3
+[21:23:50.861] [Log] [放置] 玩家1 当前拥有3.109642费用, 需要3
+[21:23:50.862] [Log] [放置验证] MapManager存在, nearestTile=Cube (118), 请求位置=(10.00, 0.00, 6.00)
+[21:23:50.866] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 0.1
+[21:23:50.866] [Log] [放置] 玩家1 放置单位 keluosi2, teamIndex=0
+[21:23:50.869] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=3, soldier=True, netId=12
+[21:23:50.869] [Log] 卡牌 3 已放入队列
+[21:23:50.869] [Log] 从队列取出卡牌 4
+[21:23:50.870] [Log] 位置 3 的卡牌已替换为索引 4 的卡牌
+[21:23:50.873] [Log] 为兵种 3 创建了技能按钮，士兵: keluosi2(Clone)
+[21:23:50.873] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[21:23:50.874] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[21:23:50.874] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:23:50.874] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:23:50.875] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:23:50.875] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:23:50.875] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:23:50.875] [Log] 血条对象层级检查：
+[21:23:50.875] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:23:50.875] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:23:50.875] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:23:50.875] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:23:50.876] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:23:50.877] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:23:50.877] [Log] 为 士兵 创建了血条，当前生命值: 60/60
+[21:23:50.879] [Log] 战斗正面模型缩放:1.3
+[21:23:50.879] [Log] 战斗背面模型缩放:1.3
+[21:23:50.879] [Log] 基建模型缩放:1.3
+[21:23:50.894] [Log] HealthBar Canvas Configuration:
+[21:23:50.894] [Log]   Render Mode: WorldSpace
+[21:23:50.894] [Log]   Sorting Order: 100
+[21:23:50.894] [Log]   Sorting Layer: Default
+[21:23:50.894] [Log]   World Camera: None
+[21:23:50.894] [Log]   Plane Distance: 100
+[21:23:50.894] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:23:55.729] [Log] [放置] 玩家2 当前拥有7.043698费用, 需要3
+[21:23:55.730] [Log] [放置验证] MapManager存在, nearestTile=Cube (14), 请求位置=(14.00, 0.00, 15.00)
+[21:23:55.731] [Log] [Server] 玩家 netId=10 消耗 3 圣水, 剩余 4.0
+[21:23:55.731] [Log] [放置] 玩家2 放置单位 yinhui, teamIndex=1
+[21:23:55.732] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:23:55.733] [Log] 士兵 调用攻击模型: onAttackF
+[21:23:55.733] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:23:55.733] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:23:55.733] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:23:55.734] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:23:55.734] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:23:55.734] [Log] 血条对象层级检查：
+[21:23:55.734] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:23:55.734] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:23:55.734] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:23:55.734] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:23:55.734] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:23:55.734] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:23:55.734] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:23:55.734] [Log] 战斗正面模型缩放:1.3
+[21:23:55.734] [Log] 战斗背面模型缩放:1.3
+[21:23:55.735] [Log] 基建模型缩放:1.3
+[21:23:55.735] [Log] 士兵 锁定目标: keluosi2(Clone)
+[21:23:55.735] [Log] 士兵 调用攻击模型: onAttackF
+[21:23:55.735] [Log] HealthBar Canvas Configuration:
+[21:23:55.735] [Log]   Render Mode: WorldSpace
+[21:23:55.735] [Log]   Sorting Order: 100
+[21:23:55.735] [Log]   Sorting Layer: Default
+[21:23:55.735] [Log]   World Camera: None
+[21:23:55.735] [Log]   Plane Distance: 100
+[21:23:55.735] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:23:56.112] [Log] OnAttack
+[21:23:56.113] [Log] 正面
+[21:23:56.129] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:23:56.131] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:23:56.276] [Log] OnAttack
+[21:23:56.277] [Log] 正面
+[21:23:56.300] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:23:56.300] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:23:57.099] [Log] OnAttack
+[21:23:57.099] [Log] 正面
+[21:23:57.116] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:23:57.116] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:23:57.611] [Log] OnAttack
+[21:23:57.611] [Log] 正面
+[21:23:57.630] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:23:57.630] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:23:58.103] [Log] OnAttack
+[21:23:58.103] [Log] 正面
+[21:23:58.119] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:23:58.119] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:23:58.262] [Log] 士兵 战斗检测范围更新为: 3.5
+[21:23:58.263] [Log] 士兵 技能状态设置为: True
+[21:23:58.263] [Log] 士兵 当前最大攻击目标数更新为: 3
+[21:23:58.263] [Log] 士兵 战斗检测范围更新为: 3.5
+[21:23:58.700] [Log] OnAttack
+[21:23:58.701] [Log] 正面
+[21:23:58.715] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:23:58.746] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.756] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.757] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.757] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.757] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.757] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.757] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.760] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.760] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.760] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.760] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.761] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.761] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.761] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.762] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.762] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.762] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.763] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.763] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.763] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.764] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.766] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.766] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.766] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.766] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.766] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.767] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.767] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.768] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.768] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.768] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.769] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.769] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.769] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.769] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.770] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.770] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.770] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.770] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.770] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.770] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.770] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:23:58.772] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:23:59.096] [Log] OnAttack
+[21:23:59.098] [Log] 正面
+[21:23:59.120] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:23:59.120] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:00.033] [Log] OnAttack
+[21:24:00.033] [Log] 正面
+[21:24:00.048] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:00.049] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:00.050] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:00.050] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:00.050] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:00.050] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:00.050] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:00.051] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:00.051] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:00.120] [Log] OnAttack
+[21:24:00.120] [Log] 正面
+[21:24:00.135] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:00.135] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:00.283] [Log] UIManager: Toggle 0 开始拖拽
+[21:24:00.352] [Log] UIManager: Toggle 0 结束拖拽
+[21:24:00.354] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[21:24:00.354] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[21:24:00.451] [Log] 战斗正面模型缩放:1.3
+[21:24:00.451] [Log] 战斗背面模型缩放:1.3
+[21:24:00.451] [Log] 基建模型缩放:1.3
+[21:24:01.024] [Log] [放置] 玩家1 当前拥有8.318851费用, 需要3
+[21:24:01.024] [Log] [放置验证] MapManager存在, nearestTile=Cube (160), 请求位置=(16.00, 0.00, 8.00)
+[21:24:01.025] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 5.3
+[21:24:01.025] [Log] [放置] 玩家1 放置单位 yinhui, teamIndex=0
+[21:24:01.025] [Log] OnUnitPlaced 被调用: unitIndex=0, positionIndex=0, soldier=True, netId=16
+[21:24:01.026] [Log] 卡牌 0 已放入队列
+[21:24:01.026] [Log] 从队列取出卡牌 5
+[21:24:01.026] [Log] 位置 0 的卡牌已替换为索引 5 的卡牌
+[21:24:01.026] [Log] 为兵种 0 创建了技能按钮，士兵: yinhui(Clone)
+[21:24:01.027] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[21:24:01.027] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[21:24:01.027] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:24:01.027] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:24:01.027] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:24:01.028] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:24:01.028] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:24:01.029] [Log] 血条对象层级检查：
+[21:24:01.029] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:24:01.029] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:24:01.029] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:24:01.029] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:24:01.029] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:24:01.029] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:24:01.029] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:24:01.029] [Log] 战斗正面模型缩放:1.3
+[21:24:01.029] [Log] 战斗背面模型缩放:1.3
+[21:24:01.029] [Log] 基建模型缩放:1.3
+[21:24:01.044] [Log] HealthBar Canvas Configuration:
+[21:24:01.044] [Log]   Render Mode: WorldSpace
+[21:24:01.044] [Log]   Sorting Order: 100
+[21:24:01.044] [Log]   Sorting Layer: Default
+[21:24:01.044] [Log]   World Camera: None
+[21:24:01.044] [Log]   Plane Distance: 100
+[21:24:01.044] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:24:01.104] [Log] OnAttack
+[21:24:01.104] [Log] 正面
+[21:24:01.123] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:01.123] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:01.374] [Log] OnAttack
+[21:24:01.374] [Log] 正面
+[21:24:01.394] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:01.394] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:01.396] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:01.396] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:01.396] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:01.397] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:01.397] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:01.397] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:01.397] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:01.483] [Log] 士兵 士兵 技能【真银斩】请求激活，攻击范围扩大
+[21:24:01.486] [Log] 士兵 战斗检测范围更新为: 3.5
+[21:24:01.486] [Log] 士兵 技能状态设置为: True
+[21:24:01.486] [Log] 士兵 当前最大攻击目标数更新为: 3
+[21:24:01.487] [Log] 士兵 战斗检测范围更新为: 3.5
+[21:24:02.104] [Log] OnAttack
+[21:24:02.104] [Log] 正面
+[21:24:02.124] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:02.124] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:02.702] [Log] OnAttack
+[21:24:02.702] [Log] 正面
+[21:24:02.729] [Warning] Setting linear velocity of a kinematic body is not supported.
+[21:24:02.729] [Log] 士兵 死亡
+[21:24:02.730] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:02.731] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:02.731] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:02.732] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:02.732] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:02.732] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:02.733] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:02.733] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:02.733] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:02.749] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:24:02.749] [Log] 士兵 退出战斗状态，切换模型
+[21:24:02.816] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:24:02.816] [Log] 士兵 调用技能模型: onSkillF
+[21:24:02.817] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:24:02.817] [Log] 士兵 调用技能模型: onSkillF
+[21:24:03.254] [Log] OnAttack
+[21:24:03.255] [Log] 正面
+[21:24:03.255] [Log] OnAttack
+[21:24:03.255] [Log] 正面
+[21:24:03.268] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:03.268] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.268] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.270] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.270] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.270] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.270] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.270] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.270] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:03.270] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:03.273] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.273] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.273] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.273] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.273] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.275] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.275] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:03.275] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:04.588] [Log] OnAttack
+[21:24:04.588] [Log] 正面
+[21:24:04.588] [Log] OnAttack
+[21:24:04.588] [Log] 正面
+[21:24:04.602] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:04.604] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.604] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.605] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.606] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.606] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:04.606] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:04.608] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.609] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.609] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.609] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.609] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.609] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.610] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:04.610] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:05.934] [Log] OnAttack
+[21:24:05.936] [Log] 正面
+[21:24:05.936] [Log] OnAttack
+[21:24:05.936] [Log] 正面
+[21:24:05.953] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:05.954] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.955] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.955] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.955] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.955] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.955] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.957] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.957] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:05.957] [Warning] Setting linear velocity of a kinematic body is not supported.
+[21:24:05.957] [Log] 士兵 死亡
+[21:24:05.957] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:05.960] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.960] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.960] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.960] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.961] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.961] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.961] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:05.962] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:05.977] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:24:05.977] [Log] 士兵 退出战斗状态，切换模型
+[21:24:06.973] [Log] UIManager: Toggle 0 开始拖拽
+[21:24:07.031] [Log] UIManager: Toggle 0 结束拖拽
+[21:24:07.032] [Log] Toggle事件: isOn=True, toggleIndex=0, 当前Toggle.isOn=True, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[21:24:07.032] [Log] UIManager: Toggle 0 位置偏移: (0.00, 60.00)
+[21:24:07.115] [Log] 战斗正面模型缩放:1
+[21:24:07.115] [Log] 战斗背面模型缩放:1
+[21:24:07.116] [Log] 基建模型缩放:1
+[21:24:07.974] [Log] [放置] 玩家1 当前拥有10费用, 需要3
+[21:24:07.975] [Log] [放置验证] MapManager存在, nearestTile=Cube (120), 请求位置=(12.00, 0.00, 6.00)
+[21:24:07.975] [Log] [Server] 玩家 netId=9 消耗 3 圣水, 剩余 7.0
+[21:24:07.976] [Log] [放置] 玩家1 放置单位 chen, teamIndex=0
+[21:24:07.977] [Log] OnUnitPlaced 被调用: unitIndex=5, positionIndex=0, soldier=True, netId=25
+[21:24:07.977] [Log] 卡牌 5 已放入队列
+[21:24:07.977] [Log] 从队列取出卡牌 6
+[21:24:07.977] [Log] 位置 0 的卡牌已替换为索引 6 的卡牌
+[21:24:07.978] [Log] 为兵种 5 创建了技能按钮，士兵: chen(Clone)
+[21:24:07.978] [Log] Toggle事件: isOn=False, toggleIndex=0, 当前Toggle.isOn=False, 选择的Toggle: Toggle1 (UnityEngine.UI.Toggle)
+[21:24:07.978] [Log] UIManager: Toggle 0 位置偏移: (0.00, -60.00)
+[21:24:07.978] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:24:07.979] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:24:07.979] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:24:07.979] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:24:07.979] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:24:07.979] [Log] 血条对象层级检查：
+[21:24:07.979] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:24:07.981] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:24:07.981] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:24:07.981] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:24:07.981] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:24:07.981] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:24:07.981] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:24:07.981] [Log] 战斗正面模型缩放:1
+[21:24:07.981] [Log] 战斗背面模型缩放:1
+[21:24:07.981] [Log] 基建模型缩放:1
+[21:24:07.995] [Log] HealthBar Canvas Configuration:
+[21:24:07.995] [Log]   Render Mode: WorldSpace
+[21:24:07.995] [Log]   Sorting Order: 100
+[21:24:07.995] [Log]   Sorting Layer: Default
+[21:24:07.995] [Log]   World Camera: None
+[21:24:07.995] [Log]   Plane Distance: 100
+[21:24:07.995] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:24:08.950] [Log] 士兵 锁定目标: AnemyGongzhuta (1)
+[21:24:08.950] [Log] 士兵 调用技能模型: onSkillF
+[21:24:09.383] [Log] OnAttack
+[21:24:09.383] [Log] 正面
+[21:24:09.398] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:09.398] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:09.399] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:09.399] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:09.399] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:09.399] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:09.399] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:09.400] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:09.400] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:10.719] [Log] OnAttack
+[21:24:10.719] [Log] 正面
+[21:24:10.735] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:10.736] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:10.736] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:10.737] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:10.737] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:10.737] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:10.737] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:10.737] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:10.737] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:10.753] [Log] [放置] 玩家2 当前拥有10费用, 需要3
+[21:24:10.754] [Log] [放置验证] MapManager存在, nearestTile=Cube (156), 请求位置=(12.00, 0.00, 23.00)
+[21:24:10.754] [Log] [Server] 玩家 netId=10 消耗 3 圣水, 剩余 7.0
+[21:24:10.754] [Log] [放置] 玩家2 放置单位 amiya, teamIndex=1
+[21:24:10.754] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:24:10.754] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:24:10.754] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:24:10.756] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:24:10.756] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:24:10.756] [Log] 血条对象层级检查：
+[21:24:10.756] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:24:10.756] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:24:10.756] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:24:10.756] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:24:10.757] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:24:10.757] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:24:10.757] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:24:10.757] [Log] 战斗正面模型缩放:1.3
+[21:24:10.757] [Log] 战斗背面模型缩放:1.3
+[21:24:10.757] [Log] 基建模型缩放:1.3
+[21:24:10.759] [Log] HealthBar Canvas Configuration:
+[21:24:10.759] [Log]   Render Mode: WorldSpace
+[21:24:10.759] [Log]   Sorting Order: 100
+[21:24:10.759] [Log]   Sorting Layer: Default
+[21:24:10.759] [Log]   World Camera: None
+[21:24:10.759] [Log]   Plane Distance: 100
+[21:24:10.759] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:24:11.531] [Log] [放置] 玩家2 当前拥有7.535974费用, 需要3
+[21:24:11.531] [Log] [放置验证] MapManager存在, nearestTile=Cube (154), 请求位置=(10.00, 0.00, 23.00)
+[21:24:11.533] [Log] [Server] 玩家 netId=10 消耗 3 圣水, 剩余 4.5
+[21:24:11.533] [Log] [放置] 玩家2 放置单位 chen, teamIndex=1
+[21:24:11.534] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:24:11.534] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:24:11.534] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:24:11.534] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:24:11.534] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:24:11.534] [Log] 血条对象层级检查：
+[21:24:11.534] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:24:11.534] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:24:11.535] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:24:11.535] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:24:11.535] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:24:11.535] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:24:11.535] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:24:11.535] [Log] 战斗正面模型缩放:1
+[21:24:11.536] [Log] 战斗背面模型缩放:1
+[21:24:11.536] [Log] 基建模型缩放:1
+[21:24:11.538] [Log] HealthBar Canvas Configuration:
+[21:24:11.538] [Log]   Render Mode: WorldSpace
+[21:24:11.538] [Log]   Sorting Order: 100
+[21:24:11.538] [Log]   Sorting Layer: Default
+[21:24:11.538] [Log]   World Camera: None
+[21:24:11.538] [Log]   Plane Distance: 100
+[21:24:11.538] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:24:12.053] [Log] OnAttack
+[21:24:12.053] [Log] 正面
+[21:24:12.070] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:12.071] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:12.071] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:12.072] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:12.072] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:12.072] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:12.072] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:12.073] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:12.073] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:12.763] [Log] [放置] 玩家2 当前拥有5.608912费用, 需要3
+[21:24:12.763] [Log] [放置验证] MapManager存在, nearestTile=Cube (136), 请求位置=(10.00, 0.00, 22.00)
+[21:24:12.764] [Log] [Server] 玩家 netId=10 消耗 3 圣水, 剩余 2.6
+[21:24:12.764] [Log] [放置] 玩家2 放置单位 yinhui, teamIndex=1
+[21:24:12.767] [Log] 士兵 当前最大攻击目标数更新为: 1
+[21:24:12.767] [Log] 为 士兵 找到了Role脚本（子对象）
+[21:24:12.767] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[21:24:12.768] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[21:24:12.768] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[21:24:12.768] [Log] 血条对象层级检查：
+[21:24:12.768] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[21:24:12.768] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[21:24:12.768] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[21:24:12.768] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[21:24:12.768] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[21:24:12.768] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[21:24:12.768] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[21:24:12.771] [Exception] UnassignedReferenceException: The variable CombatFront of Role has not been assigned.
+You probably need to assign the CombatFront variable of the Role script in the inspector.
+Role.onMove () (at Assets/Scripts/Units/Role.cs:401)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:OnIsMovingChanged(Boolean, Boolean) (at Assets/Scripts/Units/SoldierController.cs:218)
+SoldierController:set_NetworkisMoving(Boolean)
+SoldierController:MoveToTargetWithPathfinding(Vector3) (at Assets/Scripts/Units/SoldierController.cs:458)
+SoldierController:ServerUpdateCombatState() (at Assets/Scripts/Units/SoldierController.cs:437)
+SoldierController:Update() (at Assets/Scripts/Units/SoldierController.cs:302)
+
+[21:24:12.771] [Log] 战斗正面模型缩放:1.3
+[21:24:12.771] [Log] 战斗背面模型缩放:1.3
+[21:24:12.771] [Log] 基建模型缩放:1.3
+[21:24:12.771] [Log] HealthBar Canvas Configuration:
+[21:24:12.771] [Log]   Render Mode: WorldSpace
+[21:24:12.771] [Log]   Sorting Order: 100
+[21:24:12.771] [Log]   Sorting Layer: Default
+[21:24:12.771] [Log]   World Camera: None
+[21:24:12.771] [Log]   Plane Distance: 100
+[21:24:12.771] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[21:24:13.288] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:24:13.288] [Log] 士兵 调用攻击模型: onAttackF
+[21:24:13.400] [Log] OnAttack
+[21:24:13.400] [Log] 正面
+[21:24:13.418] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:13.418] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:13.420] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:13.420] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:13.420] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:13.421] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:13.421] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:13.421] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:13.421] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:13.421] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:13.854] [Log] 士兵 锁定目标: amiya(Clone)
+[21:24:13.854] [Log] 士兵 调用攻击模型: onAttackF
+[21:24:13.873] [Log] OnAttack
+[21:24:13.873] [Log] 正面
+[21:24:13.891] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:13.891] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:14.106] [Log] [放置] 玩家2 当前拥有3.642481费用, 需要3
+[21:24:14.107] [Log] [放置验证] MapManager存在, nearestTile=Cube (155), 请求位置=(11.00, 0.00, 23.00)
+[21:24:14.108] [Log] [Server] 玩家 netId=10 消耗 3 圣水, 剩余 0.6
+[21:24:14.108] [Log] [放置] 玩家2 放置单位 yinhui, teamIndex=1
+[21:24:14.211] [Log] 士兵 锁定目标: chen(Clone)
+[21:24:14.211] [Log] 士兵 调用攻击模型: onAttackF
+[21:24:14.288] [Log] OnAttack
+[21:24:14.289] [Log] 正面
+[21:24:14.306] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:14.306] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:14.658] [Log] OnAttack
+[21:24:14.658] [Log] 正面
+[21:24:14.673] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:14.674] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:14.732] [Log] OnAttack
+[21:24:14.732] [Log] 正面
+[21:24:14.750] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:14.751] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:14.751] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:14.751] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:14.752] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:14.752] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:14.752] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:14.752] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:14.753] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:14.753] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:14.753] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:14.860] [Log] OnAttack
+[21:24:14.860] [Log] 正面
+[21:24:14.877] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:14.877] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:14.953] [Log] 士兵 锁定目标: chen(Clone)
+[21:24:14.953] [Log] 士兵 调用攻击模型: onAttackF
+[21:24:15.136] [Log] OnAttack
+[21:24:15.136] [Log] 正面
+[21:24:15.153] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:15.153] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:15.223] [Log] OnAttack
+[21:24:15.223] [Log] 正面
+[21:24:15.237] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:15.237] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:15.369] [Log] 士兵 锁定目标: chen(Clone)
+[21:24:15.370] [Log] 士兵 调用攻击模型: onAttackF
+[21:24:15.465] [Log] OnAttack
+[21:24:15.465] [Log] 正面
+[21:24:15.483] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:15.483] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:15.794] [Log] OnAttack
+[21:24:15.794] [Log] 正面
+[21:24:15.813] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:15.813] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:15.880] [Log] OnAttack
+[21:24:15.881] [Log] 正面
+[21:24:15.898] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:15.898] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:16.053] [Log] OnAttack
+[21:24:16.053] [Log] 正面
+[21:24:16.071] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:16.071] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:16.071] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:16.072] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:16.072] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:16.072] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:16.072] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:16.072] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:16.073] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:16.073] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:16.073] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:16.159] [Log] OnAttack
+[21:24:16.159] [Log] 正面
+[21:24:16.174] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:16.174] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:16.369] [Log] OnAttack
+[21:24:16.369] [Log] 正面
+[21:24:16.384] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:16.384] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:16.401] [Log] OnAttack
+[21:24:16.402] [Log] 正面
+[21:24:16.420] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:16.420] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:16.718] [Log] OnAttack
+[21:24:16.718] [Log] 正面
+[21:24:16.736] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:16.736] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:16.801] [Log] OnAttack
+[21:24:16.802] [Log] 正面
+[21:24:16.819] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:16.819] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:17.213] [Log] OnAttack
+[21:24:17.213] [Log] 正面
+[21:24:17.231] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:17.232] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:17.300] [Log] OnAttack
+[21:24:17.300] [Log] 正面
+[21:24:17.316] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:17.316] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:17.383] [Log] OnAttack
+[21:24:17.384] [Log] 正面
+[21:24:17.402] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:17.402] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:17.402] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:17.402] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:17.402] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:17.404] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:17.404] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:17.404] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:17.404] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:17.405] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:17.405] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:17.653] [Log] OnAttack
+[21:24:17.653] [Log] 正面
+[21:24:17.670] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:17.670] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:17.670] [Log] OnAttack
+[21:24:17.670] [Log] 正面
+[21:24:17.688] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:17.688] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:17.858] [Log] OnAttack
+[21:24:17.858] [Log] 正面
+[21:24:17.876] [Warning] Setting linear velocity of a kinematic body is not supported.
+[21:24:17.876] [Log] 士兵 死亡
+[21:24:17.876] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:17.876] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:17.895] [Log] 士兵 锁定目标: chen(Clone)
+[21:24:17.895] [Log] 士兵 调用攻击模型: onAttackF
+[21:24:18.121] [Log] OnAttack
+[21:24:18.121] [Log] 正面
+[21:24:18.137] [Warning] Setting linear velocity of a kinematic body is not supported.
+[21:24:18.137] [Log] 士兵 死亡
+[21:24:18.137] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:18.137] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:18.137] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:24:18.137] [Log] 士兵 退出战斗状态，切换模型
+[21:24:18.155] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:24:18.155] [Log] 士兵 退出战斗状态，切换模型
+[21:24:18.155] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:24:18.155] [Log] 士兵 退出战斗状态，切换模型
+[21:24:18.342] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:24:18.342] [Log] 士兵 调用攻击模型: onAttackF
+[21:24:18.360] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:24:18.360] [Log] 士兵 调用攻击模型: onAttackF
+[21:24:18.523] [Log] 士兵 锁定目标: yinhui(Clone)
+[21:24:18.523] [Log] 士兵 调用攻击模型: onAttackF
+[21:24:18.727] [Log] OnAttack
+[21:24:18.728] [Log] 正面
+[21:24:18.741] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:18.741] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:18.741] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:18.741] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:18.741] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:18.741] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:18.742] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:18.742] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:18.742] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:18.742] [Warning] Control Playable (ControlPlayableAsset) is referencing the same PlayableDirector component than the one in which it is playing.
+[21:24:18.743] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:18.796] [Log] OnAttack
+[21:24:18.796] [Log] 正面
+[21:24:18.814] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:18.814] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:18.841] [Log] OnAttack
+[21:24:18.842] [Log] 正面
+[21:24:18.862] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:18.862] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:19.029] [Log] OnAttack
+[21:24:19.029] [Log] 正面
+[21:24:19.042] [Warning] Setting linear velocity of a kinematic body is not supported.
+[21:24:19.042] [Log] 士兵 死亡
+[21:24:19.042] [Log] 士兵 攻击了 士兵, 造成 10 点伤害 (物理: 10, 法术: 0)
+[21:24:19.042] [Log] 士兵 通过动画帧触发攻击，isHurt重置为false
+[21:24:19.042] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:24:19.042] [Log] 士兵 退出战斗状态，切换模型
+[21:24:19.064] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:24:19.066] [Log] 士兵 退出战斗状态，切换模型
+[21:24:19.066] [Log] 士兵 目标不再有效，范围内无其他敌人，清除目标
+[21:24:19.066] [Log] 士兵 退出战斗状态，切换模型
+[21:24:20.600] [Log] [MyNetworkRoomManager] 客户端 1883310035 断开连接
+[21:24:21.515] [Log] [MyNetworkRoomManager] 客户端 0 断开连接
+==========================================
+游戏日志结束 - 2026/3/10 21:24:21
+==========================================

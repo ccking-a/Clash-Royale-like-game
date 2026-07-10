@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1780704871744859868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2272262709500921657}
+  - component: {fileID: 2169089481711383669}
+  - component: {fileID: 8157413535933556724}
+  m_Layer: 0
+  m_Name: NetWorkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2272262709500921657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780704871744859868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2169089481711383669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780704871744859868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 7777
+  DualMode: 1
+  NoDelay: 1
+  Interval: 10
+  Timeout: 10000
+  RecvBufferSize: 7361536
+  SendBufferSize: 7361536
+  FastResend: 2
+  ReceiveWindowSize: 4096
+  SendWindowSize: 4096
+  MaxRetransmit: 40
+  MaximizeSocketBuffers: 1
+  ReliableMaxMessageSize: 297433
+  UnreliableMaxMessageSize: 1194
+  debugLog: 0
+  statisticsGUI: 0
+  statisticsLog: 0
+--- !u!114 &8157413535933556724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780704871744859868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 774fc1ccf852fde479ec5c9101930985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  runInBackground: 1
+  headlessStartMode: 0
+  editorAutoStart: 0
+  sendRate: 60
+  offlineScene: 
+  onlineScene: 
+  offlineSceneLoadDelay: 0
+  transport: {fileID: 2169089481711383669}
+  networkAddress: localhost
+  maxConnections: 100
+  disconnectInactiveConnections: 0
+  disconnectInactiveTimeout: 60
+  authenticator: {fileID: 0}
+  playerPrefab: {fileID: 709519943807527608, guid: 3fc246f4412d90e4083ba6bac15e32f1, type: 3}
+  autoCreatePlayer: 1
+  playerSpawnMethod: 1
+  spawnPrefabs:
+  - {fileID: 3231133298282783575, guid: bf713aa5f7a4d1641a8a9b6b637d593b, type: 3}
+  - {fileID: 5295218662732498214, guid: 65a6db26b076e034eb495c416416a7cb, type: 3}
+  - {fileID: 3313983453288697375, guid: 8d0ae6ed24cab4f478f7536ef89c70e3, type: 3}
+  - {fileID: 3354924551391474147, guid: ff5983db821d4d44798374e513069a8b, type: 3}
+  - {fileID: 4495920571688096245, guid: 6ef4296f5c3509a41b4458fc93e595a6, type: 3}
+  - {fileID: 6515231300991047481, guid: 8c929338461668d48bed62c3c248c625, type: 3}
+  - {fileID: 7368097436409852269, guid: 44fad351097328241ad5a7c8a93ac061, type: 3}
+  - {fileID: 4140515974586336628, guid: 6ef2747bee516e24a89b42f7eb3747ea, type: 3}
+  - {fileID: 4406546521768707433, guid: e9c6280a217e4574fab77b9dba90f97b, type: 3}
+  - {fileID: 600265039298942374, guid: ec3b576709f2fac44856de326af9aecb, type: 3}
+  - {fileID: 3231133298282783575, guid: 8c7430502a73c494e9845f7fd92bd5b6, type: 3}
+  exceptionsDisconnect: 1
+  snapshotSettings:
+    bufferTimeMultiplier: 2
+    bufferLimit: 32
+    catchupNegativeThreshold: -1
+    catchupPositiveThreshold: 1
+    catchupSpeed: 0.019999999552965164
+    slowdownSpeed: 0.03999999910593033
+    driftEmaDuration: 1
+    dynamicAdjustment: 1
+    dynamicAdjustmentTolerance: 1
+    deliveryTimeEmaDuration: 2
+  evaluationMethod: 0
+  evaluationInterval: 3
+  timeInterpolationGui: 0
+  showRoomGUI: 1
+  minPlayers: 1
+  roomPlayerPrefab: {fileID: 5143638447006101740, guid: ec3b576709f2fac44856de326af9aecb, type: 3}
+  RoomScene: Assets/Scenes/RoomScene.unity
+  GameplayScene: Assets/Scenes/GameScene.unity
+  _allPlayersReady: 0
+  clientIndex: 0
+  networkGameStatePrefab: {fileID: 0}

@@ -1,0 +1,18 @@
+==========================================
+游戏日志开始 - 2026/2/20 23:39:00
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[23:39:01.136] [Error] NetworkManager not found in scene!
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI:Start () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:29)
+
+[23:39:01.137] [Log] === 客户端预制体列表诊断 (启动时) ===
+[23:39:02.525] [Error] NetworkManager not found in scene!
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI:OnClientButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:118)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+==========================================
+游戏日志结束 - 2026/2/20 23:40:32
+==========================================

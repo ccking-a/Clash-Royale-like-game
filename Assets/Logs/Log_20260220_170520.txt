@@ -1,0 +1,354 @@
+==========================================
+游戏日志开始 - 2026/2/20 17:05:20
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[17:05:21.051] [Log] === 客户端预制体列表诊断 (启动时) ===
+[17:05:21.051] [Log] 客户端 SpawnPrefabs 数量: 12
+[17:05:21.051] [Log]   [0] amiya -> AssetId: 1054292600
+[17:05:21.051] [Log]   [1] Anemyamiya -> AssetId: 3767952548
+[17:05:21.051] [Log]   [2] AnemyGongzhuta -> AssetId: 258553055
+[17:05:21.051] [Log]   [3] AnemyGongzhuta (1) -> AssetId: 3034425767
+[17:05:21.051] [Log]   [4] AnemyGuowangta -> AssetId: 3706946732
+[17:05:21.051] [Log]   [5] chen -> AssetId: 1033753810
+[17:05:21.052] [Log]   [6] Gongzhuta -> AssetId: 48394343
+[17:05:21.052] [Log]   [7] Gongzhuta (1) -> AssetId: 3317249425
+[17:05:21.052] [Log]   [8] Guowangta -> AssetId: 500381289
+[17:05:21.052] [Log]   [10] RoomPlayer -> AssetId: 4019188151
+[17:05:21.052] [Log]   [11] yinhui -> AssetId: 2171254035
+[17:05:25.118] [Log] Attempting to save Assets/Logs/Log_20260220_170520.txt.meta are blocked.
+[17:05:30.469] [Log] === 客户端启动序列开始 ===
+[17:05:30.469] [Log] 原始输入: '127.0.0.1'
+[17:05:30.470] [Log] 将尝试连接到: 127.0.0.1
+[17:05:30.519] [Warning] Replacing existing prefab with assetId '4019188151'. Old prefab 'RoomPlayer', New prefab 'RoomPlayer'
+[17:05:30.519] [Error] client启动
+UnityEngine.Debug:LogError (object)
+NetworkLobbyUI/<StartClientAfterSceneLoad>d__13:MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:187)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+NetworkLobbyUI:OnClientButtonClicked () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:173)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[17:05:30.519] [Log] StartClient() 调用完成。
+[17:05:30.549] [Log] 已设置 29 个地面瓦片
+[17:05:30.550] [Log] 已设置 9 个地面瓦片
+[17:05:30.557] [Log] 已设置 253 个地面瓦片
+[17:05:30.564] [Log] 已设置 253 个地面瓦片
+[17:05:30.975] [Warning] Failed to create agent because there is no valid NavMesh
+[17:05:31.074] [Warning] Failed to create agent because there is no valid NavMesh
+[17:05:31.078] [Log] 为 士兵 找到了Role脚本（子对象）
+[17:05:31.080] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[17:05:31.081] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[17:05:31.081] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[17:05:31.083] [Log] 血条对象层级检查：
+[17:05:31.083] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[17:05:31.083] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[17:05:31.085] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[17:05:31.085] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[17:05:31.085] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[17:05:31.085] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[17:05:31.085] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[17:05:31.088] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[17:05:31.090] [Log] 为 士兵 找到了Role脚本（子对象）
+[17:05:31.091] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[17:05:31.091] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[17:05:31.091] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[17:05:31.091] [Log] 血条对象层级检查：
+[17:05:31.091] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[17:05:31.092] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[17:05:31.092] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[17:05:31.092] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[17:05:31.092] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[17:05:31.092] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[17:05:31.092] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[17:05:31.092] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Role.Start () (at Assets/Scripts/Units/Role.cs:165)
+
+[17:05:31.093] [Log] HealthBar Canvas Configuration:
+[17:05:31.094] [Log]   Render Mode: WorldSpace
+[17:05:31.094] [Log]   Sorting Order: 100
+[17:05:31.094] [Log]   Sorting Layer: Default
+[17:05:31.094] [Log]   World Camera: None
+[17:05:31.094] [Log]   Plane Distance: 100
+[17:05:31.094] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[17:05:31.094] [Log] HealthBar Canvas Configuration:
+[17:05:31.094] [Log]   Render Mode: WorldSpace
+[17:05:31.094] [Log]   Sorting Order: 100
+[17:05:31.094] [Log]   Sorting Layer: Default
+[17:05:31.094] [Log]   World Camera: None
+[17:05:31.095] [Log]   Plane Distance: 100
+[17:05:31.095] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[17:05:33.575] [Log] 已设置 29 个地面瓦片
+[17:05:33.575] [Log] 已设置 9 个地面瓦片
+[17:05:33.581] [Log] 已设置 253 个地面瓦片
+[17:05:33.586] [Log] 已设置 253 个地面瓦片
+[17:05:33.847] [Log] FixedWidthCamera: 初始化完成，当前targetWidth: 21
+[17:05:33.977] [Log] 收集到 544 个地砖
+[17:05:33.977] [Log] 所有瓦片的网格坐标初始化完成
+[17:05:33.978] [Log] 识别到 8 个桥梁位置
+[17:05:33.981] [Log] 玩家 11 阵营: TeamA
+[17:05:33.981] [Log] [PlayerElixir] OnStartClient: netId=11, isLocalPlayer=True, playerIndex=0
+[17:05:33.981] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[17:05:33.983] [Log] [PlayerElixir] ★ 本地玩家启动, netId=11, playerIndex=0
+[17:05:33.983] [Log] 本地costcontroler初始化: netId=11, isLocalPlayer=True
+[17:05:33.987] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onMove () (at Assets/Scripts/Units/Role.cs:407)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnMove() (at Assets/Scripts/Units/SoldierController.cs:954)
+SoldierController:InvokeUserCode_RpcOnMove(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[17:05:33.987] [Exception] UnassignedReferenceException: The variable skill of Role has not been assigned.
+You probably need to assign the skill variable of the Role script in the inspector.
+Role.onMove () (at Assets/Scripts/Units/Role.cs:407)
+UnityEngine.Component:SendMessage(String, SendMessageOptions)
+SoldierController:UserCode_RpcOnMove() (at Assets/Scripts/Units/SoldierController.cs:954)
+SoldierController:InvokeUserCode_RpcOnMove(NetworkBehaviour, NetworkReader, NetworkConnectionToClient)
+Mirror.RemoteCalls.RemoteProcedureCalls:Invoke(UInt16, RemoteCallType, NetworkReader, NetworkBehaviour, NetworkConnectionToClient) (at Assets/Mirror/Core/RemoteCalls.cs:133)
+Mirror.NetworkIdentity:HandleRemoteCall(Byte, UInt16, RemoteCallType, NetworkReader, NetworkConnectionToClient) (at Assets/Mirror/Core/NetworkIdentity.cs:245)
+Mirror.NetworkClient:OnRPCMessage(RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:1435)
+Mirror.<>c__DisplayClass61_0`1:<RegisterHandler>g__HandlerWrapped|0(NetworkConnection, RpcMessage) (at Assets/Mirror/Core/NetworkClient.cs:544)
+Mirror.<>c__DisplayClass9_0`2:<WrapHandler>g__Wrapped|0(NetworkConnection, RpcMessage, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:206)
+Mirror.<>c__DisplayClass8_0`2:<WrapHandler>b__0(NetworkConnection, NetworkReader, Int32) (at Assets/Mirror/Core/NetworkMessages.cs:179)
+Mirror.NetworkClient:UnpackAndInvoke(NetworkReader, Int32) (at Assets/Mirror/Core/NetworkClient.cs:282)
+Mirror.NetworkClient:OnTransportData(ArraySegment`1, Int32) (at Assets/Mirror/Core/NetworkClient.cs:358)
+kcp2k.KcpTransport:<Awake>b__29_2(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:117)
+kcp2k.KcpClient:OnData(ArraySegment`1, KcpChannel) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:74)
+kcp2k.KcpPeer:TickIncoming_Authenticated(UInt32) (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:402)
+kcp2k.KcpPeer:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpPeer.cs:438)
+kcp2k.KcpClient:TickIncoming() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpClient.cs:272)
+kcp2k.KcpTransport:ClientEarlyUpdate() (at D:/unityxiangmu/ArkNights/Assets/Mirror/Transports/KCP/KcpTransport.cs:184)
+Mirror.NetworkClient:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkClient.cs:1548)
+Mirror.NetworkLoop:NetworkEarlyUpdate() (at Assets/Mirror/Core/NetworkLoop.cs:193)
+
+[17:05:33.988] [Log] 玩家 12 阵营: TeamB
+[17:05:33.988] [Log] [PlayerElixir] OnStartClient: netId=12, isLocalPlayer=False, playerIndex=0
+[17:05:33.988] [Log] NetworkUnitPlacer.OnStartClient() 被调用1111111111111111111111
+[17:05:33.988] [Warning] Command System.Void GameStart::CmdSetGameTimeZero() called on Player(Clone) without authority.
+[17:05:33.989] [Log] 士兵 未找到Role脚本
+[17:05:33.989] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[17:05:33.989] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[17:05:33.989] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[17:05:33.990] [Log] 血条对象层级检查：
+[17:05:33.990] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[17:05:33.990] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[17:05:33.990] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[17:05:33.990] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[17:05:33.990] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[17:05:33.990] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[17:05:33.990] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[17:05:33.990] [Log] 士兵 未找到Role脚本
+[17:05:33.990] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[17:05:33.990] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[17:05:33.991] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[17:05:33.991] [Log] 血条对象层级检查：
+[17:05:33.991] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[17:05:33.991] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[17:05:33.991] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[17:05:33.991] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[17:05:33.991] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[17:05:33.991] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[17:05:33.991] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[17:05:33.991] [Log] 士兵 未找到Role脚本
+[17:05:33.991] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[17:05:33.991] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[17:05:33.991] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[17:05:33.991] [Log] 血条对象层级检查：
+[17:05:33.991] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[17:05:33.991] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[17:05:33.991] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[17:05:33.991] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[17:05:33.991] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[17:05:33.993] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[17:05:33.993] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[17:05:33.993] [Log] 士兵 未找到Role脚本
+[17:05:33.993] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[17:05:33.993] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[17:05:33.993] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[17:05:33.993] [Log] 血条对象层级检查：
+[17:05:33.993] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[17:05:33.993] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[17:05:33.993] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[17:05:33.993] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[17:05:33.994] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[17:05:33.994] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[17:05:33.994] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[17:05:33.994] [Log] 士兵 未找到Role脚本
+[17:05:33.994] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[17:05:33.994] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[17:05:33.994] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[17:05:33.994] [Log] 血条对象层级检查：
+[17:05:33.994] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[17:05:33.994] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[17:05:33.994] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[17:05:33.995] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[17:05:33.995] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[17:05:33.995] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[17:05:33.995] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[17:05:33.995] [Log] 士兵 未找到Role脚本
+[17:05:33.995] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[17:05:33.995] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[17:05:33.995] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[17:05:33.996] [Log] 血条对象层级检查：
+[17:05:33.996] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[17:05:33.996] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[17:05:33.996] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[17:05:33.996] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[17:05:33.997] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[17:05:33.997] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[17:05:33.997] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[17:05:33.998] [Log] 收集到 8 个单位
+[17:05:33.998] [Log] 敌方单位: 0
+[17:05:33.998] [Log] 友方单位: 2
+[17:05:33.998] [Log] 我方防御塔: 3
+[17:05:33.998] [Log] 敌方防御塔: 3
+[17:05:33.998] [Log] 当前costcontroler非本地脚本
+[17:05:34.001] [Log] HealthBar Canvas Configuration:
+[17:05:34.001] [Log]   Render Mode: WorldSpace
+[17:05:34.001] [Log]   Sorting Order: 100
+[17:05:34.001] [Log]   Sorting Layer: Default
+[17:05:34.001] [Log]   World Camera: None
+[17:05:34.001] [Log]   Plane Distance: 100
+[17:05:34.001] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[17:05:34.001] [Log] HealthBar Canvas Configuration:
+[17:05:34.001] [Log]   Render Mode: WorldSpace
+[17:05:34.001] [Log]   Sorting Order: 100
+[17:05:34.001] [Log]   Sorting Layer: Default
+[17:05:34.001] [Log]   World Camera: None
+[17:05:34.001] [Log]   Plane Distance: 100
+[17:05:34.001] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[17:05:34.001] [Log] HealthBar Canvas Configuration:
+[17:05:34.001] [Log]   Render Mode: WorldSpace
+[17:05:34.001] [Log]   Sorting Order: 100
+[17:05:34.001] [Log]   Sorting Layer: Default
+[17:05:34.001] [Log]   World Camera: None
+[17:05:34.001] [Log]   Plane Distance: 100
+[17:05:34.001] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[17:05:34.001] [Log] HealthBar Canvas Configuration:
+[17:05:34.001] [Log]   Render Mode: WorldSpace
+[17:05:34.001] [Log]   Sorting Order: 100
+[17:05:34.001] [Log]   Sorting Layer: Default
+[17:05:34.001] [Log]   World Camera: None
+[17:05:34.001] [Log]   Plane Distance: 100
+[17:05:34.001] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[17:05:34.001] [Log] HealthBar Canvas Configuration:
+[17:05:34.001] [Log]   Render Mode: WorldSpace
+[17:05:34.001] [Log]   Sorting Order: 100
+[17:05:34.001] [Log]   Sorting Layer: Default
+[17:05:34.001] [Log]   World Camera: None
+[17:05:34.003] [Log]   Plane Distance: 100
+[17:05:34.003] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[17:05:34.003] [Log] HealthBar Canvas Configuration:
+[17:05:34.003] [Log]   Render Mode: WorldSpace
+[17:05:34.003] [Log]   Sorting Order: 100
+[17:05:34.003] [Log]   Sorting Layer: Default
+[17:05:34.003] [Log]   World Camera: None
+[17:05:34.003] [Log]   Plane Distance: 100
+[17:05:34.003] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[17:05:36.990] [Warning] CostControler: 未找到音频播放器
+[17:05:36.991] [Log] 绑定了 4 个Toggle组件
+[17:05:36.991] [Log] 绑定了 4 个Image组件
+[17:05:36.992] [Log] 绑定了 4 个Text组件
+[17:05:36.992] [Log] 绑定了ToggleGroup组件
+[17:05:36.992] [Log] 绑定了本地玩家的 NetworkUnitPlacer 组件
+[17:05:36.992] [Log] 绑定了SkillPosition组件
+[17:05:36.995] [Log] 游戏开始！
+[17:05:36.995] [Warning] CostControler: 未找到音频播放器
+[17:05:36.995] [Log] 游戏开始！
+[17:06:01.347] [Log] UIManager: Toggle 3 开始拖拽
+[17:06:01.410] [Log] UIManager: Toggle 3 拖拽距离: 32.74423
+[17:06:01.430] [Log] UIManager: Toggle 3 拖拽距离: 88.50491
+[17:06:01.449] [Log] UIManager: Toggle 3 拖拽距离: 194.3793
+[17:06:01.449] [Log] UIManager: Toggle 3 拖拽距离超过阈值，开始放置模式
+[17:06:01.451] [Log] UIManager: Toggle 3 兵种索引: 3
+[17:06:01.452] [Log] UIManager: Toggle 3 位置偏移: (0.00, 60.00)
+[17:06:01.543] [Error] 开始放置
+UnityEngine.Debug:LogError (object)
+UIManager/<>c__DisplayClass22_0:<InitializeUnitSystem>b__2 (UnityEngine.EventSystems.BaseEventData) (at Assets/Scripts/UI/UIManager.cs:382)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[17:06:01.543] [Log] UIManager: Toggle 3 调用了放置逻辑
+[17:06:01.545] [Log] Toggle事件: isOn=True, toggleIndex=3, 当前Toggle.isOn=True, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[17:06:01.548] [Log] 战斗正面模型缩放:1.3
+[17:06:01.548] [Log] 战斗背面模型缩放:1.3
+[17:06:01.550] [Log] 基建模型缩放:1.3
+[17:06:01.691] [Log] UIManager: Toggle 3 结束拖拽
+[17:06:01.692] [Error] 544个格子
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:155)
+
+[17:06:01.692] [Error] 点击下人
+UnityEngine.Debug:LogError (object)
+NetworkUnitPlacer:Update () (at Assets/Scripts/Core/NetworkUnitPlacer.cs:171)
+
+[17:06:01.813] [Log] OnUnitPlaced 被调用: unitIndex=3, positionIndex=3
+[17:06:01.814] [Log] 卡牌 3 已放入队列
+[17:06:01.814] [Log] 从队列取出卡牌 4
+[17:06:01.814] [Log] 位置 3 的卡牌已替换为索引 4 的卡牌
+[17:06:01.818] [Log] 为兵种 3 创建了技能按钮，士兵: yinhui(Clone)
+[17:06:01.818] [Log] Toggle事件: isOn=False, toggleIndex=3, 当前Toggle.isOn=False, 选择的Toggle: Toggle4 (UnityEngine.UI.Toggle)
+[17:06:01.818] [Log] UIManager: Toggle 3 位置偏移: (0.00, -60.00)
+[17:06:01.819] [Log] 为 士兵 找到了Role脚本（子对象）
+[17:06:01.819] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[17:06:01.819] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[17:06:01.819] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[17:06:01.819] [Log] 血条对象层级检查：
+[17:06:01.819] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[17:06:01.819] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[17:06:01.819] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[17:06:01.820] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[17:06:01.820] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[17:06:01.820] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[17:06:01.820] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[17:06:01.820] [Log] 战斗正面模型缩放:1.3
+[17:06:01.820] [Log] 战斗背面模型缩放:1.3
+[17:06:01.820] [Log] 基建模型缩放:1.3
+[17:06:01.823] [Log] HealthBar Canvas Configuration:
+[17:06:01.823] [Log]   Render Mode: WorldSpace
+[17:06:01.823] [Log]   Sorting Order: 100
+[17:06:01.823] [Log]   Sorting Layer: Default
+[17:06:01.823] [Log]   World Camera: None
+[17:06:01.823] [Log]   Plane Distance: 100
+[17:06:01.823] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+[17:06:03.576] [Log] 为 士兵 找到了Role脚本（子对象）
+[17:06:03.578] [Log] 背景对象状态: active=True, color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)
+[17:06:03.578] [Log] 边框对象状态: active=True, color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)
+[17:06:03.578] [Log] 填充容器状态: active=True, size=(1.30, 0.25)
+[17:06:03.578] [Log] 血条对象层级检查：
+[17:06:03.578] [Log]   子对象 0: Background - Image(color=RGBA(0.200, 0.200, 0.200, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 0
+[17:06:03.579] [Log]   子对象 1: Border - Image(color=RGBA(0.000, 0.000, 0.000, 1.000), size=(1.50, 0.40)) - Active: True - SiblingIndex: 1
+[17:06:03.579] [Log]   子对象 2: FillContainer - No Image Component - Active: True - SiblingIndex: 2
+[17:06:03.579] [Log] 血条组件引用情况: healthBar=HealthBar (HealthBar), healthBarFill=Fill (UnityEngine.UI.Image)
+[17:06:03.579] [Log] 血条Canvas设置: renderMode=WorldSpace, sortingOrder=100
+[17:06:03.579] [Log] 血条尺寸: backgroundSize=(1.50, 0.40), fillSize=(0.00, 0.00)
+[17:06:03.579] [Log] 为 士兵 创建了血条，当前生命值: 100/100
+[17:06:03.579] [Log] 战斗正面模型缩放:1.3
+[17:06:03.579] [Log] 战斗背面模型缩放:1.3
+[17:06:03.579] [Log] 基建模型缩放:1.3
+[17:06:03.580] [Log] HealthBar Canvas Configuration:
+[17:06:03.580] [Log]   Render Mode: WorldSpace
+[17:06:03.580] [Log]   Sorting Order: 100
+[17:06:03.580] [Log]   Sorting Layer: Default
+[17:06:03.580] [Log]   World Camera: None
+[17:06:03.580] [Log]   Plane Distance: 100
+[17:06:03.580] [Warning] HealthBar: Canvas world camera is null, setting to main camera
+==========================================
+游戏日志结束 - 2026/2/20 17:06:08
+==========================================

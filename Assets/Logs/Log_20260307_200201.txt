@@ -1,0 +1,42 @@
+==========================================
+游戏日志开始 - 2026/3/7 20:02:01
+游戏版本: 0.1
+平台: WindowsEditor
+==========================================
+[20:02:02.227] [Log] === 客户端预制体列表诊断 (启动时) ===
+[20:02:02.227] [Log] 客户端 SpawnPrefabs 数量: 12
+[20:02:02.228] [Log]   [0] amiya -> AssetId: 1054292600
+[20:02:02.228] [Log]   [1] AnemyGongzhuta -> AssetId: 258553055
+[20:02:02.228] [Log]   [2] AnemyGongzhuta (1) -> AssetId: 3034425767
+[20:02:02.228] [Log]   [3] AnemyGuowangta -> AssetId: 3706946732
+[20:02:02.228] [Log]   [4] chen -> AssetId: 1033753810
+[20:02:02.228] [Log]   [5] Gongzhuta -> AssetId: 48394343
+[20:02:02.228] [Log]   [6] Gongzhuta (1) -> AssetId: 3317249425
+[20:02:02.228] [Log]   [7] Guowangta -> AssetId: 500381289
+[20:02:02.228] [Log]   [8] NetWorkGameState -> AssetId: 1244671540
+[20:02:02.228] [Log]   [9] RoomPlayer -> AssetId: 4019188151
+[20:02:02.228] [Log]   [10] yinhui -> AssetId: 2171254035
+[20:02:02.228] [Log]   [11] yinhui3 -> AssetId: 4063565017
+[20:02:06.252] [Log] [Host] 局域网IP: 10.153.233.253, 端口: 7777
+[20:02:06.272] [Exception] SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+
+System.Net.Sockets.Socket.Bind (System.Net.EndPoint localEP) (at <6db90f4241f34718aade286911577a8a>:0)
+kcp2k.KcpServer.CreateServerSocket (System.Boolean DualMode, System.UInt16 port) (at Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpServer.cs:137)
+kcp2k.KcpServer.Start (System.UInt16 port) (at Assets/Mirror/Transports/KCP/kcp2k/highlevel/KcpServer.cs:159)
+kcp2k.KcpTransport.ServerStart () (at Assets/Mirror/Transports/KCP/KcpTransport.cs:199)
+Mirror.NetworkServer.Listen (System.Int32 maxConns) (at Assets/Mirror/Core/NetworkServer.cs:149)
+Mirror.NetworkManager.SetupServer () (at Assets/Mirror/Core/NetworkManager.cs:305)
+Mirror.NetworkManager.StartHost () (at Assets/Mirror/Core/NetworkManager.cs:471)
+NetworkLobbyUI+<StartHostAfterSceneLoad>d__12.MoveNext () (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:106)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <8cdc7e7e8a17404287a8b220eb9eec72>:0)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+NetworkLobbyUI:OnHostButtonClicked() (at Assets/Scripts/StartScene/NetworkLobbyUI.cs:98)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[20:02:06.303] [Log] 已设置 29 个地面瓦片
+[20:02:06.303] [Log] 已设置 9 个地面瓦片
+[20:02:06.311] [Log] 已设置 253 个地面瓦片
+[20:02:06.316] [Log] 已设置 253 个地面瓦片
+==========================================
+游戏日志结束 - 2026/3/7 20:02:09
+==========================================
